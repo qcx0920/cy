@@ -1,0 +1,39 @@
+<view class="wrap">
+        <view class="lists">
+            <view class="item">
+                <view class="list">
+                    <view class="img"><image src="../img/yu.png" alt="王朝星球"></image></view>
+                    <view class="info">
+                        <view class="bt">王朝星球</view>
+                        <view>587人在玩
+                             <text class="time">2020-05-28</text>
+                        </view>
+                        <view class="star"></view>
+                    </view>
+                    <view class="downl_btn">下载</view>
+                </view>
+                <view class="list">
+                    <view class="img"><image src="../img/yu.png" alt="王朝星球"></image></view>
+                    <view class="info">
+                        <view class="bt">王朝星球</view>
+                        <view>587人在玩
+                             <text class="time">2020-05-28</text>
+                        </view>
+                        <view class="star"></view>
+                    </view>
+                    <view class="downl_btn">下载</view>
+                </view>
+                <view class="list">
+                    <view class="img"><image src="../img/yu.png" alt="王朝星球"></image></view>
+                    <view class="info">
+                        <view class="bt">王朝星球</view>
+                        <view>587人在玩
+                             <text class="time">2020-05-28</text>
+                        </view>
+                        <view class="star"></view>
+                    </view>
+                    <view class="downl_btn">下载</view>
+                </view>
+            </view>
+        </view>
+    </view>

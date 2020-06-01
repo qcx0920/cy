@@ -1,0 +1,22 @@
+<view class="intro">
+<tabs class="border-bottom" active-name="{{activeName}}" bindtabchange="tabsOne">
+	<tab-item s-for="tab in tabs" name="{{tab.name}}" label="{{tab.label}}" />
+</tabs>
+	<scroll-view class="scrollview" scroll-y bindscrolltolower="scrolltolower">
+		<view class="goodsList">
+			<view class="view1" s-for="list,index in lists" bindtap="handleTap" data-key="{{list.linkherf}}">
+				<view class="view_word">
+					<text class="view_word_text">{{list.title}}</text>
+					<view class="view_word_detatis">
+						<view class="view_word_info_source">微雀阅看</view>
+						<view>{{list.readcount}}阅读</view>
+					</view>
+				</view>
+				<view class="view_image">
+					<image src="{{list.pics[0]}}" class="view-image-container"></image>
+				</view>
+			</view>
+		</view>
+		<view class="loading">努力加载中...</view>
+	</scroll-view>
+</view>

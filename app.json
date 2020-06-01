@@ -1,0 +1,14 @@
+{
+    "pages": [
+        "test/list/index",
+        "test/detail/detail",
+        "pages/index/index",
+        "pages/detail/detail"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "智能小程序",
+        "backgroundTextStyle": "light"
+    }
+}
