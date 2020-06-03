@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  font-size: .3rem;
 }
 
 html, body, .wrap {
@@ -30,8 +29,13 @@ a {
   flex: 1;
   margin: 0 12px;
 }
-
-#QZhead2 .box p {
+#QZhead2 .box image {
+    width: 13px;
+    height: 20px;
+    margin-top:16px;
+    margin-right: 10px;
+}
+#QZhead2 .box view {
   flex: 1;
   color: #fff;
   font-size: 20px;
@@ -39,13 +43,7 @@ a {
   font-weight: bold;
 }
 
-#QZhead2 .box a.back {
-  background: url("../img/btn-back.png") no-repeat center;
-  background-size: 13px auto;
-  margin-top: 10px;
-}
-
-#QZhead2 .box > a {
+#QZhead2 .box > view {
   display: inline-block;
   flex: 0 0 36px;
   order: -1;
@@ -67,13 +65,8 @@ a {
   text-align: center;
 }
 
-.downl_wrap .info .tx {
-  margin: 5px auto;
-  display: inline-block;
-}
 
-.downl_wrap .info .tx,
-.downl_wrap .info .tx img {
+.downl_wrap .info image {
   width: 50px;
   height: 50px;
   -webkit-border-radius: 6px;
@@ -148,7 +141,6 @@ a {
   font-size: 14px;
   color: #444;
   line-height: 28px;
-  max-height: 152px;
   overflow: hidden;
 }
 
@@ -182,7 +174,7 @@ a {
   -webkit-overflow-scrolling: touch;
 }
 
-.boxwrap ul {
+.boxwrap .ul {
   border-top: none;
 }
 
@@ -190,16 +182,17 @@ ul, ol {
   list-style: none;
 }
 
-.img_item ul li {
+.img_item .ul .li {
   margin-right: 5px;
   display: inline-block;
 }
 
-.img_item ul li img {
-  max-width: 200px;
+.img_item .ul .li image {
+  width: 200px;
+  height: 400px;
 }
 
-img {
+image {
   border: none;
   width: 100%;
   height: auto;
@@ -231,28 +224,30 @@ img {
   white-space: nowrap;
 }
 
-.like_item ul li {
+.like_item .ul .li {
   display: inline-block;
   background: #fff;
   overflow: hidden;
-  width: 90px;
-  height: 168px;
+  width: 100px;
+  height: 140px;
   border-radius: 6px;
-  margin: 10px 20px 10px 0;
   position: relative;
   vertical-align: middle;
+  text-align: center;
 }
 
-.like_item ul li .img, .like_item ul li .img img {
+.like_item .ul .li .img, .like_item .ul .li .img image {
   width: 60px;
+  height: 60px;
+  display: block;
 }
 
-.like_item ul li .img {
+.like_item .ul .li .img {
   margin: 15px auto 0;
   display: block;
 }
 
-.like_item ul li .name {
+.like_item .ul .li .name {
   font-size: 14px;
   color: #333;
   text-align: center;
@@ -263,7 +258,7 @@ img {
   font-weight: bold;
 }
 
-.like_item ul li .downl_btn {
+.like_item .ul .li .downl_btn {
   display: block;
   width: 55px;
   height: 22px;
@@ -280,39 +275,27 @@ img {
   padding: 0 12px;
   overflow: hidden;
 }
-.Cont1 ul {
+.Cont1 .ul {
   display: block;
   overflow: hidden;
 }
-.Cont1 ul li {
+.Cont1 .ul .li {
   float: left;
   width: 25%;
   text-align: center;
-}
-.Cont1 ul li a.C1-explain {
-  display: inline-block;
-  margin-top: 10px;
-}
-.C1-explain div {
-  display: inline-block;
-  position: relative;
   margin-bottom: 10px;
 }
-.C1-explain div span {
-  display: inline-block;
-  position: absolute;
-  width: 38px;
-  height: 19px;
-  top: -2px;
-  left: -2px;
+.Cont1 .ul .li .C1-explain {
+  display: block;
+  margin-top: 10px;
 }
-.C1-explain div img {
+.Cont1 .ul .li image {
   display: inline-block;
   width: 57.5px;
   height: 57.5px;
   border-radius: 10px;
 }
-.C1-explain p {
+.C1-explain text {
   color: #333;
   font-size: 12px;
   line-height: 15px;
@@ -320,7 +303,7 @@ img {
   height: 15px;
   overflow: hidden;
 }
-.Cont1 ul li a.btn {
+.Cont1 .ul .li .btn {
   display: block;
   clear: both;
   color: #3399ff;
@@ -328,5 +311,58 @@ img {
   width: 56.5px;
   border: 1px solid #3399ff;
   border-radius: 3px;
-  margin: 0 auto 10px auto;
+  margin: 0 auto;
+}
+.news_list {
+    overflow: hidden;
+    margin: 0 12px;
+}
+.news_list .li {
+    overflow: hidden;
+    display: flex;
+    padding: 12px 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+.news_list .li .img {
+    display: block;
+    margin-right: 12px;
+}
+.news_list .li .img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+.news_list .li .img .image {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    display: block;
+}
+.news_list li .text {
+    flex: 1;
+}
+.news_list .li .text .bt {
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+}
+.news_list .li .text text {
+    float: left;
+    display: block;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+    margin: 8px 10px 0 0;
+}
+.des-short {
+    max-height: 65px;
+}
+.show {
+    display: block;
+}
+ 
+.hide {
+    display: none;
 }

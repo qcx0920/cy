@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html, body, .wrap {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #969696;
+  font-family: STHeiti, 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+  outline: 0;
+}
+
+#QZhead2 {
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  background: -webkit-linear-gradient(left, #589cf6 0%, #1ab2ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0080FF', endColorstr='#1ab2ff',GradientType=1 );
+  background: linear-gradient(to right, #589cf6 0%, #1ab2ff 100%);
+}
+
+#QZhead2 .box {
+  display: flex;
+  flex: 1;
+  margin: 0 12px;
+}
+#QZhead2 .box image {
+    width: 13px;
+    height: 20px;
+    margin-top:16px;
+    margin-right: 10px;
+}
+#QZhead2 .box view {
+  flex: 1;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#QZhead2 .box > view {
+  display: inline-block;
+  flex: 0 0 36px;
+  order: -1;
+  width: 30px;
+  height: 33px;
+  background-size: auto 30px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.details_cont {
+    overflow: hidden;
+    padding: 12px;
+}
+.details_cont .h1 {
+    font-size: 16px;
+    color: #111;
+    line-height: 26px;
+}
+.details_cont .info {
+    border-bottom: 1px solid #f2f2f2;
+    overflow: hidden;
+    padding: 10px 0;
+    display: flex;
+}
+.details_cont .info text {
+    font-size: 12px;
+    line-height: 24px;
+}
+.details_cont .info .text {
+    margin-right: 10px;
+    color: #666;
+}
+.basebox {
+    margin-top: 1px;
+}
+#neirong {
+    font-size: 14px;
+    line-height: 25px;
+    word-break: break-word;
+}
+#neirong text {
+    color: #FF0000;
+}
+#neirong image {
+    width: 100%;
+    height: 400px;
+}
+.turn_page {
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #969696;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

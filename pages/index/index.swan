@@ -1,5 +1,5 @@
 <view class="intro">
-<tabs class="border-bottom" active-name="{{activeName}}" bindtabchange="tabsOne">
+<tabs class="border-bottom" active-name="{{activeName}}" bindtabchange="tabsOne" max-tab-item-amount="5">
 	<tab-item s-for="tab in tabs" name="{{tab.name}}" label="{{tab.label}}" />
 </tabs>
 	<scroll-view class="scrollview" scroll-y bindscrolltolower="scrolltolower">

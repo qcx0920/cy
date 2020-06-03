@@ -1,39 +1,98 @@
-<view class="wrap">
-        <view class="lists">
-            <view class="item">
-                <view class="list">
-                    <view class="img"><image src="../img/yu.png" alt="王朝星球"></image></view>
-                    <view class="info">
-                        <view class="bt">王朝星球</view>
-                        <view>587人在玩
-                             <text class="time">2020-05-28</text>
-                        </view>
-                        <view class="star"></view>
+<view class="container">
+	<tabs class="border-bottom" tabs-underline-color="none" active-name="{{activeName}}" max-tab-item-amount="5"
+		tabs-active-text-color="#19b5fe" bindtabchange="switchTab">
+		<!-- <tab-item style="width: 19%;" name="0" label="首页" /> -->
+		<tab-item style="width: 33.3%;" s-for="tab in tabs" name="{{tab.name}}" label="{{tab.label}}" />
+	</tabs>
+	<view class="wrap">
+		<view s-if="{{!isZx}}" style="margin-left:1%;">
+			<tabs tabs-underline-color="none" active-name="{{activeName1}}" tabs-active-text-color="#19b5fe"
+				bindtabchange="switchTabType">
+				<tab-item style="width: 33.3%;" s-for="tab in tabsType" name="{{tab.name}}" label="{{tab.label}}" />
+			</tabs>
+		</view>
+		<view s-if="{{!isZx}}" class="lists">
+			<view class="item">
+				<view class="list" s-for="list,index in applist" bindtap="todetail" data-pid="{{list.pid}}">
+					<view class="img">
+						<image src="{{list.logo}}" alt="{{list.name}}">
+						</image>
+					</view>
+					<view class="info">
+						<view class="bt">{{list.name}}</view>
+						<view style="font-size:12px">{{list.remark}}</view>
+                        <view style="font-size:12px">{{list.createtime}}</view>
+						<view class="star"><text style="width:100%;"></text></view>
+					</view>
+					<view class="downl_btn">下载</view>
+				</view>
+			</view>
+		</view>
+
+        <!-- 资讯列表开始 -->
+        <view s-else class="news_list">
+                <view class="li" bindtap="gozxDetail">
+                    <view class="img">
+                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
                     </view>
-                    <view class="downl_btn">下载</view>
+                    <view class="text">
+					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
+						<text>4人在关注</text>
+						<text>2020-06-03 10:17:57</text>
+					</view>
                 </view>
-                <view class="list">
-                    <view class="img"><image src="../img/yu.png" alt="王朝星球"></image></view>
-                    <view class="info">
-                        <view class="bt">王朝星球</view>
-                        <view>587人在玩
-                             <text class="time">2020-05-28</text>
-                        </view>
-                        <view class="star"></view>
+                <view class="li" bindtap="gozxDetail">
+                    <view class="img">
+                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
                     </view>
-                    <view class="downl_btn">下载</view>
+                    <view class="text">
+					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
+						<text>4人在关注</text>
+						<text>2020-06-03 10:17:57</text>
+					</view>
                 </view>
-                <view class="list">
-                    <view class="img"><image src="../img/yu.png" alt="王朝星球"></image></view>
-                    <view class="info">
-                        <view class="bt">王朝星球</view>
-                        <view>587人在玩
-                             <text class="time">2020-05-28</text>
-                        </view>
-                        <view class="star"></view>
+                <view class="li" bindtap="gozxDetail">
+                    <view class="img">
+                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
                     </view>
-                    <view class="downl_btn">下载</view>
+                    <view class="text">
+					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
+						<text>4人在关注</text>
+						<text>2020-06-03 10:17:57</text>
+					</view>
+                </view>
+                <view class="li" bindtap="gozxDetail">
+                    <view class="img">
+                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
+                    </view>
+                    <view class="text">
+					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
+						<text>4人在关注</text>
+						<text>2020-06-03 10:17:57</text>
+					</view>
+                </view>
+                <view class="li" bindtap="gozxDetail">
+                    <view class="img">
+                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
+                    </view>
+                    <view class="text">
+					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
+						<text>4人在关注</text>
+						<text>2020-06-03 10:17:57</text>
+					</view>
+                </view>
+                <view class="li" bindtap="gozxDetail">
+                    <view class="img">
+                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
+                    </view>
+                    <view class="text">
+					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
+						<text>4人在关注</text>
+						<text>2020-06-03 10:17:57</text>
+					</view>
                 </view>
             </view>
-        </view>
-    </view>
+        <!-- 资讯列表结束 -->
+
+	</view>
+</view>

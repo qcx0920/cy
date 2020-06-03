@@ -1,7 +1,9 @@
 {
     "pages": [
+        
         "test/list/index",
         "test/detail/detail",
+        "test/zxdetail/detail",
         "pages/index/index",
         "pages/detail/detail"
     ],

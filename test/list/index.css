@@ -1,33 +1,32 @@
-.wrap {
-  width: 100%;
+/**
+ * @file index.css
+ * @author swan
+ */
+.item {
+  overflow: hidden;
+  margin: 0 12px 10px;
 }
 
-.img {
-  text-decoration: none;
-  color: #969696;
-  font-family: STHeiti, 'Microsoft YaHei', Helvetica, Arial, sans-serif;
-  outline: 0;
-}
 .item .list {
   padding: 15px 0;
   height: 70px;
-  margin: 0 15px;
+  margin: 0 12px;
+  border-bottom: 1px solid #f5f5f5;
   display: flex;
 }
 
 .item .list .img {
   display: block;
   margin-right: 12px;
-  margin-top: 8px;
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   border-radius: 6px;
 }
 
 .item .list .img image {
-   width:50px;
-   height:50px;
+  width: 70px;
+  height: 70px;
   border-radius: 6px;
 }
 
@@ -61,7 +60,7 @@
   color: #333;
 }
 
-.item .list .info view {
+.item .list .info p {
   height: 20px;
   line-height: 20px;
   font-size: 10px;
@@ -70,13 +69,8 @@
   overflow: hidden;
 }
 
-.time {
-  height: 20px;
-  line-height: 20px;
-  font-size: 10px;
-  color: #999;
-  margin: 4px 0;
-  overflow: hidden;
+.item .list .info p span {
+  margin-left: 10px;
 }
 
 .star {
@@ -85,8 +79,53 @@
   margin: 5px 0;
 }
 
-.star, .star view {
+.star, .star span {
   height: 10px;
   background: url("../img/icon_star.png") no-repeat 0 -10px;
   background-size: 66px auto;
+}
+
+
+.news_list {
+    overflow: hidden;
+    margin: 0 12px;
+}
+.news_list .li {
+    overflow: hidden;
+    display: flex;
+    padding: 12px 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+.news_list .li .img {
+    display: block;
+    margin-right: 12px;
+}
+.news_list .li .img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+.news_list .li .img .image {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    display: block;
+}
+.news_list li .text {
+    flex: 1;
+}
+.news_list .li .text .bt {
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+}
+.news_list .li .text text {
+    float: left;
+    display: block;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+    margin: 8px 10px 0 0;
 }
