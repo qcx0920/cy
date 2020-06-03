@@ -11,88 +11,40 @@
 				<tab-item style="width: 33.3%;" s-for="tab in tabsType" name="{{tab.name}}" label="{{tab.label}}" />
 			</tabs>
 		</view>
-		<view s-if="{{!isZx}}" class="lists">
-			<view class="item">
-				<view class="list" s-for="list,index in applist" bindtap="todetail" data-pid="{{list.pid}}">
-					<view class="img">
-						<image src="{{list.logo}}" alt="{{list.name}}">
-						</image>
+		<scroll-view class="scrollview" scroll-y bindscrolltolower="scrolltolower">
+			<view s-if="{{!isZx}}" class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in applist" bindtap="todetail" data-pid="{{list.pid}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view style="font-size:12px">{{list.remark}}</view>
+							<view style="font-size:12px">{{list.createtime}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+						</view>
+						<view class="downl_btn">下载</view>
 					</view>
-					<view class="info">
-						<view class="bt">{{list.name}}</view>
-						<view style="font-size:12px">{{list.remark}}</view>
-                        <view style="font-size:12px">{{list.createtime}}</view>
-						<view class="star"><text style="width:100%;"></text></view>
-					</view>
-					<view class="downl_btn">下载</view>
 				</view>
 			</view>
-		</view>
 
-        <!-- 资讯列表开始 -->
-        <view s-else class="news_list">
-                <view class="li" bindtap="gozxDetail">
-                    <view class="img">
-                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
-                    </view>
-                    <view class="text">
-					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
-						<text>4人在关注</text>
-						<text>2020-06-03 10:17:57</text>
+			<!-- 资讯列表开始 -->
+			<view s-else class="news_list">
+				<view class="li" s-for="list,index in applist" bindtap="gozxDetail">
+					<view class="img">
+						<image class="image" src="{{list.logo}}"></image>
 					</view>
-                </view>
-                <view class="li" bindtap="gozxDetail">
-                    <view class="img">
-                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
-                    </view>
-                    <view class="text">
-					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
-						<text>4人在关注</text>
-						<text>2020-06-03 10:17:57</text>
+					<view class="text">
+						<view class="bt">{{list.title}}</view>
+						<text>{{list.readtimes}}人在关注</text>
+						<text>{{list.createtime}}</text>
 					</view>
-                </view>
-                <view class="li" bindtap="gozxDetail">
-                    <view class="img">
-                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
-                    </view>
-                    <view class="text">
-					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
-						<text>4人在关注</text>
-						<text>2020-06-03 10:17:57</text>
-					</view>
-                </view>
-                <view class="li" bindtap="gozxDetail">
-                    <view class="img">
-                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
-                    </view>
-                    <view class="text">
-					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
-						<text>4人在关注</text>
-						<text>2020-06-03 10:17:57</text>
-					</view>
-                </view>
-                <view class="li" bindtap="gozxDetail">
-                    <view class="img">
-                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
-                    </view>
-                    <view class="text">
-					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
-						<text>4人在关注</text>
-						<text>2020-06-03 10:17:57</text>
-					</view>
-                </view>
-                <view class="li" bindtap="gozxDetail">
-                    <view class="img">
-                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
-                    </view>
-                    <view class="text">
-					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
-						<text>4人在关注</text>
-						<text>2020-06-03 10:17:57</text>
-					</view>
-                </view>
-            </view>
-        <!-- 资讯列表结束 -->
+				</view>
+			</view>
+			<!-- 资讯列表结束 -->
+		</scroll-view>
 
 	</view>
 </view>

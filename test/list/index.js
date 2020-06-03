@@ -8,8 +8,8 @@ Page({
     data: {
         activeName: 1,
         activeName1: 0,
-        pageNo:1,
-        pageSize:10,
+        pageNo: 1,
+        pageSize: 10,
         isIos: false,
         isZx: false,
         tabs: null,
@@ -61,7 +61,7 @@ Page({
     },
     onLoad() {
         this.getSystem();
-        this.initData(1, 0)
+        this.initData(1, 0, true, 1)
     },
     todetail() {
         swan.navigateTo({
@@ -75,25 +75,38 @@ Page({
             this.setData({ isZx: false });
         }
         this.setData({ activeName: e.detail.name, activeName1: 0 });
-        this.initData(e.detail.name, 0);
+        this.initData(e.detail.name, 0, true, 1);
     },
     switchTabType(e) {
         this.setData({ activeName1: e.detail.name });
-        this.initData(this.data.activeName, e.detail.name);
+        this.initData(this.data.activeName, e.detail.name, true, 1);
     },
-    initData(type, flag) {
+    initData(type, flag, isNew, pageNo) {
+        console.log("type:"+type+"flag:"+flag+"isNew:"+isNew+"pageNo:"+pageNo);
         swan.request({
             url: 'http://192.168.8.84:8281/szw/list',
-            data: { "type": type, "flag": flag,pageNo:this.data.pageNo,pageSize:this.data.pageSize },
+            data: { "type": type, "flag": flag, "pageNo": pageNo, "pageSize": this.data.pageSize },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
             method: "post",
             success: res => {
                 var applist = res.data.data;
-                for (var i = 0; i < applist.length; i++) {
-                    var time = applist[i].createtime;
-                    applist[i].createtime = this.getDate(time * 1000)
+                if (applist.length > 0) {
+                    for (var i = 0; i < applist.length; i++) {
+                        var time = applist[i].createtime;
+                        applist[i].createtime = this.getDate(time * 1000)
+                    }
+                    if (isNew) {
+                        this.setData({ applist: applist });
+                    } else {
+                        this.setData({ applist: this.data.applist.concat(applist) });
+                    }
+                    pageNo++;
+                    this.setData({ pageNo: pageNo });
+                } else {
+                    swan.showToast({
+                        title: '没有新的内容了'
+                    });
                 }
-                this.setData({ applist: applist});
             },
             fail: err => {
                 swan.showToast({
@@ -116,9 +129,7 @@ Page({
                 }
             },
             fail: err => {
-                swan.showToast({
-                    title: '获取失败'
-                });
+
             }
         });
     },
@@ -134,5 +145,9 @@ Page({
         swan.navigateTo({
             url: '/test/zxdetail/detail'
         });
+    },
+    scrolltolower() {
+        console.log(1111);
+        this.initData(this.data.activeName, this.data.activeName1, false, this.data.pageNo);
     }
 })

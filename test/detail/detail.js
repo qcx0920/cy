@@ -2,11 +2,14 @@ Page({
     data: {
         isAll: false,
         downurl: "",
-        intro: ""
+        intro: "",
+        imgs:null
+    },
+    onLoad(){
     },
     showAll() {
         this.setData({ isAll: true });
-        this.getAllData();
+        
     },
     packUp() {
         this.setData({ isAll: false })
