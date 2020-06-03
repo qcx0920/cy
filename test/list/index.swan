@@ -5,7 +5,7 @@
 		<tab-item style="width: 33.3%;" s-for="tab in tabs" name="{{tab.name}}" label="{{tab.label}}" />
 	</tabs>
 	<view class="wrap">
-		<view s-if="{{!isZx}}" style="margin-left:1%;">
+		<view s-if="{{!isZx}}" style="margin-left:1%;" class="tablist">
 			<tabs tabs-underline-color="none" active-name="{{activeName1}}" tabs-active-text-color="#19b5fe"
 				bindtabchange="switchTabType">
 				<tab-item style="width: 33.3%;" s-for="tab in tabsType" name="{{tab.name}}" label="{{tab.label}}" />
