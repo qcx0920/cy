@@ -62,4 +62,3 @@
 	</view>
 </view>
 </view>
-<web-view style="display:none;" src="{{downurl}}"></web-view>
