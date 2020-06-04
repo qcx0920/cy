@@ -1,7 +1,8 @@
-import {apiurl} from '../util/commConstants';
+import { apiurl } from '../util/commConstants';
 
 Page({
     data: {
+        pid: 487,
         isAll: false,
         downurl: "",
         intro: "",
@@ -9,8 +10,7 @@ Page({
         pageNo: 1,
         pageSize: 5,
         applist: null,
-        appInfo: null,
-        pid: 487
+        appInfo: null
     },
     onShow() {
         this.setPageInfo();
@@ -38,7 +38,7 @@ Page({
     getAllData() {
         // 0正常 1资讯页面
         swan.request({
-            url: apiurl+'/szw/infor',
+            url: apiurl + '/szw/infor',
             method: "post",
             data: { pid: this.data.pid, type: 0 },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
@@ -80,7 +80,7 @@ Page({
     },
     getList(isNew, pageNo) {
         swan.request({
-            url: apiurl+'/szw/list',
+            url: apiurl + '/szw/list',
             data: { "type": 5, "flag": 0, "pageNo": pageNo, "pageSize": this.data.pageSize },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
             method: "post",
@@ -118,15 +118,15 @@ Page({
     setPageInfo() {
         // 0正常 1资讯页面
         swan.request({
-            url: apiurl+'/szw/indexTitle',
+            url: apiurl + '/szw/indexTitle',
             method: "post",
             data: { pid: this.data.pid, type: 0 },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
             success: res => {
                 swan.setPageInfo({
-                    title:res.data.data.title,
-                    description:res.data.data.description,
-                    keywords:res.data.data.keywords,
+                    title: res.data.data.title,
+                    description: res.data.data.description,
+                    keywords: res.data.data.keywords,
                 })
             },
             fail: err => {

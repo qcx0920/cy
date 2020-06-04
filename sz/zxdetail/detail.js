@@ -1,10 +1,15 @@
 
-import {apiurl} from '../util/commConstants';
+import { apiurl } from '../util/commConstants';
 
 Page({
     data: {
         appInfo: null,
-        htmlSnip:``
+        htmlSnip: ``
+    },
+    onShow() {
+        let pages = getCurrentPages();
+        let currentPage = pages[pages.length - 1];
+        this.setPageInfo(currentPage.options.pid);
     },
     onLoad(options) {
         var pid = options.pid;
@@ -14,7 +19,7 @@ Page({
     getAllData(pid) {
         // 0正常 1资讯页面
         swan.request({
-            url: apiurl+'/szw/infor',
+            url: apiurl + '/szw/infor',
             method: "post",
             data: { pid: pid, type: 1 },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
@@ -22,8 +27,33 @@ Page({
                 var appInfo = res.data.data;
                 var time = appInfo.createtime;
                 appInfo.createtime = this.getDate(time * 1000);
-                var content=`<div>`+appInfo.content.replace('<img','<img style="width:100%;height:100%; "')+`</div>`;
-                this.setData({ appInfo: appInfo, htmlSnip:content});
+                var content = `<div>` + appInfo.content.replace('<img', '<img style="width:100%;height:100%; "') + `</div>`;
+                this.setData({ appInfo: appInfo, htmlSnip: content });
+            },
+            fail: err => {
+                swan.showToast({
+                    title: JSON.stringify(err)
+                });
+                console.log('request fail', err);
+            },
+            complete: () => {
+                this.setData('loading', true);
+            }
+        });
+    },
+    setPageInfo(pid) {
+        // 0正常 1资讯页面
+        swan.request({
+            url: apiurl + '/szw/indexTitle',
+            method: "post",
+            data: { pid: pid, type: 0 },
+            header: { 'content-type': 'application/x-www-form-urlencoded' },
+            success: res => {
+                swan.setPageInfo({
+                    title: res.data.data.title,
+                    description: res.data.data.description,
+                    keywords: res.data.data.keywords,
+                })
             },
             fail: err => {
                 swan.showToast({
