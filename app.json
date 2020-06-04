@@ -1,11 +1,9 @@
 {
     "pages": [
         
-        "test/list/index",
-        "test/detail/detail",
-        "test/zxdetail/detail",
-        "pages/index/index",
-        "pages/detail/detail"
+        "sz/list/index",
+        "sz/detail/detail",
+        "sz/zxdetail/detail"
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",

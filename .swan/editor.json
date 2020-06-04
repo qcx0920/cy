@@ -1,47 +1,27 @@
 {
     "editor": {
-        "curPath": "C:\\baidu\\cy\\test\\detail\\detail.js",
+        "curPath": "C:\\baidu\\cy\\app.json",
         "expands": [
-            "C:\\baidu\\cy\\pages\\index",
-            "C:\\baidu\\cy\\test",
-            "C:\\baidu\\cy\\test\\list",
-            "C:\\baidu\\cy\\test\\detail",
-            "C:\\baidu\\cy\\pages\\index\\list",
-            "C:\\baidu\\cy\\pages"
+            "C:\\baidu\\cy\\sz"
         ],
         "markdownUploadTimeMap": {},
         "paths": [
             "C:\\baidu\\cy\\app.json",
-            "C:\\baidu\\cy\\test\\detail\\detail.css",
-            "C:\\baidu\\cy\\test\\list\\index.js",
-            "C:\\baidu\\cy\\test\\detail\\detail.js",
-            "C:\\baidu\\cy\\test\\detail\\detail.swan",
             "C:\\baidu\\cy\\pages\\index\\list\\list.js",
             "C:\\baidu\\cy\\pages\\index\\index.swan",
-            "C:\\baidu\\cy\\test\\list\\index.swan",
-            "C:\\baidu\\cy\\test\\detail\\detail.json"
+            "C:\\baidu\\cy\\app.css",
+            "C:\\baidu\\cy\\app.js"
         ],
         "recentlyFiles": [
-            "C:\\baidu\\cy\\test\\detail\\detail.js",
-            "C:\\baidu\\cy\\test\\detail\\detail.swan",
-            "C:\\baidu\\cy\\test\\detail\\detail.json",
-            "C:\\baidu\\cy\\test\\list\\index.js",
-            "C:\\baidu\\cy\\test\\list\\index.swan",
-            "C:\\baidu\\cy\\pages\\index\\index.swan",
-            "C:\\baidu\\cy\\test\\detail\\detail.css",
             "C:\\baidu\\cy\\app.json",
+            "C:\\baidu\\cy\\app.css",
+            "C:\\baidu\\cy\\app.js",
+            "C:\\baidu\\cy\\pages\\index\\index.swan",
             "C:\\baidu\\cy\\pages\\index\\list\\list.js",
             "C:\\baidu\\cy\\pages\\index\\index.js",
             "C:\\baidu\\cy\\pages\\index\\list\\list.swan",
-            "C:\\baidu\\cy\\test\\list\\index.json",
-            "C:\\baidu\\cy\\test\\list\\index.css",
             "C:\\baidu\\cy\\pages\\index\\index.css",
-            "C:\\baidu\\cy\\pages\\index\\index.json",
-            "C:\\baidu\\cy\\README.md",
-            "C:\\baidu\\cy\\.gitattributes",
-            "C:\\baidu\\cy\\project.swan.json",
-            "C:\\baidu\\cy\\pkginfo.json",
-            "C:\\baidu\\cy\\app.js"
+            "C:\\baidu\\cy\\pages\\index\\index.json"
         ]
     }
 }

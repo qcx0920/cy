@@ -1,7 +1,0 @@
-{
-    "navigationBarTitleText": "微雀阅看",
-    "usingComponents": {
-        "smt-spin": "@smt-ui/component/src/spin",
-        "list": "./list/list"
-    }
-}
