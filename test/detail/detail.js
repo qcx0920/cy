@@ -7,7 +7,8 @@ Page({
         pageNo: 1,
         pageSize: 5,
         applist: null,
-        appInfo: null
+        appInfo: null,
+        pid:487
     },
     onLoad() {
         this.getList(true, 1);
@@ -17,7 +18,7 @@ Page({
         this.getList(false, this.data.pageNo);
     },
     showAll() {
-        var intro = appInfo.intro;
+        var intro = this.data.appInfo.intro;
         this.setData({ isAll: true, intro: intro.substring(51, intro.length) });
     },
     packUp() {
@@ -34,7 +35,7 @@ Page({
         swan.request({
             url: 'http://192.168.8.84:8281/szw/infor',
             method: "post",
-            data: { pid: 487, type: 0 },
+            data: { pid: this.data.pid, type: 0 },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
             success: res => {
                 var imgstr = res.data.data.screenshot;
