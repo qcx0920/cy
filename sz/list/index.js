@@ -2,8 +2,8 @@
  * @file index.js
  * @author swan
  */
-const app = getApp()
 
+import {apiurl} from '../util/commConstants';
 Page({
     data: {
         activeName: 1,
@@ -57,10 +57,12 @@ Page({
                 label: '推荐'
             }
         ],
+        tabLabels:['首页','苹果赚钱','手机兼职','阅读赚钱','安卓赚钱','手赚资讯'],
         applist: null
     },
     onLoad() {
         this.getSystem();
+        this.setTitle(this.data.tabLabels[this.data.activeName]);
         this.initData(1, 0, true, 1)
     },
     todetail() {
@@ -69,6 +71,7 @@ Page({
         });
     },
     switchTab(e) {
+    this.setTitle(this.data.tabLabels[e.detail.name]);
         this.scrollToTop();
         if (e.detail.name == 5) {
             this.setData({ isZx: true });
@@ -86,7 +89,7 @@ Page({
     initData(type, flag, isNew, pageNo) {
         //console.log("type:"+type+"flag:"+flag+"isNew:"+isNew+"pageNo:"+pageNo);
         swan.request({
-            url: 'http://192.168.8.84:8281/szw/list',
+            url: apiurl+'/szw/list',
             data: { "type": type, "flag": flag, "pageNo": pageNo, "pageSize": this.data.pageSize },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
             method: "post",
@@ -142,7 +145,7 @@ Page({
     },
     gozxDetail(e) {
         swan.navigateTo({
-            url: '/test/zxdetail/detail?pid=' + e.currentTarget.dataset.pid
+            url: '/sz/zxdetail/detail?pid=' + e.currentTarget.dataset.pid
         });
     },
     onReachBottom(e) {
@@ -151,13 +154,12 @@ Page({
     scrollToTop() {
         swan.pageScrollTo({
             scrollTop: 0,
-            duration: 300,
-            success: res => {
-                console.log('pageScrollTo success', res);
-            },
-            fail: err => {
-                console.log('pageScrollTo fail', err);
-            }
+            duration: 300
+        });
+    },
+    setTitle(newTitle) {
+        swan.setNavigationBarTitle({
+            title: newTitle
         });
     }
 })

@@ -11,7 +11,7 @@
 					<view class="txt">“上海默友网络科技有限公司”</view>
 					<view class="btn">
 						<text class="btn az_btn" data-url='http://www.shouzhuanapp.com/app/ios'
-							bindtap="down">点击复制,成功后打开浏览器下载</text>
+							bindtap="down">点击复制链接后，打开浏览器下载</text>
 					</view>
 				</view>
 			</view>

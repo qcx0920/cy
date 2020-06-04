@@ -1,3 +1,5 @@
+import {apiurl} from '../util/commConstants';
+
 Page({
     data: {
         isAll: false,
@@ -11,6 +13,7 @@ Page({
         pid: 487
     },
     onShow() {
+        this.setPageInfo();
         this.getAllData();
     },
     onLoad() {
@@ -35,7 +38,7 @@ Page({
     getAllData() {
         // 0正常 1资讯页面
         swan.request({
-            url: 'http://192.168.8.84:8281/szw/infor',
+            url: apiurl+'/szw/infor',
             method: "post",
             data: { pid: this.data.pid, type: 0 },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
@@ -77,7 +80,7 @@ Page({
     },
     getList(isNew, pageNo) {
         swan.request({
-            url: 'http://192.168.8.84:8281/szw/list',
+            url: apiurl+'/szw/list',
             data: { "type": 5, "flag": 0, "pageNo": pageNo, "pageSize": this.data.pageSize },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
             method: "post",
@@ -111,6 +114,31 @@ Page({
             }
         });
 
+    },
+    setPageInfo() {
+        // 0正常 1资讯页面
+        swan.request({
+            url: apiurl+'/szw/indexTitle',
+            method: "post",
+            data: { pid: this.data.pid, type: 0 },
+            header: { 'content-type': 'application/x-www-form-urlencoded' },
+            success: res => {
+                swan.setPageInfo({
+                    title:res.data.data.title,
+                    description:res.data.data.description,
+                    keywords:res.data.data.keywords,
+                })
+            },
+            fail: err => {
+                swan.showToast({
+                    title: JSON.stringify(err)
+                });
+                console.log('request fail', err);
+            },
+            complete: () => {
+                this.setData('loading', true);
+            }
+        });
     },
     getDate(e) {
         //将字符串转换成时间格式

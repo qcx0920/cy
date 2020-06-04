@@ -1,4 +1,5 @@
 
+import {apiurl} from '../util/commConstants';
 
 Page({
     data: {
@@ -13,7 +14,7 @@ Page({
     getAllData(pid) {
         // 0正常 1资讯页面
         swan.request({
-            url: 'http://192.168.8.84:8281/szw/infor',
+            url: apiurl+'/szw/infor',
             method: "post",
             data: { pid: pid, type: 1 },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
