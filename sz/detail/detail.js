@@ -72,7 +72,7 @@ Page({
     },
     gozxDetail(e) {
         swan.navigateTo({
-            url: '/test/zxdetail/detail?pid=' + e.currentTarget.dataset.pid
+            url: '/sz/zxdetail/detail?pid=' + e.currentTarget.dataset.pid
         });
     },
     getList(isNew, pageNo) {

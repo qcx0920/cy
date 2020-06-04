@@ -65,7 +65,7 @@ Page({
     },
     todetail() {
         swan.navigateTo({
-            url: '/test/detail/detail'
+            url: '/sz/detail/detail'
         });
     },
     switchTab(e) {
