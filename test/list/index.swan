@@ -1,7 +1,6 @@
 <view class="container">
 	<tabs class="border-bottom" tabs-underline-color="none" active-name="{{activeName}}" max-tab-item-amount="5"
 		tabs-active-text-color="#19b5fe" bindtabchange="switchTab">
-		<!-- <tab-item style="width: 19%;" name="0" label="首页" /> -->
 		<tab-item style="width: 33.3%;" s-for="tab in tabs" name="{{tab.name}}" label="{{tab.label}}" />
 	</tabs>
 	<view class="wrap">
@@ -11,40 +10,37 @@
 				<tab-item style="width: 33.3%;" s-for="tab in tabsType" name="{{tab.name}}" label="{{tab.label}}" />
 			</tabs>
 		</view>
-		<scroll-view class="scrollview" scroll-y bindscrolltolower="scrolltolower">
-			<view s-if="{{!isZx}}" class="lists">
-				<view class="item">
-					<view class="list" s-for="list,index in applist" bindtap="todetail" data-pid="{{list.pid}}">
-						<view class="img">
-							<image src="{{list.logo}}" alt="{{list.name}}">
-							</image>
-						</view>
-						<view class="info">
-							<view class="bt">{{list.name}}</view>
-							<view style="font-size:12px">{{list.remark}}</view>
-							<view style="font-size:12px">{{list.createtime}}</view>
-							<view class="star"><text style="width:100%;"></text></view>
-						</view>
-						<view class="downl_btn">下载</view>
-					</view>
-				</view>
-			</view>
-
-			<!-- 资讯列表开始 -->
-			<view s-else class="news_list">
-				<view class="li" s-for="list,index in applist" bindtap="gozxDetail">
+		<view s-if="{{!isZx}}" class="lists">
+			<view class="item">
+				<view class="list" s-for="list,index in applist" bindtap="todetail" data-pid="{{list.pid}}">
 					<view class="img">
-						<image class="image" src="{{list.logo}}"></image>
+						<image src="{{list.logo}}" alt="{{list.name}}">
+						</image>
 					</view>
-					<view class="text">
-						<view class="bt">{{list.title}}</view>
-						<text>{{list.readtimes}}人在关注</text>
-						<text>{{list.createtime}}</text>
+					<view class="info">
+						<view class="bt">{{list.name}}</view>
+						<view style="font-size:12px">{{list.remark}}</view>
+						<view style="font-size:12px">{{list.createtime}}</view>
+						<view class="star"><text style="width:100%;"></text></view>
 					</view>
+					<view class="downl_btn">下载</view>
 				</view>
 			</view>
-			<!-- 资讯列表结束 -->
-		</scroll-view>
+		</view>
 
+		<!-- 资讯列表开始 -->
+		<view s-else class="news_list">
+			<view class="li" s-for="list,index in applist" bindtap="gozxDetail" data-pid="{{list.pid}}">
+				<view class="img">
+					<image class="image" src="{{list.logo}}"></image>
+				</view>
+				<view class="text">
+					<view class="bt">{{list.title}}</view>
+					<text>{{list.readtimes}}人在关注</text>
+					<text>{{list.createtime}}</text>
+				</view>
+			</view>
+		</view>
+		<!-- 资讯列表结束 -->
 	</view>
 </view>

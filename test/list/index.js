@@ -69,6 +69,7 @@ Page({
         });
     },
     switchTab(e) {
+        this.scrollToTop();
         if (e.detail.name == 5) {
             this.setData({ isZx: true });
         } else {
@@ -78,11 +79,12 @@ Page({
         this.initData(e.detail.name, 0, true, 1);
     },
     switchTabType(e) {
+        this.scrollToTop();
         this.setData({ activeName1: e.detail.name });
         this.initData(this.data.activeName, e.detail.name, true, 1);
     },
     initData(type, flag, isNew, pageNo) {
-        console.log("type:"+type+"flag:"+flag+"isNew:"+isNew+"pageNo:"+pageNo);
+        //console.log("type:"+type+"flag:"+flag+"isNew:"+isNew+"pageNo:"+pageNo);
         swan.request({
             url: 'http://192.168.8.84:8281/szw/list',
             data: { "type": type, "flag": flag, "pageNo": pageNo, "pageSize": this.data.pageSize },
@@ -127,9 +129,6 @@ Page({
                 } else {
                     this.setData({ isIos: true, tabs: this.data.tabsAndroid, activeName: 2 })
                 }
-            },
-            fail: err => {
-
             }
         });
     },
@@ -141,13 +140,24 @@ Page({
         var day = date.getDay();
         return year + "-" + month + "-" + day;
     },
-    gozxDetail() {
+    gozxDetail(e) {
         swan.navigateTo({
-            url: '/test/zxdetail/detail'
+            url: '/test/zxdetail/detail?pid=' + e.currentTarget.dataset.pid
         });
     },
-    scrolltolower() {
-        console.log(1111);
+    onReachBottom(e) {
         this.initData(this.data.activeName, this.data.activeName1, false, this.data.pageNo);
+    },
+    scrollToTop() {
+        swan.pageScrollTo({
+            scrollTop: 0,
+            duration: 300,
+            success: res => {
+                console.log('pageScrollTo success', res);
+            },
+            fail: err => {
+                console.log('pageScrollTo fail', err);
+            }
+        });
     }
 })

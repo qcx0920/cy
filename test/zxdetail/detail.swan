@@ -1,36 +1,18 @@
 <view class="container">
-    <view class="wrap">
-        <view class="details_cont">
-            <view class="h1">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
-            <view class="info">
-                <text>浏览：7 时间：<text class="text">2020-06-03</text></text>
-            </view>
-            <view class="Min2 basebox">
-                <view class="txtwarp" id="neirong">
-					<view>看到这篇文章的朋友，说明您喜欢<text>抢先收</text>、<text>金刚涨</text>旗下最新推出的<text>金满堂</text>app这种“分享文章赚钱”赚钱的方式。无需投资，也无需推销东西，只要动动手指，把新闻发到朋友圈和微信群，每天就能赚到几十甚至几百收入。</view>
-                    <view class="img"><image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/03/5ed70829ef432.jpg"></image></view>
-                    <view>听着很像骗人？</view>
-                    <view>但朋友好像确实赚到钱了，而且还连续赚了好长时间？</view>
-                    <view>是的。转发赚钱的道理很简单，就像卖报纸。大家都知道，像新浪这样的大新闻网站，读者众多，每年都赚几十亿收入。“转发赚钱”就是通过大家的转发，把一个小新闻网站带来像新浪那么多的读者，然后把赚到的收入按照贡献分给大家。</view>
-                    <view>咱家的新闻内容健康而且丰富，有老百姓关心的柴米油盐价格，也有明星八卦；有美食知识，也有养生常识；</view>
-                    <view>您可以直接选择感兴趣的内容发，也能自己上传喜欢的文章来发；</view>
-                    <view>文章越吸引人，吸引的点击就越多；发的群越多，点击也越多；您每天赚的钱就越多。（就像能卖很多张报纸一样）</view>
-                    <view><image src="http://www.shouzhuanapp.com/upload/img/2020/06/03/5ed70833c3cac.jpg"></image></view>
-                    <view>这里给您总结了一些加速赚钱的方法：</view>
-                    <view>1、 什么时间发：每天早7-9点，中午11-13点，晚上19-21点，分享文章更容易被朋友看。</view>
-                    <view>2、 发什么文章：看热文排行榜，或者自己感兴趣的频道，或者自己上传，或者加客服qq群让客服推荐。</view>
-                    <view>3、 发时注意啥：分享文章时加上一句自己看法，更加吸引朋友们点击的兴趣。</view>
-                    <view>4、 怎么发更多人：最好的方法是多加群，让您的亲朋好友，每人给您拉到10个好群里，如果您微信上有20个朋友，你就有了200个活跃的群；每天在每个群早中晚各发3篇有趣文章，很容易就能每天收入过百了。</view>
-                    <view><image src="http://www.shouzhuanapp.com/upload/img/2020/06/03/5ed7083b602e2.jpg"></image></view>
-                    <view>当您开始开心赚钱后，您还可以拉上朋友一起玩，把这些朋友当做自己的徒弟来教，他们每天的收入，您都会获得稳定提成（不会减少您徒弟的收入）。3-5个徒弟，就会让您的收入再翻翻。</view>
-                    <view>最后，有些是您需要注意的：转发后自己看和让朋友“帮看”，都是不算收入的。总之，每天多加新群，每天发几篇好文章，就能收入多多了！</view>
-                    <view><image src="http://www.shouzhuanapp.com/upload/img/2020/06/03/5ed70829ef432.jpg"></image></view>
+	<view class="wrap">
+		<view class="details_cont">
+			<view class="h1">{{appInfo.title}}</view>
+			<view class="info">
+				<text>浏览：{{appInfo.readtimes}} 时间：<text class="text">{{appInfo.createtime}}</text></text>
+			</view>
+			<view class="Min2 basebox">
+				<view class="txtwarp rich-text" id="neirong"> 
+                <!-- {{appInfo.content}} -->
+					<view class="rich-text">
+            <rich-text nodes="{{htmlSnip}}" image-menu-preven="false"></rich-text>
+        </view>
 				</view>
 			</view>
-            <view class="turn_page">
-                <view class="prev"><text>上一篇：全民悬赏是全民养龙旗下悬赏任务平台永远1元提现秒到，服务费限时全免</text></view>
-                <view class="next"><text>下一篇：</text></view>
-            </view>
-        </view>
-    </view>
+		</view>
+	</view>
 </view>

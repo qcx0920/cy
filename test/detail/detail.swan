@@ -3,12 +3,15 @@
 		<view class="BN-a">
 			<view class="downl_wrap">
 				<view class="info">
-					<image src="http://wz-bd.oss-cn-zhangjiakou.aliyuncs.com/images/SZWde2d9b1fa2c54535a69cbb949d7a3638.png"></image>
+					<image
+						src="http://wz-bd.oss-cn-zhangjiakou.aliyuncs.com/images/SZWde2d9b1fa2c54535a69cbb949d7a3638.png">
+					</image>
 					<view class="bt">武林外赚</view>
 					<view class="txt">2020-06-02更新</view>
 					<view class="txt">“上海默友网络科技有限公司”</view>
 					<view class="btn">
-						<text class="btn az_btn" data-url='http://www.shouzhuanapp.com/app/ios' bindtap="down">点击复制,成功后打开浏览器下载</text>
+						<text class="btn az_btn" data-url='http://www.shouzhuanapp.com/app/ios'
+							bindtap="down">点击复制,成功后打开浏览器下载</text>
 					</view>
 				</view>
 			</view>
@@ -19,8 +22,8 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-                        武林外赚苹果应用试玩平台，一个用手机就能赚钱的应用平台还有更多的免费产品。注册送1元，单价1元左右，1{{isAll?intro:''}}
-						</view>	
+							武林外赚苹果应用试玩平台，一个用手机就能赚钱的应用平台还有更多的免费产品。注册送1元，单价1元左右，1{{isAll?intro:''}}
+						</view>
 					</view>
 					<view class="txt_foot">
 						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
@@ -29,187 +32,34 @@
 				</view>
 				<view class="img_item">
 					<view class="ul">
-						<view class="li">
-							<image src="http://wz-bd.oss-cn-zhangjiakou.aliyuncs.com/images/SZWbb1808b3cdc44af1ab550b2ab032f310.png"></image>
-						</view>
-						<view class="li">
-							<image src="http://wz-bd.oss-cn-zhangjiakou.aliyuncs.com/images/SZW54a14ea9765b485d96da54370112fb74.png"></image>
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
 						</view>
 					</view>
 				</view>
 			</view>
 		</view>
-
-		<!-- <view class="boxwrap">
-			<view class="box_title">
-				<text>必备应用</text>
-				<text class="more">更多 +</text>
-			</view>
-			<view class="like_item">
-				<view class="ul">
-					<view class="li">
-						<image class="img" src="http://www.shouzhuanapp.com/upload/img/2018/08/31/5b8943ad9cd38.png"
-							alt=""></image>
-						<text class="name">iMoney爱盈利</text>
-						<text class="downl_btn">下载</text>
-					</view>
-					<view class="li">
-						<image class="img" src="http://www.shouzhuanapp.com/upload/img/2016/03/29/56fa844850161.png"
-							alt=""></image>
-						<text class="name">秒赚试玩</text>
-						<text class="downl_btn">下载</text>
-					</view>
-					<view class="li">
-						<image class="img" src="http://www.shouzhuanapp.com/upload/img/2018/04/13/5ad0679cce930.png"
-							alt=""></image>
-						<text class="name">蝉试客</text>
-						<text class="downl_btn">下载</text>
-					</view>
-				</view>
-			</view>
-		</view> -->
-		<!-- <view class="boxwrap">
-			<view class="box_title">
-				<text>最近更新</text>
-				<text class="more">更多 +</text>
-			</view>
-			<view class="Cont1">
-				<view class="ul">
-					<view class="li">
-						<image class="img" src="http://www.shouzhuanapp.com/upload/img/2018/04/13/5ad0679cce930.png"
-							alt=""></image>
-						<text class="C1-explain">
-							<text>呗</text>
-						</text>
-						<text class="s_btn btn">下载</text>
-					</view>
-					<view class="li">
-						<image class="img" src="http://www.shouzhuanapp.com/upload/img/2018/04/13/5ad0679cce930.png"
-							alt=""></image>
-						<text class="C1-explain">
-							<text>呗</text>
-						</text>
-						<text class="s_btn btn">下载</text>
-					</view>
-					<view class="li">
-						<image class="img" src="http://www.shouzhuanapp.com/upload/img/2018/04/13/5ad0679cce930.png"
-							alt=""></image>
-						<text class="C1-explain">
-							<text>呗</text>
-						</text>
-						<text class="s_btn btn">下载</text>
-					</view>
-					<view class="li">
-						<image class="img" src="http://www.shouzhuanapp.com/upload/img/2018/04/13/5ad0679cce930.png"
-							alt=""></image>
-						<text class="C1-explain">
-							<text>呗</text>
-						</text>
-						<text class="s_btn btn">下载</text>
-					</view>
-					<view class="li">
-						<image class="img" src="http://www.shouzhuanapp.com/upload/img/2018/04/13/5ad0679cce930.png"
-							alt=""></image>
-						<text class="C1-explain">
-							<text>呗</text>
-						</text>
-						<text class="s_btn btn">下载</text>
-					</view>
-					<view class="li">
-						<image class="img" src="http://www.shouzhuanapp.com/upload/img/2018/04/13/5ad0679cce930.png"
-							alt=""></image>
-						<text class="C1-explain">
-							<text>呗</text>
-						</text>
-						<text class="s_btn btn">下载</text>
-					</view>
-					<view class="li">
-						<image class="img" src="http://www.shouzhuanapp.com/upload/img/2018/04/13/5ad0679cce930.png"
-							alt=""></image>
-						<text class="C1-explain">
-							<text>呗</text>
-						</text>
-						<text class="s_btn btn">下载</text>
-					</view>
-					<view class="li">
-						<image class="img" src="http://www.shouzhuanapp.com/upload/img/2018/04/13/5ad0679cce930.png"
-							alt=""></image>
-						<text class="C1-explain">
-							<text>呗</text>
-						</text>
-						<text class="s_btn btn">下载</text>
-					</view>
-				</view>
-			</view>
-		</view> -->
-        <view class="boxwrap">
-            <view class="box_title">
-                <text>最新资讯</text>
-                <text class="more">更多 +</text>
-            </view>
-            <view class="news_list">
-                <view class="li" bindtap="gozxDetail">
-                    <view class="img">
-                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
-                    </view>
-                    <view class="text">
-					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
-						<text>4人在关注</text>
-						<text>2020-06-03 10:17:57</text>
-					</view>
-                </view>
-                <view class="li" bindtap="gozxDetail">
-                    <view class="img">
-                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
-                    </view>
-                    <view class="text">
-					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
-						<text>4人在关注</text>
-						<text>2020-06-03 10:17:57</text>
-					</view>
-                </view>
-                <view class="li" bindtap="gozxDetail">
-                    <view class="img">
-                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
-                    </view>
-                    <view class="text">
-					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
-						<text>4人在关注</text>
-						<text>2020-06-03 10:17:57</text>
-					</view>
-                </view>
-                <view class="li" bindtap="gozxDetail">
-                    <view class="img">
-                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
-                    </view>
-                    <view class="text">
-					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
-						<text>4人在关注</text>
-						<text>2020-06-03 10:17:57</text>
-					</view>
-                </view>
-                <view class="li" bindtap="gozxDetail">
-                    <view class="img">
-                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
-                    </view>
-                    <view class="text">
-					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
-						<text>4人在关注</text>
-						<text>2020-06-03 10:17:57</text>
-					</view>
-                </view>
-                <view class="li" bindtap="gozxDetail">
-                    <view class="img">
-                        <image class="image" src="http://www.shouzhuanapp.com/upload/img/2020/06/02/5ed5c807bc5e2.png"></image>
-                    </view>
-                    <view class="text">
-					<view class="bt">金满堂分享赚钱攻略，抢先收金刚涨旗下最新分享文章赚钱平台</view>
-						<text>4人在关注</text>
-						<text>2020-06-03 10:17:57</text>
-					</view>
-                </view>
-            </view>
-        </view>
 	</view>
+	<view class="boxwrap">
+		<view class="box_title">
+			<text>最新资讯</text>
+			<text class="more">更多 +</text>
+		</view>
+		<view class="news_list">
+			<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+				<view class="img">
+					<image class="image" src="{{list.logo}}"></image>
+				</view>
+				<view class="text">
+					<view class="bt">{{list.title}}</view>
+					<text>{{list.readtimes}}人在关注</text>
+					<text>{{list.createtime}}</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
 </view>
 <web-view style="display:none;" src="{{downurl}}"></web-view>

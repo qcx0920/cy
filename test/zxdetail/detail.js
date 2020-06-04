@@ -1,29 +1,46 @@
+
+
 Page({
     data: {
-
+        appInfo: null,
+        htmlSnip:``
     },
-    onLoad: function () {
+    onLoad(options) {
+        var pid = options.pid;
         // 监听页面加载的生命周期函数
+        this.getAllData(pid)
     },
-    onReady: function() {
-        // 监听页面初次渲染完成的生命周期函数
+    getAllData(pid) {
+        // 0正常 1资讯页面
+        swan.request({
+            url: 'http://192.168.8.84:8281/szw/infor',
+            method: "post",
+            data: { pid: pid, type: 1 },
+            header: { 'content-type': 'application/x-www-form-urlencoded' },
+            success: res => {
+                var appInfo = res.data.data;
+                var time = appInfo.createtime;
+                appInfo.createtime = this.getDate(time * 1000);
+                var content=`<div>`+appInfo.content.replace('<img','<img style="width:100%;height:100%; "')+`</div>`;
+                this.setData({ appInfo: appInfo, htmlSnip:content});
+            },
+            fail: err => {
+                swan.showToast({
+                    title: JSON.stringify(err)
+                });
+                console.log('request fail', err);
+            },
+            complete: () => {
+                this.setData('loading', true);
+            }
+        });
     },
-    onShow: function() {
-        // 监听页面显示的生命周期函数
-    },
-    onHide: function() {
-        // 监听页面隐藏的生命周期函数
-    },
-    onUnload: function() {
-        // 监听页面卸载的生命周期函数
-    },
-    onPullDownRefresh: function() {
-        // 监听用户下拉动作
-    },
-    onReachBottom: function() {
-        // 页面上拉触底事件的处理函数
-    },
-    onShareAppMessage: function () {
-        // 用户点击右上角转发
+    getDate(e) {
+        //将字符串转换成时间格式
+        var date = new Date(e);
+        var year = date.getFullYear();
+        var month = date.getMonth();
+        var day = date.getDay();
+        return year + "-" + month + "-" + day;
     }
 });
