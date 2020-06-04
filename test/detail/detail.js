@@ -8,11 +8,13 @@ Page({
         pageSize: 5,
         applist: null,
         appInfo: null,
-        pid:487
+        pid: 487
+    },
+    onShow() {
+        this.getAllData();
     },
     onLoad() {
         this.getList(true, 1);
-        this.getAllData();
     },
     onReachBottom(e) {
         this.getList(false, this.data.pageNo);
@@ -39,9 +41,8 @@ Page({
             header: { 'content-type': 'application/x-www-form-urlencoded' },
             success: res => {
                 var imgstr = res.data.data.screenshot;
-                var imgArr =imgstr.split(",");
-                console.log(imgArr);
-                this.setData({ appInfo : res.data.data,imgs:imgArr });
+                var imgArr = imgstr.split(",");
+                this.setData({ appInfo: res.data.data, imgs: imgArr });
             },
             fail: err => {
                 swan.showToast({
@@ -71,7 +72,7 @@ Page({
     },
     gozxDetail(e) {
         swan.navigateTo({
-            url: '/test/zxdetail/detail?pid='+e.currentTarget.dataset.pid
+            url: '/test/zxdetail/detail?pid=' + e.currentTarget.dataset.pid
         });
     },
     getList(isNew, pageNo) {

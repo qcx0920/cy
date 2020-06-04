@@ -2,3 +2,371 @@
  * @file app.css
  * @author swan
  */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html, body, .wrap {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #969696;
+  font-family: STHeiti, 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+  outline: 0;
+}
+
+#QZhead2 {
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  background: -webkit-linear-gradient(left, #589cf6 0%, #1ab2ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0080FF', endColorstr='#1ab2ff',GradientType=1 );
+  background: linear-gradient(to right, #589cf6 0%, #1ab2ff 100%);
+}
+
+#QZhead2 .box {
+  display: flex;
+  flex: 1;
+  margin: 0 12px;
+}
+#QZhead2 .box image {
+    width: 13px;
+    height: 20px;
+    margin-top:16px;
+    margin-right: 10px;
+}
+#QZhead2 .box view {
+  flex: 1;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#QZhead2 .box > view {
+  display: inline-block;
+  flex: 0 0 36px;
+  order: -1;
+  width: 30px;
+  height: 33px;
+  background-size: auto 30px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.downl_wrap {
+  background: #fff;
+  padding: 15px 24px;
+  position: relative;
+}
+
+.downl_wrap .info {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.downl_wrap .info image {
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.downl_wrap .info .bt {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+  line-height: 10px;
+  margin: 10px 0;
+}
+
+.downl_wrap .info .txt {
+  margin: 5px 0;
+  color: #b0b0b0;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.downl_wrap .info .btn {
+  overflow: hidden;
+  width: 100%;
+}
+
+.downl_wrap .info .btn .btn {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  width: 98%;
+  max-width: 400px;
+  min-width: 230px;
+  border-radius: 14px;
+  margin: 5px 0;
+  background: #eee;
+  font-size: 14px;
+  color: #fff;
+}
+
+.downl_wrap .info .btn .az_btn {
+  background: #3399ff;
+  box-shadow: 0 0 8px #1ab2ff;
+}
+
+.boxwrap {
+  border-top: 6px solid #f5f5f5;
+  overflow: hidden;
+}
+
+.boxwrap .box_title {
+  height: 30px;
+  line-height: 30px;
+  padding: 12px 12px 0;
+}
+
+.boxwrap .box_title span, .boxwrap .box_title h2 {
+  float: left;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.txtwrap {
+  overflow: hidden;
+  margin: 0 12px;
+}
+
+.txtwrap .txtcont {
+  font-size: 14px;
+  color: #444;
+  line-height: 28px;
+  overflow: hidden;
+}
+
+.txtwrap.on .txtcont {
+  max-height: initial !important;
+}
+
+.txtwrap .txt_foot {
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.txtwrap .txt_foot span {
+  float: left;
+  color: #888;
+  margin-right: 15px;
+}
+
+.txtwrap .txt_foot .open_btn {
+  float: right;
+  color: #43ac53;
+  font-size: 14px;
+}
+
+.img_item {
+  overflow-x: auto;
+  margin: 5px 0 12px 12px;
+  padding: 10px 0;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.boxwrap .ul {
+  border-top: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.img_item .ul .li {
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.img_item .ul .li image {
+  width: 200px;
+  height: 400px;
+}
+
+image {
+  border: none;
+  width: 100%;
+  height: auto;
+}
+
+.boxwrap {
+  border-top: 6px solid #f5f5f5;
+  overflow: hidden;
+}
+
+.boxwrap .box_title {
+  height: 30px;
+  line-height: 30px;
+  padding: 12px 12px 0;
+}
+
+.boxwrap .box_title .more {
+  float: right;
+  font-size: 14px;
+  color: #666;
+}
+
+.like_item {
+  overflow: hidden;
+  width: 100%;
+  overflow-x: auto;
+  padding: 10px 0;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.like_item .ul .li {
+  display: inline-block;
+  background: #fff;
+  overflow: hidden;
+  width: 100px;
+  height: 140px;
+  border-radius: 6px;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.like_item .ul .li .img, .like_item .ul .li .img image {
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+
+.like_item .ul .li .img {
+  margin: 15px auto 0;
+  display: block;
+}
+
+.like_item .ul .li .name {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  margin: 5px;
+  overflow: hidden;
+  height: 18px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.like_item .ul .li .downl_btn {
+  display: block;
+  width: 55px;
+  height: 22px;
+  line-height: 22px;
+  border-radius: 3px;
+  margin: 10px auto;
+  color: #3399ff;
+  font-size: 14px;
+  border: 1px solid #3399ff;
+  text-align: center;
+}
+.Cont1 {
+  display: block;
+  padding: 0 12px;
+  overflow: hidden;
+}
+.Cont1 .ul {
+  display: block;
+  overflow: hidden;
+}
+.Cont1 .ul .li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.Cont1 .ul .li .C1-explain {
+  display: block;
+  margin-top: 10px;
+}
+.Cont1 .ul .li image {
+  display: inline-block;
+  width: 57.5px;
+  height: 57.5px;
+  border-radius: 10px;
+}
+.C1-explain text {
+  color: #333;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 10px;
+  height: 15px;
+  overflow: hidden;
+}
+.Cont1 .ul .li .btn {
+  display: block;
+  clear: both;
+  color: #3399ff;
+  line-height: 27px;
+  width: 56.5px;
+  border: 1px solid #3399ff;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+.news_list {
+    overflow: hidden;
+    margin: 0 12px;
+}
+.news_list .li {
+    overflow: hidden;
+    display: flex;
+    padding: 12px 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+.news_list .li .img {
+    display: block;
+    margin-right: 12px;
+}
+.news_list .li .img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+.news_list .li .img .image {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    display: block;
+}
+.news_list li .text {
+    flex: 1;
+}
+.news_list .li .text .bt {
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+}
+.news_list .li .text text {
+    float: left;
+    display: block;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+    margin: 8px 10px 0 0;
+}
+.des-short {
+    max-height: 65px;
+}
+.show {
+    display: block;
+}
+ 
+.hide {
+    display: none;
+}
