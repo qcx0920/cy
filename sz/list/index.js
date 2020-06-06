@@ -3,7 +3,7 @@
  * @author swan
  */
 
-import {apiurl} from '../util/commConstants';
+import { apiurl } from '../util/commConstants';
 Page({
     data: {
         activeName: 1,
@@ -57,7 +57,7 @@ Page({
                 label: '推荐'
             }
         ],
-        tabLabels:['首页','苹果赚钱','手机兼职','阅读赚钱','安卓赚钱','手赚资讯'],
+        tabLabels: ['首页', '苹果赚钱', '手机兼职', '阅读赚钱', '安卓赚钱', '手赚资讯'],
         applist: null
     },
     onLoad() {
@@ -65,13 +65,22 @@ Page({
         this.setTitle(this.data.tabLabels[this.data.activeName]);
         this.initData(1, 0, true, 1)
     },
-    todetail() {
-        swan.navigateTo({
-            url: '/sz/detail/detail'
-        });
+    todetail(e) {
+        //trendsflag  0没有生成详情页面  1已生成
+        var trendsflag = e.currentTarget.dataset.trendsflag
+        var pid=e.currentTarget.dataset.pid;
+        if (trendsflag == 0) {
+            swan.navigateTo({
+                url: '/sz/detail/detail?pid=' + e.currentTarget.dataset.pid
+            });
+        } else {
+            swan.navigateTo({
+                url: '/sz/'+pid +'/'+pid
+            });
+        }
     },
     switchTab(e) {
-    this.setTitle(this.data.tabLabels[e.detail.name]);
+        this.setTitle(this.data.tabLabels[e.detail.name]);
         this.scrollToTop();
         if (e.detail.name == 5) {
             this.setData({ isZx: true });
@@ -89,7 +98,7 @@ Page({
     initData(type, flag, isNew, pageNo) {
         //console.log("type:"+type+"flag:"+flag+"isNew:"+isNew+"pageNo:"+pageNo);
         swan.request({
-            url: apiurl+'/szw/list',
+            url: apiurl + '/szw/list',
             data: { "type": type, "flag": flag, "pageNo": pageNo, "pageSize": this.data.pageSize },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
             method: "post",
