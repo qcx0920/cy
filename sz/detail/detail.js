@@ -130,7 +130,9 @@ Page({
                     title: res.data.data.title,
                     description: res.data.data.description,
                     keywords: res.data.data.keywords,
-                })
+                });
+                this.setTitle(res.data.data.title);
+
             },
             fail: err => {
                 swan.showToast({
@@ -150,5 +152,11 @@ Page({
         var month = date.getMonth();
         var day = date.getDay();
         return year + "-" + month + "-" + day;
+    },
+    setTitle(newTitle) {
+        swan.setNavigationBarTitle({
+            title: newTitle
+        });
     }
+    
 });
