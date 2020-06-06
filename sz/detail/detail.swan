@@ -3,15 +3,16 @@
 		<view class="BN-a">
 			<view class="downl_wrap">
 				<view class="info">
-					<image
-						src="http://wz-bd.oss-cn-zhangjiakou.aliyuncs.com/images/SZWde2d9b1fa2c54535a69cbb949d7a3638.png">
-					</image>
-					<view class="bt">武林外赚</view>
-					<view class="txt">2020-06-02更新</view>
-					<view class="txt">“上海默友网络科技有限公司”</view>
-					<view class="btn">
-						<text class="btn az_btn" data-url='http://www.shouzhuanapp.com/app/ios'
-							bindtap="down">点击复制链接后，打开浏览器下载</text>
+					<view class="left">
+                        <image class="image" src="http://wz-bd.oss-cn-zhangjiakou.aliyuncs.com/images/SZWde2d9b1fa2c54535a69cbb949d7a3638.png"></image>
+                    </view>
+                    <view class="center">
+                        <view class="bt">武林外赚</view>
+                        <view class="txt">2020-06-02更新</view>
+                        <view class="txt">“上海默友网络科技有限公司”</view>
+                    </view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='http://www.shouzhuanapp.com/app/ios' bindtap="down">复制链接</text>
 					</view>
 				</view>
 			</view>

@@ -16,8 +16,8 @@ a {
 }
 
 #QZhead2 {
-  height: 50px;
-  line-height: 50px;
+  height: 100rpx;
+  line-height: 100rpx;
   position: relative;
   background: -webkit-linear-gradient(left, #589cf6 0%, #1ab2ff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0080FF', endColorstr='#1ab2ff',GradientType=1 );
@@ -27,120 +27,134 @@ a {
 #QZhead2 .box {
   display: flex;
   flex: 1;
-  margin: 0 12px;
+  margin: 0 24rpx;
 }
 #QZhead2 .box image {
-    width: 13px;
-    height: 20px;
-    margin-top:16px;
-    margin-right: 10px;
+    width: 26rpx;
+    height: 40rpx;
+    margin-top:32rpx;
+    margin-right: 20rpx;
 }
 #QZhead2 .box view {
   flex: 1;
   color: #fff;
-  font-size: 20px;
+  font-size: 40rpx;
   text-align: center;
   font-weight: bold;
 }
 
 #QZhead2 .box > view {
   display: inline-block;
-  flex: 0 0 36px;
+  flex: 0 0 80rpx;
   order: -1;
-  width: 30px;
-  height: 33px;
-  background-size: auto 30px;
+  width: 60rpx;
+  height: 66rpx;
+  background-size: auto 60rpx;
   cursor: pointer;
-  margin-top: 8px;
+  margin-top: 16rpx;
 }
 
 .downl_wrap {
   background: #fff;
-  padding: 15px 24px;
+  padding: 20rpx;
   position: relative;
 }
 
 .downl_wrap .info {
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.downl_wrap .info .left {
+    width: 20%;
+}
+.downl_wrap .info .center {
+    width: 55%;
+    padding-left: 10rpx;
+    text-align: left;
+}
+.downl_wrap .info .right {
+    width: 25%;
 }
 
-
 .downl_wrap .info image {
-  width: 50px;
-  height: 50px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  width: 100rpx;
+  height: 100rpx;
+  -webkit-border-radius: 12rpx;
+  -moz-border-radius: 12rpx;
+  border-radius: 12rpx;
 }
 
 .downl_wrap .info .bt {
-  text-align: center;
-  font-size: 18px;
+  font-size: 36rpx;
   font-weight: bold;
   color: #444;
-  line-height: 10px;
-  margin: 10px 0;
+  margin: 10rpx 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .downl_wrap .info .txt {
-  margin: 5px 0;
+  width: 100%;
+  margin: 10rpx 0;
   color: #b0b0b0;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 28rpx;
+  line-height: 32rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .downl_wrap .info .btn {
   overflow: hidden;
-  width: 100%;
 }
 
 .downl_wrap .info .btn .btn {
   display: inline-block;
-  height: 30px;
-  line-height: 30px;
-  width: 98%;
-  max-width: 400px;
-  min-width: 230px;
-  border-radius: 14px;
-  margin: 5px 0;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 10rpx;
+  margin: 10rpx 0;
   background: #eee;
-  font-size: 14px;
+  font-size: 28rpx;
   color: #fff;
 }
 
 .downl_wrap .info .btn .az_btn {
   background: #3399ff;
-  box-shadow: 0 0 8px #1ab2ff;
+  box-shadow: 0 0 16rpx #1ab2ff;
 }
 
 .boxwrap {
-  border-top: 6px solid #f5f5f5;
+  border-top: 12rpx solid #f5f5f5;
   overflow: hidden;
 }
 
 .boxwrap .box_title {
-  height: 30px;
-  line-height: 30px;
-  padding: 12px 12px 0;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding: 24rpx 24rpx 0;
 }
 
 .boxwrap .box_title span, .boxwrap .box_title h2 {
   float: left;
-  font-size: 16px;
+  font-size: 32rpx;
   color: #333;
   font-weight: 600;
 }
 
 .txtwrap {
   overflow: hidden;
-  margin: 0 12px;
+  margin: 0 24rpx;
 }
 
 .txtwrap .txtcont {
-  font-size: 14px;
+  font-size: 36rpx;
   color: #444;
-  line-height: 28px;
+  line-height: 56rpx;
   overflow: hidden;
 }
 
@@ -150,25 +164,25 @@ a {
 
 .txtwrap .txt_foot {
   overflow: hidden;
-  margin: 10px 0;
+  margin: 20rpx 0;
 }
 
 .txtwrap .txt_foot span {
   float: left;
   color: #888;
-  margin-right: 15px;
+  margin-right: 30rpx;
 }
 
 .txtwrap .txt_foot .open_btn {
   float: right;
   color: #43ac53;
-  font-size: 14px;
+  font-size: 28rpx;
 }
 
 .img_item {
   overflow-x: auto;
-  margin: 5px 0 12px 12px;
-  padding: 10px 0;
+  margin: 10rpx 0 24rpx 24rpx;
+  padding: 20rpx 0;
   overflow-y: hidden;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
@@ -183,13 +197,13 @@ ul, ol {
 }
 
 .img_item .ul .li {
-  margin-right: 5px;
+  margin-right:10rpx;
   display: inline-block;
 }
 
 .img_item .ul .li image {
-  width: 200px;
-  height: 400px;
+  width: 400rpx;
+  height: 800rpx;
 }
 
 image {
@@ -199,19 +213,19 @@ image {
 }
 
 .boxwrap {
-  border-top: 6px solid #f5f5f5;
+  border-top: 12rpx solid #f5f5f5;
   overflow: hidden;
 }
 
 .boxwrap .box_title {
-  height: 30px;
-  line-height: 30px;
-  padding: 12px 12px 0;
+  height: 60px;
+  line-height: 60rpx;
+  padding: 24rpx 24rpx 0;
 }
 
 .boxwrap .box_title .more {
   float: right;
-  font-size: 14px;
+  font-size: 30rpx;
   color: #666;
 }
 
@@ -219,7 +233,7 @@ image {
   overflow: hidden;
   width: 100%;
   overflow-x: auto;
-  padding: 10px 0;
+  padding: 20rpx 0;
   overflow-y: hidden;
   white-space: nowrap;
 }
@@ -228,51 +242,51 @@ image {
   display: inline-block;
   background: #fff;
   overflow: hidden;
-  width: 100px;
-  height: 140px;
-  border-radius: 6px;
+  width: 200rpx;
+  height: 280rpx;
+  border-radius: 12rpx;
   position: relative;
   vertical-align: middle;
   text-align: center;
 }
 
 .like_item .ul .li .img, .like_item .ul .li .img image {
-  width: 60px;
-  height: 60px;
+  width: 120rpx;
+  height: 120rpx;
   display: block;
 }
 
 .like_item .ul .li .img {
-  margin: 15px auto 0;
+  margin: 30rpx auto 0;
   display: block;
 }
 
 .like_item .ul .li .name {
-  font-size: 14px;
+  font-size: 28rpx;
   color: #333;
   text-align: center;
-  margin: 5px;
+  margin: 10rpx;
   overflow: hidden;
-  height: 18px;
-  line-height: 18px;
+  height: 36rpx;
+  line-height: 36rpx;
   font-weight: bold;
 }
 
 .like_item .ul .li .downl_btn {
   display: block;
-  width: 55px;
-  height: 22px;
-  line-height: 22px;
-  border-radius: 3px;
-  margin: 10px auto;
+  width: 110rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+  border-radius: 6rpx;
+  margin: 20rpx auto;
   color: #3399ff;
-  font-size: 14px;
+  font-size: 28rpx;
   border: 1px solid #3399ff;
   text-align: center;
 }
 .Cont1 {
   display: block;
-  padding: 0 12px;
+  padding: 0 24rpx;
   overflow: hidden;
 }
 .Cont1 .ul {
@@ -283,59 +297,59 @@ image {
   float: left;
   width: 25%;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20rpx;
 }
 .Cont1 .ul .li .C1-explain {
   display: block;
-  margin-top: 10px;
+  margin-top: 20rpx;
 }
 .Cont1 .ul .li image {
   display: inline-block;
-  width: 57.5px;
-  height: 57.5px;
-  border-radius: 10px;
+  width: 96rpx;
+  height: 96rpx;
+  border-radius: 20rpx;
 }
 .C1-explain text {
   color: #333;
-  font-size: 12px;
-  line-height: 15px;
-  margin-bottom: 10px;
-  height: 15px;
+  font-size: 24rpx;
+  line-height: 30rpx;
+  margin-bottom: 20rpx;
+  height: 30rpx;
   overflow: hidden;
 }
 .Cont1 .ul .li .btn {
   display: block;
   clear: both;
   color: #3399ff;
-  line-height: 27px;
-  width: 56.5px;
+  line-height: 56rpx;
+  width: 96rpx;
   border: 1px solid #3399ff;
-  border-radius: 3px;
+  border-radius: 6rpx;
   margin: 0 auto;
 }
 .news_list {
     overflow: hidden;
-    margin: 0 12px;
+    margin: 0 24rpx;
 }
 .news_list .li {
     overflow: hidden;
     display: flex;
-    padding: 12px 0;
+    padding: 24rpx 0;
     border-bottom: 1px solid #f5f5f5;
 }
 .news_list .li .img {
     display: block;
-    margin-right: 12px;
+    margin-right: 24rpx;
 }
 .news_list .li .img {
-    width: 60px;
-    height: 60px;
-    border-radius: 5px;
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 10rpx;
 }
 .news_list .li .img .image {
-    width: 60px;
-    height: 60px;
-    border-radius: 5px;
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 10rpx;
     display: block;
 }
 .news_list li .text {
@@ -343,26 +357,26 @@ image {
 }
 .news_list .li .text .bt {
     display: block;
-    line-height: 20px;
+    line-height: 40rpx;
     overflow: hidden;
-    font-size: 14px;
+    font-size: 30rpx;
     color: #333;
 }
 .news_list .li .text text {
     float: left;
     display: block;
-    line-height: 20px;
-    font-size: 12px;
+    line-height: 40rpx;
+    font-size: 26rpx;
     color: #999;
-    margin: 8px 10px 0 0;
+    margin: 16rpx 20rpx 0 0;
 }
 .des-short {
-    max-height: 65px;
+    max-height:130rpx;
 }
 .show {
     display: block;
 }
- 
+
 .hide {
     display: none;
 }

@@ -16,8 +16,8 @@ a {
 }
 
 #QZhead2 {
-  height: 50px;
-  line-height: 50px;
+  height: 100rpx;
+  line-height: 100rpx;
   position: relative;
   background: -webkit-linear-gradient(left, #589cf6 0%, #1ab2ff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0080FF', endColorstr='#1ab2ff',GradientType=1 );
@@ -27,80 +27,83 @@ a {
 #QZhead2 .box {
   display: flex;
   flex: 1;
-  margin: 0 12px;
+  margin: 0 24rpx;
 }
 #QZhead2 .box image {
-    width: 13px;
-    height: 20px;
-    margin-top:16px;
-    margin-right: 10px;
+    width: 26rpx;
+    height: 40rpx;
+    margin-top:32rpx;
+    margin-right: 20rpx;
 }
 #QZhead2 .box view {
   flex: 1;
   color: #fff;
-  font-size: 20px;
+  font-size: 40rpx;
   text-align: center;
   font-weight: bold;
 }
 
 #QZhead2 .box > view {
   display: inline-block;
-  flex: 0 0 36px;
+  flex: 0 0 80rpx;
   order: -1;
-  width: 30px;
-  height: 33px;
-  background-size: auto 30px;
+  width: 60rpx;
+  height: 66rpx;
+  background-size: auto 60rpx;
   cursor: pointer;
-  margin-top: 8px;
+  margin-top: 16rpx;
 }
 .details_cont {
     overflow: hidden;
-    padding: 12px;
+    padding: 24rpx;
 }
 .details_cont .h1 {
-    font-size: 16px;
+    font-size: 40rpx;
     color: #111;
-    line-height: 26px;
+    line-height: 52rpx;
 }
 .details_cont .info {
     border-bottom: 1px solid #f2f2f2;
     overflow: hidden;
-    padding: 10px 0;
+    padding: 20rpx 0;
     display: flex;
 }
 .details_cont .info text {
-    font-size: 12px;
-    line-height: 24px;
+    font-size: 28rpx;
+    line-height:48rpx;
 }
 .details_cont .info .text {
-    margin-right: 10px;
+    margin-right: 20rpx;
     color: #666;
 }
 .basebox {
-    margin-top: 1px;
+    margin-top: 2rpx;
 }
 #neirong {
-    font-size: 14px;
-    line-height: 25px;
+    font-size: 26rpx;
+    line-height: 50rpx;
     word-break: break-word;
+}
+#neirong view {
+    font-size: 36rpx;
 }
 #neirong text {
     color: #FF0000;
 }
 #neirong image {
     width: 100%;
-    height: 400px;
+    height: 800rpx;
 }
 .turn_page {
-    margin-top: 20px;
-    line-height: 30px;
-    font-size: 14px;
+    margin-top: 40rpx;
+    line-height: 60rpx;
+    font-size: 30rpx;
     color: #969696;
 }
 
 img{
-   width: 100px;
-   height: 100px;
+   width: 200rpx;
+   height: 200rpx;
 }
     
 
