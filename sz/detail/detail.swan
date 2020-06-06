@@ -3,17 +3,16 @@
 		<view class="BN-a">
 			<view class="downl_wrap">
 				<view class="info">
-				    <view class="left">
-					    <image src="{{appInfo.logo}}"></image>
+					<view class="left">
+						<image src="{{appInfo.logo}}"></image>
 					</view>
 					<view class="center">
-					<view class="bt">{{appInfo.name}}</view>
-					<view class="txt">{{appInfo.createtime}}更新</view>
-					<view class="txt">“{{appInfo.company}}”</view>
+						<view class="bt">{{appInfo.name}}</view>
+						<view class="txt">{{appInfo.createtime}}更新</view>
+						<view class="txt">{{appInfo.company}}</view>
 					</view>
 					<view class="btn right">
-						<text class="btn az_btn" data-url='{{appInfo.downurl}}'
-							bindtap="down">点击复制链接后，打开浏览器下载</text>
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
 					</view>
 				</view>
 			</view>
