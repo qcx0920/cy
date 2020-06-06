@@ -79,12 +79,8 @@ a {
 }
 
 .downl_wrap .info .bt {
-  text-align: center;
-  font-size: 18px;
   font-weight: bold;
   color: #444;
-  line-height: 10px;
-  margin: 10px 0;
 }
 
 .downl_wrap .info .txt {
@@ -101,15 +97,12 @@ a {
 
 .downl_wrap .info .btn .btn {
   display: inline-block;
-  height: 30px;
-  line-height: 30px;
-  width: 98%;
-  max-width: 400px;
-  min-width: 230px;
-  border-radius: 14px;
-  margin: 5px 0;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 10rpx;
+  margin: 10rpx 0;
   background: #eee;
-  font-size: 14px;
+  font-size: 28rpx;
   color: #fff;
 }
 
