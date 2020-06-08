@@ -293,6 +293,4 @@ Page({
             this.searchData(searchName, this.data.pageNo, false);
         }
     }
-
-
 });
