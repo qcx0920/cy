@@ -49,7 +49,7 @@ Page({
 
     },
     changemore(e) {
-        this.setData({ismore: !this.data.ismore})
+        this.setData({ismore: false})
     },
     onShow() {
         let pages = getCurrentPages();
