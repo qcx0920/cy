@@ -1,5 +1,6 @@
 <view class="wrap">
 	<view id="BreadcrumbNavigation">
+<<<<<<< HEAD
         <view class="headtip">
             <view class="search">
                 <input name="input" confirm-type="search" class="ipt" placeholder="请输入" />
@@ -14,6 +15,22 @@
                 </view>
             </block>
         </view>
+=======
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" />
+				<icon type="search" class="icon" />
+			</view>
+			<view class="more" bindtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+>>>>>>> b0056a38f95d394da24e890527b0c9ffe1e7b8e9
 		<view class="BN-a">
 			<view class="downl_wrap">
 				<view class="info">
@@ -55,22 +72,22 @@
 					</view>
 				</view>
 			</view>
-		</view>
-	</view>
-	<view class="boxwrap">
-		<view class="box_title">
-			<text>最新资讯</text>
-			<text class="more">更多 +</text>
-		</view>
-		<view class="news_list">
-			<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
-				<view class="img">
-					<image class="image" src="{{list.logo}}"></image>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
 				</view>
-				<view class="text">
-					<view class="bt">{{list.title}}</view>
-					<text>{{list.readtimes}}人在关注</text>
-					<text>{{list.createtime}}</text>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
 				</view>
 			</view>
 		</view>
