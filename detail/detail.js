@@ -6,7 +6,7 @@ Page({
         intro: "",
         imgs: null,
         pageNo: 1,
-        pageSize: 5,
+        pageSize: 15,
         applist: null,
         appInfo: null,
         ismore: false,
@@ -42,7 +42,11 @@ Page({
                 label: '手赚资讯'
             }
         ],
-        issearch:true
+        issearch: false,
+        searchLists: [],
+        searchName: '',
+        tabLabels: ['首页', '苹果赚钱', '手机兼职', '阅读赚钱', '安卓赚钱', '手赚资讯']
+
     },
     onShow() {
         let pages = getCurrentPages();
@@ -54,9 +58,6 @@ Page({
         this.getAllData(options.pid);
         this.getList(true, 1);
     },
-    onReachBottom(e) {
-        this.getList(false, this.data.pageNo);
-    },
     showAll() {
         this.setData({ isAll: !this.data.isAll });
     },
@@ -64,7 +65,7 @@ Page({
         this.setClipboardData(e.currentTarget.dataset.url);
     },
     getmore() {
-        this.setData({ismore: !this.data.ismore});
+        this.setData({ ismore: !this.data.ismore });
     },
     getSystem() {
         swan.getSystemInfo({
@@ -72,7 +73,7 @@ Page({
                 if (res.system != 'Android') {
                     this.setData({ isIos: true, tabs: this.data.tabsIos })
                 } else {
-                    this.setData({ isIos: false, tabs: this.data.tabsAndroid})
+                    this.setData({ isIos: false, tabs: this.data.tabsAndroid })
                 }
             }
         });
@@ -80,13 +81,21 @@ Page({
     changetab(e) {
         let pages = getCurrentPages();
         let prevPage = pages[pages.length - 2];
-        prevPage.setData({
-            activeName: e.currentTarget.dataset.name
-        })
+        if (e.currentTarget.dataset.name != 5) {
+            prevPage.setData({
+                activeName: e.currentTarget.dataset.name,
+                isZx: false
+            })
+        } else {
+            prevPage.setData({
+                activeName: e.currentTarget.dataset.name,
+                isZx: true
+            })
+        }
         prevPage.setTitle(prevPage.data.tabLabels[e.currentTarget.dataset.name]);
         prevPage.initData(e.currentTarget.dataset.name, 0, true, 1);
         swan.navigateBack({
-            delta:1
+            delta: 1
         })
     },
     getAllData(pid) {
@@ -131,7 +140,7 @@ Page({
     },
     gozxDetail(e) {
         swan.navigateTo({
-            url: contstantParam.zxDetailPage+'?pid=' + e.currentTarget.dataset.pid
+            url: contstantParam.zxDetailPage + '?pid=' + e.currentTarget.dataset.pid
         });
     },
     getList(isNew, pageNo) {
@@ -195,6 +204,56 @@ Page({
             }
         });
     },
+    searchInput(e) {
+        var value = e.detail.value;
+        if (value != null && value != "") {
+            this.setData({ searchName: value })
+        }
+    },
+    search() {
+        var searchName = this.data.searchName;
+        if (searchName != null && searchName != "") {
+            this.searchData(searchName, 1, true);
+        }
+    },
+    searchClear() {
+        this.setData({
+            value: ''
+        });
+    },
+    searchData(name, pageNo, isNew) {
+
+        swan.request({
+            url: contstantParam.apiurl + '/szw/list',
+            data: { "name": name, "pageNo": pageNo, "pageSize": this.data.pageSize },
+            header: { 'content-type': 'application/x-www-form-urlencoded' },
+            method: "post",
+            success: res => {
+                var searchLists = res.data.data;
+                if (searchLists.length > 0) {
+                    for (var i = 0; i < searchLists.length; i++) {
+                        var time = searchLists[i].createtime;
+                        searchLists[i].createtime = this.getDate(time * 1000)
+                    }
+                    pageNo++;
+                    if (isNew) {
+                        this.setData({ searchLists: searchLists, pageNo: pageNo, issearch: true });
+                    } else {
+                        this.setData({ searchLists: this.data.searchLists.concat(searchLists), pageNo: pageNo, issearch: true });
+                    }
+                } else {
+                    swan.showToast({
+                        title: '没有搜索到内容'
+                    });
+                }
+            },
+            fail: err => {
+                swan.showToast({
+                    title: JSON.stringify(err)
+                });
+            }
+        });
+    },
     getDate(e) {
         //将字符串转换成时间格式
         var date = new Date(e);
@@ -210,6 +269,27 @@ Page({
     },
     toast(title, icon = 'none') {
         swan.showToast({ duration: 5000, title, icon });
+    },
+    todetail(e) {
+        //trendsflag  0没有生成详情页面  1已生成
+        var trendsflag = e.currentTarget.dataset.trendsflag
+        var pid = e.currentTarget.dataset.pid;
+        if (trendsflag == 0) {
+            swan.navigateTo({
+                url: contstantParam.detailPage + '?pid=' + e.currentTarget.dataset.pid
+            });
+        } else {
+            swan.navigateTo({
+                url: '/' + pid + '/' + pid
+            });
+        }
+    },
+    onReachBottom(e) {
+        var searchName = this.data.searchName;
+        if (searchName != null && searchName != "") {
+            this.searchData(searchName, this.data.pageNo, false);
+        }
     }
+
 
 });

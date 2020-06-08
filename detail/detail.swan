@@ -2,8 +2,8 @@
 	<view id="BreadcrumbNavigation">
 		<view class="headtip">
 			<view class="search">
-				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" />
-				<icon type="search" class="icon" />
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
 			</view>
 			<view class="more" bindtap="getmore">更多</view>
 			<block s-if="ismore">
@@ -74,21 +74,9 @@
 				</view>
 			</view>
 		</view>
-<<<<<<< HEAD
-        <view class="bottom">
-            <view class="cont">手赚汇手赚网是一个专业的手机赚钱软件分享平台，靠谱的手机赚钱软件排行榜，提供热门的手机赚钱app，一级网上赚钱项目分享，网上兼职赚钱教程方法</view>
-            <view class="bottom_list">
-                <view>爱试玩</view>
-                <view>钱咖</view>
-                <view>小鱼赚钱</view>
-                <view>小白赚钱</view>
-                <view>网站地图</view>
-            </view>
-        </view>
-=======
 
-		<view s-if="{{!issearch}}" class="BN-a">
-			<view s-if="{{!isZx}}" class="lists">
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
 				<view class="item">
 					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
 						data-trendsflag="{{list.trendsflag}}">
@@ -98,17 +86,24 @@
 						</view>
 						<view class="info">
 							<view class="bt">{{list.name}}</view>
-							<view style="font-size:12px">{{list.remark}}</view>
-							<view style="font-size:12px">{{list.createtime}}</view>
 							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
 						</view>
 						<view class="downl_btn">下载</view>
 					</view>
 				</view>
 			</view>
 		</view>
-
->>>>>>> 08682ac76e954e01390039632a4e9ddbd387a0bc
+		<view class="bottom">
+			<view class="cont">手赚汇手赚网是一个专业的手机赚钱软件分享平台，靠谱的手机赚钱软件排行榜，提供热门的手机赚钱app，一级网上赚钱项目分享，网上兼职赚钱教程方法</view>
+			<view class="bottom_list">
+				<view>爱试玩</view>
+				<view>钱咖</view>
+				<view>小鱼赚钱</view>
+				<view>小白赚钱</view>
+				<view>网站地图</view>
+			</view>
+		</view>
 	</view>
 </view>
 </view>
