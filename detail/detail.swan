@@ -1,11 +1,11 @@
-<view class="wrap">
+<view class="wrap" bindtap="changemore">
 	<view id="BreadcrumbNavigation">
 		<view class="headtip">
 			<view class="search">
 				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
 				<icon type="search" bindtap="search" class="icon" />
 			</view>
-			<view class="more" bindtap="getmore">更多</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
 			<block s-if="ismore">
 				<view class="morelist">
 					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">

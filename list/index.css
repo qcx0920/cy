@@ -5,6 +5,32 @@
 .container {
     padding-bottom: 100rpx;
 }
+.headtip {
+    height: 100rpx;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.search {
+    width: 100%;
+    height: 80rpx;
+    position: relative;
+}
+.search .ipt {
+    width: 90%;
+    height: 70rpx;
+    margin: 5rpx auto;
+    border-radius: 20rpx;
+    border: 1px solid #eee;
+    text-indent: 30rpx;
+}
+.search .icon {
+    position: absolute;
+    top: 14rpx;
+    right:50rpx;
+}
 .item {
   overflow: hidden;
   margin: 0 24rpx 20rpx;
@@ -143,7 +169,7 @@
 }
 .tablist {
     position: fixed;
-    top: 0;
+    top: 100rpx;
     left: 0;
     width: 100%;
     height: 80rpx;

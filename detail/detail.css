@@ -54,6 +54,7 @@ a {
   margin-top: 16rpx;
 }
 .headtip {
+    padding-top: 20rpx;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -69,8 +70,8 @@ a {
     height: 70rpx;
     margin: 5rpx auto;
     border-radius: 20rpx;
-    text-indent: 10rpx;
     border: 1px solid #eee;
+    text-indent: 30rpx;
 }
 .search .icon {
     position: absolute;
@@ -83,20 +84,25 @@ a {
 }
 
 .morelist {
+    padding:0;
+    width: 200rpx;
     position: absolute;
-    right: 0;
-    top: 80rpx;
+    right: 20rpx;
+    top: 100rpx;
     z-index: 100;
     background: #fff;
-    padding: 20rpx;
     border: 1px solid #ccc;
-    box-shadow: -2px -2px 2px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
 }
 .morelist .list {
     border-bottom: 1px solid #eee;
-    height: 60rpx;
-    line-height: 60rpx;
-    color: #999;
+    height: 80rpx;
+    line-height: 80rpx;
+    color: #333;
+    text-align: center;
+}
+.morelist .list:last-child {
+    border-bottom: none;
 }
 
 .downl_wrap {
@@ -211,6 +217,7 @@ a {
 .txtwrap .txt_foot {
   overflow: hidden;
   margin: 20rpx 0;
+  background: linear-gradient(0deg, #fff 40%, rgba(255,255,255,0));
 }
 
 .txtwrap .txt_foot span {
@@ -220,9 +227,10 @@ a {
 }
 
 .txtwrap .txt_foot .open_btn {
+  line-height: 100rpx;
   text-align: center;
   color: #43ac53;
-  font-size: 32rpx;
+  font-size: 38rpx;
 }
 
 .img_item {
