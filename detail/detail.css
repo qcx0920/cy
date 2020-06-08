@@ -171,6 +171,7 @@ a {
 .downl_wrap .info .btn .az_btn {
   background: #3399ff;
   box-shadow: 0 0 16rpx #1ab2ff;
+  width: 100%;
 }
 
 .boxwrap {

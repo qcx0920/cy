@@ -76,6 +76,18 @@ Page({
             }
         });
     },
+    changetab(e) {
+        let pages = getCurrentPages();
+        let prevPage = pages[pages.length - 2];
+        prevPage.setData({
+            activeName: e.currentTarget.dataset.name
+        })
+        prevPage.setTitle(prevPage.data.tabLabels[e.currentTarget.dataset.name]);
+        prevPage.initData(e.currentTarget.dataset.name, 0, true, 1);
+        swan.navigateBack({
+            delta:1
+        })
+    },
     getAllData(pid) {
         // 0正常 1资讯页面
         swan.request({
