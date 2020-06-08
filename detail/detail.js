@@ -42,6 +42,7 @@ Page({
                 label: '手赚资讯'
             }
         ],
+        issearch:true
     },
     onShow() {
         let pages = getCurrentPages();

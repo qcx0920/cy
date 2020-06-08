@@ -14,7 +14,7 @@
                 </view>
             </block>
         </view>
-		<view class="BN-a">
+		<view s-if="{{!issearch}}" class="BN-a">
 			<view class="downl_wrap">
 				<view class="info">
 					<view class="left">
@@ -74,6 +74,7 @@
 				</view>
 			</view>
 		</view>
+<<<<<<< HEAD
         <view class="bottom">
             <view class="cont">手赚汇手赚网是一个专业的手机赚钱软件分享平台，靠谱的手机赚钱软件排行榜，提供热门的手机赚钱app，一级网上赚钱项目分享，网上兼职赚钱教程方法</view>
             <view class="bottom_list">
@@ -84,6 +85,13 @@
                 <view>网站地图</view>
             </view>
         </view>
+=======
+
+        <view s-if="{{!issearch}}" class="BN-a">
+
+        </view>
+
+>>>>>>> 08682ac76e954e01390039632a4e9ddbd387a0bc
 	</view>
 </view>
 </view>
