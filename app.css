@@ -157,9 +157,9 @@ a {
 }
 
 .txtwrap .txt_foot .open_btn {
-  float: right;
+  text-align: center;
   color: #43ac53;
-  font-size: 14px;
+  font-size: 32rpx;
 }
 
 .img_item {
