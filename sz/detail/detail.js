@@ -17,14 +17,14 @@ Page({
         this.setPageInfo(currentPage.options.pid);
     },
     onLoad(options) {
-       this.getAllData(options.pid);
+        this.getAllData(options.pid);
         this.getList(true, 1);
     },
     onReachBottom(e) {
         this.getList(false, this.data.pageNo);
     },
     showAll() {
-        this.setData({ isAll: true});
+        this.setData({ isAll: true });
     },
     packUp() {
         this.setData({ isAll: false })
@@ -43,7 +43,7 @@ Page({
             data: { pid: pid, type: 0 },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
             success: res => {
-               var appInfo = res.data.data;
+                var appInfo = res.data.data;
                 var time = appInfo.createtime;
                 appInfo.createtime = this.getDate(time * 1000);
                 var imgstr = appInfo.screenshot;
@@ -57,7 +57,6 @@ Page({
                 console.log('request fail', err);
             },
             complete: () => {
-                this.setData('loading', true);
             }
         });
     },
@@ -94,13 +93,12 @@ Page({
                         var time = applist[i].createtime;
                         applist[i].createtime = this.getDate(time * 1000)
                     }
-                    if (isNew) {
-                        this.setData({ applist: applist });
-                    } else {
-                        this.setData({ applist: this.data.applist.concat(applist) });
-                    }
                     pageNo++;
-                    this.setData({ pageNo: pageNo });
+                    if (isNew) {
+                        this.setData({ applist: applist, pageNo: pageNo });
+                    } else {
+                        this.setData({ applist: this.data.applist.concat(applist), pageNo: pageNo });
+                    }
                 } else {
                     swan.showToast({
                         title: '没有新的内容了'
@@ -113,7 +111,6 @@ Page({
                 });
             },
             complete: () => {
-                this.setData('loading', true);
             }
         });
 
@@ -141,7 +138,6 @@ Page({
                 console.log('request fail', err);
             },
             complete: () => {
-                this.setData('loading', true);
             }
         });
     },
@@ -158,5 +154,5 @@ Page({
             title: newTitle
         });
     }
-    
+
 });
