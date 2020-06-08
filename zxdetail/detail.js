@@ -4,7 +4,8 @@ import { contstantParam } from '../util/commConstants';
 Page({
     data: {
         appInfo: null,
-        htmlSnip: ``
+        htmlSnip: ``,
+        isAll:false
     },
     onShow() {
         let pages = getCurrentPages();
@@ -78,5 +79,8 @@ Page({
         swan.setNavigationBarTitle({
             title: newTitle
         });
+    },
+    showAll() {
+        this.setData({ isAll: !this.data.isAll });
     }
 });

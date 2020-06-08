@@ -105,6 +105,12 @@ img{
    width: 200rpx;
    height: 200rpx;
 }
+
+.txt_foot,.open_btn {
+  text-align: center;
+  color: #43ac53;
+  font-size: 35rpx;
+}
     
 
 

@@ -1,52 +1,76 @@
 <view class="container">
-    <view class="headtip">
-        <view class="search">
-            <input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
-            <icon type="search" bindtap="search" class="icon" />
-        </view>
-    </view>
+	<view class="headtip">
+		<view class="search">
+			<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+			<icon type="search" bindtap="search" class="icon" />
+		</view>
+	</view>
 	<tabs class="border-bottom" tabs-underline-color="none" active-name="{{activeName}}" max-tab-item-amount="5"
 		tabs-active-text-color="#19b5fe" bindtabchange="switchTab">
 		<tab-item style="width: 33.3%;" s-for="tab in tabs" name="{{tab.name}}" label="{{tab.label}}" />
 	</tabs>
-	<view class="wrap">
-		<view s-if="{{!isZx}}" style="margin-left:1%;" class="tablist">
-			<tabs tabs-underline-color="none" active-name="{{activeName1}}" tabs-active-text-color="#19b5fe"
-				bindtabchange="switchTabType">
-				<tab-item style="width: 33.3%;" s-for="tab in tabsType" name="{{tab.name}}" label="{{tab.label}}" />
-			</tabs>
+	<view s-if="{{!issearch}}">
+		<view class="wrap">
+			<view s-if="{{!isZx}}" style="margin-left:1%;" class="tablist">
+				<tabs tabs-underline-color="none" active-name="{{activeName1}}" tabs-active-text-color="#19b5fe"
+					bindtabchange="switchTabType">
+					<tab-item style="width: 33.3%;" s-for="tab in tabsType" name="{{tab.name}}" label="{{tab.label}}" />
+				</tabs>
+			</view>
+			<view s-if="{{!isZx}}" class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in applist" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view style="font-size:12px">{{list.remark}}</view>
+							<view style="font-size:12px">{{list.createtime}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+
+			<!-- 资讯列表开始 -->
+			<view s-else class="news_list" style="margin-top:13vw">
+				<view class="li" s-for="list,index in applist" bindtap="gozxDetail" data-pid="{{list.pid}}">
+					<view class="img">
+						<image class="image" src="{{list.logo}}"></image>
+					</view>
+					<view class="text">
+						<view class="bt">{{list.title}}</view>
+						<text>{{list.readtimes}}人在关注</text>
+						<text>{{list.createtime}}</text>
+					</view>
+				</view>
+			</view>
+			<!-- 资讯列表结束 -->
 		</view>
-		<view s-if="{{!isZx}}" class="lists">
+	</view>
+
+	<view s-if="{{issearch}}" class="BN-a">
+		<view class="lists" style="margin-top:13vw">
 			<view class="item">
-				<view class="list" s-for="list,index in applist" bindtap="todetail" data-pid="{{list.pid}}" data-trendsflag="{{list.trendsflag}}">
+				<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+					data-trendsflag="{{list.trendsflag}}">
 					<view class="img">
 						<image src="{{list.logo}}" alt="{{list.name}}">
 						</image>
 					</view>
 					<view class="info">
 						<view class="bt">{{list.name}}</view>
-						<view style="font-size:12px">{{list.remark}}</view>
-						<view style="font-size:12px">{{list.createtime}}</view>
 						<view class="star"><text style="width:100%;"></text></view>
+						<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
 					</view>
 					<view class="downl_btn">下载</view>
 				</view>
 			</view>
 		</view>
-
-		<!-- 资讯列表开始 -->
-		<view s-else class="news_list">
-			<view class="li" s-for="list,index in applist" bindtap="gozxDetail" data-pid="{{list.pid}}">
-				<view class="img">
-					<image class="image" src="{{list.logo}}"></image>
-				</view>
-				<view class="text">
-					<view class="bt">{{list.title}}</view>
-					<text>{{list.readtimes}}人在关注</text>
-					<text>{{list.createtime}}</text>
-				</view>
-			</view>
-		</view>
-		<!-- 资讯列表结束 -->
 	</view>
+
 </view>

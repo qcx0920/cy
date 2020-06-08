@@ -1,18 +1,22 @@
 <view class="container">
 	<view class="wrap">
 		<view class="details_cont">
-			<view class="h1">{{appInfo.title}}</view>
+			<view class="h1" style="font-weight:bold;">{{appInfo.title}}</view>
 			<view class="info">
 				<text>浏览：{{appInfo.readtimes}} 时间：<text class="text">{{appInfo.createtime}}</text></text>
 			</view>
 			<view class="Min2 basebox">
-				<view class="txtwarp rich-text" id="neirong"> 
-                <!-- {{appInfo.content}} -->
-					<view class="rich-text">
-            <rich-text nodes="{{htmlSnip}}" image-menu-preven="false"></rich-text>
-        </view>
+				<view class="txtwarp rich-text" style="overflow: hidden;" id="neirong">
+					<!-- {{appInfo.content}} -->
+					<view class="rich-text {{isAll?'':'des-short'}}">
+						<rich-text nodes="{{htmlSnip}}" image-menu-preven="false"></rich-text>
+					</view>
 				</view>
 			</view>
+            <view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<!-- <view class="open_btn {{isAll?'':'hide'}}" bindtap="showAll">收起</view> -->
+					</view>
 		</view>
 	</view>
 </view>

@@ -75,7 +75,7 @@ a {
 }
 .search .icon {
     position: absolute;
-    top: 18rpx;
+    top: 22rpx;
     right:50rpx;
 }
 .more {
@@ -446,7 +446,7 @@ image {
 .bottom .bottom_list {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .bottom .bottom_list {

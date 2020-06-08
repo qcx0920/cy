@@ -211,18 +211,18 @@ Page({
         var value = e.detail.value;
         if (value != null && value != "") {
             this.setData({ searchName: value })
+        }else {
+            this.setData({ searchName: "" });
         }
     },
     search() {
         var searchName = this.data.searchName;
         if (searchName != null && searchName != "") {
             this.searchData(searchName, 1, true);
+        }else{
+            this.setData({ searchLists: [] ,issearch:false});
+
         }
-    },
-    searchClear() {
-        this.setData({
-            value: ''
-        });
     },
     searchData(name, pageNo, isNew) {
 

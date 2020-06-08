@@ -58,7 +58,10 @@ Page({
             }
         ],
         tabLabels: ['首页', '苹果赚钱', '手机兼职', '阅读赚钱', '安卓赚钱', '手赚资讯'],
-        applist: null
+        applist: null,
+        issearch: false,
+        searchName: "",
+        searchLists: [],
     },
     onShow() {
         this.setPageInfo();
@@ -71,14 +74,14 @@ Page({
     todetail(e) {
         //trendsflag  0没有生成详情页面  1已生成
         var trendsflag = e.currentTarget.dataset.trendsflag
-        var pid=e.currentTarget.dataset.pid;
+        var pid = e.currentTarget.dataset.pid;
         if (trendsflag == 0) {
             swan.navigateTo({
-                url: contstantParam.detailPage+'?pid=' + e.currentTarget.dataset.pid
+                url: contstantParam.detailPage + '?pid=' + e.currentTarget.dataset.pid
             });
         } else {
             swan.navigateTo({
-                url: '/'+pid +'/'+pid
+                url: '/' + pid + '/' + pid
             });
         }
     },
@@ -90,7 +93,7 @@ Page({
         } else {
             this.setData({ isZx: false });
         }
-        this.setData({ activeName: e.detail.name, activeName1: 0 });
+        this.setData({ activeName: e.detail.name, activeName1: 0, issearch: false });
         this.initData(e.detail.name, 0, true, 1);
     },
     switchTabType(e) {
@@ -157,11 +160,15 @@ Page({
     },
     gozxDetail(e) {
         swan.navigateTo({
-            url: contstantParam.zxDetailPage+'?pid=' + e.currentTarget.dataset.pid
+            url: contstantParam.zxDetailPage + '?pid=' + e.currentTarget.dataset.pid
         });
     },
     onReachBottom(e) {
-        this.initData(this.data.activeName, this.data.activeName1, false, this.data.pageNo);
+        if (this.data.issearch) {
+            this.searchData(this.data.searchName, this.data.pageNo, false);
+        } else {
+            this.initData(this.data.activeName, this.data.activeName1, false, this.data.pageNo);
+        }
     },
     scrollToTop() {
         swan.pageScrollTo({
@@ -197,6 +204,54 @@ Page({
                 console.log('request fail', err);
             },
             complete: () => {
+            }
+        });
+    },
+    searchInput(e) {
+        var value = e.detail.value;
+        if (value != null && value != "") {
+            this.setData({ searchName: value })
+        } else {
+            this.setData({ searchName: "" });
+        }
+    },
+    search() {
+        var searchName = this.data.searchName;
+        if (searchName != null && searchName != "") {
+            this.searchData(searchName, 1, true);
+        } else {
+            this.setData({ searchLists: [] ,issearch:false});
+        }
+    },
+    searchData(name, pageNo, isNew) {
+        swan.request({
+            url: contstantParam.apiurl + '/szw/list',
+            data: { "name": name, "pageNo": pageNo, "pageSize": this.data.pageSize },
+            header: { 'content-type': 'application/x-www-form-urlencoded' },
+            method: "post",
+            success: res => {
+                var searchLists = res.data.data;
+                if (searchLists.length > 0) {
+                    for (var i = 0; i < searchLists.length; i++) {
+                        var time = searchLists[i].createtime;
+                        searchLists[i].createtime = this.getDate(time * 1000)
+                    }
+                    pageNo++;
+                    if (isNew) {
+                        this.setData({ searchLists: searchLists, pageNo: pageNo, issearch: true });
+                    } else {
+                        this.setData({ searchLists: this.data.searchLists.concat(searchLists), pageNo: pageNo, issearch: true });
+                    }
+                } else {
+                    swan.showToast({
+                        title: '没有搜索到内容'
+                    });
+                }
+            },
+            fail: err => {
+                swan.showToast({
+                    title: JSON.stringify(err)
+                });
             }
         });
     }
