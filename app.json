@@ -2,7 +2,8 @@
     "pages": [
         "list/index",
         "detail/detail",
-        "zxdetail/detail"
+        "zxdetail/detail",
+        "search/search"
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",
