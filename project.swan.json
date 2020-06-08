@@ -22,7 +22,7 @@
     },
     "host": "baiduboxapp",
     "preview": {
-        "packageId": 689340
+        "packageId": 690154
     },
     "projectname": "cy",
     "setting": {
@@ -31,8 +31,8 @@
     },
     "swan": {
         "baiduboxapp": {
-            "swanJsVersion": "3.120.16",
-            "extensionJsVersion": "1.7.4"
+            "extensionJsVersion": "1.7.4",
+            "swanJsVersion": "3.120.16"
         }
     }
 }
