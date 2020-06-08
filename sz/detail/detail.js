@@ -2,7 +2,6 @@ import { apiurl } from '../util/commConstants';
 
 Page({
     data: {
-        pid: 487,
         isAll: false,
         downurl: "",
         intro: "",
@@ -46,19 +45,20 @@ Page({
         ],
     },
     onShow() {
-        this.setPageInfo();
-        this.getAllData();
+        let pages = getCurrentPages();
+        let currentPage = pages[pages.length - 1];
+        this.setPageInfo(currentPage.options.pid);
     },
-    onLoad() {
+    onLoad(options) {
         this.getSystem();
+        this.getAllData(options.pid);
         this.getList(true, 1);
     },
     onReachBottom(e) {
         this.getList(false, this.data.pageNo);
     },
     showAll() {
-        var intro = this.data.appInfo.intro;
-        this.setData({ isAll: true, intro: intro.substring(51, intro.length) });
+        this.setData({ isAll: true});
     },
     packUp() {
         this.setData({ isAll: false })
@@ -83,17 +83,20 @@ Page({
             }
         });
     },
-    getAllData() {
+    getAllData(pid) {
         // 0正常 1资讯页面
         swan.request({
             url: apiurl + '/szw/infor',
             method: "post",
-            data: { pid: this.data.pid, type: 0 },
+            data: { pid: pid, type: 0 },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
             success: res => {
-                var imgstr = res.data.data.screenshot;
+               var appInfo = res.data.data;
+                var time = appInfo.createtime;
+                appInfo.createtime = this.getDate(time * 1000);
+                var imgstr = appInfo.screenshot;
                 var imgArr = imgstr.split(",");
-                this.setData({ appInfo: res.data.data, imgs: imgArr });
+                this.setData({ appInfo: appInfo, imgs: imgArr });
             },
             fail: err => {
                 swan.showToast({
@@ -163,19 +166,21 @@ Page({
         });
 
     },
-    setPageInfo() {
+    setPageInfo(pid) {
         // 0正常 1资讯页面
         swan.request({
             url: apiurl + '/szw/indexTitle',
             method: "post",
-            data: { pid: this.data.pid, type: 0 },
+            data: { pid: pid, type: 0 },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
             success: res => {
                 swan.setPageInfo({
                     title: res.data.data.title,
                     description: res.data.data.description,
                     keywords: res.data.data.keywords,
-                })
+                });
+                this.setTitle(res.data.data.title);
+
             },
             fail: err => {
                 swan.showToast({
@@ -195,5 +200,11 @@ Page({
         var month = date.getMonth();
         var day = date.getDay();
         return year + "-" + month + "-" + day;
+    },
+    setTitle(newTitle) {
+        swan.setNavigationBarTitle({
+            title: newTitle
+        });
     }
+    
 });

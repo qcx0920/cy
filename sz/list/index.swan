@@ -12,7 +12,7 @@
 		</view>
 		<view s-if="{{!isZx}}" class="lists">
 			<view class="item">
-				<view class="list" s-for="list,index in applist" bindtap="todetail" data-pid="{{list.pid}}">
+				<view class="list" s-for="list,index in applist" bindtap="todetail" data-pid="{{list.pid}}" data-trendsflag="{{list.trendsflag}}">
 					<view class="img">
 						<image src="{{list.logo}}" alt="{{list.name}}">
 						</image>
