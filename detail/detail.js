@@ -1,5 +1,4 @@
-import { apiurl } from '../util/commConstants';
-
+import { contstantParam } from '../util/commConstants';
 Page({
     data: {
         isAll: false,
@@ -86,7 +85,7 @@ Page({
     getAllData(pid) {
         // 0正常 1资讯页面
         swan.request({
-            url: apiurl + '/szw/infor',
+            url: contstantParam.apiurl + '/szw/infor',
             method: "post",
             data: { pid: pid, type: 0 },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
@@ -125,12 +124,12 @@ Page({
     },
     gozxDetail(e) {
         swan.navigateTo({
-            url: '/sz/zxdetail/detail?pid=' + e.currentTarget.dataset.pid
+            url: contstantParam.zxDetailPage+'?pid=' + e.currentTarget.dataset.pid
         });
     },
     getList(isNew, pageNo) {
         swan.request({
-            url: apiurl + '/szw/list',
+            url: contstantParam.apiurl + '/szw/list',
             data: { "type": 5, "flag": 0, "pageNo": pageNo, "pageSize": this.data.pageSize },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
             method: "post",
@@ -166,7 +165,7 @@ Page({
     setPageInfo(pid) {
         // 0正常 1资讯页面
         swan.request({
-            url: apiurl + '/szw/indexTitle',
+            url: contstantParam.apiurl + '/szw/indexTitle',
             method: "post",
             data: { pid: pid, type: 0 },
             header: { 'content-type': 'application/x-www-form-urlencoded' },

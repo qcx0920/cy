@@ -3,7 +3,7 @@
  * @author swan
  */
 
-import { apiurl } from '../util/commConstants';
+import { contstantParam } from '../util/commConstants';
 Page({
     data: {
         activeName: 1,
@@ -74,11 +74,11 @@ Page({
         var pid=e.currentTarget.dataset.pid;
         if (trendsflag == 0) {
             swan.navigateTo({
-                url: '/sz/detail/detail?pid=' + e.currentTarget.dataset.pid
+                url: contstantParam.detailPage+'?pid=' + e.currentTarget.dataset.pid
             });
         } else {
             swan.navigateTo({
-                url: '/sz/'+pid +'/'+pid
+                url: '/'+pid +'/'+pid
             });
         }
     },
@@ -101,7 +101,7 @@ Page({
     initData(type, flag, isNew, pageNo) {
         //console.log("type:"+type+"flag:"+flag+"isNew:"+isNew+"pageNo:"+pageNo);
         swan.request({
-            url: apiurl + '/szw/list',
+            url: contstantParam.apiurl + '/szw/list',
             data: { "type": type, "flag": flag, "pageNo": pageNo, "pageSize": this.data.pageSize },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
             method: "post",
@@ -157,7 +157,7 @@ Page({
     },
     gozxDetail(e) {
         swan.navigateTo({
-            url: '/sz/zxdetail/detail?pid=' + e.currentTarget.dataset.pid
+            url: contstantParam.zxDetailPage+'?pid=' + e.currentTarget.dataset.pid
         });
     },
     onReachBottom(e) {
@@ -177,7 +177,7 @@ Page({
     setPageInfo() {
         // 0正常 1资讯页面
         swan.request({
-            url: apiurl + '/szw/indexTitle',
+            url: contstantParam.apiurl + '/szw/indexTitle',
             method: "post",
             data: { pid: 0, type: 0 },
             header: { 'content-type': 'application/x-www-form-urlencoded' },

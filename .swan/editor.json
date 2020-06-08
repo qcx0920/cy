@@ -1,27 +1,41 @@
 {
     "editor": {
-        "curPath": "C:\\baidu\\cy\\app.json",
+        "curPath": "C:\\baidu\\cy\\sz\\detail\\detail.css",
         "expands": [
-            "C:\\baidu\\cy\\sz"
+            "C:\\baidu\\cy\\sz",
+            "C:\\baidu\\cy\\sz\\detail"
         ],
         "markdownUploadTimeMap": {},
         "paths": [
-            "C:\\baidu\\cy\\app.json",
-            "C:\\baidu\\cy\\pages\\index\\list\\list.js",
-            "C:\\baidu\\cy\\pages\\index\\index.swan",
+            "C:\\baidu\\cy\\sz\\detail\\detail.js",
+            "C:\\baidu\\cy\\sz\\detail\\detail.json",
+            "C:\\baidu\\cy\\sz\\detail\\detail.swan",
+            "C:\\baidu\\cy\\sz\\list\\index.css",
+            "C:\\baidu\\cy\\sz\\detail\\detail.css",
             "C:\\baidu\\cy\\app.css",
-            "C:\\baidu\\cy\\app.js"
+            "C:\\baidu\\cy\\sz\\img\\btn-back.png"
         ],
         "recentlyFiles": [
-            "C:\\baidu\\cy\\app.json",
+            "C:\\baidu\\cy\\sz\\detail\\detail.css",
+            "C:\\baidu\\cy\\sz\\detail\\detail.js",
+            "C:\\baidu\\cy\\sz\\img\\btn-back.png",
             "C:\\baidu\\cy\\app.css",
+            "C:\\baidu\\cy\\sz\\list\\index.css",
+            "C:\\baidu\\cy\\sz\\detail\\detail.swan",
+            "C:\\baidu\\cy\\sz\\detail\\detail.json",
+            "C:\\baidu\\cy\\sz\\list\\index.js",
+            "C:\\baidu\\cy\\sz\\util\\commConstants.js",
             "C:\\baidu\\cy\\app.js",
+            "C:\\baidu\\cy\\package.json",
+            "C:\\baidu\\cy\\app.json",
+            "C:\\baidu\\cy\\node_modules\\regenerator-runtime\\package.json",
+            "C:\\baidu\\cy\\sz\\zxdetail\\detail.js",
+            "C:\\baidu\\cy\\sz\\list\\index.swan",
+            "C:\\baidu\\cy\\sz\\list\\index.json",
             "C:\\baidu\\cy\\pages\\index\\index.swan",
             "C:\\baidu\\cy\\pages\\index\\list\\list.js",
             "C:\\baidu\\cy\\pages\\index\\index.js",
-            "C:\\baidu\\cy\\pages\\index\\list\\list.swan",
-            "C:\\baidu\\cy\\pages\\index\\index.css",
-            "C:\\baidu\\cy\\pages\\index\\index.json"
+            "C:\\baidu\\cy\\pages\\index\\list\\list.swan"
         ]
     }
 }

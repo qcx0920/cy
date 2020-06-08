@@ -1,5 +1,5 @@
 
-import { apiurl } from '../util/commConstants';
+import { contstantParam } from '../util/commConstants';
 
 Page({
     data: {
@@ -19,7 +19,7 @@ Page({
     getAllData(pid) {
         // 0正常 1资讯页面
         swan.request({
-            url: apiurl + '/szw/infor',
+            url: contstantParam.apiurl + '/szw/infor',
             method: "post",
             data: { pid: pid, type: 1 },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
@@ -37,14 +37,13 @@ Page({
                 console.log('request fail', err);
             },
             complete: () => {
-                this.setData('loading', true);
             }
         });
     },
     setPageInfo(pid) {
         // 0正常 1资讯页面
         swan.request({
-            url: apiurl + '/szw/indexTitle',
+            url: contstantParam.apiurl + '/szw/indexTitle',
             method: "post",
             data: { pid: pid, type: 0 },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
@@ -53,7 +52,9 @@ Page({
                     title: res.data.data.title,
                     description: res.data.data.description,
                     keywords: res.data.data.keywords,
-                })
+                });
+                this.setTitle(res.data.data.title);
+
             },
             fail: err => {
                 swan.showToast({
@@ -62,7 +63,6 @@ Page({
                 console.log('request fail', err);
             },
             complete: () => {
-                this.setData('loading', true);
             }
         });
     },
@@ -73,5 +73,10 @@ Page({
         var month = date.getMonth();
         var day = date.getDay();
         return year + "-" + month + "-" + day;
+    },
+    setTitle(newTitle) {
+        swan.setNavigationBarTitle({
+            title: newTitle
+        });
     }
 });

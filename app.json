@@ -1,14 +1,13 @@
 {
     "pages": [
-        
-        "sz/list/index",
-        "sz/detail/detail",
-        "sz/zxdetail/detail"
+        "list/index",
+        "detail/detail",
+        "zxdetail/detail"
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",
         "navigationBarTextStyle": "black",
-        "navigationBarTitleText": "智能小程序",
+        "navigationBarTitleText": "小豆微赚",
         "backgroundTextStyle": "light"
     }
 }
