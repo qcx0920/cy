@@ -1,20 +1,19 @@
 <view class="wrap">
 	<view id="BreadcrumbNavigation">
-		<view class="headtip">
-			<view class="search">
-				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" />
-				<icon type="search" class="icon" />
-			</view>
-			<view class="more" bindtap="getmore">更多</view>
-			<block s-if="ismore">
-				<view class="morelist">
-					<view class="list" s-for="list,index in tabs">
-						<text class="downl_btn">{{list.label}}</text>
-					</view>
-				</view>
-			</block>
-		</view>
-
+        <view class="headtip">
+            <view class="search">
+                <input name="input" confirm-type="search" class="ipt" placeholder="请输入" />
+                <icon type="search" class="icon"/>
+            </view>
+            <view class="more" bindtap="getmore">更多</view>
+            <block s-if="ismore">
+                <view class="morelist">
+                    <view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+                        <text class="downl_btn">{{list.label}}</text>
+                    </view>
+                </view>
+            </block>
+        </view>
 		<view s-if="{{!issearch}}" class="BN-a">
 			<view class="downl_wrap">
 				<view class="info">
