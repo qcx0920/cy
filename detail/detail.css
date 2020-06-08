@@ -426,3 +426,25 @@ image {
 .hide {
     display: none;
 }
+.bottom {
+    padding: 20rpx;
+}
+.bottom .cont {
+    text-align: center;
+    color: #666;
+    font-size: 28rpx;
+    line-height: 50rpx;
+}
+.bottom .bottom_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom .bottom_list {
+    line-height: 50rpx;
+    flex:1;
+    text-align: center;
+    color: #666;
+    font-size: 28rpx;
+}

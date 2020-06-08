@@ -74,6 +74,16 @@
 				</view>
 			</view>
 		</view>
+        <view class="bottom">
+            <view class="cont">手赚汇手赚网是一个专业的手机赚钱软件分享平台，靠谱的手机赚钱软件排行榜，提供热门的手机赚钱app，一级网上赚钱项目分享，网上兼职赚钱教程方法</view>
+            <view class="bottom_list">
+                <view>爱试玩</view>
+                <view>钱咖</view>
+                <view>小鱼赚钱</view>
+                <view>小白赚钱</view>
+                <view>网站地图</view>
+            </view>
+        </view>
 	</view>
 </view>
 </view>
