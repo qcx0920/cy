@@ -48,6 +48,9 @@ Page({
         tabLabels: ['首页', '苹果赚钱', '手机兼职', '阅读赚钱', '安卓赚钱', '手赚资讯']
 
     },
+    changemore(e) {
+        this.setData({ismore: !this.data.ismore})
+    },
     onShow() {
         let pages = getCurrentPages();
         let currentPage = pages[pages.length - 1];

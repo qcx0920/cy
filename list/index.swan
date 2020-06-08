@@ -1,4 +1,10 @@
 <view class="container">
+    <view class="headtip">
+        <view class="search">
+            <input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+            <icon type="search" bindtap="search" class="icon" />
+        </view>
+    </view>
 	<tabs class="border-bottom" tabs-underline-color="none" active-name="{{activeName}}" max-tab-item-amount="5"
 		tabs-active-text-color="#19b5fe" bindtabchange="switchTab">
 		<tab-item style="width: 33.3%;" s-for="tab in tabs" name="{{tab.name}}" label="{{tab.label}}" />
