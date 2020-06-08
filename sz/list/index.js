@@ -60,6 +60,9 @@ Page({
         tabLabels: ['首页', '苹果赚钱', '手机兼职', '阅读赚钱', '安卓赚钱', '手赚资讯'],
         applist: null
     },
+    onShow() {
+        this.setPageInfo();
+    },
     onLoad() {
         this.getSystem();
         this.setTitle(this.data.tabLabels[this.data.activeName]);
@@ -169,6 +172,32 @@ Page({
     setTitle(newTitle) {
         swan.setNavigationBarTitle({
             title: newTitle
+        });
+    },
+    setPageInfo() {
+        // 0正常 1资讯页面
+        swan.request({
+            url: apiurl + '/szw/indexTitle',
+            method: "post",
+            data: { pid: 0, type: 0 },
+            header: { 'content-type': 'application/x-www-form-urlencoded' },
+            success: res => {
+                swan.setPageInfo({
+                    title: res.data.data.title,
+                    description: res.data.data.description,
+                    keywords: res.data.data.keywords,
+                });
+                this.setTitle(res.data.data.title);
+
+            },
+            fail: err => {
+                swan.showToast({
+                    title: JSON.stringify(err)
+                });
+                console.log('request fail', err);
+            },
+            complete: () => {
+            }
         });
     }
 })
