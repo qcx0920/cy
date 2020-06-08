@@ -10,13 +10,47 @@ Page({
         pageNo: 1,
         pageSize: 5,
         applist: null,
-        appInfo: null
+        appInfo: null,
+        ismore: false,
+        tabs: [],
+        isIos: false,
+        tabsAndroid: [
+            {
+                name: 2,
+                label: '手机兼职'
+            }, {
+                name: 3,
+                label: '阅读赚钱'
+            }, {
+                name: 4,
+                label: '安卓赚钱'
+            }, {
+                name: 5,
+                label: '手赚资讯'
+            }
+        ],
+        tabsIos: [
+            {
+                name: 1,
+                label: '苹果赚钱'
+            }, {
+                name: 2,
+                label: '手机兼职'
+            }, {
+                name: 3,
+                label: '阅读赚钱'
+            }, {
+                name: 5,
+                label: '手赚资讯'
+            }
+        ],
     },
     onShow() {
         this.setPageInfo();
         this.getAllData();
     },
     onLoad() {
+        this.getSystem();
         this.getList(true, 1);
     },
     onReachBottom(e) {
@@ -34,6 +68,20 @@ Page({
     },
     toast(title, icon = 'none') {
         swan.showToast({ duration: 5000, title, icon });
+    },
+    getmore() {
+        this.setData({ismore: !this.data.ismore});
+    },
+    getSystem() {
+        swan.getSystemInfo({
+            success: res => {
+                if (res.system != 'Android') {
+                    this.setData({ isIos: true, tabs: this.data.tabsIos })
+                } else {
+                    this.setData({ isIos: false, tabs: this.data.tabsAndroid})
+                }
+            }
+        });
     },
     getAllData() {
         // 0正常 1资讯页面

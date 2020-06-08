@@ -53,6 +53,51 @@ a {
   cursor: pointer;
   margin-top: 16rpx;
 }
+.headtip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.search {
+    width: 84%;
+    height: 80rpx;
+    position: relative;
+}
+.search .ipt {
+    width: 90%;
+    height: 70rpx;
+    margin: 5rpx auto;
+    border-radius: 20rpx;
+    text-indent: 10rpx;
+    border: 1px solid #eee;
+}
+.search .icon {
+    position: absolute;
+    top: 14rpx;
+    right:50rpx;
+}
+.more {
+    width: 16%;
+    text-align: center;
+}
+
+.morelist {
+    position: absolute;
+    right: 0;
+    top: 80rpx;
+    z-index: 100;
+    background: #fff;
+    padding: 20rpx;
+    border: 1px solid #ccc;
+    box-shadow: -2px -2px 2px 0 rgba(0, 0, 0, 0.08);
+}
+.morelist .list {
+    border-bottom: 1px solid #eee;
+    height: 60rpx;
+    line-height: 60rpx;
+    color: #999;
+}
 
 .downl_wrap {
   background: #fff;
@@ -174,9 +219,9 @@ a {
 }
 
 .txtwrap .txt_foot .open_btn {
-  float: right;
+  text-align: center;
   color: #43ac53;
-  font-size: 28rpx;
+  font-size: 32rpx;
 }
 
 .img_item {
