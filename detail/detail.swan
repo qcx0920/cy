@@ -42,7 +42,7 @@
 					</view>
 					<view class="txt_foot">
 						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
-						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="showAll">收起</view>
 					</view>
 				</view>
 				<view class="img_item">

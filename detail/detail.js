@@ -57,16 +57,10 @@ Page({
         this.getList(false, this.data.pageNo);
     },
     showAll() {
-        this.setData({ isAll: true });
-    },
-    packUp() {
-        this.setData({ isAll: false })
+        this.setData({ isAll: !this.data.isAll });
     },
     down(e) {
         this.setClipboardData(e.currentTarget.dataset.url);
-    },
-    toast(title, icon = 'none') {
-        swan.showToast({ duration: 5000, title, icon });
     },
     getmore() {
         this.setData({ismore: !this.data.ismore});
@@ -200,6 +194,9 @@ Page({
         swan.setNavigationBarTitle({
             title: newTitle
         });
+    },
+    toast(title, icon = 'none') {
+        swan.showToast({ duration: 5000, title, icon });
     }
 
 });
