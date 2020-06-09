@@ -15,8 +15,27 @@
 			</view>
             <view class="txt_foot">
 						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
-						<!-- <view class="open_btn {{isAll?'':'hide'}}" bindtap="showAll">收起</view> -->
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="showAll">收起</view>
 					</view>
 		</view>
+
+        <view class="boxwrap">
+				<view class="box_title" style="height:30px">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
 	</view>
 </view>

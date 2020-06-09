@@ -5,7 +5,10 @@ Page({
     data: {
         appInfo: null,
         htmlSnip: ``,
-        isAll:false
+        isAll:false,
+        pageNo: 1,
+        pageSize: 15,
+        applist: null,
     },
     onShow() {
         let pages = getCurrentPages();
@@ -15,7 +18,8 @@ Page({
     onLoad(options) {
         var pid = options.pid;
         // 监听页面加载的生命周期函数
-        this.getAllData(pid)
+        this.getAllData(pid);
+        this.getList(true,1);
     },
     getAllData(pid) {
         // 0正常 1资讯页面
@@ -67,6 +71,41 @@ Page({
             }
         });
     },
+    getList(isNew, pageNo) {
+        swan.request({
+            url: contstantParam.apiurl + '/szw/list',
+            data: { "type": 5, "flag": 0, "pageNo": pageNo, "pageSize": this.data.pageSize },
+            header: { 'content-type': 'application/x-www-form-urlencoded' },
+            method: "post",
+            success: res => {
+                var applist = res.data.data;
+                if (applist.length > 0) {
+                    for (var i = 0; i < applist.length; i++) {
+                        var time = applist[i].createtime;
+                        applist[i].createtime = this.getDate(time * 1000)
+                    }
+                    pageNo++;
+                    if (isNew) {
+                        this.setData({ applist: applist, pageNo: pageNo });
+                    } else {
+                        this.setData({ applist: this.data.applist.concat(applist), pageNo: pageNo });
+                    }
+                } else {
+                    swan.showToast({
+                        title: '没有新的内容了'
+                    });
+                }
+            },
+            fail: err => {
+                swan.showToast({
+                    title: JSON.stringify(err)
+                });
+            },
+            complete: () => {
+            }
+        });
+
+    },  
     getDate(e) {
         //将字符串转换成时间格式
         var date = new Date(e);
