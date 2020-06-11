@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZWd6a58439a77f4bf6bcd224ac26e25cbe.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">手游超人</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“珠海斯麦科技有限公司”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							手游超人，玩游戏超级赚钱的APP，亲测给力！填邀请码10386领现金红包！！手游超人，专注最好玩游戏的赚钱体验，完成新手任务1元自动提现到账，正常提现10元起提现。 【10元红包】，新平台福利好，新人送大红包，注册就送10元现金大红包。 【应用任务】平台共有50+app试玩任务，每天都会更新10多个，奖励最高34元，实时到账。 【游戏任务】平台共有100+游戏试玩任务，每天至少新上线10个，一个游戏奖励最高10000+元。 【提现秒到】最低10元提现，正常完成几个应用任务，几个游戏任务，轻松凑够10元提现，速度超快，几乎秒到！ 联系方式 站长微信：yuri-le，官方交流群：3040512778，客服微信：sycr66，客服QQ：3040512778{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/3/1937/1937'>海豚网</navigator></view><view><navigator url='/2/1837/1837'>小程序试玩</navigator></view><view><navigator url='/2/1780/1780'>PC蛋蛋</navigator></view><view><navigator url='/4/2199/2199'>淘金赚</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

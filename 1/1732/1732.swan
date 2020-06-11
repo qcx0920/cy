@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZW2bb33727e86c4b5ca78464b4a1e5f98e.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">借贷宝苹果版</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							借贷宝是国内顶级私募机构九鼎控股倾力打造的熟人间借贷平台。【注册填写E6YZ6EN邀请码并人脸验证送20元】以借款人实名、出借人匿名的单向匿名借贷模式，使借款人能够快速获得借款，出借人根据借款人身份主动评估风险，获得更安全的高收益，是您手机上必备的借钱神器，赚钱利器。实现人人办金融，人人都是金融家的梦想。       【快速借钱】 借贷宝好友均来自您的真实朋友圈，并经过严格实名认证。当您需要借钱的时候，一键发布借款信息，借款期限、利率、金额由您决定，您的朋友可根据您的身份快速准确评估风险，作出决策。   【放心投资】 当您借钱给朋友时，您可以自由选择朋友发布的借款项目匿名出借，获得利息收益，您的朋友无法查看您的身份，保证借款资金安全，避免好友见面尴尬。   【白赚利差】 借贷宝首创赚利差功能，无需投入任何成本，只要在修改原始借款利率后，将好友的借款信息转发至自己的朋友圈，即可赚取利差。让您体验没钱也能赚钱的乐趣。{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/3/1882/1882'>金镶玉</navigator></view><view><navigator url='/3/2079/2079'>随手快报</navigator></view><view><navigator url='/1/1718/1718'>轻玩客苹果版</navigator></view><view><navigator url='/2/1772/1772'>绿洲</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

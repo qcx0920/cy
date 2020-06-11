@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZW0826daef88de4be4b5deaa4e583560a7.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">悬赏猫</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“合肥大头马网络科技有限公司”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							悬赏猫是一款小巧、好用的手机兼职赚钱软件，1元就能提现，秒到账。悬赏猫提供各种类型的任务供用户选择，空闲时间，拿出手机做做小任务，就能快速赚取零花钱。在这里你可以做悬赏赚钱，赚得佣金可随时提现。在悬赏猫app你也可以发布悬赏任务，让千万用户体验你的产品。 千万别说，你不会手机赚钱，在悬赏猫app上赚钱太轻松了，每天海量的手机赚钱小任务，无非就是注册个账户，再或者关注投个票类的，可以说手指动一动就把钱赚了。支付宝两元提现，快速到账。 小技巧：登陆后，点击我的—喵达人，如果没升级到喵达人，大家记得手动升级，能多赚20%！ 悬赏任务都非常给力，奖励都是几块钱，甚至是十几块钱。每天做10个小任务，一天稳赚100元！每天都有大量新任务发布，丰富多样的任务类型，调查问卷，游戏，购物，数据采集。 余额满2元即可申请提现！支持打款到微信或支付宝，50元以下秒到，50元以上1个工作日内到账！2元以上2%手续费。 客服QQ群：143685636{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/3/1994/1994'>观天下</navigator></view><view><navigator url='/3/2111/2111'>分享一客</navigator></view><view><navigator url='/2/1849/1849'>红信</navigator></view><view><navigator url='/4/2209/2209'>易读资讯</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

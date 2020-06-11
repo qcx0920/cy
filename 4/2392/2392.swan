@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZW8d5580766d4e4852a6f2faec154ab62d.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">G媒-看广告赚钱</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“G媒,赚钱,看广告”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							G媒看广告赚钱，G媒让你实现免费购物的梦想，参与商家互动和掌友分享信息就能获得积分，免费换取礼品。G媒是一个赚取收益和信息分享的平台。 a.礼品兑换 G媒提供丰富的礼品免费兑换.只要积分够,随时随地想换就换! b.信息互动 参与商家的广告互动或应用下载就可获得积分。如果有喜欢的产品也可以联系商家进行采购。 c.分享 上传音乐，分享视频，全部都有积分奖励。挑战G层关注问答，积分还能翻倍！ d.团购，优惠券 免费的手机优惠券，不用下载就能直接使用;贴心的团购，积分就能预订，现场再付费,消费完后返还积分，还能参与抽奖! {{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/3/1903/1903'>西柚资讯</navigator></view><view><navigator url='/1/1551/1551'>钱派试玩</navigator></view><view><navigator url='/1/1730/1730'>爱玩客</navigator></view><view><navigator url='/4/2278/2278'>360手机助手送红包</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

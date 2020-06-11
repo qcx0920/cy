@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZWc53834522f8f44d0b827313cf4df1ac0.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">快音</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“成都开心音符科技有限公司”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							快音，一款可以听歌领红包的音乐软件app来啦！免费听歌领红包，快音一个能领红包，赚零花钱的音乐软件不仅能领取红包，还可以刷热门短视频搞笑段子情侣cp小故事，音乐软件秒变视频软件，你想要的全都有。填写邀请码PP2R6P就送0.3元现金+300金币！ 极速短视频音乐提取，一键制作专属铃声。热门短视频背景音乐都可以一键提取，复制抖音短视频链接就可以保存音乐啦，超快手的短视频音乐编辑软件。   功能简介： 【短视频音乐提取】刷到好看的视频，短视频，听到好听的音乐想要下载？热门短视频软件里的热门歌曲，快手操作一键音频视频分离，剪辑音频，去除水印！复制短视频链接，打开快音，自动音视频分离，热歌音频、视频分开保存！   【手机铃声制作】超全的手机铃声，短信铃声，闹钟铃声，火山极速广场舞大全，热门网易云音乐，可以铃声制作拼接。铃音大全，精细铃声分类，经典老歌，原创语音，翻唱歌曲，影视金曲，动漫热歌，土嗨DJ，欧美日韩，电音摇滚，糖豆广场舞神曲、流行金曲，古风音乐，动漫游戏bgm，搞笑短信闹铃，夜店DJ舞曲，搞笑另类歌曲，网络神曲，抖音神曲，快手神曲；   【超全音乐种类】音乐、情感、语录、口白、Mc、电音、DJ、串烧舞曲、抖音bgm、快手bgm、发现最酷我音乐，满足你对音乐的所有需求。网络金曲排行榜、qq音乐排行榜，酷狗铃音抖音热门排行榜、动漫游戏排行榜、影视金曲排行榜网易云音乐，你想要的铃声音乐，我们全都有；   【娱乐短视频】抖音，快手，抖音短视频，头条极速版，火山极速版，抖音火山版，刷宝，微视里超火的小视频都可以在快音中找到，听歌刷剧刷视频快音都可以做到；   【热门歌手歌单】覆盖国内外、华语歌曲、英文歌曲，日韩粤语歌曲，热门影视歌曲，民谣摇滚，网易云音乐歌单，从此不在歌荒。至臻无损音质，打开快音即可无限畅听。周杰伦、林俊杰、邓紫棋、五月天、蔡徐坤、胡彦斌等众多歌星歌曲等你来听；   【热歌文件分享】轻松分享至抖音、火山、火山极速版、快手、微信、朋友圈、QQ、微视、微博等社交媒体；铃声、短信、闹铃、搞笑段子，任何你本地的铃声、任何平台上的铃声，只要你愿意，一键分享，发现最酷我音乐；   想自嗨原创音乐被广大网友所认同吗，那赶紧来快音吧！ 录制您的美妙歌声，一键上传平台，永久保存您的美妙嗓音，还有机会上推荐哟！   快音QQ群：860288847 问题和建议，欢迎添加QQ群联系我们哟{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/2/1822/1822'>小红店</navigator></view><view><navigator url='/4/2314/2314'>钱加</navigator></view><view><navigator url='/1/1582/1582'>爱搜懒人领钱</navigator></view><view><navigator url='/1/1710/1710'>钱程苹果版</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

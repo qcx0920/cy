@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZW97b8eb47d5074701b659df8ad5347cbe.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">王朝星球</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“湖南华创通联信息技术有限公司”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							王朝星球APP一个通过做任务+答题PK+历史典故的平台，15年+互联网核心团队打造娱乐APP。王朝星球一款0撸的娱乐知识类APP，每天上线即可领福豆。全新淘金模式，挂机离线就能产生收益。一人PK全家躺赚，150%奖池每日更新，万元奖金等你来领。集王朝典故卡，赢永久分红、公司股份。送红包，我们是认真的。 功能介绍 1、目前总共开发出【淘金】【抽奖】【签到】【任务】【决斗】【娱乐】六大类，玩家登陆王朝星球通过完成上面显示的每日任务就可以获取“金币”、“福豆”、“典故卡”、“分红玉玺”。 淘金：即类似于支付宝上的蚂蚁森林和偷菜，每天个人主页产生的离线金币，其余玩家可以偷取。 抽奖：根据抽奖随机奖励金币，福豆和永久分红。 任务：每天有固定的任务，任务内容包括一些随机的视频和资讯。 决斗（答题PK）：分为团体 PK 和个人 PK 2、游戏进度流程 玩家最初进入夏商周时期，通过完成任务收取金币，点亮【人口】【粮库】【商贸】【兵营】四个进度条，即可升级。同时每完成一个进度条，系统就会送一些金币作为奖励。 每升一级会赠送升级奖励： （1）金币 （2）福豆（福豆=现金；10000 福豆=1 元） （3）典故卡：每个朝代有符合该真实历史的典故卡，一个朝代有五张，凑齐五张同一朝代的典故卡可以进行兑换，同样纵向凑齐也可以进行兑换（纵向凑齐：凑齐每一个朝代的第一张典故卡）凑集十个朝代 50 张典故卡就可以获取分红玉玺，参加永久分红，每天分红 300+。{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/4/2377/2377'>悟空赚</navigator></view><view><navigator url='/3/1951/1951'>聚合头条</navigator></view><view><navigator url='/1/1613/1613'>壹狗试玩</navigator></view><view><navigator url='/2/1770/1770'>闲蛋</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

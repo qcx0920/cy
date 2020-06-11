@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZW98d761c0c24b4a2b9c9b142ad8d4d65f.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">财神锁屏</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“财神锁屏,锁屏,赚钱,手赚”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							财神锁屏是一款全新创意手机解锁应用，集聚财、美屏、娱乐、公益于一体的创意锁屏应用，是由上海仁畫信息科技发展有限公司基于智能手机打造的一款集手机屏幕美化、源生乐园互动、碎片公益众筹和大学社团扶持为一体的生态化品牌共建平台，已获国家知识版权局许可全部著作权利。 摇一摇 送福袋 迎财气   摇钱树： “摇一摇”即可得到财神福袋。每天10次机会轻松获得各类福袋。 摇钱树板块的奖励大概包括如下几种：福袋任务、财神彩票、促销奖品、流量包、现金元宝等等。 创意壁纸 点亮财富 养眼聚财！   聚宝盆： 点亮养眼壁纸，享受美屏生活； 点亮聚财壁纸，汇聚元宝！财富静默增长。 一次设置，长久受益。 美屏创意展现：包含创意壁纸、互动解锁、短视频、3D全息等首屏富媒体内容。 时间真的可以理财 无本真的可以万利！   涌金池：将碎片时间赚取财富元宝直接转入涌金池，便可实现年收益高达43.6%的增值。 财神锁屏，力求打造碎片时间价值增值第一平台，你的“财神”从“涌金池”开始，并一发不可收拾！ 积元宝 兑现金 换福利 行善举   兑换池： 兑换平台，价值提现，福利福祉、爱心转化平台。 元宝进行现金提取、通过兑换平台可以提取到您的支付宝账户。 或通过公益捐赠等方式将您的收益转变成善举。   兑现方式：现金提取、支付宝转账、生活服务类优惠资源、公益捐赠……{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/4/2329/2329'>招财熊【骗子】</navigator></view><view><navigator url='/4/2229/2229'>酷划锁屏</navigator></view><view><navigator url='/3/1913/1913'>蚂蚁看点</navigator></view><view><navigator url='/3/2016/2016'>五条</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZWb451cff92ef541b694bdc15c6a0018d7.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">世界农场</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“深圳市万亩田园供应链管理有限公司”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							世界农场是一款趣味养成游戏APP，玩家通过养殖各种有趣的动物，来获得金币和现金奖励。新人可以0.3元就能提现，秒到账！点击喂养，增加动物重量，喂养需要消耗金币，但同时动物会自己产生金币，想要农场产生更多的金币，多投资、多极点、多收快递…… 喂养过程中，可获得随机几分钟的限时分红小龙虾（可瓜分平台广告费），小龙虾喂养到一定重量就可以捕捞永久分红小龙虾了，每天可获得现金分红。 基本玩法： 1、玩家下载游戏后，按照新人操作指导完成操作。 2、在个人中心进行实名认证，支付宝授权即可。无认证费！ 3、点击农场手机金币，喂养各种动物。 4、邀请好友获得更多资源。 5、 新手完成新手任务，直接获得1元，可提现0.3元秒到账！ 6、喂养龙虾，会随机送限时分红虾，可获得现金收益。 7、龙虾达到1500斤可以捕捞分红虾，分红小龙虾收益类似陀螺世界。 8、邀请好友，好友活跃可获得类似陀螺世界的阶梯收益。{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/4/2286/2286'>推猫</navigator></view><view><navigator url='/4/2292/2292'>掌上赚</navigator></view><view><navigator url='/4/2230/2230'>零钱猫</navigator></view><view><navigator url='/2/1782/1782'>知聊</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

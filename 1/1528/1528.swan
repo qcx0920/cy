@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZW401e2b0f9066419791dd0cbe596ca94a.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">疯狂合体鸭</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“福建瑞趣创享网络科技有限公司”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							疯狂合体鸭是一款休闲挂机搞怪类合成游戏，用户开局购买一只小黄鸭，通过不断培养合成来提升鸭子战斗力，鸭子可帮忙闯关，闯关成功即可领取不同金额的红包，鸭子造型搞怪，应用轻松解压。疯狂合体鸭，玩法不一样的合成类手机游戏，搞笑轻松还能赚钱。 疯狂合体鸭游戏中有着大量的可爱卡通鸭子，玩家通过养殖的方式来赚取到不同类型的获取红包，玩家在把鸭子养殖到达37级合成38级的分红鸭的时候，不仅能获得广告分红，还能同时进行战斗，同时通过养成、研究等游戏进阶玩法，让整个游戏显得更有趣味，也更加丰富，相信对游戏讲究的玩家会喜欢上这一款游戏。 疯狂合体鸭玩法 1、主要的方式就是合成鸭子，把鸭子的等级培养到38级，获得分红鸭； 2、分红鸭能够享受到游戏的每日广告分成，每日分红的金额会越来越高； 3、同时邀请好友下载游戏，获得抽奖卷是可以利用去抽取手机的，非常真实； 4、玩家可以通过培养鸭子，等级越高能够战胜的鸭子越多，同时也能获得大量的红包。 疯狂合体鸭是一款最新上线的手机赚钱游戏，在这里你可以去通过邀请好友可以获得抽奖劵，让你在抽奖的时候有概率抽奖到分红鸭！能够让玩家在休闲的时候还能赚取收入！非常值得大家使用！ 客服QQ：800868856{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/1/1651/1651'>易银赚钱</navigator></view><view><navigator url='/3/2122/2122'>知晓</navigator></view><view><navigator url='/1/1728/1728'>eTommer苹果版</navigator></view><view><navigator url='/2/1828/1828'>聚宝鹏</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

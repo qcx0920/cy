@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZW8f81d5c48c7f4d60a0071786bc0792cc.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">王者联盟赚钱游戏</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“北京艾亿互动科技有限公司”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							王者联盟是一款全民合成推塔类创新赚钱小游戏，超炫酷的合成游戏，每日登陆玩游戏，都有机会获得限时分红英雄，和众多玩家一起分红平台的广告收益，更有机会获得永久分红英雄哦。画面炫酷玩法更有趣，现在下载即送现金奖励，现金奖励可立即提现，提现秒到账。合成新英雄可获得更多现金奖励。 王者联盟是一款以英雄推塔为主线的手机合成类游戏，区别于传统单一的合成游戏，具备英雄攻击防御塔、聚气释放大招等全新玩法，炫酷的英雄技能、新颖的玩法带给您全新的合成游戏体验。 玩法介绍 （1）英雄聚气，怒发大招：利用普通和完美合成英雄来积攒怒气值，集满怒气触发唤醒大招技能，可点击释放大招攻击防御塔造成高额伤害。 （2）完美再现，三路推塔：关卡地图、世界地图，完美还原PVP对战场景，给在玩家回味经典战斗的同时带来更强的合成游戏乐趣。 （3）英雄回收，重新开始：游戏中设置英雄回收站，回收多余的英雄，以换取金币购买更高等级的英雄。 玩法攻略 王者联盟刚进入就会领新手红包，领完红包必须实名，不实名没办法玩 合成的时候最好让2个英雄达到白线那个地方大招18次完美合成会有大招 推塔一个地图9个塔一个水晶，推完这一个地图进入下一个地图，推塔的时候会出来一个宝箱，可以抽奖。 每日答题可以获取金币，宝箱1小时获取金币，王者联盟是由2个36级的英雄合成最高等级38级，每天可以看30次广告中午12点和凌晨12点。{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/3/2089/2089'>麻雀浏览器</navigator></view><view><navigator url='/1/1690/1690'>生活赚苹果版</navigator></view><view><navigator url='/4/2354/2354'>黄金锁屏</navigator></view><view><navigator url='/4/2194/2194'>泡泡赚</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

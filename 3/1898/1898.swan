@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZWd55d84c7f7594a75a299196a9ac11697.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">辣椒转</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“花生转旗下”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							花生转公司旗下辣椒转转发赚钱平台，限时6毛《11点～1点》永久，基础3毛单价，二级提成永久50%《永久》，8元收徒奖励，首码不扣量涨钱快，大公司实力强有保障，服务好《公司客服为大家处理问题》请大家拭目以待。 4月6日，辣椒转上线！辣椒转，手赚神器，阅读一次，即得3毛，还有新人红包、收徒奖励、签到奖励等超多福利！大平台、可信赖，赶紧喊上你身边的朋友，一起来赚钱吧！   上线前，咱就已经感受到了用户朋友们的热情，为了回馈大家的热情，咱来发福利啦！收徒活动双重福利，辣椒转上线活动双重福利。 福利一：徒弟分成奖励一级好友分成30%，二级好友分成20%   福利二：11点-13点限时单价6毛！！   签到福利 只要你有恒心，签到奖励天天有！打开主页面，点击右上角“签到”，即进入签到页面。   注： 1.需要用户每天转发一篇新闻才能获取签到资格； 2. 全部用户均可参加； 3. 断签后从第一天开始签到； 4. 每日凌晨12:00刷新签到时间。   红包活动 新手任务和进阶任务同时上线，送8元邀请奖励！参与越多奖励越高哦~ 二次转发能计费！二次转发能计费！二次转发能计费！￼   支持用户上传 用户上传功能启动，支持公众号文章链接上传，发你爱看的、好友也爱看的内容，收益增长更快哦~ 1.在辣椒转首页右上角找到上传文章按钮； 2.进入页面上传公众号文章链接；   看教程领红包 辣椒转团队经过长期实践，已经积累了大量成功经验，此次与大家见面，必将带给大家全新的体验！我们相信，携手并进才能互利共赢，未来的日子里，我们期待每一位用户能够在辣椒转有所收获，也欢迎更多的用户加入我们。 客服微信：ONLYLOVE-317{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/3/2039/2039'>赚头条</navigator></view><view><navigator url='/1/1548/1548'>试玩赚钱入口</navigator></view><view><navigator url='/3/2055/2055'>爱阅读</navigator></view><view><navigator url='/4/2210/2210'>小象读吧</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

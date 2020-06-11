@@ -75,18 +75,18 @@ Page({
         //trendsflag  0没有生成详情页面  1已生成
         var trendsflag = e.currentTarget.dataset.trendsflag
         var pid = e.currentTarget.dataset.pid;
+        var type =e.currentTarget.dataset.type;
         if (trendsflag == 0) {
             swan.navigateTo({
                 url: contstantParam.detailPage + '?pid=' + e.currentTarget.dataset.pid
             });
         } else {
             swan.navigateTo({
-                url: '/' + pid + '/' + pid
+                url: '/' + type + '/' + pid + '/' + pid
             });
         }
     },
     switchTab(e) {
-        this.setTitle(this.data.tabLabels[e.detail.name]);
         this.scrollToTop();
         if (e.detail.name == 5) {
             this.setData({ isZx: true });

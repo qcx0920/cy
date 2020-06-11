@@ -54,6 +54,7 @@ a {
   margin-top: 16rpx;
 }
 .headtip {
+    padding-top: 20rpx;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -69,12 +70,12 @@ a {
     height: 70rpx;
     margin: 5rpx auto;
     border-radius: 20rpx;
-    text-indent: 10rpx;
     border: 1px solid #eee;
+    text-indent: 70rpx;
 }
 .search .icon {
     position: absolute;
-    top: 14rpx;
+    top: 22rpx;
     right:50rpx;
 }
 .more {
@@ -83,20 +84,25 @@ a {
 }
 
 .morelist {
+    padding:0;
+    width: 200rpx;
     position: absolute;
-    right: 0;
-    top: 80rpx;
+    right: 20rpx;
+    top: 100rpx;
     z-index: 100;
     background: #fff;
-    padding: 20rpx;
     border: 1px solid #ccc;
-    box-shadow: -2px -2px 2px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
 }
 .morelist .list {
     border-bottom: 1px solid #eee;
-    height: 60rpx;
-    line-height: 60rpx;
-    color: #999;
+    height: 80rpx;
+    line-height: 80rpx;
+    color: #333;
+    text-align: center;
+}
+.morelist .list:last-child {
+    border-bottom: none;
 }
 
 .downl_wrap {
@@ -171,6 +177,7 @@ a {
 .downl_wrap .info .btn .az_btn {
   background: #3399ff;
   box-shadow: 0 0 16rpx #1ab2ff;
+  width: 100%;
 }
 
 .boxwrap {
@@ -210,6 +217,7 @@ a {
 .txtwrap .txt_foot {
   overflow: hidden;
   margin: 20rpx 0;
+  background: linear-gradient(0deg, #fff 40%, rgba(255,255,255,0));
 }
 
 .txtwrap .txt_foot span {
@@ -219,9 +227,10 @@ a {
 }
 
 .txtwrap .txt_foot .open_btn {
+  line-height: 100rpx;
   text-align: center;
   color: #43ac53;
-  font-size: 32rpx;
+  font-size: 38rpx;
 }
 
 .img_item {
@@ -425,6 +434,28 @@ image {
 .hide {
     display: none;
 }
+.bottom {
+    padding: 20rpx;
+}
+.bottom .cont {
+    text-align: center;
+    color: #666;
+    font-size: 28rpx;
+    line-height: 50rpx;
+}
+.bottom .bottom_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom .bottom_list {
+    line-height: 50rpx;
+    flex:1;
+    text-align: center;
+    color: #666;
+    font-size: 28rpx;
+}
 
 .item {
   overflow: hidden;
@@ -477,8 +508,8 @@ image {
 .item .list .info .bt {
   display: block;
   width: 100%;
-  height: 60rpx;
-  line-height: 60rpx;
+  height: 40rpx;
+  line-height: 40rpx;
   overflow: hidden;
   font-size: 34rpx;
   font-weight: 600;

@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZWec1372a4d9924566bdfec27d22247d05.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">像素蜜蜂</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“成都九宽科技有限公司”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							像素蜜蜂，高品质摄影图片视频分享社区，可以赚零花钱的原创内容社区，分享图片、互动点赞，发布原创照片或视频领现金奖励。“发图就可以赚收益的宝藏app,我已经安利给好几个朋友了！” 在像素蜜蜂还可以享受到区块链技术助力为原创作品存证带来的巨大好处，让摄影师发图的同时版权无忧。找到同好，年轻人的兴趣聚集地。发布手机摄影和单反摄影作品，或在摄影社区发现好照片都可以赚收益。    1、发布图片，点赞照片，转发等社交行为皆可获得积分激励，并且支持提现。这是一款既能玩图又可以赚收益的软件。  2、发布艺术写真，旅行照片，美食照片，风景照，随拍，纪实，黑白照片，美女照片，街拍照，人像，建筑，旅游，美景，花，插画等手机摄影和单反摄影作品吸引更多摄影爱好者。创建摄影圈，同时也能让你发现更多摄影师和摄影爱好者。学习摄影教程、掌握摄影技能，提升摄影技巧。  3、可以进行图片编辑，添加美食滤镜，人像滤镜等各种特效。秀出高质量，高清图片，秒涨粉。  4、参加定期摄影比赛活动，我们联合知名的摄影师和摄影机构一起举办的与手机摄影、旅行（摄影、拍照）、风景、人文纪实、黑白，美食等相关主题的摄影活动，轻松玩图赚收益。    如有任何疑问，欢迎添加微信：pxbee1，勾搭像素蜜蜂小助手~ {{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/1/1502/1502'>天天赚钱</navigator></view><view><navigator url='/4/2201/2201'>72G赚吧</navigator></view><view><navigator url='/4/2168/2168'>蘑菇乐园</navigator></view><view><navigator url='/1/1660/1660'>刀刀赚钱</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

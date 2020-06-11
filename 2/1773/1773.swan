@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZWd0599bd846f24ef69f040e8085147c8a.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">钱帮</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“重庆光棱科技有限公司”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							钱帮是一款悬赏任务平台，平台拥有丰富的任务，用户在钱帮软件上接取任务完成任务即可获取收益，单价高，提现快，首次余额满1元即可提现，之后5元起提现。钱帮，做悬赏、来钱帮，海量悬赏任务等你来玩，每天几分钟，轻松赚现金。邀好友、享提成，躺着也能有收益，快来叫上亲朋好友一起来钱帮玩吧！ 平台介绍 1.每日更新兼职任务！快快乐乐体验，轻轻松松赚钱 2.邀请好友一起赚钱，好友每次提现自己都会获得20%的收益，每天打开手机都会有钱进账！ 3.独创提成比例，7天一周期，邀请好友越多，提成越多 4.佣金收益首次一元提现，后续五元起，小额秒到账   平台特点 1、平台对所有的任务都是严格审核的，而且都是真实的，让每一个人都可以很快速的找到适合自己的兼职； 2、还支持互助赚钱，也就是可以帮助别人赚钱，当然别人也是可以帮助你赚钱的，一般都会很轻松； 3、如果你有什么不懂的或者是有什么要咨询的，都可以直接咨询客服，马上为大家解决问题； 4、这个平台是一个非常严格的平台，但是对用户来说是一个非常人性化的平台。 联系官方 钱帮官方QQ群：822074281{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/2/1774/1774'>宝石星球</navigator></view><view><navigator url='/4/2356/2356'>手机赚零钱</navigator></view><view><navigator url='/3/2048/2048'>洋葱视频</navigator></view><view><navigator url='/2/1760/1760'>码帮</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

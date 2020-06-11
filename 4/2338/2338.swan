@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZWae5eb8eb1aa449868c5879ff5b4b9f28.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">优锁屏</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							优锁屏，,是广州市国数信息技术有限公司隆重推出的赚钱锁屏APP。优锁屏注册立送5元，注册填写邀请码9907再得3元，完善个人信息可再得1元，总共轻松获取9元奖励，然后做任务还可以赚的更多哦。 优锁屏是行业领先的“锁屏返现”创意应用，致力于让用户在不经意中获得最大收益，共享创新为生活带来的全新价值。通过ULoker锁屏应用，不仅能获得同类产品中最高的收益，同时也拥有多种收益方式，如广告、解锁、邀请、任务等。在获得一定收益后，可以通过多种方式进行兑换，如话费、Q币、支付宝、微支付等。 功能特点： 1. 解锁赚钱 左右滑动解锁屏幕就能赚钱，更多赚钱任务和奖励等您拿。 2. U+任务 优锁屏独有特殊赚钱任务，单次奖励最高可达50U币，全民爽翻天！ 3. 邀请好友齐赚钱 邀请您的好友用U锁屏赚钱，双方都可获得高额奖励，绝不做"坑友"！ 4. 轻松提现 7x24小时随时随地提现，想提就提，有钱就是这么任性！{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/1/1757/1757'>省钱助手iOS版</navigator></view><view><navigator url='/1/1596/1596'>试玩大师</navigator></view><view><navigator url='/2/1793/1793'>拼手气</navigator></view><view><navigator url='/1/1625/1625'>轻松赚</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

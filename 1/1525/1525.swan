@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZW9a41117ce03040ebae85c3a2df2dd469.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">小淘世界</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“深圳市易醇国际商贸有限公司”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							小淘世界是一款年轻人都爱玩的玩乐加购物为一体的生活类合成游戏APP，除了能帮你购物省钱返利还可以玩游戏轻松赚钱，只要你轻轻动一下你的手指，那么就可以获得大量的奖励和分红。在这里还有许多朋友和你一起畅玩淘世界，你并不是一个人，快来和朋友们一起享受小淘世界带来的福利吧！ 小淘世界特点 【购物省钱】海量优惠券等你来领，帮你做好省钱计划 【收益分红】带着小狗踏上征程，解锁平台分红新姿势 【分享有奖】每人都可以带货，分享好友轻松提升额外收入 【大额福利】各种淘玩法等着你来挖掘，打开你的缵钱之道 【天天有礼】新老用户皆可享受红利，和平台一起快速成长 小淘世界是一个结合了购物返利+分享赚钱的合成养成类游戏，合成狗狗到3级即可获得一个1元左右的新手红包，首次0.3元提现秒到账，后续20元起提现，购物返利玩游戏还能赚钱，真是个不错的app。 小淘世界淘达人是什么 好货优选板块是专门为小淘世界用户打造的一个可以快速赚钱的场景，只要您有赚钱的欲望，点击分享赚按钮，把商品一键分享至您的社群、朋友圈、或好友 的场景，即可获得佣金，超简单人人可做， 不需要花太多时间不需要花太多时间就可以坐等收益。{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/4/2286/2286'>推猫</navigator></view><view><navigator url='/2/1775/1775'>玩家享赚</navigator></view><view><navigator url='/1/1524/1524'>淘粉网</navigator></view><view><navigator url='/2/1849/1849'>红信</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

@@ -78,8 +78,7 @@
 		<view s-if="{{issearch}}" class="BN-a">
 			<view class="lists">
 				<view class="item">
-					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
-						data-trendsflag="{{list.trendsflag}}">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}" data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
 						<view class="img">
 							<image src="{{list.logo}}" alt="{{list.name}}">
 							</image>
@@ -98,12 +97,12 @@
 			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
             <view class="cont">小豆微赚@2020</view>
 			<view class="bottom_list">
-				<view>钱咖</view>
-				<view>小鱼赚钱</view>
-				<view>小白赚钱</view>
-				<view>网站地图</view>
+				<view data-pid="487" data-trendsflag="0" bindtap="todetail">武林外赚</view>
+				<view data-pid="488" data-trendsflag="0" bindtap="todetail">小桔试玩</view>
+				<view data-pid="489" data-trendsflag="0" bindtap="todetail">iMoney试玩</view>
+				<view data-pid="490" data-trendsflag="0" bindtap="todetail">秒赚试玩</view>
 			</view>
 		</view>
-	</view>
+	</view> 
 </view>
 </view>

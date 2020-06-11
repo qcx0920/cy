@@ -19,8 +19,7 @@
 			</view>
 			<view s-if="{{!isZx}}" class="lists">
 				<view class="item">
-					<view class="list" s-for="list,index in applist" bindtap="todetail" data-pid="{{list.pid}}"
-						data-trendsflag="{{list.trendsflag}}">
+					<view class="list" s-for="list,index in applist" bindtap="todetail" data-pid="{{list.pid}}" data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
 						<view class="img">
 							<image src="{{list.logo}}" alt="{{list.name}}">
 							</image>
@@ -56,8 +55,7 @@
 	<view s-if="{{issearch}}" class="BN-a">
 		<view class="lists" style="margin-top:13vw">
 			<view class="item">
-				<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
-					data-trendsflag="{{list.trendsflag}}">
+				<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}" data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
 					<view class="img">
 						<image src="{{list.logo}}" alt="{{list.name}}">
 						</image>

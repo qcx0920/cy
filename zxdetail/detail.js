@@ -121,5 +121,10 @@ Page({
     },
     showAll() {
         this.setData({ isAll: !this.data.isAll });
+    },
+    gozxDetail(e) {
+        swan.navigateTo({
+            url: contstantParam.zxDetailPage + '?pid=' + e.currentTarget.dataset.pid
+        });
     }
 });

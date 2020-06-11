@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZW8fe7c42f3cd2401a92e7f72d542aea18.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">金满堂</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“抢先收旗下”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							金满堂是抢先收旗下继金镶玉后又一个金字头的分享文章赚钱平台，注册就送0.5元，首次提现3元，秒到账，后续10元起提现。单价6毛+每天5小时高单价8毛。 明天，6月3日周三上午9点半， 抢先家推新平台“金满堂” l  单价6毛+每天5小时高单价8毛 l  注册送0.5元 l  3元首提秒到； l  次提10元 l  新用户前四次提现奖励师父2+2+3+3共10元，提现满百再奖励 5-10，共计15-20元 l  一级分成25%，二级分成10% l  首日同时开启收徒排位赛，头奖1万元！ 金满堂首发大收徒，为期10天 6月3日0点时，到6月12日24点，在10天活动时间内，新增有效徒弟数量（在此期间注册并完成首次提现的） 满1个：奖金3元 满3个：累计奖金10元 满5个：累计奖金20元 满10个：累计奖金50元 满20个：累计奖金100元 满30个：累计奖金150元 满40个：累计奖金200元 满50个：累计奖金260元 满60个：累计奖金300元 满70个：累计奖金350元 满80个：累计奖金400元 满100个：累计奖金500元 满120个：累计奖金600元 满140个：累计奖金700元 满170个：累计奖金850元 满200个：累计奖金1000元 满250个：累计奖金1500元 满300个：累计奖金1800元 满400个：累计奖金2400元 满500个：累计奖金3000元 满600个：累计奖金3600元 满700个：累计奖金4200元 满800个：累计奖金5000元 特别奖： 1、  排名第1，额外奖金10000元 2、  排名第2，额外奖金3000元 3、  排名第3，额外奖金1000元 4、  排名第4-10，额外奖金188元 5、  排名第11-20，额外奖金88元{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/3/2115/2115'>鱼群</navigator></view><view><navigator url='/4/2323/2323'>赚客帮</navigator></view><view><navigator url='/1/1592/1592'>搜虎</navigator></view><view><navigator url='/3/2011/2011'>快头条</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

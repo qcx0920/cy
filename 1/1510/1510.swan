@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZW8353a65b8d80482daa95a48929b782ff.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">恋猫世界</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“北京触链科技有限公司”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							恋猫世界是一款宠物合成游戏，玩家通过养猫升级和收徒弟获取广告现金分红。登陆后有新手红包大概一两元，首次提现3毛，后续还有5毛金额可以提现。恋猫世界是一款融合了游戏养成+现金分红的赚钱小游戏，带着猫咪去世界各地知名景点旅游的软件～旅行中不仅可以见识世界各地的不同美景，还可以学习不同的宠物猫猫知识。 恋猫世界app还是有些独特之处的，比如没有金币了自动看视频，看完视频自动返回，就差自动合成了，而且5级后每升一级就可以抽分红或金币，限时分红概率还是蛮高的。 快带着可爱的猫猫踏上旅程吧，随着你和猫猫的成长，旅行的进程也会加快达到终点会奖励特殊猫咪，将会有意外之喜～ 恋猫世界基础玩法收益： 猫猫合体升级拿红包及限时分红，终极目标全球招财猫！ 1、猫猫合体初次升级到五级必得1～6元红包，新用户首次提现0.3元起。 2、每5级必得限时招财猫，可以获得分红收益。 3、2只37级猫猫合体收益：   可能获得全球招财猫，每天分红几百元（招财猫：永久瓜分分红平台广告收入30%）； 可能获得情侣猫（52元）； 可能获得1只5大洲猫（亚洲、非洲、欧洲、美洲、大洋洲），集齐5大洲猫，可得1只全球招财猫，每天分红几百元。   进阶玩法收益：邀请好友，根据旅行团直推、间推的活跃情况获得收益，收益越高还有倍率加成！{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/4/2367/2367'>小湿妹-手机赚钱</navigator></view><view><navigator url='/4/2329/2329'>招财熊【骗子】</navigator></view><view><navigator url='/4/2401/2401'>淘粉吧返利拿集分宝</navigator></view><view><navigator url='/4/2207/2207'>嘎嘎赚</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

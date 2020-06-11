@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZW597281f5336c425483b709b032ef178f.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">小猫种鱼</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“北京好嗨呦科技有限公司”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							小猫种鱼app是一款具有趣味性的赚钱小游戏，永久5元提现，两条40级的鱼合并必得分红鱼。用户可以通过玩游戏来获得收益，本着收益共享的原则，用户在玩游戏的同时产生的广告收益平台将与用户共享。用户实名认证后就可以得到一片鱼塘，在这里你可以通过养鱼来得到收益，你养的鱼越多，你获得的收益也越多，同时还可以进行推广，让你的朋友也和你一起来养鱼，成为一个推广大师，在家就可以坐收各种推广的收益，想了解的朋友快来看看吧。 种鱼攻略 1、如何获取鱼苗 获取鱼苗的方式有：新用户免费赠送一条鱼，使用鱼币购买鱼苗 2、如何得到鱼食。为什么需要给鱼喂食 系统每天会赠送免费的鱼食，需要用户手动进行领取，每日赠送的鱼食有限，用户可用钻石到鱼食商城购买鱼食给鱼进行喂食，鱼在饿的状态下不会产生鱼币的哦。 3、如何获得鱼币 获得鱼币的方式有以下几种 1)养鱼即获得鱼币，根据鱼的级别不同，只要拖入到鱼塘中的鱼，每5秒都会产生不同数量的鱼币 2)通过邀请有效好友可获得平台赠送的鱼币 3)大转盘游戏也有机会获得鱼币哦 4、小猫种鱼最高多少级别，打到终极会得到什么 小猫种鱼最高级别为40级，两条40级的鱼合成必得获得一条分红鱼，持有分红鱼每天瓜分平台广告收益。 5、算力是什么，怎么获得算力 注册即赠送算力，算力越高鱼在鱼塘产生的鱼币就越多{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/1/1494/1494'>多多红包</navigator></view><view><navigator url='/1/1689/1689'>赚点-调查赚钱app</navigator></view><view><navigator url='/3/1868/1868'>快音</navigator></view><view><navigator url='/1/1498/1498'>蝉试客</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

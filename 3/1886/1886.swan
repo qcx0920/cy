@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZWfb9c598d8e314a0793daddf89d0969e3.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">每日资讯</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							每日资讯是优质的分享文章赚钱的平台，具有注册就能领现金红包、及时到账等特色功能！转发文章到微信阅读一次奖励6毛，注册就送5毛，5元就能提现。只要邀请好友收取徒弟就能得到现金奖励，转发越多，邀请好友越多，赚钱越多！ 每日资讯为什么能赚钱？ 每个人的朋友圈都具有传播价值，但是普通人无法将这个价值转化出来，每日资讯应势而生，只在文章中插入少许广告，当你分享出去的文章被好友阅读后，即可获得属于你的广告收益分成。 怎样赚钱？ 1. 选择自己喜欢的文章分享给好友或朋友圈，文章被好友阅读后，立即获得收益。 2. 首先你每收一名徒弟将获得5元奖励（一开始奖励是冻结状态，当好友首次提现时，该奖励可提现），此外师傅会永久获得该徒弟分享收入的20%奖励，徒弟的徒弟（徒孙）10%的奖励。 收益怎样计算？ 新用户注册立即获得0.5-20元不等红包，分享文章被好友有效阅读之后将每次获得0.6元收入（限时高价0.8元），下级好友分享文章被阅读后将每次获得0.12元收入，下下级好友文章被阅读后将获得0.06元收入。{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/1/1596/1596'>试玩大师</navigator></view><view><navigator url='/1/1526/1526'>萌宝爱消除</navigator></view><view><navigator url='/4/2198/2198'>今日阅读</navigator></view><view><navigator url='/3/2158/2158'>顺手转</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

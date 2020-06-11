@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZWf371b390d0ea4271bbd3ba6c679405bc.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">大五福</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“抢先收旗下”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							大五福是老平台抢先收旗下最新给力平台，注册送1元，每天有5个小时阅读单价高达6毛，其他时间3毛2每日阅读，永久5元起提现。诚信靠谱涨分快，分享每日热点，好看又赚零钱。还可以自己上传文章，更好的吸引点击阅读。 签到红包 连续每日签到越久，红包越大，当天分享阅读收入满3元的，可领当天的签到红包，红包金额，连续签到7天，阶梯提升，7天一个轮回。 提现到账 提现到账时间当天9点-12点提现的，当天下午3点左右到账，当天下午12点-15点提现，当天下午18点左右到账，当天下午15点以后提现，第二天中午12点左右到账。节假日照常打款。 平台特点 1、  每天有5小时单价高至6毛（平时高单价3毛2） 2、  永久5元提现； 3、  首次提现5秒到账 4、  新客前5次提现师父有奖励：3+1+1+1+4；满百再奖师父5-10元，最高共奖励20元 5、  开业前5天，有效徒弟总数达到或超过5人的师父，有5元额外奖励“五福临门奖”。（总共5元，并非一个徒弟5元） 6、  两级35%收益分成：徒弟25%，徒孙10%。涨分依旧给力，奖励更加丰富！ 官方客服 客服交流QQ群：161357818{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/4/2167/2167'>有赚</navigator></view><view><navigator url='/3/1976/1976'>微趣看</navigator></view><view><navigator url='/1/1725/1725'>应用微客苹果版</navigator></view><view><navigator url='/3/1948/1948'>来米资讯</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZWed04e7ac19b8491ba0658b88d9ce262c.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">大八仙</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“抢先收旗下”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							大八仙，这是继大五福、大六顺、大七喜等系列实力分享赚钱平台之后的又一新转发文章赚钱的平台，明天，4月30日周四上午9点半， 庆五一，大八仙新平台闪亮登场！永久单价6毛，注册奖励1元，5元首提秒到账，永久5元提现！ 新用户奖励奖励3+2+2+3 四次共计10元，满100按照级别奖励 5-10 首日既上线收徒大赛：1个就有奖，前3名5000/2000/1000 详细情况，见首页活动通知！ 大八仙是一款非常好用的手机转发赚钱应用软件。大八仙app，能够为用户提供大量的精彩文章和短视频内容，只需要刷一刷转发就能赚到佣金奖励。你可以把自己喜欢的内容分享到微信群里，让大家都能加入平台，这样你也能领取到额外的现金红包，新平台收益增长特别快。 如何分享赚钱 1、选择合适的文章，转发给合适的人群体，会比较更受好友点击阅读，不然乱转发分享，还会招来别人反感。 转发到宝妈群里的文章，可以发一些关于育儿知识和教育相关的文章。 发送到朋友圈的文章，可以发一些当地新闻、实时热点新闻。 发送到行业内群的文章，可以发行业相关的新闻、资讯等文章。   2、扩展自己的人脉，大量加微信群，加微信好友。 可以到贴吧加一些微信群，或者网上搜微信群大全等等，都会有很多微信群提供，我们可以加上这一些群来转发文章，当你的群和好友多了以后，不仅仅做转发能赚钱，推其它任何项目都是可以的。 客服QQ群：311812096{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/4/2197/2197'>乐米资讯</navigator></view><view><navigator url='/2/1853/1853'>千米红包</navigator></view><view><navigator url='/2/1811/1811'>赚钱猫</navigator></view><view><navigator url='/1/1658/1658'>疯狂百宝箱</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>

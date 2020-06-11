@@ -1,0 +1,106 @@
+<view class="wrap" bindtap="changemore">
+	<view id="BreadcrumbNavigation">
+		<view class="headtip">
+			<view class="search">
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+				<icon type="search" bindtap="search" class="icon" />
+			</view>
+			<view class="more" bindtap.catchtap="getmore">更多</view>
+			<block s-if="ismore">
+				<view class="morelist">
+					<view class="list" s-for="list,index in tabs" bindtap="changetab" data-name="{{list.name}}">
+						<text class="downl_btn">{{list.label}}</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view s-if="{{!issearch}}" class="BN-a">
+			<view class="downl_wrap">
+				<view class="info">
+					<view class="left">
+						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZWdfd8644175a14b4887b1b9bfa3e18ba4.png"></image>
+					</view>
+					<view class="center">
+						<view class="bt">今日赚</view>
+						<view class="txt">2020-06-10更新</view>
+						<view class="txt">“北京上榜科技有限公司”</view>
+					</view>
+					<view class="btn right">
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>应用介绍</text>
+				</view>
+				<view class="txtwrap">
+					<view class="txtcont {{isAll?'':'des-short'}}">
+						<view style="text-indent:2em;">
+							今日赚，一款用苹果手机赚钱的APP，是国内最大的ASO搜索流量分发渠道，应用单价1元起，10元提现，是北京上榜科技科技有限公司推出的苹果iOS试玩应用赚钱平台。一部手机试玩应用就可以赚钱啦，轻松提现秒到账，快和我一起赚钱吧。 不需投入 就可赚钱 不管您是学生，上班族，还是宝妈，直要您有空余的时间还有Wi-Fi就可通过《今日赚》赚钱。 每下载一个应用获得1元的奖励，做的越多奖励越多。每天赚点零花钱。 10元就能提现在我们的应用里，只要您赚够10元，就能提现。提现金额我们会直接转账到您的支付宝。10元起提，上不封顶，赚的越多，提的越多。 邀请好友还能赚这么好的软件，必须邀请好友一起来玩，您邀请的好友每个好友能给你带来10元的收益。邀请越多奖励越多，带上您的好朋友一起来赚吧！ 今日赚介绍 任务列表：快速任务，联盟任务，次日留存，多日留存，截图任务（返现快任务多） 邀请好友：分享邀请，晒单邀请，图片邀请（种类多，任你挑）{{isAll?intro:''}}
+						</view>
+					</view>
+					<view class="txt_foot">
+						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
+						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
+					</view>
+				</view>
+				<view class="img_item">
+					<view class="ul">
+						<view class="li" s-for="img,index in imgs">
+							<view s-if="{{img!=''}}">
+								<image src="{{img}}"></image>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
+					<text>最新资讯</text>
+					<text class="more">更多 +</text>
+				</view>
+				<view class="news_list">
+					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
+						<view class="img">
+							<image class="image" src="{{list.logo}}"></image>
+						</view>
+						<view class="text">
+							<view class="bt">{{list.title}}</view>
+							<text>{{list.readtimes}}人在关注</text>
+							<text>{{list.createtime}}</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view s-if="{{issearch}}" class="BN-a">
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+							<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆微赚@2020</view>
+			<view class="bottom_list">
+				<view><navigator url='/4/2208/2208'>豆豆趣玩安卓版</navigator></view><view><navigator url='/1/1642/1642'>钱夹</navigator></view><view><navigator url='/1/1665/1665'>开钱宝</navigator></view><view><navigator url='/1/1603/1603'>微赚</navigator></view>
+			</view>
+		</view>
+	</view>
+</view>
+</view>
