@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							小湿妹是一款免费搞笑段子同时还能手机赚钱的APP，图片、视频，随时看，随地看！我们专职于手选最好笑的冷笑话精选、囧图、恶搞视频，逗你开心一笑还能赚钱赚话费、Q币和各种礼品等。赚金币兑换手机话费、支付宝充值、Q币、各种优惠券代金券和礼品{{isAll?intro:''}}
+							小湿妹是一款免费搞笑段子同时还能手机赚钱的APP，图片、视频，随时看，随地看！我们专职于手选最好笑的{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1835/1835'>淘券吧</navigator></view><view><navigator url='/4/2400/2400'>淘宝手机助手赚集分宝</navigator></view><view><navigator url='/1/1704/1704'>今日试玩</navigator></view><view><navigator url='/4/2370/2370'>玩乐族</navigator></view>
+				<view><navigator url='/4/2177/2177'>每日赚点</navigator></view><view><navigator url='/4/2293/2293'>放眼APP</navigator></view><view><navigator url='/1/1521/1521'>红淘客</navigator></view><view><navigator url='/1/1618/1618'>赚美金</navigator></view>
 			</view>
 		</view>
 	</view>

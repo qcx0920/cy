@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							蛋咖赚钱，让你的手机变身神奇的赚钱工具，让你赚钱赚到欲罢不能！热门手游棋牌，玩就能赚钱。海量应用，体验奖现金，海量低门槛、易上手的任务等你体验，不容错过的赚钱选择！ 客服QQ：800013154，周一至周五；9：30-12：00 14：00-18：00{{isAll?intro:''}}
+							蛋咖赚钱，让你的手机变身神奇的赚钱工具，让你赚钱赚到欲罢不能！热门手游棋牌，玩就能赚钱。海量应用，体{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2232/2232'>趣推吧</navigator></view><view><navigator url='/3/1904/1904'>快手极速版</navigator></view><view><navigator url='/1/1561/1561'>金钱豹</navigator></view><view><navigator url='/3/2125/2125'>闲猫</navigator></view>
+				<view><navigator url='/3/1918/1918'>抖呱呱极速版</navigator></view><view><navigator url='/2/1801/1801'>任务猪</navigator></view><view><navigator url='/1/1627/1627'>即刻赚</navigator></view><view><navigator url='/3/2101/2101'>轶闻趣事</navigator></view>
 			</view>
 		</view>
 	</view>

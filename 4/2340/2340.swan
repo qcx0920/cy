@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							填写邀请码112328即可立刻获取3元奖励【用户最多】 宅客联盟是中国第一个专为宅男宅女而打造的手机赚钱平台。宅客联盟在2014年9月正式发布安卓版，推出1个月时间，就有30万用户，你可以通过参与调查、威客接单、参加活动、每日签到等获得学币。移动威客的时代来临了，你手机上还没安装宅客联盟你就out了！大家都在赚钱，赶紧加入吧！ 【赚钱最简单】 宅客联盟专门为新用户开设了快速通道，只需要3分钟，就能体验宅客联盟的各种玩法：签到，摇一摇，分享赚学币，做任务赚学币，兑换QB，并且兑换后1分钟到账的整个过程。 【奖品最丰富】 宅客联盟除了可以兑换Q币，我们还同时支持移动联通电信话费，免费QQ会员、支付宝财付通充值、cmcc wifi免费上网卡，还可以兑换充电宝、u盘、日历、壁纸、360wifi等实物奖品。 【安全性最强】 宅客联盟已与lbe安全大师合作，确保用户所安装应用绝对安全！{{isAll?intro:''}}
+							填写邀请码112328即可立刻获取3元奖励【用户最多】 宅客联盟是中国第一个专为宅男宅女而打造的手机{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2226/2226'>红包先森</navigator></view><view><navigator url='/3/2040/2040'>牛牛头条</navigator></view><view><navigator url='/3/2133/2133'>快点</navigator></view><view><navigator url='/3/2130/2130'>人人资讯</navigator></view>
+				<view><navigator url='/1/1757/1757'>省钱助手iOS版</navigator></view><view><navigator url='/1/1684/1684'>首席体验师</navigator></view><view><navigator url='/3/1884/1884'>聚赚资讯</navigator></view><view><navigator url='/4/2341/2341'>极锁屏</navigator></view>
 			</view>
 		</view>
 	</view>

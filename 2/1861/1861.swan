@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							赏金联盟是一款2017年上线的任务类赚钱APP，填写邀请码【69756】领红包，10元可提现。赏金联盟由徐州市俊羽网络科技有限公司开发运营。用户可以通过完成各类任务获得收益。 赏金联盟包含任务组成模块：体验、分享、阅读、收徒等任务，用户可完成任务获得收益，可邀请好友共得收益，赏金联盟为用户提供多种提现方式。赏金联盟已与今日头条、腾讯动漫、天猫等合作。 功能介绍： 赏金联盟分为任务模块、收徒模块、阅读模块、分享模块，提供任务说明让用户明确和完成任务拿到赏金。 任务模块：体验赚现金，深度体验服务产品有红包奖励：资讯阅读领红包，做任务领红包 收徒模块：收徒赚红包， 推荐好友注册，可获得推荐奖励。 阅读模块：阅读赚零花， 用户可阅读赚钱。 分享模块：分享赚钱，分享资讯、微信投票分享、优惠活动分享，可获取任务零钱。{{isAll?intro:''}}
+							赏金联盟是一款2017年上线的任务类赚钱APP，填写邀请码【69756】领红包，10元可提现。赏金联{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2258/2258'>随时赚</navigator></view><view><navigator url='/4/2272/2272'>龙易赚</navigator></view><view><navigator url='/4/2394/2394'>找到APP</navigator></view><view><navigator url='/1/1646/1646'>试客小兵</navigator></view>
+				<view><navigator url='/3/1935/1935'>全民快讯</navigator></view><view><navigator url='/3/2122/2122'>知晓</navigator></view><view><navigator url='/1/1735/1735'>推猫苹果版</navigator></view><view><navigator url='/1/1508/1508'>蝉试客安卓版</navigator></view>
 			</view>
 		</view>
 	</view>

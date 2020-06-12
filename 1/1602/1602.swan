@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							嘀嗒赚是移动APP的抢先试用平台，旨在提供用户利用碎片化时间，下载APP软件试玩体验，并获取报酬，是一款便捷的微试玩项目。新平台【滴答赚 】任务简单 ，单价1元起，基本下载完就可以提交 10元提现。重要的是全部不要首次，很给力，北京掌贝网络科技有限公司旗下。{{isAll?intro:''}}
+							嘀嗒赚是移动APP的抢先试用平台，旨在提供用户利用碎片化时间，下载APP软件试玩体验，并获取报酬，是{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1720/1720'>点点赚苹果版</navigator></view><view><navigator url='/1/1504/1504'>金满堂</navigator></view><view><navigator url='/1/1599/1599'>有钱赚</navigator></view><view><navigator url='/3/1906/1906'>满堂福</navigator></view>
+				<view><navigator url='/2/1848/1848'>小微托管挂机赚钱</navigator></view><view><navigator url='/3/1976/1976'>微趣看</navigator></view><view><navigator url='/3/1939/1939'>点点新闻</navigator></view><view><navigator url='/1/1532/1532'>iMoney爱盈利</navigator></view>
 			</view>
 		</view>
 	</view>

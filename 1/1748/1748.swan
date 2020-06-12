@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							点趣在2014年11月正式发布，是国内第一个专注于苹果手机应用，拥有百万用户，是国内最给力的手机赚钱应用。   做任务 只需要在手机上点击就能完成的任务，比如装应用、发微博、分享   赚趣币 通过完成各种任务赚取趣币，五分钟可以赚够金兑换10Q币   玩游戏 丰富的游戏等你玩，边玩边拿趣币，玩不停奖品也拿不尽   换奖品 金可以换话费充值卡、Q币和支付宝等奖品；{{isAll?intro:''}}
+							点趣在2014年11月正式发布，是国内第一个专注于苹果手机应用，拥有百万用户，是国内最给力的手机赚钱{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2398/2398'>手机赚钱宝</navigator></view><view><navigator url='/4/2257/2257'>口袋赚</navigator></view><view><navigator url='/1/1710/1710'>钱程苹果版</navigator></view><view><navigator url='/1/1532/1532'>iMoney爱盈利</navigator></view>
+				<view><navigator url='/1/1597/1597'>钱鹿</navigator></view><view><navigator url='/3/1925/1925'>像素蜜蜂</navigator></view><view><navigator url='/3/1916/1916'>泡泡头条</navigator></view><view><navigator url='/1/1756/1756'>赚泡泡iOS赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

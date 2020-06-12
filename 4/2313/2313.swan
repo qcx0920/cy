@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							虾米锁屏是一款解锁屏幕就能赚钱的App，填写邀请码5801730可得6元奖励。虾米锁屏是学生、白领、主妇闲暇时光赚钱利器。安装后，只需左划锁屏界面，即能进入任务页面，持续获得现金、门票等；右划得随机现金，所获奖励可直接提现支付宝、兑换话费。 虾米锁屏主要功能特色包括： 1、上划下划屏幕，精美壁纸随心挑选； 2、左划右划屏幕，动动手指就能赚钱； 3、每日抽奖活动，幸运转盘100%中奖； 4、邀请好友一起耍，得红包，拿提成，不做任务也能躺着挣钱； 5、话费充值，q币，支付宝提现，兑换就是这么便捷任性。{{isAll?intro:''}}
+							虾米锁屏是一款解锁屏幕就能赚钱的App，填写邀请码5801730可得6元奖励。虾米锁屏是学生、白领、{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2265/2265'>易赚联盟</navigator></view><view><navigator url='/2/1853/1853'>千米红包</navigator></view><view><navigator url='/2/1769/1769'>众人帮</navigator></view><view><navigator url='/3/1977/1977'>橙子快报</navigator></view>
+				<view><navigator url='/3/2109/2109'>超人赚</navigator></view><view><navigator url='/3/1925/1925'>像素蜜蜂</navigator></view><view><navigator url='/1/1533/1533'>全民养龙</navigator></view><view><navigator url='/1/1726/1726'>红包锁屏苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

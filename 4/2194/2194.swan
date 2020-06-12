@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							泡泡赚是快乐赚旗下手机体验平台，注册即送5元，首次10元提现，之后每次5元起即可提现。泡泡赚上不仅能玩幸运28手机竞猜，还能赚钱哟！操作简单，种类众多，奖励还高！只要通过简单的下载安装、试玩、娱乐、收徒等方式就可以赚取超多现金，并能够快速提现至支付宝或微信。 泡泡赚 攻略宝典 1　进入泡泡赚点击快速赚钱，里面的分享和积分墙任务，种类众多，任你选择。 2　点击趣味游戏可以参与萌哒哒地戳泡泡。 3　在个人中心绑定快乐赚账号，没有账号可以即时注册。绑定之后可以参与28竞猜，幸运28和急速28中的信息跟绑定的快乐赚账号信息是同步的，以后就可以网站，手机随时随地参与竞猜啦。 4　页面中的每日签到，每天给予不定奖励。{{isAll?intro:''}}
+							泡泡赚是快乐赚旗下手机体验平台，注册即送5元，首次10元提现，之后每次5元起即可提现。泡泡赚上不仅能{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2000/2000'>精彩看点</navigator></view><view><navigator url='/4/2232/2232'>趣推吧</navigator></view><view><navigator url='/4/2172/2172'>天天趣玩</navigator></view><view><navigator url='/3/2116/2116'>悦推</navigator></view>
+				<view><navigator url='/3/2034/2034'>小V咖</navigator></view><view><navigator url='/3/1951/1951'>聚合头条</navigator></view><view><navigator url='/1/1716/1716'>抢红包神器苹果版</navigator></view><view><navigator url='/4/2327/2327'>疯传100</navigator></view>
 			</view>
 		</view>
 	</view>

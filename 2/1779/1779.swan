@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							截图宝，最火任务赚钱平台，自己做任务就能赚钱，多劳多得！大家都在玩的截图宝APP，就看视频、新闻或投票和截图日赚20元！每天最少200个任务，现在1元秒提现。完成新手任务奖励9.9元，d-y点赞能赚钱，文章自己阅读能赚钱，微信投票能赚钱。截图宝，做完任务截图提交就能赚钱，免费下载注册即刻开启任务赚钱！   【赚钱介绍】 ①看d-y视频点赞关注赚钱，微信投票能赚钱 ②看新闻资讯赚钱，看视频广告赚钱，简单轻松 ③每天签到领钱，新手在活动中心有9.9元奖励 ④收徒奖励3元+15%分成，1元起支付宝提现，当天到账   【微点评】 截图宝是一个很不错的赚钱平台，自己做任务就能赚钱，任务种类多，没有好友也能赚，赶快下载试试吧 【联系官方】 见截图宝app内联系客服按钮 {{isAll?intro:''}}
+							截图宝，最火任务赚钱平台，自己做任务就能赚钱，多劳多得！大家都在玩的截图宝APP，就看视频、新闻或投{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1822/1822'>小红店</navigator></view><view><navigator url='/4/2375/2375'>掌上财进</navigator></view><view><navigator url='/3/2101/2101'>轶闻趣事</navigator></view><view><navigator url='/1/1641/1641'>游虎试玩</navigator></view>
+				<view><navigator url='/1/1668/1668'>至尊宝</navigator></view><view><navigator url='/3/2134/2134'>理财通 - 1分领1元红包</navigator></view><view><navigator url='/3/2014/2014'>全民小视频</navigator></view><view><navigator url='/4/2207/2207'>嘎嘎赚</navigator></view>
 			</view>
 		</view>
 	</view>

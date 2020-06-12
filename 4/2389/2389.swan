@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							锁屏赚，最赚钱的锁屏APP，收益最丰厚的手机锁屏软件。既能拥有精致漂亮的锁屏画面，每次解锁屏幕，还能够获得现金奖励，让用户解锁手机的随意行为也能产生价值。 锁屏赚是一款网赚类的锁屏软件，左划做任务，轻松赚现金。向右滑动解锁手机，向左滑动则可以做任务赚取现金。界面美观，不占锁屏背景。你可以自行设置任何图片为锁屏背景，我们不会在你不需要的时候强迫你看广告消耗你的流量。{{isAll?intro:''}}
+							锁屏赚，最赚钱的锁屏APP，收益最丰厚的手机锁屏软件。既能拥有精致漂亮的锁屏画面，每次解锁屏幕，还能{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2083/2083'>传客美文网</navigator></view><view><navigator url='/4/2216/2216'>葡萄转</navigator></view><view><navigator url='/3/1948/1948'>来米资讯</navigator></view><view><navigator url='/3/1953/1953'>快看点</navigator></view>
+				<view><navigator url='/4/2230/2230'>零钱猫</navigator></view><view><navigator url='/3/2079/2079'>随手快报</navigator></view><view><navigator url='/1/1723/1723'>小水滴苹果版</navigator></view><view><navigator url='/4/2249/2249'>众得宝</navigator></view>
 			</view>
 		</view>
 	</view>

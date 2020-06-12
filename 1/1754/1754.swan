@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							赚帮是业内最具创新性的手机赚钱平台，联合各大应用厂商大量推出最新最火最有竞争力的手机应用。轻松赚钱，用户在快捷安装应用、愉快试玩体验的同时获得大量Q币、现金或手机话费奖励，快捷低门槛提现，平台承诺业内最低提现标准，最低至1元；承诺业内最快到账，提现申请后即可快速到账，互助推广赚钱，享受高额的推广收益和体验提成。   操作简便 一键安装，快速上手，金币到手   丰厚收益 产品丰富，单应用收益高，奖励活动多   便捷兑换 兑换方式多样，1元起提，快速到账   高额提成 推广赚钱，体验提成，巨额收益{{isAll?intro:''}}
+							赚帮是业内最具创新性的手机赚钱平台，联合各大应用厂商大量推出最新最火最有竞争力的手机应用。轻松赚钱，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2160/2160'>爱玩客（原69客）</navigator></view><view><navigator url='/2/1829/1829'>省钱快报</navigator></view><view><navigator url='/1/1636/1636'>可可赚</navigator></view><view><navigator url='/4/2216/2216'>葡萄转</navigator></view>
+				<view><navigator url='/1/1534/1534'>内涵红包</navigator></view><view><navigator url='/3/2135/2135'>塔丝猫</navigator></view><view><navigator url='/4/2302/2302'>赚乐</navigator></view><view><navigator url='/1/1737/1737'>西瓜妹</navigator></view>
 			</view>
 		</view>
 	</view>

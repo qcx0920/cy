@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							玩洽，在家视频聊天就能赚钱的APP，全球年轻人的聊天赚钱的交友社区，在这里你可以通过声音卡片、快速聊天等遇见附近、国外的年轻人，并和他们开启一段新的社交体验，玩洽在200多个国家的年轻人中广泛流行。    玩洽特点：  【声音匹配】：声卡匹配，通过声音和内容找到合适的ta；  【快速聊天】：一键开始，5秒内开启趣味聊天；  【语言翻译】：文字、语音实时翻译，不同语言顺畅交流；  【愉快聊天】：语音、表情、私信，轻松和ta愉快畅聊；  【智能美颜】：智能美颜效果，秒变俊男靓女。 玩洽APP怎么赚钱？ 下载APP登录，就可以和别人1对1视频聊天了。男生和女生APP界面是不同的！   选择性别女：需要视频审核颜值，系统会根据你的颜值给你定级，小编试了一下，同事帮忙视频审核一下，是4分。那么你和男生聊天就是1.2元一分钟。女生在家没事找人聊天还能赚钱还是挺不错了哦！   选择姓名男：男生玩就比较简单了，注册送你60钻石，可以免费找女生视频两次。之后每天分享一次又可以获得30钻石。   邀请赚钱： 邀请男生的话，他首次通话超过60秒，你可以获得1元奖励。另外享受充值分成。 邀请女生的话，直接享受3级分成，也就是说你邀请的女生视频赚钱的同时，你也能赚钱。{{isAll?intro:''}}
+							玩洽，在家视频聊天就能赚钱的APP，全球年轻人的聊天赚钱的交友社区，在这里你可以通过声音卡片、快速聊{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1790/1790'>追看视频</navigator></view><view><navigator url='/1/1639/1639'>猎豆试客</navigator></view><view><navigator url='/3/1870/1870'>抢先收</navigator></view><view><navigator url='/3/2134/2134'>理财通 - 1分领1元红包</navigator></view>
+				<view><navigator url='/4/2378/2378'>玩赚</navigator></view><view><navigator url='/4/2367/2367'>小湿妹-手机赚钱</navigator></view><view><navigator url='/4/2402/2402'>零用宝-手机赚钱</navigator></view><view><navigator url='/2/1796/1796'>桔子兼职</navigator></view>
 			</view>
 		</view>
 	</view>

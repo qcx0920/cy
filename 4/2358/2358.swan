@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							比比宝是一款让你在玩手机的同时还能赚钱的手机应用，你可以通过安装，试玩应用，签到，推广来获得现金奖励，已有几百万用户每天在比比宝完成简单任务来赚钱。轻轻松松月赚1000元！   比比宝赚钱渠道: 1.下应用赚钱任务，下载应用拿奖励 2.升级成为VIP赚的更多 3.新手任务，了解更多赚钱方式 4.推广赚钱，坐拿好友分成 5.签到摇奖，轻松摇到集分宝 6.购物拿返利，超高返利达90%{{isAll?intro:''}}
+							比比宝是一款让你在玩手机的同时还能赚钱的手机应用，你可以通过安装，试玩应用，签到，推广来获得现金奖励{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2115/2115'>鱼群</navigator></view><view><navigator url='/3/2021/2021'>火力橙</navigator></view><view><navigator url='/3/1921/1921'>花生转</navigator></view><view><navigator url='/3/1948/1948'>来米资讯</navigator></view>
+				<view><navigator url='/1/1564/1564'>鼠宝试玩</navigator></view><view><navigator url='/1/1524/1524'>淘粉网</navigator></view><view><navigator url='/3/2158/2158'>顺手转</navigator></view><view><navigator url='/3/2005/2005'>青萌部落</navigator></view>
 			</view>
 		</view>
 	</view>

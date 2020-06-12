@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							五条，每日五条看尽世界，五条是新一代内容价值平台，看新闻资讯、短视频均可赚钱，让每一条内容更具价值，1元就能提现，填写邀请码01ERHJ领红包。五条是基于区块链技术打造的一款价值内容阅读APP，在这里读新闻、看视频的同时不仅能赚零钱更能获取到有效、有价值的信息。 通过发现、阅读、投票、高价值的内容；产出高质量的评论可以获得持续切更多的源矿，源矿可在钱包随时提现，由于源矿的发行总量有限且发行量递减，所以钱包中源矿也是在不断升值的。 【特有发现者机制】 五条挑选各个行业的大咖和拥有专业知识的高学历人士成为发现者，通过发现者机制对内容进行筛选，过滤垃圾信息、拒绝标题党，把优质的内容呈现到用户眼前。 【优质内容抢先看】 沉闷的文字千篇一律，有趣的内容万里挑一。时政新闻、财经资讯、游戏小说、热门视频，五条崇尚精品，简约却不失“五脏俱全”的丰富内涵。 【阅读挖矿高回报】 用户在五条上的所有行为都将获得区块代币与现金回报，基于区块链技术产生的源矿是每一位用户的私有财产。区块链技术将保护用户的财产安全，且源矿可随时提现。 【创作者版权保护】 区块链技术护航版权保护，每篇在五条区块链上成功产生记录的内容都将对全链可见，并在智能合约记录的比对约束下进行比对，保护原创权益。{{isAll?intro:''}}
+							五条，每日五条看尽世界，五条是新一代内容价值平台，看新闻资讯、短视频均可赚钱，让每一条内容更具价值，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1822/1822'>小红店</navigator></view><view><navigator url='/2/1820/1820'>托管赚钱宝</navigator></view><view><navigator url='/1/1667/1667'>达人试玩</navigator></view><view><navigator url='/1/1638/1638'>柚子众测</navigator></view>
+				<view><navigator url='/4/2367/2367'>小湿妹-手机赚钱</navigator></view><view><navigator url='/2/1851/1851'>苏宁金融</navigator></view><view><navigator url='/3/1995/1995'>聚转啦</navigator></view><view><navigator url='/4/2243/2243'>来赚分享</navigator></view>
 			</view>
 		</view>
 	</view>

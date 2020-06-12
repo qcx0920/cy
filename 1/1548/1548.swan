@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							手赚网官方苹果试玩赚钱入口是为了苹果手机试玩的玩家更方便的找到试玩平台的入口，以及助手失效后更快更方便的重新下载熟手，不用一个个去找新的助手，所有助手尽在手赚网的试玩赚钱入口。手赚网试玩赚钱入口汇聚热门苹果试玩赚钱平台，以及热门手赚资讯和试玩教程。   试玩入口特点 1、最快最方便找到最新最热门的苹果试玩平台，抢先一步下载，抢更多的任务。 2、试玩平台助手失效打不开的时候，能够在试玩入口这里方便的一一重新下载安装，不用东奔西跑找新助手。 3、有了苹果试玩入口，更快更及时的接触最新手赚资讯和试玩攻略，让你轻松赚钱，成为试玩高手。 4、试玩入口跟于苹果Safari浏览器书签的功能类似，安全可靠，方便快捷。{{isAll?intro:''}}
+							手赚网官方苹果试玩赚钱入口是为了苹果手机试玩的玩家更方便的找到试玩平台的入口，以及助手失效后更快更方{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1739/1739'>聚赚钱</navigator></view><view><navigator url='/4/2184/2184'>零钱试玩</navigator></view><view><navigator url='/4/2204/2204'>零用猫</navigator></view><view><navigator url='/3/1927/1927'>淘最热点</navigator></view>
+				<view><navigator url='/2/1802/1802'>有米众帮接单</navigator></view><view><navigator url='/1/1642/1642'>钱夹</navigator></view><view><navigator url='/4/2298/2298'>微看点</navigator></view><view><navigator url='/2/1819/1819'>好省</navigator></view>
 			</view>
 		</view>
 	</view>

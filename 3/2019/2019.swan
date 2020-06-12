@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							天天看视频每天看视频能赚钱，新用户注册填写邀请码1626058送5元，1元提现，用手机号登陆领取新手红包。边看视频，边赚钱，看的越多，奖励越多。天天看视频，每天为你精选贴近生活的短视频，在这里，你可以看到有趣的头条视频。看视频的同时，我们会给你一定的金币奖励。 客服微信：TianTianKan66 手赚网微信：yuri-le{{isAll?intro:''}}
+							天天看视频每天看视频能赚钱，新用户注册填写邀请码1626058送5元，1元提现，用手机号登陆领取新手{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2260/2260'>手上活</navigator></view><view><navigator url='/2/1788/1788'>全民赚</navigator></view><view><navigator url='/1/1604/1604'>懒人赚钱</navigator></view><view><navigator url='/2/1777/1777'>全民养狗</navigator></view>
+				<view><navigator url='/2/1804/1804'>世界农场</navigator></view><view><navigator url='/2/1866/1866'>爱调查</navigator></view><view><navigator url='/1/1531/1531'>猪猪世界</navigator></view><view><navigator url='/4/2276/2276'>轻玩客</navigator></view>
 			</view>
 		</view>
 	</view>

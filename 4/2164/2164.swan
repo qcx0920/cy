@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							手赚网APP由手赚网官方出品，支持苹果和安卓手机，提供最新最全的手机兼职赚钱软件下载，最热门苹果手机试玩赚钱平台排行，让你随时随地，轻松赚钱！   【应用特点】 1、汇总海量最新手机赚钱软件，包含苹果APP试玩平台、安卓各种任务平台、转发阅读等各种类型。 2、分享经验教程助你成为手赚达人，了解最新手赚和福利资讯，让你躺着赚钱。 3、苹果试玩赚钱入口类似于Safari浏览器书签，安全可靠，方便快捷。{{isAll?intro:''}}
+							手赚网APP由手赚网官方出品，支持苹果和安卓手机，提供最新最全的手机兼职赚钱软件下载，最热门苹果手机{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2352/2352'>聚宝屏</navigator></view><view><navigator url='/3/2114/2114'>爱传</navigator></view><view><navigator url='/4/2322/2322'>小钱包APP(下架)</navigator></view><view><navigator url='/3/2010/2010'>皮皮车</navigator></view>
+				<view><navigator url='/4/2330/2330'>并读新闻</navigator></view><view><navigator url='/1/1639/1639'>猎豆试客</navigator></view><view><navigator url='/1/1554/1554'>金手指</navigator></view><view><navigator url='/1/1532/1532'>iMoney爱盈利</navigator></view>
 			</view>
 		</view>
 	</view>

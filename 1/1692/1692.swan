@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							i疯玩现在下载注册立送积分和现金2元，一起闷声发大财吧！来i疯玩免费疯抢红包，10元起提现。 请用手机扫一扫二维码{{isAll?intro:''}}
+							i疯玩现在下载注册立送积分和现金2元，一起闷声发大财吧！来i疯玩免费疯抢红包，10元起提现。 请用手{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2403/2403'>挖金-手机赚钱</navigator></view><view><navigator url='/1/1493/1493'>体验狮</navigator></view><view><navigator url='/2/1858/1858'>今晚八点半</navigator></view><view><navigator url='/1/1560/1560'>小啄赚钱</navigator></view>
+				<view><navigator url='/2/1773/1773'>钱帮</navigator></view><view><navigator url='/4/2189/2189'>火种游戏</navigator></view><view><navigator url='/2/1844/1844'>悦动圈红包</navigator></view><view><navigator url='/3/1906/1906'>满堂福</navigator></view>
 			</view>
 		</view>
 	</view>

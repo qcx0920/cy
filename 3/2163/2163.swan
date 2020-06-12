@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							爱捞金（仅限苹果iOS）-手机赚钱，每天多赚100元， 体验APP应用或试玩游戏即可获得奖 励收入，奖励收入可提现到微现钱包， 捞金特技还可发送任务给好友，让好友 帮你抢微信现金红包。 微信扫描二维码关注爱捞金,若是手机访问手赚网请保存二维码在微信扫一扫选择相册中选取{{isAll?intro:''}}
+							爱捞金（仅限苹果iOS）-手机赚钱，每天多赚100元， 体验APP应用或试玩游戏即可获得奖 励收入，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1967/1967'>蚂蚁阅读</navigator></view><view><navigator url='/3/1907/1907'>2345星球联盟</navigator></view><view><navigator url='/4/2402/2402'>零用宝-手机赚钱</navigator></view><view><navigator url='/1/1750/1750'>我赚-iOS赚钱</navigator></view>
+				<view><navigator url='/4/2201/2201'>72G赚吧</navigator></view><view><navigator url='/3/1968/1968'>乐趣推</navigator></view><view><navigator url='/4/2275/2275'>口袋红包</navigator></view><view><navigator url='/4/2209/2209'>易读资讯</navigator></view>
 			</view>
 		</view>
 	</view>

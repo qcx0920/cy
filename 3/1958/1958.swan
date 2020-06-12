@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							有银子旗下新平台顺手赚，新手送1元，1毛阅读，首次2元提现，后续5元起提现。涨分更快，每天10分钟，轻松赚每天生活费！（零成本、高回报、提现快！）{{isAll?intro:''}}
+							有银子旗下新平台顺手赚，新手送1元，1毛阅读，首次2元提现，后续5元起提现。涨分更快，每天10分钟，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2358/2358'>比比宝</navigator></view><view><navigator url='/4/2208/2208'>豆豆趣玩安卓版</navigator></view><view><navigator url='/3/1979/1979'>随手涨分王</navigator></view><view><navigator url='/3/2120/2120'>微有趣</navigator></view>
+				<view><navigator url='/4/2177/2177'>每日赚点</navigator></view><view><navigator url='/2/1798/1798'>淘小铺</navigator></view><view><navigator url='/3/1972/1972'>斑马热点</navigator></view><view><navigator url='/4/2199/2199'>淘金赚</navigator></view>
 			</view>
 		</view>
 	</view>

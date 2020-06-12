@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							喜赚是一款可以赚钱的资讯类信息平台，自阅+转发赚钱，提现门槛超低，每天都可一元提现！用户通过转发分享文章或视频内容到朋友圈或微信供好友阅读，平台根据用户分享带来的阅读量，为用户发放奖励，让用户在阅读的同时享受着分享的乐趣，让您在阅读的同时还能获得一定的收益。 喜赚秉承用户至上的理念，致力于打造一款全新的资讯平台，让内容不止有趣而且更有价值！精彩世界尽在你眼中，新奇有趣让你看不够，邀好友赚红包奖励，千万红包与你齐分享。 联系官方：客服咨询QQ 3515217571 客服微信jiuyi010 QQ群671905972，我们将竭诚为您服务。 本站联系方式：微信yuri-le{{isAll?intro:''}}
+							喜赚是一款可以赚钱的资讯类信息平台，自阅+转发赚钱，提现门槛超低，每天都可一元提现！用户通过转发分享{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2395/2395'>爱赚钱</navigator></view><view><navigator url='/2/1866/1866'>爱调查</navigator></view><view><navigator url='/1/1493/1493'>体验狮</navigator></view><view><navigator url='/4/2336/2336'>解锁赚【骗子软件】</navigator></view>
+				<view><navigator url='/1/1523/1523'>游易赚</navigator></view><view><navigator url='/3/2091/2091'>视频赚</navigator></view><view><navigator url='/1/1505/1505'>多多农场</navigator></view><view><navigator url='/2/1760/1760'>码帮</navigator></view>
 			</view>
 		</view>
 	</view>

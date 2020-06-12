@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							松鼠资讯边看文章边赚钱的自阅赚钱软件，人人都有惊喜，注册填写邀请码35180即送1-5元现金红包，奖励实时到账，5元就能提现！松鼠资讯每天更新海量的资讯及精美文章，为用户提供一手优质内容，同时也是一款可以赚钱的软件， 用户阅读资讯即可获得金币奖励。 松鼠资讯每天更新海量资讯，网罗各类有趣有料视频，让你看不停，笑不停，邀请好友奖励3-30元现金，超高收益躺着赚钱。{{isAll?intro:''}}
+							松鼠资讯边看文章边赚钱的自阅赚钱软件，人人都有惊喜，注册填写邀请码35180即送1-5元现金红包，奖{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1822/1822'>小红店</navigator></view><view><navigator url='/3/2146/2146'>水滴任务投票平台</navigator></view><view><navigator url='/3/1878/1878'>抖音极速版</navigator></view><view><navigator url='/1/1505/1505'>多多农场</navigator></view>
+				<view><navigator url='/4/2384/2384'>玩赚APP</navigator></view><view><navigator url='/2/1846/1846'>刷刷客</navigator></view><view><navigator url='/1/1602/1602'>嘀嗒赚</navigator></view><view><navigator url='/4/2243/2243'>来赚分享</navigator></view>
 			</view>
 		</view>
 	</view>

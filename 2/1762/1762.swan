@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							悬赏猫是一款小巧、好用的手机兼职赚钱软件，1元就能提现，秒到账。悬赏猫提供各种类型的任务供用户选择，空闲时间，拿出手机做做小任务，就能快速赚取零花钱。在这里你可以做悬赏赚钱，赚得佣金可随时提现。在悬赏猫app你也可以发布悬赏任务，让千万用户体验你的产品。 千万别说，你不会手机赚钱，在悬赏猫app上赚钱太轻松了，每天海量的手机赚钱小任务，无非就是注册个账户，再或者关注投个票类的，可以说手指动一动就把钱赚了。支付宝两元提现，快速到账。 小技巧：登陆后，点击我的—喵达人，如果没升级到喵达人，大家记得手动升级，能多赚20%！ 悬赏任务都非常给力，奖励都是几块钱，甚至是十几块钱。每天做10个小任务，一天稳赚100元！每天都有大量新任务发布，丰富多样的任务类型，调查问卷，游戏，购物，数据采集。 余额满2元即可申请提现！支持打款到微信或支付宝，50元以下秒到，50元以上1个工作日内到账！2元以上2%手续费。 客服QQ群：143685636{{isAll?intro:''}}
+							悬赏猫是一款小巧、好用的手机兼职赚钱软件，1元就能提现，秒到账。悬赏猫提供各种类型的任务供用户选择，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1994/1994'>观天下</navigator></view><view><navigator url='/3/2111/2111'>分享一客</navigator></view><view><navigator url='/2/1849/1849'>红信</navigator></view><view><navigator url='/4/2209/2209'>易读资讯</navigator></view>
+				<view><navigator url='/2/1818/1818'>热量星球</navigator></view><view><navigator url='/3/2044/2044'>头条看点</navigator></view><view><navigator url='/3/2101/2101'>轶闻趣事</navigator></view><view><navigator url='/2/1836/1836'>多多盒子</navigator></view>
 			</view>
 		</view>
 	</view>

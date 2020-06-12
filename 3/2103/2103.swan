@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							提款机一个看新闻和转发文章就能赚钱的软件，零投入，分享文章被阅读就赚钱了，每次阅读6分钱，注册加入就送1元，2元就能提现，秒到账。真实靠谱，零投入，你只需要分享文章到朋友圈就可以赚钱。{{isAll?intro:''}}
+							提款机一个看新闻和转发文章就能赚钱的软件，零投入，分享文章被阅读就赚钱了，每次阅读6分钱，注册加入就{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1654/1654'>财蛙</navigator></view><view><navigator url='/2/1788/1788'>全民赚</navigator></view><view><navigator url='/3/2032/2032'>香蕉网</navigator></view><view><navigator url='/3/2107/2107'>星赚</navigator></view>
+				<view><navigator url='/1/1689/1689'>赚点-调查赚钱app</navigator></view><view><navigator url='/3/2040/2040'>牛牛头条</navigator></view><view><navigator url='/2/1839/1839'>试玩屋</navigator></view><view><navigator url='/3/1888/1888'>魔视</navigator></view>
 			</view>
 		</view>
 	</view>

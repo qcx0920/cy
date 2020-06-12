@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							冠鼠网APP，是达中科技旗下转发文章赚钱的平台，分享文章就能赚钱，可以选择发到微信好友群或者转发到朋友圈，有人气的地方就可以赚钱，平时单价0.41元（4月2日-4月9日活动期间阅读单价0.72元），每个ip、每个终端每日计费一次，每日收益不设上限，首次一元就可以提现。   平台特点： 1.注册送1元红包，转发文章后有三次收入，1元就能立刻提现。 2.永久单价0.41元，创行业之最。 3.收徒奖励21元及50%提成，每日轻松赚钱。 4.提现到账快，首次一元起。   联系官方 客服QQ：2985440558，客服微信：dadajiang25{{isAll?intro:''}}
+							冠鼠网APP，是达中科技旗下转发文章赚钱的平台，分享文章就能赚钱，可以选择发到微信好友群或者转发到朋{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1549/1549'>蜜蜂试玩</navigator></view><view><navigator url='/4/2317/2317'>黄金指</navigator></view><view><navigator url='/1/1604/1604'>懒人赚钱</navigator></view><view><navigator url='/4/2337/2337'>遛达赚钱（溜达）</navigator></view>
+				<view><navigator url='/4/2169/2169'>玩游赚</navigator></view><view><navigator url='/1/1721/1721'>微播圈</navigator></view><view><navigator url='/1/1598/1598'>元宝猫</navigator></view><view><navigator url='/4/2304/2304'>看看有钱</navigator></view>
 			</view>
 		</view>
 	</view>

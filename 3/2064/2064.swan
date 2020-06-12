@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							逛有钱是一款阅读就能赚钱的购物App，满10元可提现！万千宝贝，只要看了就赚钱！能省钱更能赚钱，让你不花钱还能赚钱，逛有钱是全国首款看宝贝赚钱的购物应用。 产品优势 【赚钱】不止省钱，每天阅读浏览宝贝每天赚钱； 【优惠】超级优惠，超级券，优选优质商品超级优惠券； 【精选】人工精选，每天不间隙人工精选好宝贝； 【头条】宝贝头条，超有趣头条，分享好宝贝。{{isAll?intro:''}}
+							逛有钱是一款阅读就能赚钱的购物App，满10元可提现！万千宝贝，只要看了就赚钱！能省钱更能赚钱，让你{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1933/1933'>抖腿漫画</navigator></view><view><navigator url='/4/2256/2256'>返利赚</navigator></view><view><navigator url='/1/1585/1585'>随意赚</navigator></view><view><navigator url='/1/1652/1652'>体验喵</navigator></view>
+				<view><navigator url='/3/2001/2001'>香瓜转</navigator></view><view><navigator url='/3/1926/1926'>松鼠网</navigator></view><view><navigator url='/3/2096/2096'>红豆赚</navigator></view><view><navigator url='/2/1790/1790'>追看视频</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							左玩右玩是一款玩游戏赚钱的软件，手机兼职赚钱软件就选左玩右玩。手机兼职赚钱的app，玩手机游戏兼职做任务，轻松赚到生活费，零花钱，帮你赚钱的兼职平台，丰富的任务类型和海量任务，就在左玩右玩。 【新手专享】 新手专享1元微信提现秒到账，实时到账无手续费； 【海量游戏】 丰富的游戏库，不一样的游戏服务，边体验边赚钱，乐趣多多钱多多； 【玩游戏能赚钱】 高额的游戏奖励，边做任务边赚钱，快速实现小康福禄； 【红包无限领】 除了自己的红包，还有好友的红包等你领； 【邀请好友赚】 邀请好友注册下载，轻松得一元。 这款手机兼职app兼职软件，很适合学生游戏兼职、宝妈家庭兼职，利用碎片化时间就能轻轻松松赚零花钱；学生兼职赚个零花钱，宝妈兼职赚个生活费都是没问题的，快来开启你的赚钱行动吧！{{isAll?intro:''}}
+							左玩右玩是一款玩游戏赚钱的软件，手机兼职赚钱软件就选左玩右玩。手机兼职赚钱的app，玩手机游戏兼职做{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1522/1522'>王者联盟</navigator></view><view><navigator url='/3/1937/1937'>海豚网</navigator></view><view><navigator url='/1/1497/1497'>巨宝朋</navigator></view><view><navigator url='/4/2244/2244'>100赚安卓版</navigator></view>
+				<view><navigator url='/3/1941/1941'>霏霏</navigator></view><view><navigator url='/1/1533/1533'>全民养龙</navigator></view><view><navigator url='/4/2365/2365'>乐游宝</navigator></view><view><navigator url='/4/2194/2194'>泡泡赚</navigator></view>
 			</view>
 		</view>
 	</view>

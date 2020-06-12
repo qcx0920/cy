@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							友钱是一个专属于iPhone用户赚钱的APP试玩平台。（首次安装钥匙送2元）用户通过下载、试玩APP即可获得现金奖励，邀请好友加入还可获得额外奖励。友钱·一起赚。 友钱一起玩赚APP世界。下载、试玩指定APP即可获得现金或实物奖励，好友越多奖励越多。 用苹果微信扫描下图二维码关注友钱开始赚钱{{isAll?intro:''}}
+							友钱是一个专属于iPhone用户赚钱的APP试玩平台。（首次安装钥匙送2元）用户通过下载、试玩APP{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1515/1515'>赏呗兼职</navigator></view><view><navigator url='/2/1791/1791'>甩手赚</navigator></view><view><navigator url='/1/1517/1517'>云咖看点</navigator></view><view><navigator url='/1/1641/1641'>游虎试玩</navigator></view>
+				<view><navigator url='/1/1665/1665'>开钱宝</navigator></view><view><navigator url='/1/1668/1668'>至尊宝</navigator></view><view><navigator url='/1/1717/1717'>口袋红包苹果版</navigator></view><view><navigator url='/3/2014/2014'>全民小视频</navigator></view>
 			</view>
 		</view>
 	</view>

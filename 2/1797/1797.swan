@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							赚分享，分享就能赚钱，每天分享几条朋友圈，轻松日赚100元。赚分享app是一款利用微信发朋友圈赚钱的客户端应用，赚分享软件上每天都能免费发朋友圈赚钱，微信好友数越多每天可以做的任务越多，任务单价高，赚分享app让动动手指头就能赚钱。 联系官方 官方QQ群：931553227，客服QQ：563374409{{isAll?intro:''}}
+							赚分享，分享就能赚钱，每天分享几条朋友圈，轻松日赚100元。赚分享app是一款利用微信发朋友圈赚钱的{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1866/1866'>爱调查</navigator></view><view><navigator url='/1/1679/1679'>一元赚苹果版</navigator></view><view><navigator url='/1/1659/1659'>小马试客</navigator></view><view><navigator url='/1/1619/1619'>子弹试玩</navigator></view>
+				<view><navigator url='/3/2034/2034'>小V咖</navigator></view><view><navigator url='/3/1995/1995'>聚转啦</navigator></view><view><navigator url='/3/1924/1924'>点点转</navigator></view><view><navigator url='/1/1496/1496'>趣玩</navigator></view>
 			</view>
 		</view>
 	</view>

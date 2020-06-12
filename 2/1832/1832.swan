@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							趣呀是一款社交变现类app，让兴趣更有价值，填写邀请码7MMIFFHI来趣呀APP瓜分亿元红包。在这里你除了可以找到与你兴趣相投的小伙伴，还能实现兴趣变现，直接获得广告和流量带来的收益，让认真发帖的你收获更多红包。 主要玩法 【玩当饭吃】发帖，点赞也能轻松挣零花钱 【任务板块】 1每日任务，完成每日任务，红包拿不停 2成就任务，完成高阶任务，解锁更多挣钱新姿势 【邀请好友玩法】 1新人登录即刻领取新人红包,，瓜分百万大奖 2 每邀请一位好友趣呀即会送您好友收益10%的额外的奖金 3 邀请好友首次提现奖励邀请人10元 全新社交模式，海量兴趣圈一定有你喜欢的，没有还可以自己造哦！随时随地获取你感兴趣的一手新鲜资讯。{{isAll?intro:''}}
+							趣呀是一款社交变现类app，让兴趣更有价值，填写邀请码7MMIFFHI来趣呀APP瓜分亿元红包。在这{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1677/1677'>搜猴儿赚钱</navigator></view><view><navigator url='/4/2222/2222'>99赚钱</navigator></view><view><navigator url='/2/1864/1864'>抓实惠</navigator></view><view><navigator url='/4/2316/2316'>优赚</navigator></view>
+				<view><navigator url='/1/1723/1723'>小水滴苹果版</navigator></view><view><navigator url='/1/1633/1633'>应用小秘</navigator></view><view><navigator url='/1/1681/1681'>铜板墙</navigator></view><view><navigator url='/3/2014/2014'>全民小视频</navigator></view>
 			</view>
 		</view>
 	</view>

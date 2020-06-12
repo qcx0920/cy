@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							《聚赚资讯》于5月15日10:00上线，是一个分享赚钱平台，只要分享app内热门精彩文章到微信，被阅读一次即给5毛，注册即送1元，阅读单价0.5元，5元就能提现。 收徒奖励20元 第一次提现到账奖励3元 第二次提现到账奖励3元 第三次提现到账奖励3元 第四次提现到账奖励5元  累计提现满百元到账奖励6元 阅读提成：50%（徒弟30%+徒孙20%）   [红包]新手红包26元 [發]每日提现2次，最低5元提现，最高500元（首提及之后都是最低5元，节假日正常提现） [發]每日08:00-17:00提现，提现快速审核，快速到账 [福]推广期收徒排行榜特等奖两万现金（两个名额），还有更多奖金免费拿 优质平台《海赚》旗下最新阅读转发APP《聚赚资讯》{{isAll?intro:''}}
+							《聚赚资讯》于5月15日10:00上线，是一个分享赚钱平台，只要分享app内热门精彩文章到微信，被阅{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2195/2195'>小龙赚钱</navigator></view><view><navigator url='/3/2093/2093'>无敌赚-大神转</navigator></view><view><navigator url='/3/2017/2017'>UC浏览器福利版</navigator></view><view><navigator url='/1/1707/1707'>美赚苹果版</navigator></view>
+				<view><navigator url='/3/1885/1885'>番茄免费小说</navigator></view><view><navigator url='/1/1617/1617'>云米赚</navigator></view><view><navigator url='/2/1788/1788'>全民赚</navigator></view><view><navigator url='/1/1633/1633'>应用小秘</navigator></view>
 			</view>
 		</view>
 	</view>

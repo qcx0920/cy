@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							猫小贱-网购达人省钱首选工具！  众多电商平台优惠券分享给朋友省钱，自己赚钱！真正做到自购省钱，分享赚钱！ 极速提现，一元提现，方便快捷，闪电到账，安全靠谱。全场0元购，限时秒杀心仪商品，不拿白不拿，就是白拿！【点击这里了解钻石会员与购物达人】 【特色功能】 拉新活动：新人注册即送5元现金红包，可提现！ 早起打卡：免费参与早起打卡，瓜分巨额奖金池！ 9块9包邮：全场品牌宝贝9块9包邮，让奢侈顺其自然！ 口红机：闯三关，大牌口红，免费赢！ 影视VIP:猫小贱会员免费激活12大影视平台VIP特权！ 优惠券:海量大额优惠券，每日上新，优惠不止一点点！ 官方QQ群：1003167121{{isAll?intro:''}}
+							猫小贱-网购达人省钱首选工具！  众多电商平台优惠券分享给朋友省钱，自己赚钱！真正做到自购省钱，分享{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1966/1966'>淘金阅读</navigator></view><view><navigator url='/4/2279/2279'>锁财宝</navigator></view><view><navigator url='/2/1848/1848'>小微托管挂机赚钱</navigator></view><view><navigator url='/1/1519/1519'>涨分宝</navigator></view>
+				<view><navigator url='/1/1686/1686'>热葫芦iOS版</navigator></view><view><navigator url='/1/1524/1524'>淘粉网</navigator></view><view><navigator url='/3/1970/1970'>红包视界</navigator></view><view><navigator url='/1/1491/1491'>小鱼赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

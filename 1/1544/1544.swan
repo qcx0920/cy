@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							小白赚钱是一个任务悬赏的兼职赚钱平台，做任务领悬赏拿现金，完成新手任务即可领7元现金，超低提现门槛，2元就能提现，提现简单，到账快。互联网小白一天也能轻松赚几十块，小白赚钱是一款让您轻松赚钱的手机兼职APP。 小白赚钱APP是一款线上有偿互助的平台。如果你生活中遇到需要别人帮你“砍一刀”、“助力火车票”之类的需求的时候，有了小白赚钱APP，你就可以不用打扰自己的朋友圈和微信群，只需要悬赏几块钱，就有人帮你解决啦。另一边，假如你在家闲着没事，想要用空闲时间赚点钱的话，可以在小白赚钱APP上承接帮别人砍价等差事，完成别人的求助就可以赚到赏金了。 小白赚钱APP是悬赏、互助、兼职赚钱平台！ 我们致力于帮助求助者们短时间内解决线上求助的需求。 帮助做单者们利用空闲时间帮助别人的同时还能获得赚到回报。 网上办事不求人，帮忙助力能赚钱！ 联系我们 客服QQ群：564104407、736856485、客服微信：yato_85，客服QQ：2930108140{{isAll?intro:''}}
+							小白赚钱是一个任务悬赏的兼职赚钱平台，做任务领悬赏拿现金，完成新手任务即可领7元现金，超低提现门槛，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1833/1833'>十金</navigator></view><view><navigator url='/1/1705/1705'>向钱冲</navigator></view><view><navigator url='/3/2044/2044'>头条看点</navigator></view><view><navigator url='/3/2138/2138'>嗨皮赚</navigator></view>
+				<view><navigator url='/3/2099/2099'>转发宝</navigator></view><view><navigator url='/1/1735/1735'>推猫苹果版</navigator></view><view><navigator url='/1/1507/1507'>全民悬赏</navigator></view><view><navigator url='/2/1842/1842'>一点赚</navigator></view>
 			</view>
 		</view>
 	</view>

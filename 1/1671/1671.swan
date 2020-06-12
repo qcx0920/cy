@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							爽啦APP，可以赚钱的苹果iOS手机软件，应用单价1-3元，10元提现。零投入，无需投入本金，日积月累多做任务，收益多多。{{isAll?intro:''}}
+							爽啦APP，可以赚钱的苹果iOS手机软件，应用单价1-3元，10元提现。零投入，无需投入本金，日积月{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1932/1932'>米转</navigator></view><view><navigator url='/4/2192/2192'>赚宝</navigator></view><view><navigator url='/1/1642/1642'>钱夹</navigator></view><view><navigator url='/2/1815/1815'>番茄赚</navigator></view>
+				<view><navigator url='/4/2230/2230'>零钱猫</navigator></view><view><navigator url='/1/1733/1733'>微看点苹果版</navigator></view><view><navigator url='/4/2272/2272'>龙易赚</navigator></view><view><navigator url='/1/1637/1637'>二鸟</navigator></view>
 			</view>
 		</view>
 	</view>

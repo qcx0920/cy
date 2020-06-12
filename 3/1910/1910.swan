@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							史上最强任务平台99阅读上线啦，新用户登录平台赠送你5000积分，即5毛，免费领任务赚钱的平台<99阅读>上线了！99阅读任务多，奖励高，文章读六秒即算完成，所有任务都是免费领取！赚够积分随时提现，提现一元、五元，0门槛，秒到账！ 特色抖音任务，超高价格，边刷边赚钱！点击获取更多任务，下载APP即可领取~ 不管你是愿意微信读文章，还是抖音刷视频，99阅读的任务都能满足你～ 想要轻松躺着赚，也别忘了多多收徒呀！点击链接即可绑定师徒关系，无需下载！每收徒一人，即可领3元现金，还有永久徒弟阅读提成哦～ 别人都开始领任务赚钱了，这样的好机会你怎么能错过呢！{{isAll?intro:''}}
+							史上最强任务平台99阅读上线啦，新用户登录平台赠送你5000积分，即5毛，免费领任务赚钱的平台<99{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1899/1899'>看点快报</navigator></view><view><navigator url='/3/2070/2070'>快转客</navigator></view><view><navigator url='/4/2303/2303'>拍得利</navigator></view><view><navigator url='/3/2081/2081'>嘿嘿新闻</navigator></view>
+				<view><navigator url='/3/1937/1937'>海豚网</navigator></view><view><navigator url='/2/1858/1858'>今晚八点半</navigator></view><view><navigator url='/3/1934/1934'>暴龙</navigator></view><view><navigator url='/1/1707/1707'>美赚苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

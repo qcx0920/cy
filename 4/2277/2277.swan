@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							e赚是一个通过让各位童鞋利用自己的手机来体验移动互联网产品来获得收入的平台。 e赚让你在玩手机的同时还能轻松赚到钱的Android手机应用，通过e赚，你可以通过安装我们推荐的优秀应用、评论和分享应用、每日签到、完成指定任务等方式赚取e币，还可以把e币兑换成话费，Q币，支付宝充值哦。 e赚功能特点： 1、免费下载安装e赚一键注册体验手机赚钱 2、每天小手点一点，做做任务、体验应用就能赚取e币 3、e赚还支持浏览网页、手机看广告赚钱哦 4、1个Q币就可兑换，当天到账，支付宝、手机话费10元起兑换 动动手指就能赚钱e赚首创通过手机完成任务赚钱的模式，玩家通过下载e赚推荐的应用就可以获得收益，用户还可以获得签到多次试玩分享等 收益真正实现“小手抖一抖，话费赚到手”的快感!{{isAll?intro:''}}
+							e赚是一个通过让各位童鞋利用自己的手机来体验移动互联网产品来获得收入的平台。 e赚让你在玩手机的同时{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2135/2135'>塔丝猫</navigator></view><view><navigator url='/3/2162/2162'>PP试玩</navigator></view><view><navigator url='/3/1913/1913'>蚂蚁看点</navigator></view><view><navigator url='/4/2325/2325'>手机淘米</navigator></view>
+				<view><navigator url='/4/2345/2345'>聚宝盆</navigator></view><view><navigator url='/1/1582/1582'>爱搜懒人领钱</navigator></view><view><navigator url='/3/2072/2072'>贝壳头条</navigator></view><view><navigator url='/1/1603/1603'>微赚</navigator></view>
 			</view>
 		</view>
 	</view>

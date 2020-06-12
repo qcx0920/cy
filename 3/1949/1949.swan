@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							乐看点是霏霏旗下最新转发文章赚钱平台，注册送1元，3元起提现快速到账，支持两级共30%提成。8月15日-8月31日活动期间每天6小时文章阅读单价0.16元。{{isAll?intro:''}}
+							乐看点是霏霏旗下最新转发文章赚钱平台，注册送1元，3元起提现快速到账，支持两级共30%提成。8月15{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2214/2214'>想转啦</navigator></view><view><navigator url='/4/2257/2257'>口袋赚</navigator></view><view><navigator url='/4/2315/2315'>有钱</navigator></view><view><navigator url='/2/1850/1850'>来钱道</navigator></view>
+				<view><navigator url='/3/2037/2037'>百姓头条</navigator></view><view><navigator url='/4/2382/2382'>赚钱花</navigator></view><view><navigator url='/1/1700/1700'>赚赚兔</navigator></view><view><navigator url='/1/1688/1688'>微钱购</navigator></view>
 			</view>
 		</view>
 	</view>

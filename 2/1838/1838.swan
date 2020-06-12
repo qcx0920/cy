@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							微信小程序可以赚钱了，《掌中盒子》小程序试玩平台，无需下载APP，每天试玩小程序就可以赚钱！超级简单！！试玩一个小程序5分～2毛，第二天可继续试玩，亲测有效，速度群发给所有人！ 【4级提成，收入暴增】 假设每人邀请20人，每天试玩5个小程序： 一级提成：0.04元*5*20人=4元每天 二级提成：0.03元*5*400人=60元每天 三级提成：0.02元*5*8000人=800元每天 四级提成：0.01元*5*160000人=8000元每天 市场空白，速度推广，抢占先机，马上建立万人团队，以后每天都有源源不断的收入！{{isAll?intro:''}}
+							微信小程序可以赚钱了，《掌中盒子》小程序试玩平台，无需下载APP，每天试玩小程序就可以赚钱！超级简单{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2003/2003'>悦头条</navigator></view><view><navigator url='/4/2343/2343'>看图赚</navigator></view><view><navigator url='/1/1553/1553'>i红包</navigator></view><view><navigator url='/4/2325/2325'>手机淘米</navigator></view>
+				<view><navigator url='/3/2022/2022'>今日爆点</navigator></view><view><navigator url='/1/1686/1686'>热葫芦iOS版</navigator></view><view><navigator url='/1/1695/1695'>试玩团长</navigator></view><view><navigator url='/2/1857/1857'>趣专享</navigator></view>
 			</view>
 		</view>
 	</view>

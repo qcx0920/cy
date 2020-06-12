@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							蜜蜂阅读，新福利重磅来袭，2018黑马平台火热推出，2元提现秒到账，最新暴力赚钱项目，玩玩手机就能赚钱，每天10分钟，轻松挣零花，你还在等什么 拉上你的姐妹，早上车早吃肉。{{isAll?intro:''}}
+							蜜蜂阅读，新福利重磅来袭，2018黑马平台火热推出，2元提现秒到账，最新暴力赚钱项目，玩玩手机就能赚{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1671/1671'>爽啦</navigator></view><view><navigator url='/4/2189/2189'>火种游戏</navigator></view><view><navigator url='/3/2089/2089'>麻雀浏览器</navigator></view><view><navigator url='/4/2269/2269'>体验宝</navigator></view>
+				<view><navigator url='/2/1765/1765'>给力赚</navigator></view><view><navigator url='/2/1786/1786'>微帮</navigator></view><view><navigator url='/2/1829/1829'>省钱快报</navigator></view><view><navigator url='/4/2175/2175'>蜜蜂试玩安卓版</navigator></view>
 			</view>
 		</view>
 	</view>

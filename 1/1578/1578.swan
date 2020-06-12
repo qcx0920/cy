@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							抖赚试玩是一个苹果手机下载应用试玩赚钱的软件，任务单价0.8元起，余额满10元起即可提现。用户通过抖赚去下载应用即可获得现金奖励，完成新手任务送2.5元。{{isAll?intro:''}}
+							抖赚试玩是一个苹果手机下载应用试玩赚钱的软件，任务单价0.8元起，余额满10元起即可提现。用户通过抖{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1769/1769'>众人帮</navigator></view><view><navigator url='/3/1916/1916'>泡泡头条</navigator></view><view><navigator url='/3/2060/2060'>趣转发</navigator></view><view><navigator url='/1/1707/1707'>美赚苹果版</navigator></view>
+				<view><navigator url='/2/1862/1862'>花赚</navigator></view><view><navigator url='/2/1845/1845'>元宝挂机</navigator></view><view><navigator url='/4/2363/2363'>免费流量王</navigator></view><view><navigator url='/1/1657/1657'>钱赞赞</navigator></view>
 			</view>
 		</view>
 	</view>

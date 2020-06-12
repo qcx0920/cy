@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							任务猪是一个新晋微信辅助注册平台（任务猪首码），目前任务比较少，不过应该会慢慢增加，有可能成为下一个FZ辅助平台。目前任务猪隆重推出重磅接单奖励。 活动规则 1,个人单量达标奖（日成功单）： 日达100单以上 , 奖励100元 ,  日达200单以上，奖励250元，  日达500单以上，奖励750元 超过1000单以上均按0.8元/单奖励！多接多得，上不封顶！ 活动对象：全体任务猪用户 活动时间：截止日期11月30日 任务猪客服联系方式：31302255{{isAll?intro:''}}
+							任务猪是一个新晋微信辅助注册平台（任务猪首码），目前任务比较少，不过应该会慢慢增加，有可能成为下一个{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1542/1542'>赏链</navigator></view><view><navigator url='/1/1587/1587'>赚多多</navigator></view><view><navigator url='/4/2242/2242'>钱猪猪</navigator></view><view><navigator url='/1/1742/1742'>赚客帮苹果版</navigator></view>
+				<view><navigator url='/2/1791/1791'>甩手赚</navigator></view><view><navigator url='/2/1792/1792'>刷刷乐</navigator></view><view><navigator url='/4/2393/2393'>抢抢乐-抢红包</navigator></view><view><navigator url='/1/1567/1567'>首席试玩官</navigator></view>
 			</view>
 		</view>
 	</view>

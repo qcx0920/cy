@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							赚乐是一款让您在闲暇之余轻松赚钱的手机应用，通过您完成一些简单的任务，可以获得金币和经验的奖励。金币可以兑换Q币、话费或是支付宝提现。 特点： 1、试玩应用，游戏，轻松获得金币； 2、看广告任务：以前看见广告就觉得烦，现在看见广告就能赚钱~ 3、挂机任务可以让您在睡觉时，上班时，上课时，任何闲置手机的时候，让手机继续为您工作赚钱； 4、暴击模式，任务做多了，总有暴击的时候！3~8倍奖励随时找您！ 5、邀请激励机制，可以让您把欢乐传递给好友的同时，永久性的坐享收益！ 6、微卖玩法全新上线！零成本，无需开店做微商，快试试吧！{{isAll?intro:''}}
+							赚乐是一款让您在闲暇之余轻松赚钱的手机应用，通过您完成一些简单的任务，可以获得金币和经验的奖励。金币{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1661/1661'>钱咖赚钱</navigator></view><view><navigator url='/1/1548/1548'>试玩赚钱入口</navigator></view><view><navigator url='/4/2252/2252'>龙猫众包</navigator></view><view><navigator url='/1/1726/1726'>红包锁屏苹果版</navigator></view>
+				<view><navigator url='/2/1787/1787'>赏乐帮</navigator></view><view><navigator url='/1/1531/1531'>猪猪世界</navigator></view><view><navigator url='/3/2060/2060'>趣转发</navigator></view><view><navigator url='/4/2379/2379'>挣钱吧</navigator></view>
 			</view>
 		</view>
 	</view>

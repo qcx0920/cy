@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							快摇吧一个让你看广告摇红包的APP，点击底部菜单【我的】-【推荐有礼】输入邀请码：【L305EG】，即得1元和126元现金大礼包。颠覆传统红包玩法，首发联合知名企业百万现金红包任性发放！ 赚钱攻略： 1、注册后点“快摇”即首页点“新手任务”完善资料绑定微信和支付宝可得2个红包 2、还是在首页点“5元现金红包”摇一摇可得5元现金 3、然后点“我的”--“推荐有礼”输入邀请码【L305EG】点“马上验证”可得1元现金 4、点中间红包图标可拆6个红包，分享还奖励1个红包，一共是7个红包约1元现金 5、每天免费可拆4个红包，完成日常任务可得额外奖励 6、每天签到可得积分，积分可升级，升到3级每天可拆10个红包 7、注册得5元，填写邀请码得1元，一共得6元现金，满20元支付宝可提现   【海量派红包】已与多家知名公司合作，海量红包火热派送中。红包雨一直下，气氛更加融洽！ 【轻松摇红包】摇一摇，输口令，轻松拿红包。红包垂直发放，摒弃其他APP下载得红包的方式，做最良心的红包APP！ 【提现拿红包】红包可提现，三个工作日内到账。红包就是要玩真的！{{isAll?intro:''}}
+							快摇吧一个让你看广告摇红包的APP，点击底部菜单【我的】-【推荐有礼】输入邀请码：【L305EG】，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1742/1742'>赚客帮苹果版</navigator></view><view><navigator url='/3/1919/1919'>闲鱼</navigator></view><view><navigator url='/3/2036/2036'>头条多多</navigator></view><view><navigator url='/4/2193/2193'>Q玩小游戏</navigator></view>
+				<view><navigator url='/3/1877/1877'>火山极速版</navigator></view><view><navigator url='/4/2165/2165'>萌萌小笨龙</navigator></view><view><navigator url='/3/2013/2013'>好看视频</navigator></view><view><navigator url='/1/1629/1629'>东方头条苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							任务超市是一个让您试玩应用就能赚钱的平台（安装输入邀请码100058送1.5元），通过与全国各大APP合作，我们每天为您提供上百个APP体验任务，让您轻松月赚千元。邀请好友更等获得20%的额外佣金收入，让您躺着成为土豪！   满1元即可提现，我们提供支付宝、话费充值、Q币兑换等提现手段。{{isAll?intro:''}}
+							任务超市是一个让您试玩应用就能赚钱的平台（安装输入邀请码100058送1.5元），通过与全国各大AP{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2348/2348'>乐赚锁屏</navigator></view><view><navigator url='/1/1640/1640'>钱脉试玩</navigator></view><view><navigator url='/3/2145/2145'>挖人气</navigator></view><view><navigator url='/1/1533/1533'>全民养龙</navigator></view>
+				<view><navigator url='/4/2177/2177'>每日赚点</navigator></view><view><navigator url='/2/1823/1823'>投吧网</navigator></view><view><navigator url='/1/1634/1634'>钱兔</navigator></view><view><navigator url='/1/1539/1539'>钱牛</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							熊猫试玩下载试玩App就能赚钱，玩得越多赚得越多。现在加入，新用户立送2元。下载试玩App就有现金奖励，轻轻松松月入上千。邀请好友有奖励，TA做任务更有高达10%提成。现金奖励立即到账，支付宝、微信快速提现。 微信扫一扫二维码关注开始赚钱{{isAll?intro:''}}
+							熊猫试玩下载试玩App就能赚钱，玩得越多赚得越多。现在加入，新用户立送2元。下载试玩App就有现金奖{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1994/1994'>观天下</navigator></view><view><navigator url='/3/1981/1981'>搜狐资讯</navigator></view><view><navigator url='/2/1785/1785'>蜘蛛盟</navigator></view><view><navigator url='/2/1834/1834'>飞赚宝</navigator></view>
+				<view><navigator url='/3/1955/1955'>快米看点</navigator></view><view><navigator url='/1/1710/1710'>钱程苹果版</navigator></view><view><navigator url='/4/2243/2243'>来赚分享</navigator></view><view><navigator url='/4/2210/2210'>小象读吧</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							蝉试客是一个用手机轻松试玩有趣应用就能赚钱的软件，3分钟碎片化时间轻松试玩。只要3分钟试玩体验，就能获得一次试玩奖励，利用碎片化时间，发现更多好玩应用。试玩奖励模式，多劳多得。任务试玩三分钟，丰厚奖励，每天一小时。蝉试客可以快速提现，充值话费，闪电处理，极速到帐。 联系我们 地址：厦门市集美区杏林湾路464号302室之二十三 QQ：1072232254{{isAll?intro:''}}
+							蝉试客是一个用手机轻松试玩有趣应用就能赚钱的软件，3分钟碎片化时间轻松试玩。只要3分钟试玩体验，就能{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2274/2274'>亿屏互动</navigator></view><view><navigator url='/3/1896/1896'>稳稳赚</navigator></view><view><navigator url='/3/2133/2133'>快点</navigator></view><view><navigator url='/3/1923/1923'>猫眼</navigator></view>
+				<view><navigator url='/3/2040/2040'>牛牛头条</navigator></view><view><navigator url='/4/2221/2221'>学生赚</navigator></view><view><navigator url='/3/2123/2123'>点点有钱</navigator></view><view><navigator url='/4/2193/2193'>Q玩小游戏</navigator></view>
 			</view>
 		</view>
 	</view>

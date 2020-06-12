@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							豆豆趣玩是一款基于手机解锁屏幕赚钱的锁屏返现应用。豆豆趣玩赚钱的方式很简单，只要每次点亮手机屏幕，上下划动就能切换任务，完成任务即可获得丰厚奖励。奖励累计到一定金额，就能在软件内进行提现！ 应用特点： 左右划动有钱拿：左划赚钱，右划解锁，简单便捷，轻松入账； 上下切换看世界：轻轻划动，任务随心切换，还有精彩新闻看过瘾； 邀请好友很赚钱：丰厚的邀请奖励，还有额外的提成奖励，有钱大家一起赚； 赚钱形式更多样：答题任务、理财任务、截图任务，让豆宝们轻轻松松赚大钱； 兑换形式好便捷：支持微信提现，发起申请即可迅速到账。{{isAll?intro:''}}
+							豆豆趣玩是一款基于手机解锁屏幕赚钱的锁屏返现应用。豆豆趣玩赚钱的方式很简单，只要每次点亮手机屏幕，上{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1894/1894'>爆分网</navigator></view><view><navigator url='/3/1900/1900'>聚钱宝</navigator></view><view><navigator url='/3/2052/2052'>转乐</navigator></view><view><navigator url='/3/1985/1985'>铛铛赚</navigator></view>
+				<view><navigator url='/3/2149/2149'>满满钱包</navigator></view><view><navigator url='/3/1916/1916'>泡泡头条</navigator></view><view><navigator url='/3/1890/1890'>枫叶网</navigator></view><view><navigator url='/1/1750/1750'>我赚-iOS赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

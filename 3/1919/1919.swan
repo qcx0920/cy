@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							闲鱼浏览宝贝可以赚钱啦，边逛边赚钱，1元就能提现。填写邀请码XZ25DLXXH，新用户首次登陆秒提一元，老用户每天可以简单浏览物品领取红包奖励！闲鱼宝是由闲鱼平台为奖励闲鱼用户提供的专属活动，闲鱼用户可通过邀请好友下载闲鱼和边逛边赚钱两种方式，赚取现金红包，可通过支付宝提现。   边逛边赚钱（单浏览宝贝每天可赚1-2元） 逛闲鱼挖宝箱，红包金额随机，宝箱等级越高开启的红包就越大。 浏览5个宝贝可开启铜宝箱 浏览15个宝贝可开启银宝箱 浏览30个宝贝可开启金宝箱 闲鱼是阿里巴巴集团旗下APP,买闲置能省钱，买卖闲置，就用闲鱼！无须开店却能享受支付宝担保交易，仅需30秒即可发布一款宝贝。 没有金刚钻，还真不敢揽这瓷器活儿！ -支付宝担保的个人交易平台：更诚信，更安全！  -淘宝已买到宝贝，随时随地一键转卖，立即变现。  -淘宝上亿买家都可以看到你的宝贝，商品更容易被卖出！（这个比较屌）  -卖家发布更简单，语音描述，扫条码更轻松    联系我们&意见反馈：  邮箱：taobao-fleamarket-client@list.alibaba-inc.com{{isAll?intro:''}}
+							闲鱼浏览宝贝可以赚钱啦，边逛边赚钱，1元就能提现。填写邀请码XZ25DLXXH，新用户首次登陆秒提一{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1993/1993'>放心赚</navigator></view><view><navigator url='/4/2375/2375'>掌上财进</navigator></view><view><navigator url='/2/1787/1787'>赏乐帮</navigator></view><view><navigator url='/1/1602/1602'>嘀嗒赚</navigator></view>
+				<view><navigator url='/3/1901/1901'>极速赚</navigator></view><view><navigator url='/2/1798/1798'>淘小铺</navigator></view><view><navigator url='/1/1703/1703'>钱贵</navigator></view><view><navigator url='/1/1647/1647'>易银</navigator></view>
 			</view>
 		</view>
 	</view>

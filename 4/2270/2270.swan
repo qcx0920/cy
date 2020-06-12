@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							抢红包神器2016年1月15号火爆上线，速度注册做元老 。注册送随机红包，每天拆红包，每天签到领钱，刷任务赚钱，邀请好友得奖，享7代好友10%提成！ 1元提现微信钱包(秒到)，花50秒玩玩就知道结果！{{isAll?intro:''}}
+							抢红包神器2016年1月15号火爆上线，速度注册做元老 。注册送随机红包，每天拆红包，每天签到领钱，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2323/2323'>赚客帮</navigator></view><view><navigator url='/4/2310/2310'>爱捞金微信</navigator></view><view><navigator url='/3/1976/1976'>微趣看</navigator></view><view><navigator url='/4/2219/2219'>秒赚大钱安卓版</navigator></view>
+				<view><navigator url='/4/2167/2167'>有赚</navigator></view><view><navigator url='/4/2375/2375'>掌上财进</navigator></view><view><navigator url='/1/1608/1608'>爱试玩</navigator></view><view><navigator url='/1/1682/1682'>赚客app</navigator></view>
 			</view>
 		</view>
 	</view>

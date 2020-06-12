@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							小淘世界是一款年轻人都爱玩的玩乐加购物为一体的生活类合成游戏APP，除了能帮你购物省钱返利还可以玩游戏轻松赚钱，只要你轻轻动一下你的手指，那么就可以获得大量的奖励和分红。在这里还有许多朋友和你一起畅玩淘世界，你并不是一个人，快来和朋友们一起享受小淘世界带来的福利吧！ 小淘世界特点 【购物省钱】海量优惠券等你来领，帮你做好省钱计划 【收益分红】带着小狗踏上征程，解锁平台分红新姿势 【分享有奖】每人都可以带货，分享好友轻松提升额外收入 【大额福利】各种淘玩法等着你来挖掘，打开你的缵钱之道 【天天有礼】新老用户皆可享受红利，和平台一起快速成长 小淘世界是一个结合了购物返利+分享赚钱的合成养成类游戏，合成狗狗到3级即可获得一个1元左右的新手红包，首次0.3元提现秒到账，后续20元起提现，购物返利玩游戏还能赚钱，真是个不错的app。 小淘世界淘达人是什么 好货优选板块是专门为小淘世界用户打造的一个可以快速赚钱的场景，只要您有赚钱的欲望，点击分享赚按钮，把商品一键分享至您的社群、朋友圈、或好友 的场景，即可获得佣金，超简单人人可做， 不需要花太多时间不需要花太多时间就可以坐等收益。{{isAll?intro:''}}
+							小淘世界是一款年轻人都爱玩的玩乐加购物为一体的生活类合成游戏APP，除了能帮你购物省钱返利还可以玩游{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2286/2286'>推猫</navigator></view><view><navigator url='/2/1775/1775'>玩家享赚</navigator></view><view><navigator url='/1/1524/1524'>淘粉网</navigator></view><view><navigator url='/2/1849/1849'>红信</navigator></view>
+				<view><navigator url='/2/1809/1809'>第一调查</navigator></view><view><navigator url='/2/1840/1840'>小赚宝</navigator></view><view><navigator url='/4/2216/2216'>葡萄转</navigator></view><view><navigator url='/3/1927/1927'>淘最热点</navigator></view>
 			</view>
 		</view>
 	</view>

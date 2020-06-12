@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							追看视频（原yy极速版）每天新鲜内容看不停，动动手指还能赚钱。每天看视频、看直播，足不出户赚零钱；邀请好友一起玩，零钱一起赚，生活美滋滋。 各种吐槽、赞美、建议欢迎联系我们： 客服热线：4006040010{{isAll?intro:''}}
+							追看视频（原yy极速版）每天新鲜内容看不停，动动手指还能赚钱。每天看视频、看直播，足不出户赚零钱；邀{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2311/2311'>推钱儿</navigator></view><view><navigator url='/1/1759/1759'>91淘金iOS版</navigator></view><view><navigator url='/4/2382/2382'>赚钱花</navigator></view><view><navigator url='/4/2337/2337'>遛达赚钱（溜达）</navigator></view>
+				<view><navigator url='/3/2084/2084'>招财兔</navigator></view><view><navigator url='/4/2178/2178'>蛋咖赚钱</navigator></view><view><navigator url='/3/2023/2023'>菠萝小组</navigator></view><view><navigator url='/1/1506/1506'>研之有礼</navigator></view>
 			</view>
 		</view>
 	</view>

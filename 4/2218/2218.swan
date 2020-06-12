@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							掌赚宝，手机赚钱神器，安装并填写邀请人ID769280送4元现金，网上兼职必备工具，一键提现，支付宝微信红包话费秒到账！试玩应用，分享文章，关注公众号，这些都能赚钱！支持 支付宝、微信红包、Q币、话费等提现方式！{{isAll?intro:''}}
+							掌赚宝，手机赚钱神器，安装并填写邀请人ID769280送4元现金，网上兼职必备工具，一键提现，支付宝{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2162/2162'>PP试玩</navigator></view><view><navigator url='/1/1583/1583'>Bala快赚</navigator></view><view><navigator url='/3/2061/2061'>有银子</navigator></view><view><navigator url='/4/2176/2176'>蛋蛋赚</navigator></view>
+				<view><navigator url='/3/1918/1918'>抖呱呱极速版</navigator></view><view><navigator url='/4/2264/2264'>赢联APP</navigator></view><view><navigator url='/3/1882/1882'>金镶玉</navigator></view><view><navigator url='/1/1544/1544'>小白赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

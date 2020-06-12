@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							千米红包App是一款基于LBS技术的社交红包App，点广告拿红包，1元提现秒到。用户可在附近一公里红包领地内，领取并查看红包内信息！同时用户可通过千米红包，在指定位置发布红包动态，每个红包动态将被发放到其他用户的红包领取地理范围内，智能推送至平台用户。 独特的红包社交功能，让人与人之间的连接更加直接；同城的信息推广模式，给用户营造真诚的社交环境并将促使用户进行友好分享及互动{{isAll?intro:''}}
+							千米红包App是一款基于LBS技术的社交红包App，点广告拿红包，1元提现秒到。用户可在附近一公里红{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2292/2292'>掌上赚</navigator></view><view><navigator url='/1/1684/1684'>首席体验师</navigator></view><view><navigator url='/4/2349/2349'>钻石APP</navigator></view><view><navigator url='/4/2354/2354'>黄金锁屏</navigator></view>
+				<view><navigator url='/1/1489/1489'>秒赚试玩</navigator></view><view><navigator url='/4/2250/2250'>试玩猫</navigator></view><view><navigator url='/4/2216/2216'>葡萄转</navigator></view><view><navigator url='/4/2309/2309'>众用助手【骗子】</navigator></view>
 			</view>
 		</view>
 	</view>

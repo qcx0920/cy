@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							爆分网APP是随手家旗下又一款转发文章就能赚钱的软件，文章阅读单价0.6元，涨分飞快，5元就能提现。每天动动手指分享文章就可以赚到相应的现金奖励，不需要任何投入，文章只需要转发到微信、朋友圈，就可以帮助你赚钱，另外还可邀请收徒，大量奖励奖金，赚钱更快。   新手福利 新用户登陆即送1元，首次5元就能提现，后续10元起，支持提现到微信钱包   关于收徒 徒弟注册师傅得0.5元，徒弟通过转发获得收入之后奖励1元，首次提现奖励1元，二次提现奖励3元，三次提现奖励5元，提现满100元奖励5元，每个月有提现瓜分，保底5元起。{{isAll?intro:''}}
+							爆分网APP是随手家旗下又一款转发文章就能赚钱的软件，文章阅读单价0.6元，涨分飞快，5元就能提现。{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2224/2224'>薪客</navigator></view><view><navigator url='/4/2313/2313'>虾米锁屏</navigator></view><view><navigator url='/3/2016/2016'>五条</navigator></view><view><navigator url='/4/2210/2210'>小象读吧</navigator></view>
+				<view><navigator url='/3/2115/2115'>鱼群</navigator></view><view><navigator url='/2/1832/1832'>趣呀</navigator></view><view><navigator url='/3/1943/1943'>今日十大新闻</navigator></view><view><navigator url='/1/1586/1586'>小猫赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

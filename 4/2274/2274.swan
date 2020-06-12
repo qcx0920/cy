@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							玩亿屏互动，看广告答题拆红包（一个广告几毛钱至1元不等），天天有钱赚，亿屏互动是一款看广告答题赚钱的APP。{{isAll?intro:''}}
+							玩亿屏互动，看广告答题拆红包（一个广告几毛钱至1元不等），天天有钱赚，亿屏互动是一款看广告答题赚钱的{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2024/2024'>亿刻</navigator></view><view><navigator url='/4/2262/2262'>钱程</navigator></view><view><navigator url='/2/1837/1837'>小程序试玩</navigator></view><view><navigator url='/1/1514/1514'>陀螺多多</navigator></view>
+				<view><navigator url='/3/2136/2136'>友钱APP</navigator></view><view><navigator url='/1/1693/1693'>那米-APPCPI</navigator></view><view><navigator url='/3/2107/2107'>星赚</navigator></view><view><navigator url='/3/1978/1978'>想看</navigator></view>
 			</view>
 		</view>
 	</view>

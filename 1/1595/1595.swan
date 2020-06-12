@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							赚钱宝是友榜科技旗下苹果手机应用试玩平台， 注册新手送1元，快速任务价格0.8元左右，满10元即可提现。让你快速试玩，现金奖励拿不停，每天都可赚点零花钱，只需3分钟就能赚每天生活费，进入“快速任务”轻松做任务到账。 任务更新：每天下午任务比较多 联系我们： 赚钱宝客服QQ：1058309072，QQ群：593761366{{isAll?intro:''}}
+							赚钱宝是友榜科技旗下苹果手机应用试玩平台， 注册新手送1元，快速任务价格0.8元左右，满10元即可提{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1675/1675'>开玩苹果赚钱</navigator></view><view><navigator url='/4/2352/2352'>聚宝屏</navigator></view><view><navigator url='/4/2297/2297'>蝌蚪赚钱</navigator></view><view><navigator url='/4/2191/2191'>明明乐园</navigator></view>
+				<view><navigator url='/2/1765/1765'>给力赚</navigator></view><view><navigator url='/3/1878/1878'>抖音极速版</navigator></view><view><navigator url='/4/2190/2190'>钱大师安卓版</navigator></view><view><navigator url='/1/1630/1630'>淘来赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

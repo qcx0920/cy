@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							爱赚钱是一款手机兼职赚钱的软件，是中国最快手机赚钱平台，移动威客行业领航者。闲暇的时候打开爱赚钱，动动手指，做做各种有意思的任务，就能轻松赚取真金白银。 爱赚钱专门为新用户开设了快速通道，只需要5分钟，就能体验赚10000积分，获取一个Q币。 除了Q币，我们还同时支持移动话费，联通话费，电信话费，支付宝充值，财付通充值等等兑换方式，将来我们还会支持电影票、麦当劳兑换券、彩票等更多方式，让你的银行卡可以留取等多的储存买老婆买房子。 万千用户的选择！ 爱赚钱上线15天就超过50万用户的选择，我们的赚钱速度就是快。你可以把爱赚钱推荐给好友，与好友一起分享手机手机赚钱的喜悦，同时收获更多推荐和分成奖励。 爱赚钱产品特性： 1、爱赚钱，最快最多的手机赚钱平台 2、首次安装爱赚钱即送0.6元 3、推荐激活一个好友即送1元 4、获取高积分的任务{{isAll?intro:''}}
+							爱赚钱是一款手机兼职赚钱的软件，是中国最快手机赚钱平台，移动威客行业领航者。闲暇的时候打开爱赚钱，动{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2103/2103'>提款机</navigator></view><view><navigator url='/4/2177/2177'>每日赚点</navigator></view><view><navigator url='/1/1579/1579'>体验赚</navigator></view><view><navigator url='/1/1603/1603'>微赚</navigator></view>
+				<view><navigator url='/4/2292/2292'>掌上赚</navigator></view><view><navigator url='/3/2118/2118'>阅头条</navigator></view><view><navigator url='/3/1939/1939'>点点新闻</navigator></view><view><navigator url='/1/1645/1645'>财迷猫</navigator></view>
 			</view>
 		</view>
 	</view>

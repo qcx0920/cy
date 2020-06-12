@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							闲猫，是你的手机ATM机，每天做任务就可以赚钱。在【我的】里填写邀请码309608送1元，完成新手任务再送1元，新手专享1元即可提现。快来玩吧，马上赚钱，马上赚话费。 1、任务丰富，拍照片、发短信、发截图都赚钱，任务形式多重多样，好玩又赚钱，再也不愁缺话费了！ 2、每日领红包，领到手软！ 3、兑换话费、QQ币、支付宝、微信等一键提交，安全到账！{{isAll?intro:''}}
+							闲猫，是你的手机ATM机，每天做任务就可以赚钱。在【我的】里填写邀请码309608送1元，完成新手任{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2367/2367'>小湿妹-手机赚钱</navigator></view><view><navigator url='/2/1830/1830'>享物说</navigator></view><view><navigator url='/1/1612/1612'>App体验客--鼠宝赚</navigator></view><view><navigator url='/1/1560/1560'>小啄赚钱</navigator></view>
+				<view><navigator url='/1/1597/1597'>钱鹿</navigator></view><view><navigator url='/3/1992/1992'>呱呱转</navigator></view><view><navigator url='/1/1697/1697'>呱呱赚苹果版</navigator></view><view><navigator url='/1/1495/1495'>橙试客</navigator></view>
 			</view>
 		</view>
 	</view>

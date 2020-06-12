@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							精彩头条是UC浏览器旗下一个自阅看新闻赚钱的软件，填写邀请码【37017】领新手红包，1元即可提现。热门资讯，有趣短视频，娱乐八卦，精彩小视频，你想看的都在这里~ 真诚回馈用户，每邀请一位有效新用户可得8元钱，低门槛提现不忽悠；平时阅读签到还可得金币，用得越多，赚得越多，闲时赚钱无上限。 三大优势： 【邀请赚钱多】每邀请一位有效新用户，你可得8元，多邀多得，无上限； 【使用也赚钱】你1天使用可获得最高3000金币，读的越多，赚的越多； 【低门槛提现快】1元即可提现。{{isAll?intro:''}}
+							精彩头条是UC浏览器旗下一个自阅看新闻赚钱的软件，填写邀请码【37017】领新手红包，1元即可提现。{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1642/1642'>钱夹</navigator></view><view><navigator url='/1/1715/1715'>体验宝苹果版</navigator></view><view><navigator url='/1/1636/1636'>可可赚</navigator></view><view><navigator url='/4/2171/2171'>麦子赚</navigator></view>
+				<view><navigator url='/1/1676/1676'>试玩团</navigator></view><view><navigator url='/1/1578/1578'>抖赚</navigator></view><view><navigator url='/1/1586/1586'>小猫赚钱</navigator></view><view><navigator url='/1/1530/1530'>开车旅行</navigator></view>
 			</view>
 		</view>
 	</view>

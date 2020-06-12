@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							托管赚钱宝，是一个抖音挂机自动做任务赚钱平台。托管您的抖音账号，开启躺赚模式，一次托管，永久收益，一元即可提现，平台不收费。 新用户登录后点赚钱，会提示叫你绑定抖音账号，需要输入账号和密码进行托管挂机，平台主要用来做点赞、评论和关注等任务，需要注意一点，抖音号就是手机号，而且要跟你的支付宝账号一致，否则无法提现佣金。 温馨提示： 托管短视频平台账号，每个平台只能托管一个账号，并且与支付宝账号一一对应。 邀请好友，可享受好友所托管账号收入的20%额外收益。 有问题可联系客服丫丫QQ：3293610038{{isAll?intro:''}}
+							托管赚钱宝，是一个抖音挂机自动做任务赚钱平台。托管您的抖音账号，开启躺赚模式，一次托管，永久收益，一{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2108/2108'>51赚</navigator></view><view><navigator url='/1/1612/1612'>App体验客--鼠宝赚</navigator></view><view><navigator url='/1/1685/1685'>蜂传苹果版</navigator></view><view><navigator url='/1/1586/1586'>小猫赚钱</navigator></view>
+				<view><navigator url='/3/1907/1907'>2345星球联盟</navigator></view><view><navigator url='/1/1670/1670'>应用返利</navigator></view><view><navigator url='/3/2158/2158'>顺手转</navigator></view><view><navigator url='/1/1511/1511'>互赚宝</navigator></view>
 			</view>
 		</view>
 	</view>

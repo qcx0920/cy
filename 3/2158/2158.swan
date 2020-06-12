@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							顺手转优势： 1：注册送2元，推荐一个人注册送0.5元。 2：满8元就可以提现，提现当天到账。 3：签到就送不等金额，每天只能签到一次。 4：结合目前三大时兴网赚板块，不定时增加网赚板块 如何赚钱？ 一句话：注册后点首页“开始赚钱”，点击打开获得的文章，然后分享到朋友圈就可以了。有朋友阅读你的文章就会自动计费，每次有效阅读奖励0.06元。{{isAll?intro:''}}
+							顺手转优势： 1：注册送2元，推荐一个人注册送0.5元。 2：满8元就可以提现，提现当天到账。 3：{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1748/1748'>上榜乐</navigator></view><view><navigator url='/3/2161/2161'>APP疯狂赚</navigator></view><view><navigator url='/2/1866/1866'>爱调查</navigator></view><view><navigator url='/2/1808/1808'>赚点</navigator></view>
+				<view><navigator url='/1/1509/1509'>小猫种鱼</navigator></view><view><navigator url='/2/1867/1867'>享赚钱</navigator></view><view><navigator url='/4/2180/2180'>赚客安卓版</navigator></view><view><navigator url='/1/1556/1556'>掉钱眼儿</navigator></view>
 			</view>
 		</view>
 	</view>

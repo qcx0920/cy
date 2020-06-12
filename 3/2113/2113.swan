@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							瞎转app - 挖掘您朋友圈的价值，通过瞎转app，转发文章至您的朋友圈就能赚钱，现在安装就送随机红包，1元提现，阅读0.08元，赶快加入吧。每天抢红包，还有新人红包拿。牛逼赚旗下新出的转发赚钱APP，老品牌靠谱。{{isAll?intro:''}}
+							瞎转app - 挖掘您朋友圈的价值，通过瞎转app，转发文章至您的朋友圈就能赚钱，现在安装就送随机红{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2367/2367'>小湿妹-手机赚钱</navigator></view><view><navigator url='/1/1590/1590'>爱元宝</navigator></view><view><navigator url='/4/2243/2243'>来赚分享</navigator></view><view><navigator url='/1/1624/1624'>口袋ATM</navigator></view>
+				<view><navigator url='/4/2167/2167'>有赚</navigator></view><view><navigator url='/2/1771/1771'>赏金榜</navigator></view><view><navigator url='/4/2186/2186'>猫猫赚</navigator></view><view><navigator url='/3/1957/1957'>你好阅读</navigator></view>
 			</view>
 		</view>
 	</view>

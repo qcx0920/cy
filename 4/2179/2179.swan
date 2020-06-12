@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							葫芦赚是一款为普通人打造的手机赚钱App，1元就能提现，秒到账。葫芦星球没有复杂的理财投资、不支付任何费用，不限时间地点，有手机就能随时随地赚点零花钱~时间就是金钱，来葫芦赚把你的碎片时间变成钱~ 赚钱方式： 【1元提现】每天无限次，免审核 秒到账 【高额赚】打麻将、斗地主等等试玩游戏就能赚钱 【轻松赚】下载软件应用、试玩游戏、关注公众号等都能赚钱，每天都有新任务 【邀请赚】邀请1个好友可得7元，上不封顶，还有各种活动奖上加奖 【星球赚】葫芦星球每天送钱，不做任务也可以领钱 客服QQ：3508392342 客服微信号：a1609170062（周一-周五每天9:30-18:30） 官方QQ群：780080663{{isAll?intro:''}}
+							葫芦赚是一款为普通人打造的手机赚钱App，1元就能提现，秒到账。葫芦星球没有复杂的理财投资、不支付任{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2385/2385'>一起免单</navigator></view><view><navigator url='/1/1533/1533'>全民养龙</navigator></view><view><navigator url='/4/2392/2392'>G媒-看广告赚钱</navigator></view><view><navigator url='/1/1532/1532'>iMoney爱盈利</navigator></view>
+				<view><navigator url='/3/2105/2105'>皮皮资讯</navigator></view><view><navigator url='/1/1756/1756'>赚泡泡iOS赚钱</navigator></view><view><navigator url='/3/2119/2119'>转赚</navigator></view><view><navigator url='/2/1844/1844'>悦动圈红包</navigator></view>
 			</view>
 		</view>
 	</view>

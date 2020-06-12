@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							亿起赚，一款让你轻松赚钱的手机APP，新用户安装填写邀请码KY9M立送3元现金，10元提现，任务量爆棚，15分钟轻松赚20元。每日签到随时随地签到领钱，珠海微易互动科技有限公司旗下。{{isAll?intro:''}}
+							亿起赚，一款让你轻松赚钱的手机APP，新用户安装填写邀请码KY9M立送3元现金，10元提现，任务量爆{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1804/1804'>世界农场</navigator></view><view><navigator url='/3/1883/1883'>孔雀网</navigator></view><view><navigator url='/1/1718/1718'>轻玩客苹果版</navigator></view><view><navigator url='/4/2187/2187'>手机蹦蹦</navigator></view>
+				<view><navigator url='/4/2197/2197'>乐米资讯</navigator></view><view><navigator url='/2/1862/1862'>花赚</navigator></view><view><navigator url='/2/1790/1790'>追看视频</navigator></view><view><navigator url='/4/2228/2228'>快乐赚赚</navigator></view>
 			</view>
 		</view>
 	</view>

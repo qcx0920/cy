@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							搬砖啦是一个苹果手机试玩赚钱平台，单价1元起，3元就能提现，超低门槛，每天大量任务，仅限苹果6以上系列才能做任务。{{isAll?intro:''}}
+							搬砖啦是一个苹果手机试玩赚钱平台，单价1元起，3元就能提现，超低门槛，每天大量任务，仅限苹果6以上系{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2155/2155'>熊猫试玩微信</navigator></view><view><navigator url='/3/2035/2035'>喜赚</navigator></view><view><navigator url='/2/1863/1863'>玩赚</navigator></view><view><navigator url='/4/2254/2254'>e赚</navigator></view>
+				<view><navigator url='/2/1784/1784'>叮咚众包</navigator></view><view><navigator url='/1/1587/1587'>赚多多</navigator></view><view><navigator url='/2/1768/1768'>牛帮</navigator></view><view><navigator url='/1/1630/1630'>淘来赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

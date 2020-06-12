@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							乐赚锁屏是一款解锁屏幕就能赚钱的App，是中国最受欢迎、用户量最大的返现锁屏。 您安装后只需划动锁屏界面，就能探索手机锁屏上呈现的精彩内容。向右划动， 解锁进入桌面；向左划动，浏览广告或者下载推荐软件。右划解锁，左划浏览或下载均能获得现金奖励。{{isAll?intro:''}}
+							乐赚锁屏是一款解锁屏幕就能赚钱的App，是中国最受欢迎、用户量最大的返现锁屏。 您安装后只需划动锁屏{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1920/1920'>多多转</navigator></view><view><navigator url='/1/1713/1713'>友米德苹果版 （骗子）</navigator></view><view><navigator url='/1/1520/1520'>星球</navigator></view><view><navigator url='/4/2185/2185'>聚享游</navigator></view>
+				<view><navigator url='/4/2317/2317'>黄金指</navigator></view><view><navigator url='/3/2025/2025'>头条巴士</navigator></view><view><navigator url='/2/1814/1814'>赚钢镚</navigator></view><view><navigator url='/1/1744/1744'>疯传苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

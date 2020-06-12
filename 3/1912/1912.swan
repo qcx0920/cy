@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							闪电盒子是一款既可以看新闻看视频赚钱，又可以方便的使用各种应用的app，而且在闪电盒子中看新闻或使用应用都可以领到红包，让大家玩手机就可以赚钱。注册填写红包口令8370280621送1元，提现秒到账。 闪电盒子怎么赚钱？ 1、首页左上角可以分时段的拆红包获得闪电币，无上限。 2、可完成任务获得现金及闪电币。 3、徒弟完成日常红包任务师傅将可获得徒弟进贡的闪电币除以上方式，收徒是最快收益最大的挣钱方式，每收1个徒弟，都可以获得5元现金奖励，且徒弟会给您进贡大量的闪电币。{{isAll?intro:''}}
+							闪电盒子是一款既可以看新闻看视频赚钱，又可以方便的使用各种应用的app，而且在闪电盒子中看新闻或使用{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1680/1680'>旺财</navigator></view><view><navigator url='/3/2059/2059'>快马小报</navigator></view><view><navigator url='/2/1796/1796'>桔子兼职</navigator></view><view><navigator url='/2/1815/1815'>番茄赚</navigator></view>
+				<view><navigator url='/1/1595/1595'>赚钱宝</navigator></view><view><navigator url='/2/1789/1789'>趣多帮</navigator></view><view><navigator url='/3/2027/2027'>快转赚</navigator></view><view><navigator url='/3/2007/2007'>惠头条</navigator></view>
 			</view>
 		</view>
 	</view>

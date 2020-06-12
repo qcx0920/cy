@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							体验狮是一个苹果手机应用试玩平台，下载试玩助手，即可开始赚钱，一个应用试玩3分钟即可获得1元以上的奖励，5元就能提现。{{isAll?intro:''}}
+							体验狮是一个苹果手机应用试玩平台，下载试玩助手，即可开始赚钱，一个应用试玩3分钟即可获得1元以上的奖{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2263/2263'>招财锁</navigator></view><view><navigator url='/1/1573/1573'>搬砖啦</navigator></view><view><navigator url='/4/2225/2225'>薪客众包</navigator></view><view><navigator url='/3/1930/1930'>互动看点</navigator></view>
+				<view><navigator url='/2/1779/1779'>截图宝</navigator></view><view><navigator url='/1/1730/1730'>爱玩客</navigator></view><view><navigator url='/4/2368/2368'>微生活锁屏</navigator></view><view><navigator url='/4/2350/2350'>红包惠锁屏</navigator></view>
 			</view>
 		</view>
 	</view>

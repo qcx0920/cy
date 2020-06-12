@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							赚钱儿——中国第一的手机赚钱应用，移动威客行业领航者玩应用玩游戏也能赚钱，超级给力！！！ 还在为每个月的话费苦恼吗，赶紧下载赚钱儿吧 60万用户的共同选择，值得信赖！ 主要功能 - 下载试玩应用和游戏就能获取收益，轻松获取话费等奖励 - 每日签到，获取丰富的签到奖励 - 好友推荐，与好友一起分享赚钱儿，能收获更多奖励 - 礼品兑换，可兑换移动/联通/电信充值卡话费、Q币、支付宝，现金话费随你拿 - 免流量专区，不用Wifi、3G也能玩赚钱儿，省流量又省钱{{isAll?intro:''}}
+							赚钱儿——中国第一的手机赚钱应用，移动威客行业领航者玩应用玩游戏也能赚钱，超级给力！！！ 还在为每个{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1845/1845'>元宝挂机</navigator></view><view><navigator url='/2/1780/1780'>PC蛋蛋</navigator></view><view><navigator url='/4/2217/2217'>亿起赚</navigator></view><view><navigator url='/4/2362/2362'>免费流量王-手机赚钱</navigator></view>
+				<view><navigator url='/4/2343/2343'>看图赚</navigator></view><view><navigator url='/4/2201/2201'>72G赚吧</navigator></view><view><navigator url='/4/2253/2253'>天天钻</navigator></view><view><navigator url='/4/2271/2271'>小柿快递用户版</navigator></view>
 			</view>
 		</view>
 	</view>

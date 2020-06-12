@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							淘金阅读是一款资讯阅读分享网赚平台，文章阅读单价1毛，2元就能提现，新人注册就送最低1元现金，随手转发，每日进账！ 【新人红包】首次登录就有新人红包，最低1元，余额满2元即可体现！ 【分享赚】转发文章被好友阅读就能产生收益，每天五分钟转发，一整天赚钱！ 【收徒赚】邀请好友加入淘金阅读，收徒成功享永久分成，赢现金奖励！ 【任务赚】任务门槛低，正常转发收徒就可以达成；任务奖励无上限，比其他平台收益多几成！ 【淘金官方QQ群】861063070{{isAll?intro:''}}
+							淘金阅读是一款资讯阅读分享网赚平台，文章阅读单价1毛，2元就能提现，新人注册就送最低1元现金，随手转{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1802/1802'>有米众帮接单</navigator></view><view><navigator url='/1/1671/1671'>爽啦</navigator></view><view><navigator url='/3/2089/2089'>麻雀浏览器</navigator></view><view><navigator url='/4/2250/2250'>试玩猫</navigator></view>
+				<view><navigator url='/3/1949/1949'>乐看点</navigator></view><view><navigator url='/2/1798/1798'>淘小铺</navigator></view><view><navigator url='/1/1681/1681'>铜板墙</navigator></view><view><navigator url='/3/2072/2072'>贝壳头条</navigator></view>
 			</view>
 		</view>
 	</view>

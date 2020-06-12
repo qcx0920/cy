@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							手机赚钱软件：“小工具，大能量，极限收益！”极锁屏赚钱软件，中国首款会赚钱的锁屏App锁屏软件，不可不玩的锁屏App锁屏软件！该手机锁屏软件无需存款，天天获得比某宝更给力的收益，手机赚钱软件千万小伙伴锁屏“薪”选择！手机锁屏软件解锁即可拿现金，现金可提现到支付宝、充值话费、兑换实物。邀请好友赚更多现金。是名副其实的赚钱软件{{isAll?intro:''}}
+							手机赚钱软件：“小工具，大能量，极限收益！”极锁屏赚钱软件，中国首款会赚钱的锁屏App锁屏软件，不可{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1680/1680'>旺财</navigator></view><view><navigator url='/1/1639/1639'>猎豆试客</navigator></view><view><navigator url='/4/2253/2253'>天天钻</navigator></view><view><navigator url='/3/2027/2027'>快转赚</navigator></view>
+				<view><navigator url='/4/2178/2178'>蛋咖赚钱</navigator></view><view><navigator url='/3/2056/2056'>红包头条</navigator></view><view><navigator url='/4/2303/2303'>拍得利</navigator></view><view><navigator url='/3/1973/1973'>蜜桃转</navigator></view>
 			</view>
 		</view>
 	</view>

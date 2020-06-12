@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							财迷猫 IOS系统应用试玩体验APP， 适应于苹果手赚。任务价格在1-5元不等。 任务更新时间：集中在16点，其他时间也会有任务上线 10元提现，不收手续费；支持多种方式提现.{{isAll?intro:''}}
+							财迷猫 IOS系统应用试玩体验APP， 适应于苹果手赚。任务价格在1-5元不等。 任务更新时间：集中{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2296/2296'>米钱（跑路了）</navigator></view><view><navigator url='/3/1993/1993'>放心赚</navigator></view><view><navigator url='/3/2154/2154'>试玩团微信</navigator></view><view><navigator url='/4/2309/2309'>众用助手【骗子】</navigator></view>
+				<view><navigator url='/1/1741/1741'>学费赚苹果版</navigator></view><view><navigator url='/3/1896/1896'>稳稳赚</navigator></view><view><navigator url='/4/2404/2404'>应用金矿</navigator></view><view><navigator url='/2/1847/1847'>互赢</navigator></view>
 			</view>
 		</view>
 	</view>

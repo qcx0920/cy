@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							钱兔，是一款动动手指头就能赚钱的APP。 现在加入填写师傅ID【110821】总共立送3元，单价1元起，10元提现。每个任务只需几分钟即可完 成，每天抽出十几分钟做任务，轻松挣零花钱。{{isAll?intro:''}}
+							钱兔，是一款动动手指头就能赚钱的APP。 现在加入填写师傅ID【110821】总共立送3元，单价1元{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2342/2342'>极猫</navigator></view><view><navigator url='/1/1504/1504'>金满堂</navigator></view><view><navigator url='/1/1604/1604'>懒人赚钱</navigator></view><view><navigator url='/1/1578/1578'>抖赚</navigator></view>
+				<view><navigator url='/2/1773/1773'>钱帮</navigator></view><view><navigator url='/3/2084/2084'>招财兔</navigator></view><view><navigator url='/2/1839/1839'>试玩屋</navigator></view><view><navigator url='/1/1620/1620'>淘金客</navigator></view>
 			</view>
 		</view>
 	</view>

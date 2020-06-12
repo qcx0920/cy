@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							有看头APP，是一款看新闻视频赚零用钱的软件，10元就能提现，为用户提供有趣头条资讯，好看视频内容。看视频得红包，每天观看新闻资讯或视频，都有机会进行金币奖励。做任务得奖励，每天幸运任务，送您惊喜奖励。邀请好友，和好友一起看有趣头条和视频一起拿丰厚奖励。{{isAll?intro:''}}
+							有看头APP，是一款看新闻视频赚零用钱的软件，10元就能提现，为用户提供有趣头条资讯，好看视频内容。{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1706/1706'>口袋赚苹果版</navigator></view><view><navigator url='/4/2165/2165'>萌萌小笨龙</navigator></view><view><navigator url='/1/1682/1682'>赚客app</navigator></view><view><navigator url='/1/1709/1709'>爱魔豆苹果版</navigator></view>
+				<view><navigator url='/4/2262/2262'>钱程</navigator></view><view><navigator url='/3/2069/2069'>咔咔赚</navigator></view><view><navigator url='/4/2392/2392'>G媒-看广告赚钱</navigator></view><view><navigator url='/1/1707/1707'>美赚苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

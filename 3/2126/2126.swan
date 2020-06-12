@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							赚金牛是一款微信投票就可以赚钱的APP。利用微信投票，领取任务赚钱。赚金牛任务多，赚钱快，2元即可提现。支持苹果手机和安卓手机   【温馨提示】：下载安装app后，登陆注册，需填写邀请码150310。   赚牛金APP是基于微信开发的，人工投票平台，主要服务于各种需求投票的用户和希望通过网络兼职赚取佣金的用户，这里聚集了大量的发布者和投手，每天会有数百个任务，您可以利用业余时间，比如学生族，宝妈族，上班族，自由职业，都可以下载软件，什么时间打开赚金牛APP，都会有任务，任务满2元就可以申请提现，有人会说我不差那点钱，但我们活着就是要创造价值的，浪费了的时间，我们合理的利用起来，就能创造价值和财富，所谓的积沙成丘，聚石成山，就是利用每一份时间，去充实自己，创造价值。{{isAll?intro:''}}
+							赚金牛是一款微信投票就可以赚钱的APP。利用微信投票，领取任务赚钱。赚金牛任务多，赚钱快，2元即可提{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2093/2093'>无敌赚-大神转</navigator></view><view><navigator url='/3/2133/2133'>快点</navigator></view><view><navigator url='/4/2190/2190'>钱大师安卓版</navigator></view><view><navigator url='/4/2401/2401'>淘粉吧返利拿集分宝</navigator></view>
+				<view><navigator url='/3/1944/1944'>鸡冻头条</navigator></view><view><navigator url='/3/2015/2015'>苹果网</navigator></view><view><navigator url='/4/2354/2354'>黄金锁屏</navigator></view><view><navigator url='/1/1511/1511'>互赚宝</navigator></view>
 			</view>
 		</view>
 	</view>

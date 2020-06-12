@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							红包惠锁屏是一款全新的解锁赚钱类APP，让用户既能拥有精致美丽的锁屏画面，向右划动，解锁进入桌面及向左划动，下载推荐软件均能获得奖励。   红包惠锁屏拥有多种收益方式如下载、解锁、邀请、任务等。在获得一定收益后，可以通过多种方式进行兑换，如直充类、优惠劵、实物等.{{isAll?intro:''}}
+							红包惠锁屏是一款全新的解锁赚钱类APP，让用户既能拥有精致美丽的锁屏画面，向右划动，解锁进入桌面及向{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1574/1574'>柠檬赚</navigator></view><view><navigator url='/4/2319/2319'>挖钻</navigator></view><view><navigator url='/4/2306/2306'>每获</navigator></view><view><navigator url='/2/1844/1844'>悦动圈红包</navigator></view>
+				<view><navigator url='/2/1848/1848'>小微托管挂机赚钱</navigator></view><view><navigator url='/2/1866/1866'>爱调查</navigator></view><view><navigator url='/3/1898/1898'>辣椒转</navigator></view><view><navigator url='/4/2183/2183'>趣游戏</navigator></view>
 			</view>
 		</view>
 	</view>

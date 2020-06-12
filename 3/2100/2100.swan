@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							朝闻夕事APP看新闻、看文章就有钱，10元微信提现秒到账。推广一人奖励1000金币，下线再推广一人再奖励1000金币，直至10级下线，都是奖励你1000金币，10级下线阅读文章都是奖励10金币，满10元就可以微信红包提现秒到账。{{isAll?intro:''}}
+							朝闻夕事APP看新闻、看文章就有钱，10元微信提现秒到账。推广一人奖励1000金币，下线再推广一人再{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1862/1862'>花赚</navigator></view><view><navigator url='/4/2398/2398'>手机赚钱宝</navigator></view><view><navigator url='/3/1908/1908'>66阅读</navigator></view><view><navigator url='/3/2019/2019'>天天看视频</navigator></view>
+				<view><navigator url='/1/1575/1575'>顽狮试玩</navigator></view><view><navigator url='/2/1804/1804'>世界农场</navigator></view><view><navigator url='/3/1929/1929'>天天赚</navigator></view><view><navigator url='/3/2071/2071'>乐享看</navigator></view>
 			</view>
 		</view>
 	</view>

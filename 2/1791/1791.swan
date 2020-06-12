@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							甩手赚，每天挂着微信、加几个群就能赚钱，随便玩每天几块到几十块，随时提现秒到账，真实可靠不收费。甩手赚即原来的挂挂赚，甩手赚是一个微信挂机赚钱平台，0.3元就能提现，秒到账。只要有微信群即可躺赚，该平台会用挂机微信分享的微信群发一些文章什么的，这样就能获得收益奖励，拥有的群越多赚的越多。{{isAll?intro:''}}
+							甩手赚，每天挂着微信、加几个群就能赚钱，随便玩每天几块到几十块，随时提现秒到账，真实可靠不收费。甩手{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1761/1761'>旅行日记</navigator></view><view><navigator url='/2/1779/1779'>截图宝</navigator></view><view><navigator url='/1/1507/1507'>全民悬赏</navigator></view><view><navigator url='/3/2042/2042'>看点头条</navigator></view>
+				<view><navigator url='/3/1925/1925'>像素蜜蜂</navigator></view><view><navigator url='/3/1882/1882'>金镶玉</navigator></view><view><navigator url='/4/2249/2249'>众得宝</navigator></view><view><navigator url='/1/1490/1490'>应用试客</navigator></view>
 			</view>
 		</view>
 	</view>

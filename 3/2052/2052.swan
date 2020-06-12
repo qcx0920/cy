@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							转乐APP是一个分享文章赚钱的手机任务平台，下载APP立即获得1元红包，文章阅读0.1元起，3元即可提现，秒到账。{{isAll?intro:''}}
+							转乐APP是一个分享文章赚钱的手机任务平台，下载APP立即获得1元红包，文章阅读0.1元起，3元即可{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1730/1730'>爱玩客</navigator></view><view><navigator url='/3/1868/1868'>快音</navigator></view><view><navigator url='/1/1695/1695'>试玩团长</navigator></view><view><navigator url='/1/1621/1621'>17试客</navigator></view>
+				<view><navigator url='/1/1608/1608'>爱试玩</navigator></view><view><navigator url='/4/2235/2235'>盯点汇</navigator></view><view><navigator url='/1/1507/1507'>全民悬赏</navigator></view><view><navigator url='/1/1541/1541'>火箭试玩</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							呱呱赚是一款国内优质的手机赚钱平台，新用户立送4元！在呱呱赚每天有海量任务发布，试玩APP快速赚取现金奖励，将有趣的内容分享到微信朋友圈，QQ空间，朋友点击就能轻松获得收入。 微信扫一扫二维码开始赚钱 注册即送4元现金红包，完成个任务奖励元，奖励实时到账。 提现不受金额限制，一元也能提现。 无论你是学生还是白领，无论你在赖床还是上班，每天用闲暇时间打开呱呱赚点一点，再也不用担心没有话费和流量了！{{isAll?intro:''}}
+							呱呱赚是一款国内优质的手机赚钱平台，新用户立送4元！在呱呱赚每天有海量任务发布，试玩APP快速赚取现{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1670/1670'>应用返利</navigator></view><view><navigator url='/1/1531/1531'>猪猪世界</navigator></view><view><navigator url='/3/1902/1902'>杨桃资讯</navigator></view><view><navigator url='/3/1872/1872'>大六顺</navigator></view>
+				<view><navigator url='/1/1527/1527'>大八仙</navigator></view><view><navigator url='/3/2001/2001'>香瓜转</navigator></view><view><navigator url='/3/2133/2133'>快点</navigator></view><view><navigator url='/3/2038/2038'>快视频</navigator></view>
 			</view>
 		</view>
 	</view>

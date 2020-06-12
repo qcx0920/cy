@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							招财兔是一个让你分享文章就能赚钱的应用，注册就送1元，首次提现再送1元，转发文章阅读每次8分-0.2元，10元可提现。玩手机，用招财兔，利用碎片时间轻松赚小钱。{{isAll?intro:''}}
+							招财兔是一个让你分享文章就能赚钱的应用，注册就送1元，首次提现再送1元，转发文章阅读每次8分-0.2{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1623/1623'>爱疯赚</navigator></view><view><navigator url='/3/2038/2038'>快视频</navigator></view><view><navigator url='/3/1909/1909'>有钻石</navigator></view><view><navigator url='/3/2027/2027'>快转赚</navigator></view>
+				<view><navigator url='/1/1510/1510'>恋猫世界</navigator></view><view><navigator url='/3/2116/2116'>悦推</navigator></view><view><navigator url='/3/1989/1989'>友读</navigator></view><view><navigator url='/4/2302/2302'>赚乐</navigator></view>
 			</view>
 		</view>
 	</view>

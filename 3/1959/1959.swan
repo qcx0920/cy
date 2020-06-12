@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							趣看看，一款看视频、资讯新闻赚零花的内容资讯APP。看新闻领红包，1元极速提现。趣看看，越看越有价值，越看越有钱。趣看看，只做你喜欢的头条，边看边赚零花，后续功能福利尽请期待~ 【热点资讯】 热点新闻资讯，头条火速送达推荐，足不出户掌握天下热门事 【精品视频】 精彩视频趣味无穷，这里有新鲜段子、搞笑短剧、原创草根短片，头条内容想看的应有尽有。 【赚钱任务】 日常任务、高额任务，宝箱福利奖励，让阅读新闻资讯更有价值，轻松赚钱日进斗金，内外兼修好帮手。 【活动福利】 看新闻资讯视频头条拿金币，赢好礼！不定期活动，超高现金福利享不停，邀请好友红包送不停。 【快速提现】 头条账户金额快速一元提现，货真价实，让您越玩越有钱。 【联系我们】 官方用户反馈群QQ号：774575203 官方客服微信：qukankan2345{{isAll?intro:''}}
+							趣看看，一款看视频、资讯新闻赚零花的内容资讯APP。看新闻领红包，1元极速提现。趣看看，越看越有价值{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1683/1683'>牛逼赚苹果版</navigator></view><view><navigator url='/1/1745/1745'>无聊赚苹果版</navigator></view><view><navigator url='/1/1569/1569'>狐狸赚</navigator></view><view><navigator url='/3/2117/2117'>耳多资讯</navigator></view>
+				<view><navigator url='/3/2137/2137'>喵赚</navigator></view><view><navigator url='/1/1661/1661'>钱咖赚钱</navigator></view><view><navigator url='/3/2108/2108'>51赚</navigator></view><view><navigator url='/3/2035/2035'>喜赚</navigator></view>
 			</view>
 		</view>
 	</view>

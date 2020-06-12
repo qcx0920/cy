@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							中国最活跃的有奖调查社区——第一调查网最新推出能赚钱的APP。首次登录APP，还能立即获得1元现金奖励！您可以随时随地、利用碎片时间在手机上参加各种有趣的问卷调查，只需动动手指，即可轻松赚取每份问卷3-60元不等的现金报酬。签到有礼，签到也能领现金，旗下还有小程序问卷调查平台给力赚，还有投吧网。同行平台还有集思吧旗下的赚点app ● 做一份调查问卷可得 2-100 元现金 ● 手机、电脑都能做问卷，随时随地 ● 现在绑定微信立得 1 元现金 ● 还有机会免费获赠50元话费 绑定流程： 1、注册会员>2、升级会员>3、绑定微信{{isAll?intro:''}}
+							中国最活跃的有奖调查社区——第一调查网最新推出能赚钱的APP。首次登录APP，还能立即获得1元现金奖{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1920/1920'>多多转</navigator></view><view><navigator url='/1/1504/1504'>金满堂</navigator></view><view><navigator url='/3/1989/1989'>友读</navigator></view><view><navigator url='/4/2254/2254'>e赚</navigator></view>
+				<view><navigator url='/3/2082/2082'>快赚</navigator></view><view><navigator url='/4/2226/2226'>红包先森</navigator></view><view><navigator url='/4/2310/2310'>爱捞金微信</navigator></view><view><navigator url='/3/1902/1902'>杨桃资讯</navigator></view>
 			</view>
 		</view>
 	</view>

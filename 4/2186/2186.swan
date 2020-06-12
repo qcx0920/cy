@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							猫猫赚是懒猫试玩旗下的安卓版试玩答题赚钱平台，躺着赚钱的APP，1元可提现。一款以答题形式为主的试玩APP，用户通过完成指定任务，从而获得丰厚的现金奖励，赚取的收益可通过微信方式进行提现。 怎么赚钱：填写邀请码TGNWEW领红包 1、APP首页点“喵抓一下”，每次点击试玩不同的任务； 2、完成新手任务，做任务，赚大钱，签到任务，连续签到更多奖励。{{isAll?intro:''}}
+							猫猫赚是懒猫试玩旗下的安卓版试玩答题赚钱平台，躺着赚钱的APP，1元可提现。一款以答题形式为主的试玩{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2281/2281'>小水滴</navigator></view><view><navigator url='/2/1852/1852'>好手气斗地主</navigator></view><view><navigator url='/4/2313/2313'>虾米锁屏</navigator></view><view><navigator url='/1/1662/1662'>钱小咖</navigator></view>
+				<view><navigator url='/2/1865/1865'>皓夜任务派发</navigator></view><view><navigator url='/1/1623/1623'>爱疯赚</navigator></view><view><navigator url='/2/1792/1792'>刷刷乐</navigator></view><view><navigator url='/1/1681/1681'>铜板墙</navigator></view>
 			</view>
 		</view>
 	</view>

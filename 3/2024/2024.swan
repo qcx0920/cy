@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							亿刻是一款基于区块链系统搭建的个人价值记录工具，注册填写邀请码【YKF8821】能领4元现金，15元就能提现。每位用户在亿刻注册后将会获得独立标识与私钥，用户在亿刻产品内活跃产生价值，这些价值将会以金币的方式记录下来。 亿刻也将会不定期地推出金币的竞拍，兑换等形式多样的活动供用户选择。金币的总数是固定的，越早参与其中会越有价值。 联系官方：亿刻小姐姐微信yk1230666或官方qq群805596334{{isAll?intro:''}}
+							亿刻是一款基于区块链系统搭建的个人价值记录工具，注册填写邀请码【YKF8821】能领4元现金，15元{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1648/1648'>快手红包</navigator></view><view><navigator url='/1/1505/1505'>多多农场</navigator></view><view><navigator url='/3/1914/1914'>彩蛋视频</navigator></view><view><navigator url='/1/1556/1556'>掉钱眼儿</navigator></view>
+				<view><navigator url='/4/2259/2259'>酷赚锁屏</navigator></view><view><navigator url='/1/1586/1586'>小猫赚钱</navigator></view><view><navigator url='/1/1496/1496'>趣玩</navigator></view><view><navigator url='/1/1707/1707'>美赚苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

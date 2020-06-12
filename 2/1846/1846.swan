@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							刷刷客是一个最新微信托管赚钱平台，利用微信小号挂机赚钱的平台，很多人误解，以为微信挂机要把手机一直开着，流量一直开着，其实都理解错了，你只需要把微信挂到刷刷客这个平台，你微信正常聊天使用，即使微信关了，流量关了，也可以挂机。 通过扫码方式把您的微信号托管到平台，平台使用您的小号干活获取收益，期间不会影响您微信号的正常交流使用，也不会消耗您的流量。刷刷客不会索取您的登录密码、支付密码以及身份信息，所以无需担心账号安全问题。您的小号仅用于做网赚，比如文章浏览，关注公众号等，不从事任何非法活动。{{isAll?intro:''}}
+							刷刷客是一个最新微信托管赚钱平台，利用微信小号挂机赚钱的平台，很多人误解，以为微信挂机要把手机一直开{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1936/1936'>百姓看点</navigator></view><view><navigator url='/4/2363/2363'>免费流量王</navigator></view><view><navigator url='/2/1812/1812'>乐益看</navigator></view><view><navigator url='/3/2117/2117'>耳多资讯</navigator></view>
+				<view><navigator url='/4/2230/2230'>零钱猫</navigator></view><view><navigator url='/3/1916/1916'>泡泡头条</navigator></view><view><navigator url='/3/2017/2017'>UC浏览器福利版</navigator></view><view><navigator url='/1/1732/1732'>借贷宝苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

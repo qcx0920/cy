@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							走圈，走路也能赚钱的APP。一边走路一边赚钱，看新闻头条也能赚钱，注册即送新人红包3-5元,10元可提现。走圈为引领激励全民运动与阅读，养成健康良好的运动以及阅读习惯，给予一定的金币奖励，金币可兑换现金。{{isAll?intro:''}}
+							走圈，走路也能赚钱的APP。一边走路一边赚钱，看新闻头条也能赚钱，注册即送新人红包3-5元,10元可{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1580/1580'>聪明赚</navigator></view><view><navigator url='/2/1854/1854'>云闪付</navigator></view><view><navigator url='/2/1826/1826'>支付宝红包</navigator></view><view><navigator url='/2/1794/1794'>趣味星球</navigator></view>
+				<view><navigator url='/4/2399/2399'>有信免费网络电话</navigator></view><view><navigator url='/4/2234/2234'>众赚宝</navigator></view><view><navigator url='/1/1725/1725'>应用微客苹果版</navigator></view><view><navigator url='/4/2327/2327'>疯传100</navigator></view>
 			</view>
 		</view>
 	</view>

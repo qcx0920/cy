@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							赢联APP，简单分享文章就能赚钱的手机应用，是一款集资讯发布和活动互动为一体的中国最大的移动兴趣众包应用。现在注册就奖励3元！用户在App内可以根据自己的兴趣、爱好选择任务，轻松操作就可以得到比打工更高的奖励。 用微信扫描二维码开始赚钱，手机用户没法直接扫描二维码请保存二维码到手机，再用微信扫一扫选择从相册选取。{{isAll?intro:''}}
+							赢联APP，简单分享文章就能赚钱的手机应用，是一款集资讯发布和活动互动为一体的中国最大的移动兴趣众包{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1972/1972'>斑马热点</navigator></view><view><navigator url='/1/1504/1504'>金满堂</navigator></view><view><navigator url='/3/2138/2138'>嗨皮赚</navigator></view><view><navigator url='/4/2215/2215'>赚钱帮</navigator></view>
+				<view><navigator url='/1/1615/1615'>芝麻试客</navigator></view><view><navigator url='/3/2001/2001'>香瓜转</navigator></view><view><navigator url='/3/1998/1998'>天天趣闻</navigator></view><view><navigator url='/4/2276/2276'>轻玩客</navigator></view>
 			</view>
 		</view>
 	</view>

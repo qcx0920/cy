@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							抖音极速版，刷抖音、看视频赚钱的软件，登陆填邀请码87590235送2元，0.3元提现秒到！看视频刷抖音赚金币自动兑换现金红包，天天0.3元就能提现，秒到账。 抖音，是中国广受欢迎的原创短视频分享平台。极速版内存小，省流量，使用流畅，为你提供多样有趣的短视频内容。 【红包能赚】登录极速版，即可获得专属红包。看视频赚红包，看的越多赚的越多。邀请好友也能赚红包！ 【运行流畅】安装包小，下载速度快、运行速度快，特别省流量。  【视频好看】看明星、聊科技、学文化等等应有尽有，智能推荐专属内容。周围人、身边事绝不错过，明星、好友时刻关心。 【沉浸体验】全屏沉浸式超清画质，带给你全新视觉体验！{{isAll?intro:''}}
+							抖音极速版，刷抖音、看视频赚钱的软件，登陆填邀请码87590235送2元，0.3元提现秒到！看视频刷{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2334/2334'>赚钱大咖</navigator></view><view><navigator url='/4/2238/2238'>体验达人</navigator></view><view><navigator url='/1/1726/1726'>红包锁屏苹果版</navigator></view><view><navigator url='/2/1820/1820'>托管赚钱宝</navigator></view>
+				<view><navigator url='/4/2355/2355'>米多通话赚钱</navigator></view><view><navigator url='/4/2361/2361'>赚翻翻</navigator></view><view><navigator url='/3/2147/2147'>小萌差事 - 微信投票赚钱</navigator></view><view><navigator url='/1/1602/1602'>嘀嗒赚</navigator></view>
 			</view>
 		</view>
 	</view>

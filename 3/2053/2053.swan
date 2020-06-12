@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							辣头条，看资讯赚外快，注册即送1元现金红包，10元就可以提现，看新闻、阅读文章、分享文章资讯到朋友圈都能赚钱。{{isAll?intro:''}}
+							辣头条，看资讯赚外快，注册即送1元现金红包，10元就可以提现，看新闻、阅读文章、分享文章资讯到朋友圈{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2199/2199'>淘金赚</navigator></view><view><navigator url='/4/2393/2393'>抢抢乐-抢红包</navigator></view><view><navigator url='/4/2372/2372'>玩赚-看广告答题赚钱</navigator></view><view><navigator url='/3/2045/2045'>中华头条</navigator></view>
+				<view><navigator url='/1/1749/1749'>挖钻iOS版</navigator></view><view><navigator url='/1/1585/1585'>随意赚</navigator></view><view><navigator url='/1/1506/1506'>研之有礼</navigator></view><view><navigator url='/1/1641/1641'>游虎试玩</navigator></view>
 			</view>
 		</view>
 	</view>

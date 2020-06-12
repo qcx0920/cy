@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							文摘头条，收获知识，收获奖励！现在注册即送1元红包，5元就能提现。只看好文章，阅读能赚钱！轻松做任务，每天挣十元！{{isAll?intro:''}}
+							文摘头条，收获知识，收获奖励！现在注册即送1元红包，5元就能提现。只看好文章，阅读能赚钱！轻松做任务{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1855/1855'>企鹅众测</navigator></view><view><navigator url='/1/1689/1689'>赚点-调查赚钱app</navigator></view><view><navigator url='/1/1513/1513'>王朝星球</navigator></view><view><navigator url='/1/1588/1588'>51赚钱</navigator></view>
+				<view><navigator url='/4/2281/2281'>小水滴</navigator></view><view><navigator url='/3/2095/2095'>草莓视界</navigator></view><view><navigator url='/1/1616/1616'>啪啪赚</navigator></view><view><navigator url='/2/1811/1811'>赚钱猫</navigator></view>
 			</view>
 		</view>
 	</view>

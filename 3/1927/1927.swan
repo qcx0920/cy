@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							淘最热点是一款看新闻阅读文章轻松赚钱的APP，新手注册填写邀请码M16991送1元红包，完成新手任务奖励再送1元，10元就能提现。单价最高的阅读赚钱软件，看新闻就能赚钱，还有丰富任务如看视频，分享、签到、评论、开宝箱等，让你每日赚不停。{{isAll?intro:''}}
+							淘最热点是一款看新闻阅读文章轻松赚钱的APP，新手注册填写邀请码M16991送1元红包，完成新手任务{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1941/1941'>霏霏</navigator></view><view><navigator url='/1/1656/1656'>易钻ATM</navigator></view><view><navigator url='/3/1995/1995'>聚转啦</navigator></view><view><navigator url='/1/1571/1571'>小猪赚钱</navigator></view>
+				<view><navigator url='/1/1676/1676'>试玩团</navigator></view><view><navigator url='/3/2143/2143'>Robin8</navigator></view><view><navigator url='/1/1750/1750'>我赚-iOS赚钱</navigator></view><view><navigator url='/3/2014/2014'>全民小视频</navigator></view>
 			</view>
 		</view>
 	</view>

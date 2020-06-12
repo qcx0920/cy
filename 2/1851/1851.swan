@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							苏宁金融APP是您生活必备的手机支付和理财宝贝！苏宁金融不仅有会赚钱的理财宝贝 - 零钱宝[收益远超银行活期]，而且还提供账户间转账、转账到银行卡、信用卡还款、话费充值、水电煤缴费、校园一卡通充值等便民服务。现在登陆，领取185元新人大礼！{{isAll?intro:''}}
+							苏宁金融APP是您生活必备的手机支付和理财宝贝！苏宁金融不仅有会赚钱的理财宝贝 - 零钱宝[收益远超{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2174/2174'>每天赚点</navigator></view><view><navigator url='/3/2144/2144'>有奖问答APP</navigator></view><view><navigator url='/1/1720/1720'>点点赚苹果版</navigator></view><view><navigator url='/2/1819/1819'>好省</navigator></view>
+				<view><navigator url='/3/1891/1891'>贝分网</navigator></view><view><navigator url='/3/2069/2069'>咔咔赚</navigator></view><view><navigator url='/3/2104/2104'>包赚</navigator></view><view><navigator url='/4/2204/2204'>零用猫</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							探米APP - 做你最好的赚钱伙伴，注册送1元，10元提现。试玩应用3分钟奖金即时到账，通过做任务，可获得高额的现金奖励，领取任务列表中的任意任务，点击开始任务进入，按要求完成返回探米提交任务即可获得奖励，躺着就把钱给赚了呦！{{isAll?intro:''}}
+							探米APP - 做你最好的赚钱伙伴，注册送1元，10元提现。试玩应用3分钟奖金即时到账，通过做任务，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1904/1904'>快手极速版</navigator></view><view><navigator url='/4/2272/2272'>龙易赚</navigator></view><view><navigator url='/3/1982/1982'>精彩头条</navigator></view><view><navigator url='/2/1839/1839'>试玩屋</navigator></view>
+				<view><navigator url='/3/2022/2022'>今日爆点</navigator></view><view><navigator url='/4/2174/2174'>每天赚点</navigator></view><view><navigator url='/4/2351/2351'>财神锁屏</navigator></view><view><navigator url='/4/2186/2186'>猫猫赚</navigator></view>
 			</view>
 		</view>
 	</view>

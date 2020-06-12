@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							并读新闻·读赚天下【填邀请码02DL拿现金奖励】 - 会赚钱的新闻客户端，边读新闻边赚钱的新闻阅读神器。首家“读者获利”的新闻阅读平台。优秀的阅读体验及随手可得的现金奖励，为你的每次阅读带来更大价值！{{isAll?intro:''}}
+							并读新闻·读赚天下【填邀请码02DL拿现金奖励】 - 会赚钱的新闻客户端，边读新闻边赚钱的新闻阅读神{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2012/2012'>身边</navigator></view><view><navigator url='/4/2358/2358'>比比宝</navigator></view><view><navigator url='/4/2189/2189'>火种游戏</navigator></view><view><navigator url='/3/2049/2049'>奇葩看点</navigator></view>
+				<view><navigator url='/1/1635/1635'>分钱吧</navigator></view><view><navigator url='/3/1950/1950'>猫人网</navigator></view><view><navigator url='/4/2401/2401'>淘粉吧返利拿集分宝</navigator></view><view><navigator url='/1/1538/1538'>试用宝</navigator></view>
 			</view>
 		</view>
 	</view>

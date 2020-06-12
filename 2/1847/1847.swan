@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							互赢是一个托管微信号和挂机赚钱的平台，1元即可提现秒到账，可以通过微信挂机或阅读文章赚钱，一个微信号每天能赚1~3元，可以挂多个账号。 互赢主营微信周边的网赚项目，只要有微信就可以接任务赚钱，所有项目不会以任何名义让大家垫资、付费。推荐朋友做任务，还能获得奖励。 登录平台后，点【微信号托管】~【生成登录二维码】，微信扫描显示出来的“二维码”，在手机上授权登录，再点击【确认托管】按钮，如果有多个小号，再点【生成一个新的登录二维码】即可。在这一步必须用另一个手机微信扫码，不能长按识别二维码，所以需要两个手机，或者一个手机一个电脑。{{isAll?intro:''}}
+							互赢是一个托管微信号和挂机赚钱的平台，1元即可提现秒到账，可以通过微信挂机或阅读文章赚钱，一个微信号{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1673/1673'>零钱掌柜</navigator></view><view><navigator url='/4/2327/2327'>疯传100</navigator></view><view><navigator url='/1/1662/1662'>钱小咖</navigator></view><view><navigator url='/1/1609/1609'>快赚岛</navigator></view>
+				<view><navigator url='/3/1949/1949'>乐看点</navigator></view><view><navigator url='/3/1925/1925'>像素蜜蜂</navigator></view><view><navigator url='/1/1743/1743'>米赚苹果版</navigator></view><view><navigator url='/1/1628/1628'>麦子赚苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							钱加手机赚钱平台是一款免费做任务获得金币，通过金币可以兑换话费，Q币，支付宝的应用，用户的一切行为都是免费的， 在玩应用，体验新应用的同时获得收益，后续的游戏功能也在开发中。还犹豫什么呢，赶快来体验吧！{{isAll?intro:''}}
+							钱加手机赚钱平台是一款免费做任务获得金币，通过金币可以兑换话费，Q币，支付宝的应用，用户的一切行为都{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2292/2292'>掌上赚</navigator></view><view><navigator url='/1/1631/1631'>麻袋赚赚</navigator></view><view><navigator url='/4/2216/2216'>葡萄转</navigator></view><view><navigator url='/1/1541/1541'>火箭试玩</navigator></view>
+				<view><navigator url='/3/2038/2038'>快视频</navigator></view><view><navigator url='/1/1582/1582'>爱搜懒人领钱</navigator></view><view><navigator url='/4/2259/2259'>酷赚锁屏</navigator></view><view><navigator url='/1/1565/1565'>海豚试玩</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							乐酷试玩，你的随身提款机，随时提现，即时到帐，一元就能提（秒到账），任务单价1元起，下载试玩苹果应用就能赚钱，点入公司旗下平台。{{isAll?intro:''}}
+							乐酷试玩，你的随身提款机，随时提现，即时到帐，一元就能提（秒到账），任务单价1元起，下载试玩苹果应用{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1782/1782'>知聊</navigator></view><view><navigator url='/1/1753/1753'>很好赚iOS版</navigator></view><view><navigator url='/1/1500/1500'>小涵兼职</navigator></view><view><navigator url='/3/1947/1947'>快虎</navigator></view>
+				<view><navigator url='/3/2100/2100'>朝闻夕事</navigator></view><view><navigator url='/3/1888/1888'>魔视</navigator></view><view><navigator url='/3/1869/1869'>贝壳转</navigator></view><view><navigator url='/2/1799/1799'>猫小贱</navigator></view>
 			</view>
 		</view>
 	</view>

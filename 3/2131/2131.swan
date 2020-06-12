@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							—分享·创造价值— 财神道（现叫指趣），是一款社会化自媒体分享广告平台软件，注册送1元，10元就能提现。只需一部智能手机，上班路上，等车间隙、工作闲暇，轻轻松松赚取收益！ 全新版本现已上线： 【看到好新闻】给你点亮新视界 邂逅来自世界的海量资讯，编辑团队每日精心推荐； 【在阅读中分享】传播生活正能量 这里有源源不断的资讯被更新，每一个或许都在等你分享； 【创造你的价值】安全可靠的便捷提现。{{isAll?intro:''}}
+							—分享·创造价值— 财神道（现叫指趣），是一款社会化自媒体分享广告平台软件，注册送1元，10元就能提{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1537/1537'>小桔试玩</navigator></view><view><navigator url='/4/2331/2331'>每日锁屏</navigator></view><view><navigator url='/1/1700/1700'>赚赚兔</navigator></view><view><navigator url='/2/1792/1792'>刷刷乐</navigator></view>
+				<view><navigator url='/1/1542/1542'>赏链</navigator></view><view><navigator url='/1/1661/1661'>钱咖赚钱</navigator></view><view><navigator url='/3/2044/2044'>头条看点</navigator></view><view><navigator url='/3/1919/1919'>闲鱼</navigator></view>
 			</view>
 		</view>
 	</view>

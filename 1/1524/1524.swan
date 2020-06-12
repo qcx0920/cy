@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							淘粉网是为消费者打造的一款电商导购APP，淘粉网不仅提供海量购物优惠券，而且还可以将用户购物消费金额记录在淘粉网，产生额外的收益，1元就能提现，秒到账。淘粉网，一款既可省钱又可赚钱的购物神器，选择淘粉网，让你的消费产生价值。 【产品简介】 1.超级搜索丨一键可搜多电商平台内部专属优惠券 2.自购存款丨消费金额记录自动存入淘粉网APP转为虚拟存款，天天生息拿现金 可提现支付宝 微信钱包 3.分享有奖丨分享商品可获80%商品佣金 4.邀请好友丨好友关系终身制，好友团队收益25% 5.代理身份丨自购返利75%，邀请团队收益30%{{isAll?intro:''}}
+							淘粉网是为消费者打造的一款电商导购APP，淘粉网不仅提供海量购物优惠券，而且还可以将用户购物消费金额{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2143/2143'>Robin8</navigator></view><view><navigator url='/3/2135/2135'>塔丝猫</navigator></view><view><navigator url='/1/1741/1741'>学费赚苹果版</navigator></view><view><navigator url='/1/1611/1611'>小手试玩</navigator></view>
+				<view><navigator url='/3/1885/1885'>番茄免费小说</navigator></view><view><navigator url='/1/1678/1678'>免费流量宝ios版</navigator></view><view><navigator url='/1/1674/1674'>A米</navigator></view><view><navigator url='/3/2125/2125'>闲猫</navigator></view>
 			</view>
 		</view>
 	</view>

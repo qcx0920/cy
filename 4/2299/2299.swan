@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							易赚达人是一款免费APP（安装送2元），致力于将用户日常用的软件游戏集成在一起方便用户下载使用，并且在下载使用的同时可以得到一定的‘积分’作为奖励，获赠的‘积分’可以兑换自己感兴趣的奖品。目前可以用学币兑换的奖品有：QB，手机话费， 支付宝提现。{{isAll?intro:''}}
+							易赚达人是一款免费APP（安装送2元），致力于将用户日常用的软件游戏集成在一起方便用户下载使用，并且{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1955/1955'>快米看点</navigator></view><view><navigator url='/4/2286/2286'>推猫</navigator></view><view><navigator url='/1/1731/1731'>放眼苹果版</navigator></view><view><navigator url='/1/1720/1720'>点点赚苹果版</navigator></view>
+				<view><navigator url='/3/2149/2149'>满满钱包</navigator></view><view><navigator url='/3/2043/2043'>全民头条</navigator></view><view><navigator url='/3/2121/2121'>百万猪</navigator></view><view><navigator url='/1/1565/1565'>海豚试玩</navigator></view>
 			</view>
 		</view>
 	</view>

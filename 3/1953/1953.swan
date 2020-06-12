@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							快看点，一款看视频资讯也能拿现金红包的APP。填写邀请码4Z2Y282领元红包！基于推荐算法分发资讯，聚合优质内容，提供包括图文、视频、小视频、剧集等不同形式的丰富内容，深度挖掘你的阅读兴趣，为你提供个性化的阅读体验。 同时你可以有效利用碎片化时间，通过阅读资讯、观看视频剧集、每日签到和邀请好友等任务活动获得平台激励，一边阅读一边赚钱，使阅读信息变得更有价值！{{isAll?intro:''}}
+							快看点，一款看视频资讯也能拿现金红包的APP。填写邀请码4Z2Y282领元红包！基于推荐算法分发资讯{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1580/1580'>聪明赚</navigator></view><view><navigator url='/1/1616/1616'>啪啪赚</navigator></view><view><navigator url='/3/1927/1927'>淘最热点</navigator></view><view><navigator url='/1/1638/1638'>柚子众测</navigator></view>
+				<view><navigator url='/4/2324/2324'>锁屏高手</navigator></view><view><navigator url='/4/2235/2235'>盯点汇</navigator></view><view><navigator url='/1/1740/1740'>每获苹果版</navigator></view><view><navigator url='/3/2125/2125'>闲猫</navigator></view>
 			</view>
 		</view>
 	</view>

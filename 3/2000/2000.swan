@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							上精彩看点看新闻领红包， 你就成为朋友圈“首富”，首次1元提现，之后10元起提现，填写邀请码280673领红包。每天刷一会儿新闻就有海量金币入账，更有签到、分享、时段红包让你拿奖到手软。阅读上瘾的感受敢不敢体验下~ 邀请好友共读获大额现金奖励，拉10个亲友，账户立入上亿金币。看对眼就快上车，精彩看点满载现金红包等你来~不但饭局富有谈资，而且钱包富有内容~{{isAll?intro:''}}
+							上精彩看点看新闻领红包， 你就成为朋友圈“首富”，首次1元提现，之后10元起提现，填写邀请码2806{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2166/2166'>iMoney安卓版</navigator></view><view><navigator url='/3/1873/1873'>大五福</navigator></view><view><navigator url='/1/1692/1692'>i疯玩</navigator></view><view><navigator url='/1/1660/1660'>刀刀赚钱</navigator></view>
+				<view><navigator url='/3/2046/2046'>趣看</navigator></view><view><navigator url='/3/2031/2031'>芒果网</navigator></view><view><navigator url='/1/1734/1734'>2155百宝袋</navigator></view><view><navigator url='/2/1825/1825'>走路钱多多</navigator></view>
 			</view>
 		</view>
 	</view>

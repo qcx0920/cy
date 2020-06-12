@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							快玩我是一款针对学生、白领使用的交互式深度体验应用。【安装后可拆红包，获得随机现金，完成新手任务奖励5元】应用集体验应用赚钱、做任务赚钱、安装应用赚钱、收徒赚钱、签到赚钱、28竞猜、支付宝提现、Q币兑换、话费兑换、流量兑换等功能于一体。在玩游戏戏、做任务、好友互动中，就能每天轻松赚钱，让你从此不再闲得蛋疼！{{isAll?intro:''}}
+							快玩我是一款针对学生、白领使用的交互式深度体验应用。【安装后可拆红包，获得随机现金，完成新手任务奖励{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2342/2342'>极猫</navigator></view><view><navigator url='/3/1943/1943'>今日十大新闻</navigator></view><view><navigator url='/1/1554/1554'>金手指</navigator></view><view><navigator url='/4/2190/2190'>钱大师安卓版</navigator></view>
+				<view><navigator url='/3/1912/1912'>闪电盒子</navigator></view><view><navigator url='/2/1853/1853'>千米红包</navigator></view><view><navigator url='/1/1710/1710'>钱程苹果版</navigator></view><view><navigator url='/3/2071/2071'>乐享看</navigator></view>
 			</view>
 		</view>
 	</view>

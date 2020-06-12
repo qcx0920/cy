@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							享物说微信小程序分享微信群抢红包的活动，每天11点分享微信群，然后回到群聊打开小程序卡片，点击“立即领取红包” 。邀请拿红包，进入活动页面，邀请首次进入享物说，邀请1个得1.5元微信红包，2元提现微信零钱入帐，邀请2个小号就行，每天可以分享到微信群1个群红包（只够3个人领取），然后自己领取1个，一般四五毛，号多的可以互相刷。{{isAll?intro:''}}
+							享物说微信小程序分享微信群抢红包的活动，每天11点分享微信群，然后回到群聊打开小程序卡片，点击“立即{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1835/1835'>淘券吧</navigator></view><view><navigator url='/3/2146/2146'>水滴任务投票平台</navigator></view><view><navigator url='/3/2065/2065'>口袋看点</navigator></view><view><navigator url='/2/1843/1843'>来米啦</navigator></view>
+				<view><navigator url='/2/1800/1800'>投投</navigator></view><view><navigator url='/1/1557/1557'>赚客</navigator></view><view><navigator url='/3/1946/1946'>斑马网</navigator></view><view><navigator url='/1/1603/1603'>微赚</navigator></view>
 			</view>
 		</view>
 	</view>

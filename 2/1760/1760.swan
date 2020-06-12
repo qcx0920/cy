@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							码帮聚合任务平台，码帮任务平台是一款做任务赚钱的APP，和码力通用账号，既可以做辅助，也可以做悬赏。综合任务平台，类似悬赏猫、众人帮，可接单发单!原有代理体系不变，小编依然是总代，可以保障给你最大的利益!   码帮任务平台既可以做任务赚钱，也能微信辅助接单赚钱，10元即可提现   悬赏任务单种类繁多应有尽有任务量大，辅助任务每天爆单，高价通道12元起需填写资料，不填通道8元起比较简单一扫而过，单价上下有起伏属正常，这应市场而定   ②码帮提现2元起步，全天不限制次数，提现免审核秒到账   ③2020年网推地推界的热门平台，安全可靠，平台已正式上线更新出更丰富的奖励制度，做任务放单悬赏首选码帮平台。{{isAll?intro:''}}
+							码帮聚合任务平台，码帮任务平台是一款做任务赚钱的APP，和码力通用账号，既可以做辅助，也可以做悬赏。{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1666/1666'>51发发 - 51fafa</navigator></view><view><navigator url='/2/1779/1779'>截图宝</navigator></view><view><navigator url='/1/1618/1618'>赚美金</navigator></view><view><navigator url='/3/2049/2049'>奇葩看点</navigator></view>
+				<view><navigator url='/3/2006/2006'>萝卜看点</navigator></view><view><navigator url='/2/1838/1838'>挣钱宝</navigator></view><view><navigator url='/3/1956/1956'>众享阅读</navigator></view><view><navigator url='/2/1854/1854'>云闪付</navigator></view>
 			</view>
 		</view>
 	</view>

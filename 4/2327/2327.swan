@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							疯传 - 分享即赚钱，赶快来下载！【输入邀请码290428领取奖励】 【如果你是苹果iOS设备请点击这里进入疯传苹果版】 疯传100，是一款社会化自媒体分享广告平台软件，只要你有微信账号就能够通过简单的分享获取收益！ 【轻松获利】只需要简单的注册和分享就能获得收入 【提现多样】支付宝、话费、流量，多种兑换选择 【安全稳定】强大的技术支持，杜绝漏单报错 【简单有趣】只要和小伙伴们配合无间，就能日进斗金！    还在四处打探找兼职？还在担心上当受骗被坑爹？还在日晒雨淋太辛苦？马上下载疯传，和小伙伴们一起换个姿势赚钱花~ 疯传，一款能轻松挣钱的分享收益软件{{isAll?intro:''}}
+							疯传 - 分享即赚钱，赶快来下载！【输入邀请码290428领取奖励】 【如果你是苹果iOS设备请点击{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2047/2047'>蚂蚁头条</navigator></view><view><navigator url='/3/1868/1868'>快音</navigator></view><view><navigator url='/1/1514/1514'>陀螺多多</navigator></view><view><navigator url='/4/2248/2248'>秉钧红人</navigator></view>
+				<view><navigator url='/3/1907/1907'>2345星球联盟</navigator></view><view><navigator url='/2/1797/1797'>赚分享</navigator></view><view><navigator url='/1/1559/1559'>钱咖</navigator></view><view><navigator url='/1/1624/1624'>口袋ATM</navigator></view>
 			</view>
 		</view>
 	</view>

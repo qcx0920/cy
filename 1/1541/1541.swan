@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							火箭试玩，试玩APP就能赚现金，5元就能提现。火箭试玩是一款APP试玩体验平台，每天更新大量优质应用供大家体验。下载并完成一定任务就可以获得现金奖励，奖励金可以通过微信轻松体现。  客服QQ 2939791234{{isAll?intro:''}}
+							火箭试玩，试玩APP就能赚现金，5元就能提现。火箭试玩是一款APP试玩体验平台，每天更新大量优质应用{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1595/1595'>赚钱宝</navigator></view><view><navigator url='/1/1612/1612'>App体验客--鼠宝赚</navigator></view><view><navigator url='/4/2273/2273'>快摇吧</navigator></view><view><navigator url='/4/2194/2194'>泡泡赚</navigator></view>
+				<view><navigator url='/2/1781/1781'>玩洽</navigator></view><view><navigator url='/1/1642/1642'>钱夹</navigator></view><view><navigator url='/3/2043/2043'>全民头条</navigator></view><view><navigator url='/4/2335/2335'>快赚锁屏</navigator></view>
 			</view>
 		</view>
 	</view>

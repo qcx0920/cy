@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							招财锁（安装即送2元）新春献礼，百万红包放送！ 参与大转盘抽奖100%获得现金收益奖励，最高奖励1000元，快来参与吧！ 招财锁是一款日常解锁手机就可以轻松获取收益的锁屏类软件 解锁获得的收益可以兑换支付宝、手机话费、Q币、ipad等奖品 海量解锁奖励和高收益任务赚到手软。{{isAll?intro:''}}
+							招财锁（安装即送2元）新春献礼，百万红包放送！ 参与大转盘抽奖100%获得现金收益奖励，最高奖励10{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1821/1821'>花解解</navigator></view><view><navigator url='/1/1718/1718'>轻玩客苹果版</navigator></view><view><navigator url='/4/2393/2393'>抢抢乐-抢红包</navigator></view><view><navigator url='/4/2337/2337'>遛达赚钱（溜达）</navigator></view>
+				<view><navigator url='/3/2139/2139'>推推</navigator></view><view><navigator url='/3/2048/2048'>洋葱视频</navigator></view><view><navigator url='/4/2236/2236'>盈牛牛</navigator></view><view><navigator url='/2/1857/1857'>趣专享</navigator></view>
 			</view>
 		</view>
 	</view>

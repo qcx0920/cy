@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							挖金手机赚钱在2013年12月正式发布，是国内一流技术团队耗时一年打造的国内最靠谱的移动威客手机应用，上线短短几个月的时间已拥有二十多万用户，是国内最顶尖，任务最多，最靠谱的手机赚钱应用。 做任务 只需要在手机上点击就能完成的任务，比如装应用、邀请好友、玩转游戏 高收入 2014年挖金震撼推出下级好友6层分成体系，共计45%超高系统分成奖励，挖金努力让用户分享更多好友，赚更多的钱。 赚金币 通过完成各种任务赚取金币，一分钟可以赚够金币兑换1Q币  (新用户秒到哦) 换奖品 金币可以换话费充值卡、Q币、支付宝、财付通等奖品{{isAll?intro:''}}
+							挖金手机赚钱在2013年12月正式发布，是国内一流技术团队耗时一年打造的国内最靠谱的移动威客手机应用{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1959/1959'>趣看看</navigator></view><view><navigator url='/2/1776/1776'>快乐赚</navigator></view><view><navigator url='/4/2220/2220'>约钱</navigator></view><view><navigator url='/3/2061/2061'>有银子</navigator></view>
+				<view><navigator url='/4/2349/2349'>钻石APP</navigator></view><view><navigator url='/1/1536/1536'>小啄赚钱</navigator></view><view><navigator url='/3/2121/2121'>百万猪</navigator></view><view><navigator url='/4/2372/2372'>玩赚-看广告答题赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

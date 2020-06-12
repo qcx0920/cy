@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							微信小程序试玩平台，全民试玩小程序即可赚钱，只要试玩20秒就能获得现金奖励，满1元即可提现，实时到账微信零钱，共有4级分润，裂变分润很可观。{{isAll?intro:''}}
+							微信小程序试玩平台，全民试玩小程序即可赚钱，只要试玩20秒就能获得现金奖励，满1元即可提现，实时到账{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2203/2203'>手游赚</navigator></view><view><navigator url='/3/1873/1873'>大五福</navigator></view><view><navigator url='/1/1568/1568'>蚂蚁小咖</navigator></view><view><navigator url='/3/2071/2071'>乐享看</navigator></view>
+				<view><navigator url='/1/1687/1687'>聚啦苹果版</navigator></view><view><navigator url='/3/1923/1923'>猫眼</navigator></view><view><navigator url='/1/1528/1528'>疯狂合体鸭</navigator></view><view><navigator url='/1/1588/1588'>51赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

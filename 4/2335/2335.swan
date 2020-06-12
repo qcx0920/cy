@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							锁屏界面 轻松赚钱 左划解锁，右划下载或浏览，都赚钱；邀请好友一起玩，双方都赚更多     所得收益 轻松兑换 赚到的钱可兑换精美商品，话费，流量，卡卷等，也可直接提取现金哦     精彩内容 好玩新鲜 下应用、看资讯、赏美图... 每日滑屏玩不停     智能省流量 快赚呈现的锁屏美图仅在 WiFi 环境下载，誓将你的流量节省到底  {{isAll?intro:''}}
+							锁屏界面 轻松赚钱 左划解锁，右划下载或浏览，都赚钱；邀请好友一起玩，双方都赚更多     所得收益{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1932/1932'>米转</navigator></view><view><navigator url='/3/1936/1936'>百姓看点</navigator></view><view><navigator url='/1/1749/1749'>挖钻iOS版</navigator></view><view><navigator url='/4/2221/2221'>学生赚</navigator></view>
+				<view><navigator url='/3/1994/1994'>观天下</navigator></view><view><navigator url='/4/2360/2360'>点点乐</navigator></view><view><navigator url='/2/1788/1788'>全民赚</navigator></view><view><navigator url='/1/1715/1715'>体验宝苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

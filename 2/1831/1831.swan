@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							悦动圈，走路赚钱领红包，每天走路500步领红包，运动红包：每日完成走路、跑步、骑行、健身任意一种指标，即可获得现金红包。悦动圈，让运动成为快乐生活的一部分，是集计步、跑步、健身、骑行等运动模式记录工具及互动社区于一身的手机应用{{isAll?intro:''}}
+							悦动圈，走路赚钱领红包，每天走路500步领红包，运动红包：每日完成走路、跑步、骑行、健身任意一种指标{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1878/1878'>抖音极速版</navigator></view><view><navigator url='/1/1649/1649'>小刀赚钱</navigator></view><view><navigator url='/3/2011/2011'>快头条</navigator></view><view><navigator url='/1/1571/1571'>小猪赚钱</navigator></view>
+				<view><navigator url='/1/1606/1606'>大虾试玩</navigator></view><view><navigator url='/3/2086/2086'>阅钱</navigator></view><view><navigator url='/4/2307/2307'>百度微任务</navigator></view><view><navigator url='/3/2053/2053'>辣头条</navigator></view>
 			</view>
 		</view>
 	</view>

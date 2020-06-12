@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							来米啦是一个看广告答题每天给用户发奖金的平台，注册送8个豆子+1元，2元就能提现。用户不需要付出任何成本，只需要每天花2分钟时间选号进行抽奖，就有可能获得1元到300元不等的奖金。发给用户的奖金来源于“来米啦”的广告收入，对于用户来说完全免费，并且可以每天都有机会拿到奖金。 开奖时间：每天13点、19点开奖，每天都有2次免费押注机会，记得及时押注，说不定就中大奖了！ 玩法攻略：注册送8个豆，加上免费押一个，就是9个号，第一轮里面12个号码里面抽9个号码中的概率打，中了就可以提现2元，第一轮第二轮第三轮每轮免费选一个号。获取豆子邀请好友来获取{{isAll?intro:''}}
+							来米啦是一个看广告答题每天给用户发奖金的平台，注册送8个豆子+1元，2元就能提现。用户不需要付出任何{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1494/1494'>多多红包</navigator></view><view><navigator url='/3/2149/2149'>满满钱包</navigator></view><view><navigator url='/4/2396/2396'>淘粉吧粉赚</navigator></view><view><navigator url='/1/1692/1692'>i疯玩</navigator></view>
+				<view><navigator url='/1/1523/1523'>游易赚</navigator></view><view><navigator url='/4/2208/2208'>豆豆趣玩安卓版</navigator></view><view><navigator url='/4/2255/2255'>享推</navigator></view><view><navigator url='/3/2142/2142'>阅读多多</navigator></view>
 			</view>
 		</view>
 	</view>

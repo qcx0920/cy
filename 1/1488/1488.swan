@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							爱钱试玩，一款可以赚钱的手机试玩软件，为你提供超多好玩的应用，试玩应用还能领取丰厚的现金红包，赶快加入吧~10元就能提现，多种赚钱方式让您多一份零花钱，立刻加入送1元现金奖励。每天大量试玩任务，零投入收益远超XX宝。 联系客服 安卓客服qq:2885258924 时间：周一到周日10:00-18:00 苹果客服qq:3004496998/3004452701 时间：周一到周日09:30-21:30{{isAll?intro:''}}
+							爱钱试玩，一款可以赚钱的手机试玩软件，为你提供超多好玩的应用，试玩应用还能领取丰厚的现金红包，赶快加{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2373/2373'>马上有钱</navigator></view><view><navigator url='/2/1817/1817'>口碑</navigator></view><view><navigator url='/3/1940/1940'>淘头条</navigator></view><view><navigator url='/3/2072/2072'>贝壳头条</navigator></view>
+				<view><navigator url='/4/2179/2179'>葫芦赚</navigator></view><view><navigator url='/3/1995/1995'>聚转啦</navigator></view><view><navigator url='/3/2116/2116'>悦推</navigator></view><view><navigator url='/1/1521/1521'>红淘客</navigator></view>
 			</view>
 		</view>
 	</view>

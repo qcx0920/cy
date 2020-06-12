@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							【包赚APP】绿色转发赚钱平台，文章干净，新用户首次下载APP登录奖励2元， 点击0.1元，当天结算10元提现！可发微信群，朋友圈，绿色长久平台，速度玩。{{isAll?intro:''}}
+							【包赚APP】绿色转发赚钱平台，文章干净，新用户首次下载APP登录奖励2元， 点击0.1元，当天结算{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1537/1537'>小桔试玩</navigator></view><view><navigator url='/4/2359/2359'>赚零花钱</navigator></view><view><navigator url='/3/2107/2107'>星赚</navigator></view><view><navigator url='/3/1881/1881'>火山转</navigator></view>
+				<view><navigator url='/2/1816/1816'>微漂云众包</navigator></view><view><navigator url='/3/2150/2150'>开玩</navigator></view><view><navigator url='/4/2332/2332'>锁屏达人</navigator></view><view><navigator url='/4/2335/2335'>快赚锁屏</navigator></view>
 			</view>
 		</view>
 	</view>

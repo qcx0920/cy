@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							米栈，美好生活从米栈开始！动动手指，轻松兼职，看视频、填问卷、转游戏、玩游戏、刷微博、抽大奖、趣答题….每天使用米栈3分钟，每月轻松告别“月光族”。 联通、移动、电信话费（流量卡）、iPhoneiPad、数码相机、充电器、购物卡、优惠券、彩票、代金券、Q币、超级VIP特权等等，满足你的各种需求，英雄联盟LOL、刀塔传奇、我叫MT等游戏点卡也会陆续上架，同时所有费用全免！   5大任务类型，300多家品牌合作伙伴！体验、调研、分享、竞猜、购物返利多种任务，各种差事，我们会不断提供每个用户在手机上动动拇指就能完成的任务。{{isAll?intro:''}}
+							米栈，美好生活从米栈开始！动动手指，轻松兼职，看视频、填问卷、转游戏、玩游戏、刷微博、抽大奖、趣答题{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1675/1675'>开玩苹果赚钱</navigator></view><view><navigator url='/4/2250/2250'>试玩猫</navigator></view><view><navigator url='/4/2275/2275'>口袋红包</navigator></view><view><navigator url='/1/1490/1490'>应用试客</navigator></view>
+				<view><navigator url='/2/1807/1807'>斗鱼极速版</navigator></view><view><navigator url='/4/2226/2226'>红包先森</navigator></view><view><navigator url='/4/2401/2401'>淘粉吧返利拿集分宝</navigator></view><view><navigator url='/1/1538/1538'>试用宝</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							“7块糖”是由微赢（北京）科技有限公司推出的一款有趣的手机APP，应用中有丰富的任务，完成任务可获得糖块奖励，糖块可无条件随时兑换现金。 欢迎来到7块糖的海洋，在这里，有饶有趣味的玩法等你探索，有包罗万象的任务等你挑战，叫上你和你的小伙伴，一起堆糖堆儿，得糖块，感受7块糖的魅力。精彩万分，其乐无穷。{{isAll?intro:''}}
+							“7块糖”是由微赢（北京）科技有限公司推出的一款有趣的手机APP，应用中有丰富的任务，完成任务可获得{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1784/1784'>叮咚众包</navigator></view><view><navigator url='/1/1754/1754'>赚帮iOS版</navigator></view><view><navigator url='/3/2057/2057'>番薯小组</navigator></view><view><navigator url='/3/2054/2054'>车主无忧</navigator></view>
+				<view><navigator url='/1/1564/1564'>鼠宝试玩</navigator></view><view><navigator url='/1/1746/1746'>疯狂赚金币苹果版</navigator></view><view><navigator url='/4/2388/2388'>采宝</navigator></view><view><navigator url='/3/2129/2129'>疯转联盟</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							抢抢乐是一款以抢红包为乐趣的手机软件，比微信红包、淘宝红包、支付宝红包更有趣，每天签到领取红包。简单好玩的应用每天都能轻松抢红包。 抢抢乐是一款专门针对安卓系统、苹果IOS系统（IOS版即将发布）所推出的赚钱应用。用户可以通过手机端完成指定任务来获得一定数量的糖果。用糖果抢现金红包。每个现金红包都有不同金额。通过在抢抢乐所抢到的现金红包都可以直接通过支付宝提现到自己的银行卡。并且也可以直接在淘宝中使用集分宝购买宝贝！{{isAll?intro:''}}
+							抢抢乐是一款以抢红包为乐趣的手机软件，比微信红包、淘宝红包、支付宝红包更有趣，每天签到领取红包。简单{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1827/1827'>超级淘</navigator></view><view><navigator url='/4/2249/2249'>众得宝</navigator></view><view><navigator url='/3/2132/2132'>众众赚</navigator></view><view><navigator url='/1/1699/1699'>钱逗</navigator></view>
+				<view><navigator url='/3/2075/2075'>天天转</navigator></view><view><navigator url='/2/1841/1841'>芝士小视频</navigator></view><view><navigator url='/3/2119/2119'>转赚</navigator></view><view><navigator url='/2/1844/1844'>悦动圈红包</navigator></view>
 			</view>
 		</view>
 	</view>

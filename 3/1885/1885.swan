@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							红果小说，提供正版免费小说，看小说还有金币福利，金币能兑换现金，登陆就送1元，1元提现秒到。什么，看书还能挣钱？签到福利，金币福利，阅读福利……各种福利应有尽有，随时提现，只要你每天常来读！ 免费小说，尽在红果！我们提供正版免费小说，还有金币福利。什么，看书还能挣钱？ 【正版免费】 正版小说，免费阅读。热门分类，都市爽文、言情穿越、玄幻修仙、武侠世界……你想看的这里都有。 【兴趣推荐】 根据你的阅读爱好，个性化推荐，优质书单，书城精细化推荐，总有一款打动你！ 【活动福利】 签到福利，金币福利，阅读福利……各种福利应有尽有，随时提现，只要你每天常来读！ 【听书畅读】 这里每一本书都能听，让你阅读的时候，眼睛也能随时休息一下。{{isAll?intro:''}}
+							红果小说，提供正版免费小说，看小说还有金币福利，金币能兑换现金，登陆就送1元，1元提现秒到。什么，看{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1537/1537'>小桔试玩</navigator></view><view><navigator url='/1/1631/1631'>麻袋赚赚</navigator></view><view><navigator url='/4/2340/2340'>宅客联盟</navigator></view><view><navigator url='/3/1884/1884'>聚赚资讯</navigator></view>
+				<view><navigator url='/1/1646/1646'>试客小兵</navigator></view><view><navigator url='/1/1554/1554'>金手指</navigator></view><view><navigator url='/4/2289/2289'>欢乐点-看广告赚钱</navigator></view><view><navigator url='/1/1565/1565'>海豚试玩</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							泡泡头条是一款资讯阅读能赚钱的应用，1元就能提现，秒到账，填写邀请码【10003366】领新手红包。让您可以利用空闲时间，看资讯赚零花。更可以邀请好友一起看海量资讯，金币翻翻翻。每日更新海量热点内容，社会热点，历史奇闻，人生百态，爆笑段子等，足不出户即可了解社会新闻资讯时尚热点。 联系官方 客服QQ：2469553515{{isAll?intro:''}}
+							泡泡头条是一款资讯阅读能赚钱的应用，1元就能提现，秒到账，填写邀请码【10003366】领新手红包。{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2330/2330'>并读新闻</navigator></view><view><navigator url='/3/1883/1883'>孔雀网</navigator></view><view><navigator url='/1/1671/1671'>爽啦</navigator></view><view><navigator url='/3/1983/1983'>有金子</navigator></view>
+				<view><navigator url='/2/1832/1832'>趣呀</navigator></view><view><navigator url='/1/1663/1663'>超级体验师</navigator></view><view><navigator url='/1/1568/1568'>蚂蚁小咖</navigator></view><view><navigator url='/1/1556/1556'>掉钱眼儿</navigator></view>
 			</view>
 		</view>
 	</view>

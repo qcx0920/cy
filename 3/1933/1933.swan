@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							一个看漫画可以赚钱的App，看漫画赚零花钱，注册就送新手红包，1元即可提现。选择自己喜欢的漫画去看即可，右下会有一个红包转圈圈，每转满一圈即可产生一次随机金币，看漫画赚的金币到我的钱包，手动点击转换现金。 抖腿漫画QQ群：698165340，一起来玩吧！{{isAll?intro:''}}
+							一个看漫画可以赚钱的App，看漫画赚零花钱，注册就送新手红包，1元即可提现。选择自己喜欢的漫画去看即{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2037/2037'>百姓头条</navigator></view><view><navigator url='/3/1882/1882'>金镶玉</navigator></view><view><navigator url='/4/2312/2312'>钱鹿锁屏</navigator></view><view><navigator url='/4/2314/2314'>钱加</navigator></view>
+				<view><navigator url='/2/1804/1804'>世界农场</navigator></view><view><navigator url='/3/2021/2021'>火力橙</navigator></view><view><navigator url='/4/2296/2296'>米钱（跑路了）</navigator></view><view><navigator url='/3/2048/2048'>洋葱视频</navigator></view>
 			</view>
 		</view>
 	</view>

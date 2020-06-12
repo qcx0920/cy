@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							咔咔赚是深受赚客一族喜爱的手机赚钱平台，读文章、看视频转发就赚钱，每天签到赚钱倍增，免费领红包还能抢红包。跟着咔咔赚一起享受高品质赚钱生活，用户将有趣的新闻或者文章分享到微信朋友圈、QQ空间等，朋友阅读点击即可获得收入。{{isAll?intro:''}}
+							咔咔赚是深受赚客一族喜爱的手机赚钱平台，读文章、看视频转发就赚钱，每天签到赚钱倍增，免费领红包还能抢{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2329/2329'>招财熊【骗子】</navigator></view><view><navigator url='/3/2102/2102'>多发赚</navigator></view><view><navigator url='/2/1817/1817'>口碑</navigator></view><view><navigator url='/1/1641/1641'>游虎试玩</navigator></view>
+				<view><navigator url='/4/2208/2208'>豆豆趣玩安卓版</navigator></view><view><navigator url='/3/2142/2142'>阅读多多</navigator></view><view><navigator url='/4/2277/2277'>e赚-看广告赚钱</navigator></view><view><navigator url='/4/2193/2193'>Q玩小游戏</navigator></view>
 			</view>
 		</view>
 	</view>

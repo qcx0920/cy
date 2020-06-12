@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							奇葩看点是达中科技旗下全新涨分王新平台，注册送1元现金+30元现金券，5元就能提现。老板承诺百分之百零扣量涨分速度，零扣量点击一毛绝对算得上暴力涨分速度，涨分效果超过了互联网任何一个平台。 点击一毛，注册就送一元，五元微信提现秒到账。收徒10元，首次4元，二次三次各3元，开创了全网最高收徒红包十元，分三次给，二级提成30%提成。并开创了有史以来最高收徒大赛。 收徒大赛规则: 一共是7000元收徒大赛奖金，前三十名都有大奖。奖金以有效徒弟排名，徒弟活动期间4月25日~4月30日完成首次提现为有效徒弟排名。 第1名888元奖金 第2名588元奖金 第3名388元奖金 第4~10名300元奖金 第11~20名200元奖金 第21~30名100元奖金{{isAll?intro:''}}
+							奇葩看点是达中科技旗下全新涨分王新平台，注册送1元现金+30元现金券，5元就能提现。老板承诺百分之百{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1944/1944'>鸡冻头条</navigator></view><view><navigator url='/3/2055/2055'>爱阅读</navigator></view><view><navigator url='/4/2365/2365'>乐游宝</navigator></view><view><navigator url='/3/2049/2049'>奇葩看点</navigator></view>
+				<view><navigator url='/4/2203/2203'>手游赚</navigator></view><view><navigator url='/3/1982/1982'>精彩头条</navigator></view><view><navigator url='/3/2065/2065'>口袋看点</navigator></view><view><navigator url='/4/2305/2305'>聚享赚</navigator></view>
 			</view>
 		</view>
 	</view>

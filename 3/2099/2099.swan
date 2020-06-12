@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							转发宝-看新闻，传递价值资讯。看文章你就能赚钱，注册送1元，10元就能提现。转发即赚钱，转发宝是一款国内一款有诚信，有态度的手赚软件，集资讯、赚钱为一体，让你利用闲暇时间赚钱的智能手机应用，只要你有微信账号就能够通过简单的分享获取收益！ 软件特点： 【每日签到】您只要登录APP点击签到，即可轻松赚钱，没错每天都有哦！连续签到更有额外惊喜！ 【转发赚钱】转发的文章被好友阅览或再次转发，您都可以获得收入！ 【徒弟进贡】：独特的师徒系统，让您不再孤单，徒弟进贡不停，转发赚翻天！ 【全面疯赚】除了转发赚钱，还会不定期活动，现金大奖等你拿！ 【日进斗金】任务不断，应接不暇，收益丰厚 【提现多样】支付宝提现，话费兑换，以及不断更新的兑兑换商城，更多选择，更多优惠 【安全稳定】强大的技术支持，安全稳定{{isAll?intro:''}}
+							转发宝-看新闻，传递价值资讯。看文章你就能赚钱，注册送1元，10元就能提现。转发即赚钱，转发宝是一款{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2192/2192'>赚宝</navigator></view><view><navigator url='/1/1575/1575'>顽狮试玩</navigator></view><view><navigator url='/4/2261/2261'>魔豆</navigator></view><view><navigator url='/1/1691/1691'>来赚分享苹果版</navigator></view>
+				<view><navigator url='/1/1542/1542'>赏链</navigator></view><view><navigator url='/3/1993/1993'>放心赚</navigator></view><view><navigator url='/1/1666/1666'>51发发 - 51fafa</navigator></view><view><navigator url='/3/1973/1973'>蜜桃转</navigator></view>
 			</view>
 		</view>
 	</view>

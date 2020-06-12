@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							e赚专为安卓打造的赚钱软件，真金白银等你来拿，注册送1元，10元起提现！e赚APP拥有易赚、高收益、快速提现、商品兑换等特点，是由北京掌控艾普科技有限公司开发的APP。{{isAll?intro:''}}
+							e赚专为安卓打造的赚钱软件，真金白银等你来拿，注册送1元，10元起提现！e赚APP拥有易赚、高收益、{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2390/2390'>好赚跳跳球</navigator></view><view><navigator url='/4/2398/2398'>手机赚钱宝</navigator></view><view><navigator url='/4/2257/2257'>口袋赚</navigator></view><view><navigator url='/1/1700/1700'>赚赚兔</navigator></view>
+				<view><navigator url='/3/2157/2157'>试玩二团</navigator></view><view><navigator url='/3/1963/1963'>火锅视频</navigator></view><view><navigator url='/2/1813/1813'>小牛赚</navigator></view><view><navigator url='/3/2119/2119'>转赚</navigator></view>
 			</view>
 		</view>
 	</view>

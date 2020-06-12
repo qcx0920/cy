@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							金钱豹是专为苹果用户打造的越玩越有钱的APP，合理利用你的时间碎片，打开金钱豹，看广告、看视频、做任务，轻松赚取零花钱。金钱豹任务每天更新随时做，2元起提现，提现方便到账快。 联系我们 客服QQ交流群：623521005，客服QQ1178331206、3024631470{{isAll?intro:''}}
+							金钱豹是专为苹果用户打造的越玩越有钱的APP，合理利用你的时间碎片，打开金钱豹，看广告、看视频、做任{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2162/2162'>PP试玩</navigator></view><view><navigator url='/3/1980/1980'>唔哩头条</navigator></view><view><navigator url='/2/1864/1864'>抓实惠</navigator></view><view><navigator url='/2/1857/1857'>趣专享</navigator></view>
+				<view><navigator url='/1/1753/1753'>很好赚iOS版</navigator></view><view><navigator url='/3/2107/2107'>星赚</navigator></view><view><navigator url='/3/1902/1902'>杨桃资讯</navigator></view><view><navigator url='/3/1914/1914'>彩蛋视频</navigator></view>
 			</view>
 		</view>
 	</view>

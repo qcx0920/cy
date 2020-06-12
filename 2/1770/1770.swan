@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							闲蛋APP是江西峥嵘佳创信息技术有限公司打造的一款集游戏试玩，购物，悬赏任务的新型悬赏任务平台，3元就能提现。闲蛋是一款带有合成分红的悬赏任务兼职软件，同时还有购物返利等。 分红闲蛋说明 1、集齐5种不同卡片并消耗50点算力即可有几率合成分红闲蛋 2、分红闲蛋每日收益为288-500元 3、合成分红闲蛋成功后可以获得1天现金分红奖励 4、算力充能达到100%即可增加1天分红闲蛋时长 5、算力充能达到100%总消耗1000点算力 6、普通成员可使用算力充能10次 7、领导人可以使用算力充能20次 8、算力充能达到100%即为1次 9、分红闲蛋分红时间为12点结算至账户 联系我们 客服交流QQ群：798214853，客服QQ：1993051200 闲蛋利用区块链技术推动产品业务发展，这是一个全新的概念和大胆的尝试，让人们在闲暇时光之余体验到玩游戏，购物，以及做任务便可轻松赚取零花钱同时还能获得算力值奖励。 我们的服务包括广告投放、游戏试玩、任务众包、优惠券购物等，用户在app内完成相对应的任务都能获得佣金奖励和算力值加成。{{isAll?intro:''}}
+							闲蛋APP是江西峥嵘佳创信息技术有限公司打造的一款集游戏试玩，购物，悬赏任务的新型悬赏任务平台，3元{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2115/2115'>鱼群</navigator></view><view><navigator url='/1/1683/1683'>牛逼赚苹果版</navigator></view><view><navigator url='/1/1513/1513'>王朝星球</navigator></view><view><navigator url='/1/1758/1758'>好赚跳跳球iOS版</navigator></view>
+				<view><navigator url='/2/1827/1827'>超级淘</navigator></view><view><navigator url='/3/2133/2133'>快点</navigator></view><view><navigator url='/1/1616/1616'>啪啪赚</navigator></view><view><navigator url='/4/2193/2193'>Q玩小游戏</navigator></view>
 			</view>
 		</view>
 	</view>

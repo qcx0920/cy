@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							麦子赚是一款能够赚钱的平台，单价1元起，10元就能提现。支持苹果和安卓手机，0元投入，在闲暇时刻，轻轻松松完成各种任务，简简单单赚取零花钱，收益高提现快。让麦小兜带你们飞，从此再也不用担心每天的早饭钱了。每日睁开眼，进入麦子赚，就会有满满的惊喜在等着你。。。{{isAll?intro:''}}
+							麦子赚是一款能够赚钱的平台，单价1元起，10元就能提现。支持苹果和安卓手机，0元投入，在闲暇时刻，轻{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1784/1784'>叮咚众包</navigator></view><view><navigator url='/2/1805/1805'>余额淘</navigator></view><view><navigator url='/1/1699/1699'>钱逗</navigator></view><view><navigator url='/3/2158/2158'>顺手转</navigator></view>
+				<view><navigator url='/2/1769/1769'>众人帮</navigator></view><view><navigator url='/3/2038/2038'>快视频</navigator></view><view><navigator url='/2/1817/1817'>口碑</navigator></view><view><navigator url='/3/2142/2142'>阅读多多</navigator></view>
 			</view>
 		</view>
 	</view>

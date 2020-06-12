@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							手机淘米是一专门为大学生量身打造的网络威 客产品，上手容易，低门槛无难度，轻松赚钱不是 梦。让你的智能手机在空闲时间变成可賺钱的工 具。让手机发挥更大的价值，让大学生及刚步入社 会的年轻人能够靠自己的双手减轻自己和家庭的生 活压力。{{isAll?intro:''}}
+							手机淘米是一专门为大学生量身打造的网络威 客产品，上手容易，低门槛无难度，轻松赚钱不是 梦。让你的智{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1901/1901'>极速赚</navigator></view><view><navigator url='/2/1803/1803'>小红淘</navigator></view><view><navigator url='/2/1810/1810'>飞鸟山庄</navigator></view><view><navigator url='/1/1667/1667'>达人试玩</navigator></view>
+				<view><navigator url='/3/2095/2095'>草莓视界</navigator></view><view><navigator url='/4/2332/2332'>锁屏达人</navigator></view><view><navigator url='/1/1607/1607'>PP红包助手</navigator></view><view><navigator url='/4/2187/2187'>手机蹦蹦</navigator></view>
 			</view>
 		</view>
 	</view>

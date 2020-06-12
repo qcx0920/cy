@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							玩得转，最新文章转发赚钱平台，注册就送1元现金，2元就能提现，秒到账。转发文章阅读一次1毛，二级收徒共30%提成。 官方客服微信：wdzmm03，官方客服QQ群：3426087106{{isAll?intro:''}}
+							玩得转，最新文章转发赚钱平台，注册就送1元现金，2元就能提现，秒到账。转发文章阅读一次1毛，二级收徒{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1580/1580'>聪明赚</navigator></view><view><navigator url='/4/2264/2264'>赢联APP</navigator></view><view><navigator url='/1/1758/1758'>好赚跳跳球iOS版</navigator></view><view><navigator url='/3/2130/2130'>人人资讯</navigator></view>
+				<view><navigator url='/1/1676/1676'>试玩团</navigator></view><view><navigator url='/1/1566/1566'>熊猫试玩</navigator></view><view><navigator url='/3/2114/2114'>爱传</navigator></view><view><navigator url='/1/1700/1700'>赚赚兔</navigator></view>
 			</view>
 		</view>
 	</view>

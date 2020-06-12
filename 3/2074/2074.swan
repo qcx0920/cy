@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							阅点点是一款国内优秀的手机赚钱平台，注册送1元，5元即可提现秒到！在阅点点平台上每天都有各种回馈活动和超简单任务发布，每日让您轻轻松松赚取零花钱！只需将我们的文章分享到朋友圈或微信群就能获得收入！ 邀请好友加入我们除了邀请奖励外更能赚取好友的收益提成！能将让您的收益更大化！无论您是赖床还是上班，是学生还是白领，每天用闲暇时间打开“阅点点”点一点，再也不用担心每日零花钱的问题了！{{isAll?intro:''}}
+							阅点点是一款国内优秀的手机赚钱平台，注册送1元，5元即可提现秒到！在阅点点平台上每天都有各种回馈活动{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2283/2283'>应用微客</navigator></view><view><navigator url='/3/1999/1999'>松鼠资讯</navigator></view><view><navigator url='/1/1746/1746'>疯狂赚金币苹果版</navigator></view><view><navigator url='/1/1708/1708'>任务超市苹果版</navigator></view>
+				<view><navigator url='/1/1651/1651'>易银赚钱</navigator></view><view><navigator url='/1/1525/1525'>小淘世界</navigator></view><view><navigator url='/1/1691/1691'>来赚分享苹果版</navigator></view><view><navigator url='/1/1724/1724'>爱调研苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

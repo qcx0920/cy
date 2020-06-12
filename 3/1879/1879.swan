@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							酷狗音乐大字版，听歌，看视频也能领钱啦！天天领金币，看创意视频还能翻倍！邀请好友来大字版听歌，轻松赚更多金币！用酷狗音乐听歌能赚钱啦，听音乐轻松赚零花钱，首次登陆填写邀请码20WT2V还送新手红包，首次提现3毛就能提现，后续1元起提现，超低门槛。 任时光匆匆流去……你怀念年轻时听的歌吗？你还没有找到简单好用的音乐软件吗？试试酷狗音乐大字版！ 专为叔叔阿姨设计，看得清楚，听得舒心，唱得开心，还能躺赚零花钱！    【海量金币天天领】听歌、看视频、邀请好友……都能获取金币，快速提现！  【千万歌曲免费听】经典老歌、广场舞、红歌、民乐、戏曲、轻音乐……为你定制，还能听歌识曲  【打开一看就会用】字大、简单、实用的音乐播放器，再也不用等儿女教  【随时随地唱好歌】一起K歌吧？喜欢就要唱出来！百万歌曲等你一展歌喉  【精彩视频看不停】经典影视、广场舞、搞笑、健康等视频，让你慢慢享受休闲时光{{isAll?intro:''}}
+							酷狗音乐大字版，听歌，看视频也能领钱啦！天天领金币，看创意视频还能翻倍！邀请好友来大字版听歌，轻松赚{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2031/2031'>芒果网</navigator></view><view><navigator url='/3/2046/2046'>趣看</navigator></view><view><navigator url='/2/1765/1765'>给力赚</navigator></view><view><navigator url='/3/2080/2080'>悦目精选</navigator></view>
+				<view><navigator url='/4/2348/2348'>乐赚锁屏</navigator></view><view><navigator url='/3/2052/2052'>转乐</navigator></view><view><navigator url='/1/1633/1633'>应用小秘</navigator></view><view><navigator url='/1/1698/1698'>赚800苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

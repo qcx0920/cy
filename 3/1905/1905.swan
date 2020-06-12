@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							奇迹小说是一款正版免费小说阅读软件，看小说听书能挣钱，登陆就送1元，1元起提现秒到账。致力于为您【免费】呈现：多品类原创小说、超高人气大神级小说、火爆话题小说、影视原著等10万余册的文学内容！分享好故事，免费读不停！    【海量正版小说 全站永久免费】  都市小说、悬疑灵异、武侠仙侠，现代言情、古代言情……全站全品类十万正版小说免费畅读！随时随地拯救书荒！    【随心阅读模式】  多种阅读背景颜色、翻页功能、字号，任性随心挑选，符合你的每一种阅读习惯！更有护眼模式保护夜晚看书的你！无论躺着坐着，体验随心阅读！    【更多活动福利】  阅读小说更有超多惊喜，新手红包、每日签到、阅读时长、每日分享、邀请好友，完成任务即有大量丰富奖励哦！{{isAll?intro:''}}
+							奇迹小说是一款正版免费小说阅读软件，看小说听书能挣钱，登陆就送1元，1元起提现秒到账。致力于为您【免{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1798/1798'>淘小铺</navigator></view><view><navigator url='/1/1647/1647'>易银</navigator></view><view><navigator url='/3/2163/2163'>爱捞金</navigator></view><view><navigator url='/3/2140/2140'>多人气</navigator></view>
+				<view><navigator url='/1/1719/1719'>聚享赚苹果版</navigator></view><view><navigator url='/4/2189/2189'>火种游戏</navigator></view><view><navigator url='/1/1753/1753'>很好赚iOS版</navigator></view><view><navigator url='/3/1876/1876'>番茄小说</navigator></view>
 			</view>
 		</view>
 	</view>

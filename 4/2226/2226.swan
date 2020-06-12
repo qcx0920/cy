@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							红包先森，时尚有趣还能赚钱的APP！注册送3元，完成新手任务领1-10元新手红包，10元即可提现。不仅可提现到支付宝、微信，还可以充值话费、兑换实物。快点邀请好友一起来红包先森吧，分享赚更多！{{isAll?intro:''}}
+							红包先森，时尚有趣还能赚钱的APP！注册送3元，完成新手任务领1-10元新手红包，10元即可提现。不{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2378/2378'>玩赚</navigator></view><view><navigator url='/3/2003/2003'>悦头条</navigator></view><view><navigator url='/4/2175/2175'>蜜蜂试玩安卓版</navigator></view><view><navigator url='/4/2337/2337'>遛达赚钱（溜达）</navigator></view>
+				<view><navigator url='/3/2114/2114'>爱传</navigator></view><view><navigator url='/1/1495/1495'>橙试客</navigator></view><view><navigator url='/1/1718/1718'>轻玩客苹果版</navigator></view><view><navigator url='/4/2190/2190'>钱大师安卓版</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							3分钟，1个Q币到账！ 每天只要签到，当月话费不用愁。 你还可以通过下载我们推荐的优秀免费的应用、分享软件、竞猜游戏等完成指定的任务获得相当大数额的金币。只要积累到一定程度就可以兑换话费、q币、支付宝提现。 多种任务类型，总有一种适合你！ 还在犹豫？NO,NO,NO..用起来吧，惊喜连连！ 1、每日滑屏送金币； 2、邀请用户奖励8毛； 3、每日签到可达5毛； 4、进入周排行榜，奖励1000金币； 5、有奖活动，参加越多奖励越多。 6、疯狂游戏，疯狂矿工、疯狂猜图等等赢取大量金币哦{{isAll?intro:''}}
+							3分钟，1个Q币到账！ 每天只要签到，当月话费不用愁。 你还可以通过下载我们推荐的优秀免费的应用、分{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2220/2220'>约钱</navigator></view><view><navigator url='/4/2388/2388'>采宝</navigator></view><view><navigator url='/3/2133/2133'>快点</navigator></view><view><navigator url='/4/2341/2341'>极锁屏</navigator></view>
+				<view><navigator url='/4/2355/2355'>米多通话赚钱</navigator></view><view><navigator url='/1/1626/1626'>呗宝赚钱</navigator></view><view><navigator url='/1/1652/1652'>体验喵</navigator></view><view><navigator url='/1/1496/1496'>趣玩</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							云闪付APP为大家准备了红红火火的红包！即日起至3月2日，开门大吉红包、天天签到红包、邀请亲友红包、发起转帐红包等云闪付APP四大新春红包，最高2018元等你领，福气一整年！{{isAll?intro:''}}
+							云闪付APP为大家准备了红红火火的红包！即日起至3月2日，开门大吉红包、天天签到红包、邀请亲友红包、{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1489/1489'>秒赚试玩</navigator></view><view><navigator url='/4/2365/2365'>乐游宝</navigator></view><view><navigator url='/3/2071/2071'>乐享看</navigator></view><view><navigator url='/4/2306/2306'>每获</navigator></view>
+				<view><navigator url='/4/2357/2357'>赚钱儿</navigator></view><view><navigator url='/4/2237/2237'>红包精灵app</navigator></view><view><navigator url='/3/1926/1926'>松鼠网</navigator></view><view><navigator url='/3/2005/2005'>青萌部落</navigator></view>
 			</view>
 		</view>
 	</view>

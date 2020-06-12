@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							轶闻趣事APP火爆上线！！！分享文章赚钱已经不稀奇了，轶(yi)闻趣事，不仅转发可以赚钱，自己导入发布文章也可以赚钱。导入一篇文章最高可赚100元！ 注册送0.5元，邀请一个徒弟，必得1到168元红包，关键是我们一元提现，看清楚哦，一元提现秒到微信钱包！ 发布文章有奖励吗？ 您发布的文章，轶闻趣事的所有会员都有机会分享，阅读量大的文章系统会给发布文章者多达100元现金的红包奖励。创作新模式，赶快试试吧！ 1.阅读量满500,可获得0.2元现金红包； 2.阅读量满1000,可获得0.3元现金红包； 3.阅读量满5000,可获得0.5元现金红包； 4.阅读量满1万，可获得2元现金红包； 5.阅读量满10万，可获得100元现金红包。{{isAll?intro:''}}
+							轶闻趣事APP火爆上线！！！分享文章赚钱已经不稀奇了，轶(yi)闻趣事，不仅转发可以赚钱，自己导入发{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1597/1597'>钱鹿</navigator></view><view><navigator url='/3/1969/1969'>乐趣多</navigator></view><view><navigator url='/4/2396/2396'>淘粉吧粉赚</navigator></view><view><navigator url='/4/2317/2317'>黄金指</navigator></view>
+				<view><navigator url='/1/1736/1736'>玛尼APP苹果版</navigator></view><view><navigator url='/3/2106/2106'>趣阅赚</navigator></view><view><navigator url='/4/2385/2385'>一起免单</navigator></view><view><navigator url='/3/1972/1972'>斑马热点</navigator></view>
 			</view>
 		</view>
 	</view>

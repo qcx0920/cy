@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							小钱包APP是可以随时随地赚钱手机软件，你可以通过安装，试玩，娱乐，邀请，签到等获得收入，获赠的收入可以兑换Q币, 手机话费，手机流量，也可以直接通过支付宝提现。闲暇的时候打开小钱包手机赚钱软件，动动手指，做做各种有意思的任务，就能赚钱了。{{isAll?intro:''}}
+							小钱包APP是可以随时随地赚钱手机软件，你可以通过安装，试玩，娱乐，邀请，签到等获得收入，获赠的收入{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2050/2050'>满满赚</navigator></view><view><navigator url='/1/1503/1503'>海推</navigator></view><view><navigator url='/2/1765/1765'>给力赚</navigator></view><view><navigator url='/3/1874/1874'>金刚涨</navigator></view>
+				<view><navigator url='/2/1855/1855'>企鹅众测</navigator></view><view><navigator url='/4/2364/2364'>米栈-手机赚钱</navigator></view><view><navigator url='/3/1985/1985'>铛铛赚</navigator></view><view><navigator url='/4/2303/2303'>拍得利</navigator></view>
 			</view>
 		</view>
 	</view>

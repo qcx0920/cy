@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							疯狂赚金币，领先的手机赚钱平台，免费赚金币兑换话费、Q币、支付宝充值！学生赚钱利器，白领赚钱利器。玩手机，轻松赚钱儿！疯狂赚金币，当前最热门的手机赚钱利器，让你在玩手机应用的同时还能轻松赚钱。 你可以通过参与调查、威客接单、购物返利、每日签到等获得金币，多种任务类型，总有一种适合你！   特色： 1、疯狂赚钱，任务多多 邀请、签到、摇一摇、玩应用，全民疯狂赚金币！   2、无限兑换，急速秒充 Q币、话费、提现，快速到账，方便快捷！   3、推广好友，奖励不断 邀请好友一起玩，超级奖励赚不停！！   4、金币可以用来兑换话费、支付宝充值，还可以兑换Q币：天天酷跑、QQ飞车等钻石，DNF，QQ炫舞等游戏点券，从此不用愁！{{isAll?intro:''}}
+							疯狂赚金币，领先的手机赚钱平台，免费赚金币兑换话费、Q币、支付宝充值！学生赚钱利器，白领赚钱利器。玩{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2021/2021'>火力橙</navigator></view><view><navigator url='/4/2206/2206'>全民皆赚</navigator></view><view><navigator url='/1/1703/1703'>钱贵</navigator></view><view><navigator url='/4/2361/2361'>赚翻翻</navigator></view>
+				<view><navigator url='/4/2256/2256'>返利赚</navigator></view><view><navigator url='/4/2262/2262'>钱程</navigator></view><view><navigator url='/4/2175/2175'>蜜蜂试玩安卓版</navigator></view><view><navigator url='/1/1732/1732'>借贷宝苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

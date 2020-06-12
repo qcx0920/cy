@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							点点新闻是看新闻就能赚钱的APP，点点读读，就能赚钱，一款让你的时间更有价值的轻娱乐软件，为您提供丰富的搞笑段子、有趣内容、在阅读娱乐的同时还可以获得红包收益，轻轻松松赚零花。{{isAll?intro:''}}
+							点点新闻是看新闻就能赚钱的APP，点点读读，就能赚钱，一款让你的时间更有价值的轻娱乐软件，为您提供丰{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1831/1831'>悦动圈</navigator></view><view><navigator url='/3/2124/2124'>吉祥赚</navigator></view><view><navigator url='/4/2291/2291'>学生赚APP</navigator></view><view><navigator url='/3/1930/1930'>互动看点</navigator></view>
+				<view><navigator url='/4/2378/2378'>玩赚</navigator></view><view><navigator url='/1/1676/1676'>试玩团</navigator></view><view><navigator url='/2/1860/1860'>百万英雄</navigator></view><view><navigator url='/3/2073/2073'>他阅读</navigator></view>
 			</view>
 		</view>
 	</view>

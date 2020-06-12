@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							每日资讯是优质的分享文章赚钱的平台，具有注册就能领现金红包、及时到账等特色功能！转发文章到微信阅读一次奖励6毛，注册就送5毛，5元就能提现。只要邀请好友收取徒弟就能得到现金奖励，转发越多，邀请好友越多，赚钱越多！ 每日资讯为什么能赚钱？ 每个人的朋友圈都具有传播价值，但是普通人无法将这个价值转化出来，每日资讯应势而生，只在文章中插入少许广告，当你分享出去的文章被好友阅读后，即可获得属于你的广告收益分成。 怎样赚钱？ 1. 选择自己喜欢的文章分享给好友或朋友圈，文章被好友阅读后，立即获得收益。 2. 首先你每收一名徒弟将获得5元奖励（一开始奖励是冻结状态，当好友首次提现时，该奖励可提现），此外师傅会永久获得该徒弟分享收入的20%奖励，徒弟的徒弟（徒孙）10%的奖励。 收益怎样计算？ 新用户注册立即获得0.5-20元不等红包，分享文章被好友有效阅读之后将每次获得0.6元收入（限时高价0.8元），下级好友分享文章被阅读后将每次获得0.12元收入，下下级好友文章被阅读后将获得0.06元收入。{{isAll?intro:''}}
+							每日资讯是优质的分享文章赚钱的平台，具有注册就能领现金红包、及时到账等特色功能！转发文章到微信阅读一{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1596/1596'>试玩大师</navigator></view><view><navigator url='/1/1526/1526'>萌宝爱消除</navigator></view><view><navigator url='/4/2198/2198'>今日阅读</navigator></view><view><navigator url='/3/2158/2158'>顺手转</navigator></view>
+				<view><navigator url='/2/1807/1807'>斗鱼极速版</navigator></view><view><navigator url='/1/1584/1584'>小猫试玩</navigator></view><view><navigator url='/3/1886/1886'>每日资讯</navigator></view><view><navigator url='/1/1753/1753'>很好赚iOS版</navigator></view>
 			</view>
 		</view>
 	</view>

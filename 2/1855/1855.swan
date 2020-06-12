@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							企鹅众测，想更多更快的体验腾讯的内测产品吗，来Tesly吧。想爆发你的小宇宙，发挥你的能力，赚取你想要的东西吗，来Tesly吧。 Q币、京东卡、QQ公仔轻松拿到手，小米，iPhone不是梦。 扫一扫二维码下载腾讯有奖众测APPTesly 现特邀您参加Tesly腾讯有奖众测    -------Tesly·有奖众测-------       独一的内测软件发放平台       腾讯第一款有偿测试平台       玲琅满目应接不暇的奖品       让每一次体验都有所收获       测试平台首创的师徒系统       1.抢先使用腾讯内测版本软件。       2.在使用内测软件的同时提交bug/建议,审核通过后获得积分。       3.用积分兑换QB，公仔，京东卡，手机等丰富奖品。       4.邀请好友加入单个好友最多可获110积分。（10积分约等于1人民币奖品）       积分奖励送不停，下载测试，送！提交bug，送！提交建议，送！邀请好友，送！{{isAll?intro:''}}
+							企鹅众测，想更多更快的体验腾讯的内测产品吗，来Tesly吧。想爆发你的小宇宙，发挥你的能力，赚取你想{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1798/1798'>淘小铺</navigator></view><view><navigator url='/1/1648/1648'>快手红包</navigator></view><view><navigator url='/4/2337/2337'>遛达赚钱（溜达）</navigator></view><view><navigator url='/3/2054/2054'>车主无忧</navigator></view>
+				<view><navigator url='/1/1605/1605'>多赚红包</navigator></view><view><navigator url='/3/2029/2029'>番薯网</navigator></view><view><navigator url='/3/2114/2114'>爱传</navigator></view><view><navigator url='/1/1667/1667'>达人试玩</navigator></view>
 			</view>
 		</view>
 	</view>

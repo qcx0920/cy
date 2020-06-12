@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							兜兜赚是注册送1元，转发的文章被阅读每次8分钱，首次3元提现，之后10元起提现。兜兜赚一款让你在看文章的同时还能赚到钱的智能手机应用，不论在哪里，只要下载兜兜赚。利用碎片时间，看文章转发美文的同时，还能轻松赚钱。{{isAll?intro:''}}
+							兜兜赚是注册送1元，转发的文章被阅读每次8分钱，首次3元提现，之后10元起提现。兜兜赚一款让你在看文{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1745/1745'>无聊赚苹果版</navigator></view><view><navigator url='/1/1590/1590'>爱元宝</navigator></view><view><navigator url='/3/1898/1898'>辣椒转</navigator></view><view><navigator url='/3/2148/2148'>犀牛投票任务</navigator></view>
+				<view><navigator url='/2/1818/1818'>热量星球</navigator></view><view><navigator url='/4/2214/2214'>想转啦</navigator></view><view><navigator url='/3/1873/1873'>大五福</navigator></view><view><navigator url='/1/1742/1742'>赚客帮苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

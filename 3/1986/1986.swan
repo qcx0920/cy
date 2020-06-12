@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							淘小说平台是一款可以赚钱的小说阅读软件，看小说赚钱，提现秒到账，新用户注册最高送8元。 为了引领全民阅读，帮助大家养成良好的阅读习惯， 在阅读小说的过程中，采用先进的算法对阅读时长进行统计， 统计所得的时长可以直接兑换成现金，让您在增长知识的同时还能有所收益。{{isAll?intro:''}}
+							淘小说平台是一款可以赚钱的小说阅读软件，看小说赚钱，提现秒到账，新用户注册最高送8元。 为了引领全民{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2222/2222'>99赚钱</navigator></view><view><navigator url='/2/1790/1790'>追看视频</navigator></view><view><navigator url='/4/2236/2236'>盈牛牛</navigator></view><view><navigator url='/4/2187/2187'>手机蹦蹦</navigator></view>
+				<view><navigator url='/3/2115/2115'>鱼群</navigator></view><view><navigator url='/3/2091/2091'>视频赚</navigator></view><view><navigator url='/4/2384/2384'>玩赚APP</navigator></view><view><navigator url='/3/1888/1888'>魔视</navigator></view>
 			</view>
 		</view>
 	</view>

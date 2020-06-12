@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							ICUE是一个国外的手机聊天软件，打破国内传统的模式，让使用者也能赚钱。手机每月只看100条广告最低收入650元—3500元，推荐好友收入更多。 第1步：手机下载ICUE APP并安装好。 第2步：注册用户名，然后手机登录—点右上角小铃铛—设置介绍人，推荐人ICUE号填写leyuri【必须填介绍人激活，否则点广告没钱】。 第3步：只需要推荐10位好友便自动升级为V1会员 第4步：每月只点击100条广告，5分钟可点够。广告位置：“贴图商店”彩色广告条，重复点击也算。 第5步：坐等每月最低650元—3500元到账。 注意：点击广告必须停留25秒{{isAll?intro:''}}
+							ICUE是一个国外的手机聊天软件，打破国内传统的模式，让使用者也能赚钱。手机每月只看100条广告最低{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1918/1918'>抖呱呱极速版</navigator></view><view><navigator url='/4/2274/2274'>亿屏互动</navigator></view><view><navigator url='/1/1594/1594'>摇钱树</navigator></view><view><navigator url='/4/2168/2168'>蘑菇乐园</navigator></view>
+				<view><navigator url='/1/1639/1639'>猎豆试客</navigator></view><view><navigator url='/4/2275/2275'>口袋红包</navigator></view><view><navigator url='/3/2070/2070'>快转客</navigator></view><view><navigator url='/1/1539/1539'>钱牛</navigator></view>
 			</view>
 		</view>
 	</view>

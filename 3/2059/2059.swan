@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							快马浏览器-看资讯也能赚钱！10元就能提现！快马浏览器是一款快速、轻便、免费、可以赚钱的手机浏览器，在满足您资讯浏览、信息搜索、网址收藏等需求的同时，我们还为您提供碎片时间的赚钱方法，通过将内容简单的分享到社交圈，就能获取收益。【苹果手机和安卓手机都能用】{{isAll?intro:''}}
+							快马浏览器-看资讯也能赚钱！10元就能提现！快马浏览器是一款快速、轻便、免费、可以赚钱的手机浏览器，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2047/2047'>蚂蚁头条</navigator></view><view><navigator url='/1/1591/1591'>金日赚</navigator></view><view><navigator url='/1/1740/1740'>每获苹果版</navigator></view><view><navigator url='/1/1500/1500'>小涵兼职</navigator></view>
+				<view><navigator url='/4/2246/2246'>爱玩商店</navigator></view><view><navigator url='/3/2085/2085'>阅天下[下架]</navigator></view><view><navigator url='/3/1985/1985'>铛铛赚</navigator></view><view><navigator url='/1/1600/1600'>青蛙试玩</navigator></view>
 			</view>
 		</view>
 	</view>

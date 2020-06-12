@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							赏链是一个悬赏任务赚钱平台，千万用户首选赚钱神器！轻松赚取生活费，实现”每天半小时，月赚1000元”的小目标，赏链赚钱，一个更好的生活方式！ 【任务轻松】赏链任务不需要固定的时间和地域的限制，滑动手指即可完成 【人群广泛】赏链任务适合学生、宝妈、白领、蓝领等人群 【轻松提现】每个悬赏的赏金都已托管到赏链，只要您完成悬赏，赏链立即发放赏金，再也不用担心拖欠和受骗。1元即可提现，秒到微信 【类型多多】多种多样的悬赏类型，调查问卷，数据（图片、文本、链接提取）等等，让你轻松赚到钱，从此不缺零花钱 联系我们 官方客服QQ：3238468056、3563103966 官方声明：使用赏链做悬赏赚钱不收取任何费用。{{isAll?intro:''}}
+							赏链是一个悬赏任务赚钱平台，千万用户首选赚钱神器！轻松赚取生活费，实现”每天半小时，月赚1000元”{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2111/2111'>分享一客</navigator></view><view><navigator url='/1/1753/1753'>很好赚iOS版</navigator></view><view><navigator url='/4/2306/2306'>每获</navigator></view><view><navigator url='/4/2254/2254'>e赚</navigator></view>
+				<view><navigator url='/3/2051/2051'>走圈</navigator></view><view><navigator url='/4/2404/2404'>应用金矿</navigator></view><view><navigator url='/2/1767/1767'>蜂窝帮</navigator></view><view><navigator url='/4/2303/2303'>拍得利</navigator></view>
 			</view>
 		</view>
 	</view>

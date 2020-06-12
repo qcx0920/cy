@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							魔豆是一款社会化转发应用，集资讯、广告分发为一体的手机赚钱APP。注册即送5元！ 爱魔豆主要针对时下最为热门的社会化平台（微信、微博、QQ、朋友圈等）进行广告分发，用户参与、转发广告主发布的任务（文章、活动等）到社会化平台达到一定金额就能轻松提现。{{isAll?intro:''}}
+							魔豆是一款社会化转发应用，集资讯、广告分发为一体的手机赚钱APP。注册即送5元！ 爱魔豆主要针对时下{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2161/2161'>APP疯狂赚</navigator></view><view><navigator url='/4/2300/2300'>可米酷漫画</navigator></view><view><navigator url='/4/2297/2297'>蝌蚪赚钱</navigator></view><view><navigator url='/1/1504/1504'>金满堂</navigator></view>
+				<view><navigator url='/1/1675/1675'>开玩苹果赚钱</navigator></view><view><navigator url='/1/1648/1648'>快手红包</navigator></view><view><navigator url='/4/2200/2200'>袋鼠赚钱</navigator></view><view><navigator url='/4/2327/2327'>疯传100</navigator></view>
 			</view>
 		</view>
 	</view>

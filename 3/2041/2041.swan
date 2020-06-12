@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							资讯宝，首款可以赚钱的区块链新闻APP，注册送20个资讯币，30个资讯币起提现，自阅0.1个资讯币（价格高于1分），每天自阅的篇数不设上限！转发每阅读1个资讯币，每天无上限。（邀请码：666666） 【资讯宝】平台涨分政策如下，目前在内测阶段。 一、自阅0.1个咨询币，每天自阅的篇数不设上限！ 二、转发每阅读1个咨询币，每天无上限，文章干净绿色； 三、徒弟注册直接送20个咨询币，目前相当于人名币2元，可以直接体现，师傅吗每收一个徒弟可以得到4个币； 四、提现最低30个资讯币，每天工作时间可以找工作人员人工体现； 五、徒弟发生任何活跃行为，师父都可以得到一级徒弟20%提成，二级徒弟师父可以得到10%的提成，包括自阅转发点赞得到的币，师父都可以提成； 六、点赞，评论得到的币是随机的，我们每5分钟会结算一次咨询币给大家； 七、内容工作者上传的文章，如果有人进行转发，评论，点赞等行为，发布者也可以得到【资讯币】。 加微信yuri-le获取邀请码，数量有限。（注明邀请码） 资讯宝是一款全新的资讯内容生态APP，利用区块链技术，使用去中心化的共识方式为内容生产领域进行贡献定价和权益回报的网络，使内容生产者、内容投资者、内容消费者都能得到合理的激励与回报，广告商也能在平台上实现精准营销。{{isAll?intro:''}}
+							资讯宝，首款可以赚钱的区块链新闻APP，注册送20个资讯币，30个资讯币起提现，自阅0.1个资讯币（{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2346/2346'>ICUE</navigator></view><view><navigator url='/1/1623/1623'>爱疯赚</navigator></view><view><navigator url='/1/1505/1505'>多多农场</navigator></view><view><navigator url='/1/1633/1633'>应用小秘</navigator></view>
+				<view><navigator url='/2/1865/1865'>皓夜任务派发</navigator></view><view><navigator url='/1/1708/1708'>任务超市苹果版</navigator></view><view><navigator url='/2/1782/1782'>知聊</navigator></view><view><navigator url='/3/2078/2078'>随手头条</navigator></view>
 			</view>
 		</view>
 	</view>

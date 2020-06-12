@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							时时转APP是一款转发文章就可以赚钱的手机赚钱软件，用户只需要分享文章到自己的微信朋友圈或者微信群，有人阅读你就可以获得奖励。现在新人加入就送1元的新手奖励，转发被阅读每次0.1元-0.12元左右，首次满3元即可申请提现。{{isAll?intro:''}}
+							时时转APP是一款转发文章就可以赚钱的手机赚钱软件，用户只需要分享文章到自己的微信朋友圈或者微信群，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2082/2082'>快赚</navigator></view><view><navigator url='/3/2143/2143'>Robin8</navigator></view><view><navigator url='/4/2341/2341'>极锁屏</navigator></view><view><navigator url='/1/1492/1492'>今日赚</navigator></view>
+				<view><navigator url='/3/2008/2008'>安心赚</navigator></view><view><navigator url='/3/2033/2033'>小牛快看</navigator></view><view><navigator url='/3/2074/2074'>阅点点</navigator></view><view><navigator url='/4/2207/2207'>嘎嘎赚</navigator></view>
 			</view>
 		</view>
 	</view>

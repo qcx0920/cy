@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							灵猴app，随手旗下全新平台8月1日10点上线！ 阅读单价0.3元，涨分超快！ 注册送0.5元，2元提现，秒到账！文章、广告正规，适合所有人转发！收徒活动同步上线， 徒弟首提师傅可得4-8元奖励， 收徒奖励最高达16元，师父可得20%+10%二级转发分成！ 联系我们 客服微信：Bengshakalaka199{{isAll?intro:''}}
+							灵猴app，随手旗下全新平台8月1日10点上线！ 阅读单价0.3元，涨分超快！ 注册送0.5元，2元{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2358/2358'>比比宝</navigator></view><view><navigator url='/4/2293/2293'>放眼APP</navigator></view><view><navigator url='/1/1554/1554'>金手指</navigator></view><view><navigator url='/4/2306/2306'>每获</navigator></view>
+				<view><navigator url='/4/2300/2300'>可米酷漫画</navigator></view><view><navigator url='/2/1785/1785'>蜘蛛盟</navigator></view><view><navigator url='/3/2035/2035'>喜赚</navigator></view><view><navigator url='/3/2154/2154'>试玩团微信</navigator></view>
 			</view>
 		</view>
 	</view>

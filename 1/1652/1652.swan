@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							体验喵是苹果平台的首席体验师和安卓平台的体验达人升级后合并的新平台，同时支持苹果手机和安卓手机的新平台，任务更新快，奖励高，轻松提现。现在更名为体验喵！整合了安卓和苹果平台，更方便！ 每天11点、16点批量刷新任务，其余时间不定时更新（整点&半点）天天都有新任务，10元起提{{isAll?intro:''}}
+							体验喵是苹果平台的首席体验师和安卓平台的体验达人升级后合并的新平台，同时支持苹果手机和安卓手机的新平{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1546/1546'>独匠赚钱</navigator></view><view><navigator url='/2/1851/1851'>苏宁金融</navigator></view><view><navigator url='/3/2039/2039'>赚头条</navigator></view><view><navigator url='/4/2303/2303'>拍得利</navigator></view>
+				<view><navigator url='/1/1587/1587'>赚多多</navigator></view><view><navigator url='/2/1767/1767'>蜂窝帮</navigator></view><view><navigator url='/3/1956/1956'>众享阅读</navigator></view><view><navigator url='/2/1794/1794'>趣味星球</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							盯点汇”的主旨是将碎片时间转换为现金收入。注册奖励3元，7级提成。“盯点汇”不定期的线上互动、促销、神枪大量额外收益等您来领取！抢红包，用盯点汇客户端也可以看广告赚钱了哦。适合苹果iOS和安卓系统{{isAll?intro:''}}
+							盯点汇”的主旨是将碎片时间转换为现金收入。注册奖励3元，7级提成。“盯点汇”不定期的线上互动、促销、{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2108/2108'>51赚</navigator></view><view><navigator url='/4/2275/2275'>口袋红包</navigator></view><view><navigator url='/1/1663/1663'>超级体验师</navigator></view><view><navigator url='/3/2121/2121'>百万猪</navigator></view>
+				<view><navigator url='/1/1751/1751'>指尖精灵iOS版</navigator></view><view><navigator url='/1/1739/1739'>聚赚钱</navigator></view><view><navigator url='/3/1908/1908'>66阅读</navigator></view><view><navigator url='/3/2036/2036'>头条多多</navigator></view>
 			</view>
 		</view>
 	</view>

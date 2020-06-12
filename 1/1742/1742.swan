@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							赚客帮（同时支持苹果iOS和安卓系统），有钱一起赚，一元钱就能提现。小伙伴们通过完成指定的小任务，来获得现金！   3大功能快速赚钱 签到 签到随机奖励，最高奖励100元 拆红包 邀请好友拆红包，好友拆开红包钱对半分 做任务 任务多，奖励好，轻松一点就赚钱{{isAll?intro:''}}
+							赚客帮（同时支持苹果iOS和安卓系统），有钱一起赚，一元钱就能提现。小伙伴们通过完成指定的小任务，来{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1694/1694'>秉钧红人苹果版</navigator></view><view><navigator url='/3/2092/2092'>豆大宝</navigator></view><view><navigator url='/1/1635/1635'>分钱吧</navigator></view><view><navigator url='/3/1878/1878'>抖音极速版</navigator></view>
+				<view><navigator url='/1/1642/1642'>钱夹</navigator></view><view><navigator url='/1/1720/1720'>点点赚苹果版</navigator></view><view><navigator url='/2/1769/1769'>众人帮</navigator></view><view><navigator url='/4/2284/2284'>7块糖</navigator></view>
 			</view>
 		</view>
 	</view>

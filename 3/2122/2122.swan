@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							知晓APP，看新闻资讯赚零花，注册送5元红包，红包抢不停！知晓实时动态，赚取小额零花！相对于一般资讯类app都是看新闻，是热点和时事新闻的汇总，“知晓”不仅仅是内含热门优质新闻，看新闻的同时还能收获佣金，新闻下方都有评论专区，增加用户的参与度以及活跃度，评论点赞也可收获佣金，佣金的兑换方式可以选择话费或者支付宝，我们提供给用户的是一种全新的体验——看新闻赚零花！ 产品特色： 1.新手红包，进入APP即有红包等你拆 2.评论互动，不是你一个人在看新闻，可以各抒己见，分享见解 3.点赞作为一种美德，我们会赠送佣金给您，以示奖励 4.多种兑现方式任你选：支付宝提现，话费充值，礼品兑换 5.您的私人资讯定制专家，根据您的兴趣爱好给您推荐好文{{isAll?intro:''}}
+							知晓APP，看新闻资讯赚零花，注册送5元红包，红包抢不停！知晓实时动态，赚取小额零花！相对于一般资讯{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2115/2115'>鱼群</navigator></view><view><navigator url='/1/1599/1599'>有钱赚</navigator></view><view><navigator url='/1/1618/1618'>赚美金</navigator></view><view><navigator url='/4/2350/2350'>红包惠锁屏</navigator></view>
+				<view><navigator url='/4/2201/2201'>72G赚吧</navigator></view><view><navigator url='/4/2212/2212'>酷头条</navigator></view><view><navigator url='/3/1996/1996'>多米资讯</navigator></view><view><navigator url='/3/1871/1871'>大七喜</navigator></view>
 			</view>
 		</view>
 	</view>

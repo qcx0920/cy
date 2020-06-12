@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							蜂窝帮，让您的闲暇时间变得更有价值。蜂窝帮APP是一款手机悬赏任务平台，悬赏、互助，帮人忙就能赚钱！用户在这里，不仅可以通过完成悬赏任务来赚佣金，还可以发布任务供其他用户完成。海量悬赏任务，让你的业余时间变得更有价值！ 【平台特点】 1、悬赏任务多多，任务单价1~10元不等，还有10元以上高佣任务； 2、每邀请一位好友最低赚3元，永久享受两级好友完成任务15%分成； 3、提现超低门槛，需绑定支付宝，最低1元起提，每日限提2次，无需手续费！   【联系官方】 蜂窝帮官方客服QQ：800178939 蜂窝帮官方客服微信：fengwobang88{{isAll?intro:''}}
+							蜂窝帮，让您的闲暇时间变得更有价值。蜂窝帮APP是一款手机悬赏任务平台，悬赏、互助，帮人忙就能赚钱！{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2265/2265'>易赚联盟</navigator></view><view><navigator url='/3/1908/1908'>66阅读</navigator></view><view><navigator url='/3/2101/2101'>轶闻趣事</navigator></view><view><navigator url='/3/2066/2066'>阅趣</navigator></view>
+				<view><navigator url='/4/2312/2312'>钱鹿锁屏</navigator></view><view><navigator url='/1/1616/1616'>啪啪赚</navigator></view><view><navigator url='/1/1681/1681'>铜板墙</navigator></view><view><navigator url='/1/1586/1586'>小猫赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

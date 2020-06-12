@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							最炙手可热的赚钱平台-业余赚，业余赚是一款能够让用户赚钱的智能应用软件业余赚提供了一种更方便的任务方式-线上接任务，线下做任务！用户既可以登陆业余赚官网注册接任务，也可下载手机客户端注册接任务，网站任务一览无遗，看中哪个任务，点击接受任务，手机客户端将会同步更新，让用户能在更舒适的显示下挑选想做的任务，能够更直观的看到自己的资料、记录、任务等等，赶紧开启赚钱之旅吧！   任务轻松做 业余赚专门为用户推荐各种赚钱任务，用户只需安装试用，即可获得大量金币，推荐的任务完成后，还有更多任务随用户挑选，海量金币只需动动手指便能获得。 奖品简单换 业余赚也为用户设立了各种奖品，让用户随意兑换，不仅有移动话费、联通话费、电信话费，还支持Q币、QQ会员、红钻、黄钻、蓝钻、绿钻，支付宝提现，财付通提现等兑换方式，未来将会增加更多的兑换方式，如迅雷会员、电影票、彩票等等，金币不怕没得花！生活格调立增加！{{isAll?intro:''}}
+							最炙手可热的赚钱平台-业余赚，业余赚是一款能够让用户赚钱的智能应用软件业余赚提供了一种更方便的任务方{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1509/1509'>小猫种鱼</navigator></view><view><navigator url='/1/1676/1676'>试玩团</navigator></view><view><navigator url='/4/2313/2313'>虾米锁屏</navigator></view><view><navigator url='/4/2276/2276'>轻玩客</navigator></view>
+				<view><navigator url='/1/1592/1592'>搜虎</navigator></view><view><navigator url='/2/1835/1835'>淘券吧</navigator></view><view><navigator url='/1/1562/1562'>红包达人</navigator></view><view><navigator url='/1/1632/1632'>聚优钱</navigator></view>
 			</view>
 		</view>
 	</view>

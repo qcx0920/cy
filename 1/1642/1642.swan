@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							钱夹专业的APP试玩平台，单价1元起，10元提现，绑定手机号送1元。试玩钱夹快速赚钱，只需试玩三分钟即可快速赚钱。{{isAll?intro:''}}
+							钱夹专业的APP试玩平台，单价1元起，10元提现，绑定手机号送1元。试玩钱夹快速赚钱，只需试玩三分钟{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1809/1809'>第一调查</navigator></view><view><navigator url='/1/1683/1683'>牛逼赚苹果版</navigator></view><view><navigator url='/3/2137/2137'>喵赚</navigator></view><view><navigator url='/4/2189/2189'>火种游戏</navigator></view>
+				<view><navigator url='/2/1816/1816'>微漂云众包</navigator></view><view><navigator url='/3/1873/1873'>大五福</navigator></view><view><navigator url='/4/2386/2386'>手机赚宝</navigator></view><view><navigator url='/1/1565/1565'>海豚试玩</navigator></view>
 			</view>
 		</view>
 	</view>

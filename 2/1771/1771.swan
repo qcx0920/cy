@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							赏金榜是一款自助互帮、信息交流的应用软件，填写邀请码A318013领红包，5元起提现，完全免费无需缴纳任何入门费。商家发布需求，数万计会员合力帮忙，利用闲暇时间协助商家快速实现商业目标赚取赏金。 注册会员领现金，完成新手任务送现金，提现实时到账。海量任务等你来完成， 手机网络兼职，在家就能赚钱，让闲暇时间变的更有价值， 每天动动手指完成任务，领取现金奖励。 联系我们 官方Q群：518195653、725447302 联系电话：057128827465{{isAll?intro:''}}
+							赏金榜是一款自助互帮、信息交流的应用软件，填写邀请码A318013领红包，5元起提现，完全免费无需缴{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2281/2281'>小水滴</navigator></view><view><navigator url='/3/1961/1961'>米闻快报</navigator></view><view><navigator url='/2/1789/1789'>趣多帮</navigator></view><view><navigator url='/4/2170/2170'>巨宝朋安卓版</navigator></view>
+				<view><navigator url='/3/1894/1894'>爆分网</navigator></view><view><navigator url='/4/2249/2249'>众得宝</navigator></view><view><navigator url='/3/2032/2032'>香蕉网</navigator></view><view><navigator url='/2/1830/1830'>享物说</navigator></view>
 			</view>
 		</view>
 	</view>

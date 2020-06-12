@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							任务宝是转发文章阅读赚钱平台，新用户首次下载APP并注册立即奖励2元现金，5元即可提现，转发文章被阅读一次0.08元至0.12元。{{isAll?intro:''}}
+							任务宝是转发文章阅读赚钱平台，新用户首次下载APP并注册立即奖励2元现金，5元即可提现，转发文章被阅{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1694/1694'>秉钧红人苹果版</navigator></view><view><navigator url='/3/2092/2092'>豆大宝</navigator></view><view><navigator url='/3/2083/2083'>传客美文网</navigator></view><view><navigator url='/3/2134/2134'>理财通 - 1分领1元红包</navigator></view>
+				<view><navigator url='/3/1904/1904'>快手极速版</navigator></view><view><navigator url='/1/1551/1551'>钱派试玩</navigator></view><view><navigator url='/2/1820/1820'>托管赚钱宝</navigator></view><view><navigator url='/1/1601/1601'>花生米</navigator></view>
 			</view>
 		</view>
 	</view>

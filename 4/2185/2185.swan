@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							聚享游是给用户提供网赚、兼职项目一个平台，利用业余时间赚钱的不二之选，1元提现秒到账。你在聚享游的所有行为都会产生收益，参与签到、匠神部落、游戏试玩、棋牌试玩、悬赏任务、邀请好友等都会获得奖励，奖励直接存入你的账户，可直接提现，10000U币=1元。只限安卓 联系我们 客服热线：400-8899-055   客服QQ：800171920    服务时间：周一至周五9:30-18:30 聚享游娱乐公告QQ群：764027823    聚享游官方公告群：685672220{{isAll?intro:''}}
+							聚享游是给用户提供网赚、兼职项目一个平台，利用业余时间赚钱的不二之选，1元提现秒到账。你在聚享游的所{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1694/1694'>秉钧红人苹果版</navigator></view><view><navigator url='/4/2254/2254'>e赚</navigator></view><view><navigator url='/1/1737/1737'>西瓜妹</navigator></view><view><navigator url='/1/1707/1707'>美赚苹果版</navigator></view>
+				<view><navigator url='/4/2205/2205'>乐趣闻</navigator></view><view><navigator url='/3/2053/2053'>辣头条</navigator></view><view><navigator url='/3/2120/2120'>微有趣</navigator></view><view><navigator url='/2/1763/1763'>赚钱了</navigator></view>
 			</view>
 		</view>
 	</view>

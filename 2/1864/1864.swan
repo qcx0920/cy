@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							抓实惠是一款提供内部优惠券的省钱购物软件，随心领取自己需要的商品优惠券，选购自己中意的商品，全场包邮，随时随地享受省钱体验。同时推出任性的每日红包功能，让您能省会赚，成为购物达人，喜欢就快来下载吧。 即使你很少购物，那也不要紧，软件每个时段都有现金红包发放，每次都有几毛不等，每天来捡一捡，也是可以提现的     软件特色： 1.能省会赚：不仅仅是省钱，还可以赚钱，每个时段，现金红包等你来抢 2.超高返：专业买手选款，职业砍价，超高返利95%，等你来任性 3.9块9包邮：精选商品，低价超值，9块9包邮还返利 4.超级券：淘宝天猫限量内部优惠券，大额优惠券领券立减，优惠到你想不到 ①海量淘宝内部优惠券，完成首单购物，可获得最高10元返现 ②领券购买，每单都有现金返现，既省又赚，满20可提现支付宝{{isAll?intro:''}}
+							抓实惠是一款提供内部优惠券的省钱购物软件，随心领取自己需要的商品优惠券，选购自己中意的商品，全场包邮{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2146/2146'>水滴任务投票平台</navigator></view><view><navigator url='/4/2224/2224'>薪客</navigator></view><view><navigator url='/1/1742/1742'>赚客帮苹果版</navigator></view><view><navigator url='/3/1871/1871'>大七喜</navigator></view>
+				<view><navigator url='/2/1784/1784'>叮咚众包</navigator></view><view><navigator url='/3/2009/2009'>闲看点</navigator></view><view><navigator url='/2/1837/1837'>小程序试玩</navigator></view><view><navigator url='/4/2318/2318'>疯狂赚金币</navigator></view>
 			</view>
 		</view>
 	</view>

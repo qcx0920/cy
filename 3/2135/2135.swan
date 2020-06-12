@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							塔丝猫 - 生活赚钱福利小助手，新用户注册完成简单调查后即送1元，微信1元提现秒到，首次提现后再送1元。塔丝猫简单做任务即可赚钱！利用空闲时间帮助他人，自己获得报酬，就是塔丝猫在做的事。具体攻略{{isAll?intro:''}}
+							塔丝猫 - 生活赚钱福利小助手，新用户注册完成简单调查后即送1元，微信1元提现秒到，首次提现后再送1{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1835/1835'>淘券吧</navigator></view><view><navigator url='/3/1995/1995'>聚转啦</navigator></view><view><navigator url='/3/1921/1921'>花生转</navigator></view><view><navigator url='/2/1844/1844'>悦动圈红包</navigator></view>
+				<view><navigator url='/4/2331/2331'>每日锁屏</navigator></view><view><navigator url='/3/2086/2086'>阅钱</navigator></view><view><navigator url='/4/2212/2212'>酷头条</navigator></view><view><navigator url='/3/1998/1998'>天天趣闻</navigator></view>
 			</view>
 		</view>
 	</view>

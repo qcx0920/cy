@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							武林外赚苹果应用试玩平台，一个用手机就能赚钱的应用平台还有更多的免费产品。注册送1元，单价1元左右，10元提现，每天使用武林外轻松赚零钱。武林外赚为你提供超多好玩的应用，试玩应用还能领取丰厚的现金红包，赶快加入武林外赚~ 支持微信/支付宝提现 随时提现，快速到账，你可以在这里享受便捷的服务，武林外赚还为你提供手机流量实时兑换服务 安全认证，真实可靠 武林外赚是一个合法专业的优秀平台 收徒赚钱 上不封顶 邀请身边的朋友加入武林外赚成为你的徒弟，徒弟每试用一款软件，师傅就能得到一笔现金奖励{{isAll?intro:''}}
+							武林外赚苹果应用试玩平台，一个用手机就能赚钱的应用平台还有更多的免费产品。注册送1元，单价1元左右，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1680/1680'>旺财</navigator></view><view><navigator url='/4/2206/2206'>全民皆赚</navigator></view><view><navigator url='/3/1893/1893'>豆豆资讯</navigator></view><view><navigator url='/4/2277/2277'>e赚-看广告赚钱</navigator></view>
+				<view><navigator url='/3/1904/1904'>快手极速版</navigator></view><view><navigator url='/3/2124/2124'>吉祥赚</navigator></view><view><navigator url='/3/1881/1881'>火山转</navigator></view><view><navigator url='/4/2252/2252'>龙猫众包</navigator></view>
 			</view>
 		</view>
 	</view>

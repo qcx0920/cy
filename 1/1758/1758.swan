@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							好赚跳跳球-手机赚钱任务平台，安装体验应用和游戏的同时返回给您的积分，赚取佣金，可以用来兑换Q币、话费、现金。好赚跳跳球独创的矿石熔炼系统，通过将完成任务获得的矿渣熔炼之后，可以获取更高收益。   任务系统 每日签到、淘宝任务、打码任务、安装推荐应用   推广奖励 丰厚的推广奖励5级返利制度，挣的少？帮您算一算   道具系统 随机掉落各种道具 矿渣 矿石 钻石 熔炼系统   季度奖励 参与季度抽奖可得丰厚奖励   兑换平台 支付宝提现 手机话费充值 兑换Q币   新手帮助 新手报道帮助 常见问题解答{{isAll?intro:''}}
+							好赚跳跳球-手机赚钱任务平台，安装体验应用和游戏的同时返回给您的积分，赚取佣金，可以用来兑换Q币、话{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2148/2148'>犀牛投票任务</navigator></view><view><navigator url='/1/1578/1578'>抖赚</navigator></view><view><navigator url='/3/2017/2017'>UC浏览器福利版</navigator></view><view><navigator url='/1/1556/1556'>掉钱眼儿</navigator></view>
+				<view><navigator url='/4/2246/2246'>爱玩商店</navigator></view><view><navigator url='/3/2067/2067'>多多小说</navigator></view><view><navigator url='/3/1960/1960'>好多视频</navigator></view><view><navigator url='/4/2336/2336'>解锁赚【骗子软件】</navigator></view>
 			</view>
 		</view>
 	</view>

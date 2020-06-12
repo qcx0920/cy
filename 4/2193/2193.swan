@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							Q玩小游戏是一个小游戏集合平台，每天小游戏轻松赚零花钱，新手注册就领红包。Q玩小游戏是一款集合多种小游戏的操作简单，游戏节奏快，让你在游戏里拼手速，拼脑力，填补你的无聊空闲时光。 多款小游戏，定时更新，让你玩不停，享受愉悦的游戏时光！海量原创小游戏，单机对战总有一款适合你！ 联系我们 官方客服QQ群：817171843{{isAll?intro:''}}
+							Q玩小游戏是一个小游戏集合平台，每天小游戏轻松赚零花钱，新手注册就领红包。Q玩小游戏是一款集合多种小{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1764/1764'>欢乐招财犬</navigator></view><view><navigator url='/2/1806/1806'>分享赚</navigator></view><view><navigator url='/1/1535/1535'>趣闲赚</navigator></view><view><navigator url='/3/1873/1873'>大五福</navigator></view>
+				<view><navigator url='/1/1593/1593'>首富赚钱</navigator></view><view><navigator url='/3/1869/1869'>贝壳转</navigator></view><view><navigator url='/4/2278/2278'>360手机助手送红包</navigator></view><view><navigator url='/4/2223/2223'>钱兔赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

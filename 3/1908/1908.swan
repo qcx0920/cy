@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							66看看是微信端的阅读赚钱和微任务平台，在享受阅读快乐的同时还可以赚取收益，10元提现，秒到账。66看看是北京足球头条信息技术有限公司推出的阅读平台，点击开始阅读按钮，系统会自动分配阅读文章，阅读6秒以上的才可以赚取收益点击返回，继续阅读其它文章，可以将获得的收益充值话费或者提现到支付宝账户。{{isAll?intro:''}}
+							66看看是微信端的阅读赚钱和微任务平台，在享受阅读快乐的同时还可以赚取收益，10元提现，秒到账。66{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1975/1975'>皮蛋家园</navigator></view><view><navigator url='/4/2385/2385'>一起免单</navigator></view><view><navigator url='/1/1545/1545'>恐龙有钱</navigator></view><view><navigator url='/4/2236/2236'>盈牛牛</navigator></view>
+				<view><navigator url='/4/2330/2330'>并读新闻</navigator></view><view><navigator url='/3/1915/1915'>麒麟网</navigator></view><view><navigator url='/4/2231/2231'>蜂传</navigator></view><view><navigator url='/1/1681/1681'>铜板墙</navigator></view>
 			</view>
 		</view>
 	</view>

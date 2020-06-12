@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							挣钱吧是一个手机挣钱的应用，让用户在下软件，玩游戏，看小说的过程中轻松挣到钱，同时为用户提供大量优惠信息以及省钱办法“以省为赚”。 挣钱吧支持Android系统。用户使用挣钱吧安装系统推荐的优秀应用和分享应用，完成指定任务等方式挣取金币，还可以把金币变现成Q币、支付宝提现或者话费充值卡和游戏点卡等{{isAll?intro:''}}
+							挣钱吧是一个手机挣钱的应用，让用户在下软件，玩游戏，看小说的过程中轻松挣到钱，同时为用户提供大量优惠{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1504/1504'>金满堂</navigator></view><view><navigator url='/4/2179/2179'>葫芦赚</navigator></view><view><navigator url='/2/1794/1794'>趣味星球</navigator></view><view><navigator url='/1/1529/1529'>王者联盟赚钱游戏</navigator></view>
+				<view><navigator url='/3/1959/1959'>趣看看</navigator></view><view><navigator url='/4/2189/2189'>火种游戏</navigator></view><view><navigator url='/3/2004/2004'>掌上头条</navigator></view><view><navigator url='/4/2176/2176'>蛋蛋赚</navigator></view>
 			</view>
 		</view>
 	</view>

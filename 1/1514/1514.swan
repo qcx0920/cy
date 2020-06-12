@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							陀螺多多是陀螺世界生态下的一款省钱购物神器，不仅购物省钱返利，同时还能赚钱，提现极速到账。精选全网海量优质商品，隐藏优惠券免费领，下单再拿返利，比直接下单便宜10%-90%！邀请码：23290887 【超高返利】超高返利金额，秒杀同类返利应用。 【隐藏优惠券快速领】复制商品标题，打开“陀螺多多”即可快速搜券。 【精选好货】通过AI和专业买手每天精挑细选，为您精选高性价比好货，质量保证。 陀螺多多是一款购物省钱，分享赚钱的综合性购物APP。与淘宝、京东等知名电商平台深度合作，提供海量内部优惠券，不仅自己购物省钱，分享好友还能获得高额购物佣金奖励，免费提供运营、分享素材与专属客服服务，真正实现零成本轻松创业！{{isAll?intro:''}}
+							陀螺多多是陀螺世界生态下的一款省钱购物神器，不仅购物省钱返利，同时还能赚钱，提现极速到账。精选全网海{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1755/1755'>挖金iOS版手机赚钱</navigator></view><view><navigator url='/4/2375/2375'>掌上财进</navigator></view><view><navigator url='/1/1691/1691'>来赚分享苹果版</navigator></view><view><navigator url='/3/1879/1879'>酷狗音乐大字版</navigator></view>
+				<view><navigator url='/4/2292/2292'>掌上赚</navigator></view><view><navigator url='/2/1822/1822'>小红店</navigator></view><view><navigator url='/4/2285/2285'>招财狗</navigator></view><view><navigator url='/4/2215/2215'>赚钱帮</navigator></view>
 			</view>
 		</view>
 	</view>

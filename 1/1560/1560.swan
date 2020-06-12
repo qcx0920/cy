@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							小啄赚钱，超级赚钱兼职平台，做任务的手机赚钱APP，闲暇时间者的手机赚钱软件平台，每天都有新的任务发布，新用户专享一元提现，支付宝、微信提现实时到账、无手续费。支持苹果和安卓手机 【玩法多多】 1、签到红包：连续15天签到任务，直接领15元微信红包； 2、天天抽奖：赢取不同的奖励红包； 3、小啄赚钱：啄一下开始赚钱，每次啄取不同任务，惊喜不断； 4、钻石任务：高额奖励等你来领——你喜欢的应有尽有，更有冲顶大红包等你来冲。{{isAll?intro:''}}
+							小啄赚钱，超级赚钱兼职平台，做任务的手机赚钱APP，闲暇时间者的手机赚钱软件平台，每天都有新的任务发{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1686/1686'>热葫芦iOS版</navigator></view><view><navigator url='/1/1631/1631'>麻袋赚赚</navigator></view><view><navigator url='/4/2201/2201'>72G赚吧</navigator></view><view><navigator url='/1/1708/1708'>任务超市苹果版</navigator></view>
+				<view><navigator url='/2/1809/1809'>第一调查</navigator></view><view><navigator url='/3/2147/2147'>小萌差事 - 微信投票赚钱</navigator></view><view><navigator url='/3/2025/2025'>头条巴士</navigator></view><view><navigator url='/3/2015/2015'>苹果网</navigator></view>
 			</view>
 		</view>
 	</view>

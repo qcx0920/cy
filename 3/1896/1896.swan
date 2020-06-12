@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							稳稳赚APP是有银子旗下新出的一款转发文章赚钱平台，平台上提供海量精彩资讯和视频，转发分享给好友阅读就能活动现金奖励，新上线推广期间（4月7号-4月10号）转发单价高达6毛/次阅读，涨分超快，支持导入文章，推广结束后恢复3毛/次阅读，快来抢先下载吧！   平台特点 1、新人福利 新人下载注册即送1元，转发文章获得有效阅读，6毛/次阅读，官方测试，涨分非常猛   2、提现规则 首次满5元即可申请提现到支付宝或微信，之后满10元提现，当天到账   3、邀请规则 邀请有效徒弟最高奖励15元（奖励分4次发放），还可获得徒弟30%+徒孙20%超高分成奖励{{isAll?intro:''}}
+							稳稳赚APP是有银子旗下新出的一款转发文章赚钱平台，平台上提供海量精彩资讯和视频，转发分享给好友阅读{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1894/1894'>爆分网</navigator></view><view><navigator url='/1/1590/1590'>爱元宝</navigator></view><view><navigator url='/4/2196/2196'>灵猴</navigator></view><view><navigator url='/3/1982/1982'>精彩头条</navigator></view>
+				<view><navigator url='/4/2320/2320'>愤怒的富翁</navigator></view><view><navigator url='/3/1897/1897'>冠鼠网</navigator></view><view><navigator url='/2/1850/1850'>来钱道</navigator></view><view><navigator url='/4/2207/2207'>嘎嘎赚</navigator></view>
 			</view>
 		</view>
 	</view>

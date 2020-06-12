@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							开车旅行app是一款关于汽车为主题的合成游戏，首次0.3元提现，秒到账，后续提现20元起。首次升级汽车可领1元左右的新手红包，升级到第5级的时候会有15分钟限时分红车，收益大约1块多。升级越高奖励越多，限时分红越久。 开着各式跑车、豪车，一起“云旅游”，体验自驾旅行的乐趣！随着车辆款式的升级，旅行的速度也会加快。后续还可解锁更多城市，更多精彩等你发掘。{{isAll?intro:''}}
+							开车旅行app是一款关于汽车为主题的合成游戏，首次0.3元提现，秒到账，后续提现20元起。首次升级汽{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2264/2264'>赢联APP</navigator></view><view><navigator url='/3/2105/2105'>皮皮资讯</navigator></view><view><navigator url='/1/1643/1643'>神灯平台</navigator></view><view><navigator url='/4/2401/2401'>淘粉吧返利拿集分宝</navigator></view>
+				<view><navigator url='/2/1762/1762'>悬赏猫</navigator></view><view><navigator url='/3/2021/2021'>火力橙</navigator></view><view><navigator url='/4/2174/2174'>每天赚点</navigator></view><view><navigator url='/3/1981/1981'>搜狐资讯</navigator></view>
 			</view>
 		</view>
 	</view>

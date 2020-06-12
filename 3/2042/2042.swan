@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							看点头条看资讯赚钱的平台，边看新闻边赚钱，注册填邀请码E451D6C送随机红包，看新闻赚零花，邀请好友赚更多！阅读、评论、分享有奖励，边看新闻边赚钱，丰富的金币任务，帮用户养成良好的阅读习惯的同时获得高额的奖励！ @联系看点头条 反馈建议：17457698（QQ） 联系客服：kdttxzs（微信） 广告合作： 微信：540717843 QQ：540717843 邮箱：wbz@janesi.com 商务合作：1610434687 （QQ）{{isAll?intro:''}}
+							看点头条看资讯赚钱的平台，边看新闻边赚钱，注册填邀请码E451D6C送随机红包，看新闻赚零花，邀请好{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1494/1494'>多多红包</navigator></view><view><navigator url='/1/1713/1713'>友米德苹果版 （骗子）</navigator></view><view><navigator url='/4/2196/2196'>灵猴</navigator></view><view><navigator url='/1/1691/1691'>来赚分享苹果版</navigator></view>
+				<view><navigator url='/1/1759/1759'>91淘金iOS版</navigator></view><view><navigator url='/1/1719/1719'>聚享赚苹果版</navigator></view><view><navigator url='/1/1622/1622'>乐酷试玩</navigator></view><view><navigator url='/1/1600/1600'>青蛙试玩</navigator></view>
 			</view>
 		</view>
 	</view>

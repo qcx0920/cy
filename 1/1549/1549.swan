@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							蜜蜂试玩是一款苹果手机赚钱软件，轻松试玩有趣的应用，还能赚佣金。 注册送1元，任务单价1元左右，10元提现，任务不需要首次。 3分钟碎片化时间，轻松试玩。只要3分钟试玩体验，就能获得一次试玩奖励，利用碎片化时间，发现更多好玩应用。任务更新，每天下午任务最多。{{isAll?intro:''}}
+							蜜蜂试玩是一款苹果手机赚钱软件，轻松试玩有趣的应用，还能赚佣金。 注册送1元，任务单价1元左右，10{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1564/1564'>鼠宝试玩</navigator></view><view><navigator url='/4/2230/2230'>零钱猫</navigator></view><view><navigator url='/2/1793/1793'>拼手气</navigator></view><view><navigator url='/3/2121/2121'>百万猪</navigator></view>
+				<view><navigator url='/3/2047/2047'>蚂蚁头条</navigator></view><view><navigator url='/3/1986/1986'>淘小说</navigator></view><view><navigator url='/3/1926/1926'>松鼠网</navigator></view><view><navigator url='/4/2176/2176'>蛋蛋赚</navigator></view>
 			</view>
 		</view>
 	</view>

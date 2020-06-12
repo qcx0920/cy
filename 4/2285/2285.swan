@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							招财狗APP，会赚钱的屏保（挂机每天赚0.5元），招财狗还有PC电脑版挂机每天赚0.5元。 注册填写邀请码kkyrshuh立即送2元 快速提升等级方法： 每天挂机可获得【25分】（手机和PC电脑同时挂机），每天点击招财狗【我的等级】 - 点击【分享得积分】可获得【100分】 招财狗无需存款，每天收入超各种宝。不用做任务，无打搅，正常使用电脑或手机，每天就有稳定收入。各大应用商店、微信、微博都在疯传的赚钱神器，注册时填写邀请码，各赚2元，和小伙伴们一起赚钱吧。 我们的优势： 1. 赚钱不用做任务，正常使用手机或电脑就能赚钱。 2. 收入稳定，每天稳赚1元钱。 3. 邀请好友，各赚2元。 4. 7*24小时随时提现到支付宝。 5. 升级得特权，每日收入翻番。{{isAll?intro:''}}
+							招财狗APP，会赚钱的屏保（挂机每天赚0.5元），招财狗还有PC电脑版挂机每天赚0.5元。 注册填写{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1748/1748'>上榜乐</navigator></view><view><navigator url='/4/2342/2342'>极猫</navigator></view><view><navigator url='/3/2021/2021'>火力橙</navigator></view><view><navigator url='/4/2193/2193'>Q玩小游戏</navigator></view>
+				<view><navigator url='/1/1495/1495'>橙试客</navigator></view><view><navigator url='/3/2035/2035'>喜赚</navigator></view><view><navigator url='/4/2391/2391'>招财猫锁屏赚钱</navigator></view><view><navigator url='/1/1570/1570'>立马赚</navigator></view>
 			</view>
 		</view>
 	</view>

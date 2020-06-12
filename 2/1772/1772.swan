@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							新用户玩绿洲，天天可领现金红包，提现秒到账！绿洲APP送钱啦！下载填写邀请码【H7HH6E】或【9N6URN】或【AFRLXM】领4元现金红包，当日提现！「绿洲」是微博出品的美好生活社交产品，是建立在现实社交荒漠外的心灵家园。 在绿洲里，你可以回归初心，逃离复杂的现实朋友圈，重拾分享生活的热情。找到同好，建立干净亲密的社交圈子。    绿洲，带你发现世界之美。快来分享令人心动的高光时刻吧！    「分享美好生活」  照片和视频都是时光走过的痕迹，你生活中的高光时刻、简单平常的小确幸都值得被记录，在绿洲，无惧他人眼光，所见即可分享。     「找到兴趣好友」  圈子随日子越滚越大，但我们越来越愿意和同好一起玩，绿洲让社交圈从此只有两种人：你喜欢的人、你感兴趣的人。     「发现世界之美」  你对世界有许多好奇，冰岛的梦幻极光、明星达人的精致秘籍、大胃王的美食探店、超Q的阿猫阿汪和许多许多许多，进入绿洲，精彩的世界目不暇接！     「逃离社交荒漠」  社交平台的好友越加越多，愿意分享真实生活的人却越来越少。有时感觉，我们已经不喜欢分享生活了。但在「绿洲」里，生活好像永远美好，所有有爱的生活点滴都能被分享、被看见、被滋养。     原来生活中真的有绿洲，它在沙漠和沙漠间的空隙里。赶快来绿洲发现美好世界！  还有很多你关注的明星大v也在这里分享生活哦~  ---------------------------  如您有任何意见和建议，欢迎加入绿洲官方意见反馈QQ群：912143868，或者使用APP内的[给绿洲提意见]告诉我们。{{isAll?intro:''}}
+							新用户玩绿洲，天天可领现金红包，提现秒到账！绿洲APP送钱啦！下载填写邀请码【H7HH6E】或【9N{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1773/1773'>钱帮</navigator></view><view><navigator url='/4/2373/2373'>马上有钱</navigator></view><view><navigator url='/1/1733/1733'>微看点苹果版</navigator></view><view><navigator url='/1/1495/1495'>橙试客</navigator></view>
+				<view><navigator url='/3/1964/1964'>贝米资讯</navigator></view><view><navigator url='/4/2381/2381'>私房钱</navigator></view><view><navigator url='/2/1760/1760'>码帮</navigator></view><view><navigator url='/2/1854/1854'>云闪付</navigator></view>
 			</view>
 		</view>
 	</view>

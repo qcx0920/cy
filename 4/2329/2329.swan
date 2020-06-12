@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							招财熊【骗子】是一款基于移动终端传播的商家与用户间有偿分享交流平台；让您在玩手机的同时就能轻松获得丰厚现金报酬。通过招财熊系统中提供的优秀应用评论、分享应用， 完成指定任务等方式赚取现金，所有报酬都可以通过支付宝提现、充值话费、兑换Q币等。{{isAll?intro:''}}
+							招财熊【骗子】是一款基于移动终端传播的商家与用户间有偿分享交流平台；让您在玩手机的同时就能轻松获得丰{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2355/2355'>米多通话赚钱</navigator></view><view><navigator url='/3/2089/2089'>麻雀浏览器</navigator></view><view><navigator url='/1/1700/1700'>赚赚兔</navigator></view><view><navigator url='/1/1553/1553'>i红包</navigator></view>
+				<view><navigator url='/4/2265/2265'>易赚联盟</navigator></view><view><navigator url='/1/1510/1510'>恋猫世界</navigator></view><view><navigator url='/3/2032/2032'>香蕉网</navigator></view><view><navigator url='/1/1567/1567'>首席试玩官</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							多多红包是一款能帮你赚钱的神奇软件，大家都玩的互动娱乐社区（安装红包助手送3元），单价1元起，10元可提现。你只需要每天花一点点时间去完成下载任务，就能得到现金奖励！可以直接提现或充值话费哦，参与活动获得惊喜福利，每天不间断。{{isAll?intro:''}}
+							多多红包是一款能帮你赚钱的神奇软件，大家都玩的互动娱乐社区（安装红包助手送3元），单价1元起，10元{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1761/1761'>旅行日记</navigator></view><view><navigator url='/3/1981/1981'>搜狐资讯</navigator></view><view><navigator url='/3/1998/1998'>天天趣闻</navigator></view><view><navigator url='/3/1991/1991'>好好转</navigator></view>
+				<view><navigator url='/4/2180/2180'>赚客安卓版</navigator></view><view><navigator url='/3/1972/1972'>斑马热点</navigator></view><view><navigator url='/3/2035/2035'>喜赚</navigator></view><view><navigator url='/4/2302/2302'>赚乐</navigator></view>
 			</view>
 		</view>
 	</view>

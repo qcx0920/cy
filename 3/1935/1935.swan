@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							全民快讯是最新转发文章赚钱平台，普通文章单价1毛，高价1毛5，10元起提现，支持微信和支付宝提现。 官方客服微信：bzlmkf01{{isAll?intro:''}}
+							全民快讯是最新转发文章赚钱平台，普通文章单价1毛，高价1毛5，10元起提现，支持微信和支付宝提现。 {{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1944/1944'>鸡冻头条</navigator></view><view><navigator url='/4/2394/2394'>找到APP</navigator></view><view><navigator url='/4/2391/2391'>招财猫锁屏赚钱</navigator></view><view><navigator url='/3/2129/2129'>疯转联盟</navigator></view>
+				<view><navigator url='/1/1713/1713'>友米德苹果版 （骗子）</navigator></view><view><navigator url='/2/1803/1803'>小红淘</navigator></view><view><navigator url='/3/1874/1874'>金刚涨</navigator></view><view><navigator url='/4/2306/2306'>每获</navigator></view>
 			</view>
 		</view>
 	</view>

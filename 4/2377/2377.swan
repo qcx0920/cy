@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							悟空赚是一款根据智能手机的手机挣钱软件，让用户在阅读页面、装置使用、试玩、体会、反应引荐使用的一起取得Q币、现金或手机话费奖赏。报到奖赏高，报到不再坑爹；兑换即时到帐，再也不必白干了。   产品特性 1.阅读页面，手机挣钱，新的体会，新的架构的视觉界面，清新简练；  2.报到奖赏高，不拿白不拿；  3.装置优质使用,,游戏,,音乐,,视频,,墙纸等可得趣币换奖品；  4.奖品兑换，方式丰厚，Q币,,话费,,集分宝等等，还可提现到支付宝，随时秒到；  5.约请老友，肯定穷不了，高额招推行王，睡觉也能挣钱，做梦都在笑。  6.赚得多，送得多，每周排行前10名，奖赏丰厚。{{isAll?intro:''}}
+							悟空赚是一款根据智能手机的手机挣钱软件，让用户在阅读页面、装置使用、试玩、体会、反应引荐使用的一起取{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2019/2019'>天天看视频</navigator></view><view><navigator url='/3/2116/2116'>悦推</navigator></view><view><navigator url='/1/1667/1667'>达人试玩</navigator></view><view><navigator url='/1/1638/1638'>柚子众测</navigator></view>
+				<view><navigator url='/4/2403/2403'>挖金-手机赚钱</navigator></view><view><navigator url='/3/2135/2135'>塔丝猫</navigator></view><view><navigator url='/3/1985/1985'>铛铛赚</navigator></view><view><navigator url='/4/2354/2354'>黄金锁屏</navigator></view>
 			</view>
 		</view>
 	</view>

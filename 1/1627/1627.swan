@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							即刻赚是深圳市乐瀛文化科技有限公司推出的一款全新的赚钱类应用，玩手机就能轻松赚钱，提供多种获取收益方式： ◦完成每日任务即可获得奖励 ◦邀请好友各获得奖励，和好友一起赚钱更好玩 ◦只需关注微信就可快速提现 我们致力于提高投放移动广告效果，优化用户体验，为用户带来更多收益。快来和我们一起即刻赚吧。{{isAll?intro:''}}
+							即刻赚是深圳市乐瀛文化科技有限公司推出的一款全新的赚钱类应用，玩手机就能轻松赚钱，提供多种获取收益方{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1848/1848'>小微托管挂机赚钱</navigator></view><view><navigator url='/4/2396/2396'>淘粉吧粉赚</navigator></view><view><navigator url='/3/1922/1922'>东方头条</navigator></view><view><navigator url='/1/1646/1646'>试客小兵</navigator></view>
+				<view><navigator url='/4/2332/2332'>锁屏达人</navigator></view><view><navigator url='/3/1979/1979'>随手涨分王</navigator></view><view><navigator url='/1/1684/1684'>首席体验师</navigator></view><view><navigator url='/2/1796/1796'>桔子兼职</navigator></view>
 			</view>
 		</view>
 	</view>

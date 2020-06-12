@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							乐享看，最新转发阅读文章赚钱平台，注册送1元，首次1元起提现秒到，之后5元起提现。新人1元提现秒速到账，世界上最爽的事情莫过于此啦~{{isAll?intro:''}}
+							乐享看，最新转发阅读文章赚钱平台，注册送1元，首次1元起提现秒到，之后5元起提现。新人1元提现秒速到{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1821/1821'>花解解</navigator></view><view><navigator url='/1/1679/1679'>一元赚苹果版</navigator></view><view><navigator url='/2/1841/1841'>芝士小视频</navigator></view><view><navigator url='/3/2138/2138'>嗨皮赚</navigator></view>
+				<view><navigator url='/4/2182/2182'>零用钱</navigator></view><view><navigator url='/3/1981/1981'>搜狐资讯</navigator></view><view><navigator url='/3/2150/2150'>开玩</navigator></view><view><navigator url='/1/1578/1578'>抖赚</navigator></view>
 			</view>
 		</view>
 	</view>

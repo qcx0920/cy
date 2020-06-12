@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							鸡冻头条，聚集搞笑段子，覆盖海量精彩短视频，让你笑得停不下来，注册即送1元以上随机红包，0.3元就能提现。好玩、好看、有趣，还能赚零花钱。分享有奖，红包不断，边笑边赚，鸡冻头条比你想得更有趣。 鸡冻头条，阅读越激动！ 鸡冻头条，是一款趣味头条阅读软件，致力于为用户提供休闲娱乐的阅读社区。趣味头条、搞笑段子、精彩短视频应有尽有，让您在享受阅读乐趣的同时还能赚取福利佣金，边笑边赚钱，乐趣无穷。 联系我们 客服微信：jidongtoutiaoAPP，客服QQ：2597089637，QQ群：730165932{{isAll?intro:''}}
+							鸡冻头条，聚集搞笑段子，覆盖海量精彩短视频，让你笑得停不下来，注册即送1元以上随机红包，0.3元就能{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1634/1634'>钱兔</navigator></view><view><navigator url='/4/2231/2231'>蜂传</navigator></view><view><navigator url='/4/2372/2372'>玩赚-看广告答题赚钱</navigator></view><view><navigator url='/2/1820/1820'>托管赚钱宝</navigator></view>
+				<view><navigator url='/1/1523/1523'>游易赚</navigator></view><view><navigator url='/3/1992/1992'>呱呱转</navigator></view><view><navigator url='/1/1729/1729'>欢乐点苹果版</navigator></view><view><navigator url='/3/2117/2117'>耳多资讯</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							斗鱼极速版，一款会赚钱的直播app，5元就能提现，看直播还能赚钱，注册送1元。边看直播边赚钱，观看直播得现金奖励，观看直播做任务，看直播的同时还能挣钱，妈妈再也不用担心零花钱了。用手机号注册可直接登陆，用微信登陆记得绑定手机号。{{isAll?intro:''}}
+							斗鱼极速版，一款会赚钱的直播app，5元就能提现，看直播还能赚钱，注册送1元。边看直播边赚钱，观看直{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1959/1959'>趣看看</navigator></view><view><navigator url='/4/2189/2189'>火种游戏</navigator></view><view><navigator url='/3/2048/2048'>洋葱视频</navigator></view><view><navigator url='/2/1828/1828'>聚宝鹏</navigator></view>
+				<view><navigator url='/3/1900/1900'>聚钱宝</navigator></view><view><navigator url='/4/2295/2295'>喵喵赚钱</navigator></view><view><navigator url='/4/2388/2388'>采宝</navigator></view><view><navigator url='/3/1942/1942'>知天下</navigator></view>
 			</view>
 		</view>
 	</view>

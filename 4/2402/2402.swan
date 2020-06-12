@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							零用宝是目前中国市场领先的手机赚钱应用，只需下载应用就能轻松获得丰厚收益，属于每个人免费增加零用钱的不二选择。还在为每个月的话费苦恼吗？还在为开个QQ会员闹心吗？玩零用宝吧，它可以让你边玩手机应用、游戏边赚钱，兑换每个月的话费、QQ会员、现金等绝不是问题。 最低10元起兑换，可兑换话费充值卡、Q币，也可通过支付宝、财付通进行兑现。任务种类丰富多样，下载应用，签到，玩游戏，等等轻松赚钱方式。当然，你还可以推荐给好友，赚取推荐奖金，并可获得20%分成，当你推荐一批好友后，你会发现每天都有一笔丰厚的佣金流持续性的滋润你的生活。{{isAll?intro:''}}
+							零用宝是目前中国市场领先的手机赚钱应用，只需下载应用就能轻松获得丰厚收益，属于每个人免费增加零用钱的{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1846/1846'>刷刷客</navigator></view><view><navigator url='/4/2224/2224'>薪客</navigator></view><view><navigator url='/4/2302/2302'>赚乐</navigator></view><view><navigator url='/3/1914/1914'>彩蛋视频</navigator></view>
+				<view><navigator url='/4/2386/2386'>手机赚宝</navigator></view><view><navigator url='/3/1939/1939'>点点新闻</navigator></view><view><navigator url='/4/2253/2253'>天天钻</navigator></view><view><navigator url='/3/1977/1977'>橙子快报</navigator></view>
 			</view>
 		</view>
 	</view>

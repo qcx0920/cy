@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							借贷宝是国内顶级私募机构九鼎控股倾力打造的熟人间借贷平台。【注册填写E6YZ6EN邀请码并人脸验证送20元】以借款人实名、出借人匿名的单向匿名借贷模式，使借款人能够快速获得借款，出借人根据借款人身份主动评估风险，获得更安全的高收益，是您手机上必备的借钱神器，赚钱利器。实现人人办金融，人人都是金融家的梦想。       【快速借钱】 借贷宝好友均来自您的真实朋友圈，并经过严格实名认证。当您需要借钱的时候，一键发布借款信息，借款期限、利率、金额由您决定，您的朋友可根据您的身份快速准确评估风险，作出决策。   【放心投资】 当您借钱给朋友时，您可以自由选择朋友发布的借款项目匿名出借，获得利息收益，您的朋友无法查看您的身份，保证借款资金安全，避免好友见面尴尬。   【白赚利差】 借贷宝首创赚利差功能，无需投入任何成本，只要在修改原始借款利率后，将好友的借款信息转发至自己的朋友圈，即可赚取利差。让您体验没钱也能赚钱的乐趣。{{isAll?intro:''}}
+							借贷宝是国内顶级私募机构九鼎控股倾力打造的熟人间借贷平台。【注册填写E6YZ6EN邀请码并人脸验证送{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1882/1882'>金镶玉</navigator></view><view><navigator url='/3/2079/2079'>随手快报</navigator></view><view><navigator url='/1/1718/1718'>轻玩客苹果版</navigator></view><view><navigator url='/2/1772/1772'>绿洲</navigator></view>
+				<view><navigator url='/1/1735/1735'>推猫苹果版</navigator></view><view><navigator url='/1/1634/1634'>钱兔</navigator></view><view><navigator url='/4/2386/2386'>手机赚宝</navigator></view><view><navigator url='/3/1872/1872'>大六顺</navigator></view>
 			</view>
 		</view>
 	</view>

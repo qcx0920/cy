@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							三招玩转拍得利：参与广告任务，答对选择题，赚取积分凭积分兑换各种实用的商品。凭积分参加摇大奖活动...积分就是金钱，分享好友还能赚取更多积分。 赚得多，玩的嗨 参与任务，弹指间积分轻松入账，用积分兑商品、揺大奖，与好友互动分享，多赚还好玩，移动生活从此乐不停。   超值商品，免费兑换 优选海量商品，用户凭积分即可免费兑换，实用的、有趣的、好玩的，应有尽有，不花一分钱哦   趣味摇奖，劲爆大奖等你摇 免费参加摇大奖，好玩有趣，大奖劲爆真实，小奖超值多多，最重要的是中奖率100%。{{isAll?intro:''}}
+							三招玩转拍得利：参与广告任务，答对选择题，赚取积分凭积分兑换各种实用的商品。凭积分参加摇大奖活动..{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1967/1967'>蚂蚁阅读</navigator></view><view><navigator url='/1/1622/1622'>乐酷试玩</navigator></view><view><navigator url='/3/1950/1950'>猫人网</navigator></view><view><navigator url='/4/2302/2302'>赚乐</navigator></view>
+				<view><navigator url='/4/2203/2203'>手游赚</navigator></view><view><navigator url='/3/2095/2095'>草莓视界</navigator></view><view><navigator url='/3/1963/1963'>火锅视频</navigator></view><view><navigator url='/3/1938/1938'>来丰收</navigator></view>
 			</view>
 		</view>
 	</view>

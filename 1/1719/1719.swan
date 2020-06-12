@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							掌上体验，玩转聚享赚（注册送1元），随时随地做任务赚现金，更有手机游戏、疯狂28 high不停。新用户下载立送现金红包，新人任务带你入门。我们会定期更新各种任务，用户可以持续不断的赚钱。“快速赚钱”、“益智竞猜”、“签到”、“好友奖励”，更有超强红包排位赛，带你轻松月入过万。{{isAll?intro:''}}
+							掌上体验，玩转聚享赚（注册送1元），随时随地做任务赚现金，更有手机游戏、疯狂28 high不停。新用{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1537/1537'>小桔试玩</navigator></view><view><navigator url='/1/1518/1518'>丐帮</navigator></view><view><navigator url='/3/2131/2131'>财神道</navigator></view><view><navigator url='/1/1733/1733'>微看点苹果版</navigator></view>
+				<view><navigator url='/1/1515/1515'>赏呗兼职</navigator></view><view><navigator url='/1/1570/1570'>立马赚</navigator></view><view><navigator url='/4/2365/2365'>乐游宝</navigator></view><view><navigator url='/1/1498/1498'>蝉试客</navigator></view>
 			</view>
 		</view>
 	</view>

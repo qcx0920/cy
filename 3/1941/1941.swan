@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							霏霏分享美文轻松赚钱的平台，霏霏APP逆势来袭，让人人分享赚钱。现在注册就送1元，每次阅读0.1元，10元提现秒到账，30%两级徒弟分成。 {{isAll?intro:''}}
+							霏霏分享美文轻松赚钱的平台，霏霏APP逆势来袭，让人人分享赚钱。现在注册就送1元，每次阅读0.1元，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2246/2246'>爱玩商店</navigator></view><view><navigator url='/4/2177/2177'>每日赚点</navigator></view><view><navigator url='/3/1985/1985'>铛铛赚</navigator></view><view><navigator url='/4/2209/2209'>易读资讯</navigator></view>
+				<view><navigator url='/1/1542/1542'>赏链</navigator></view><view><navigator url='/4/2166/2166'>iMoney安卓版</navigator></view><view><navigator url='/2/1760/1760'>码帮</navigator></view><view><navigator url='/1/1758/1758'>好赚跳跳球iOS版</navigator></view>
 			</view>
 		</view>
 	</view>

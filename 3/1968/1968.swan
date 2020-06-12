@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							乐趣推APP是一个分享资讯赚钱平台，看趣闻赚零花，首次3元就能提现，后续5元起提现，提现秒到账。现金红包大派送，注册就送1-2元，快来参与挣钱吧。如需邀请码输入：Jg4835，还有兄弟平台乐趣多 怎么赚钱： 1、分享文章资讯和视频到微信群或朋友圈赚钱，新手任务、每日任务、每天签到天天赚钱； 2、邀请好友得现金红包+收益进贡。 联系官方： 官方客服QQ：46256118；官方客服QQ群：793688896；客服微信：cxd199208{{isAll?intro:''}}
+							乐趣推APP是一个分享资讯赚钱平台，看趣闻赚零花，首次3元就能提现，后续5元起提现，提现秒到账。现金{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1591/1591'>金日赚</navigator></view><view><navigator url='/4/2219/2219'>秒赚大钱安卓版</navigator></view><view><navigator url='/3/1902/1902'>杨桃资讯</navigator></view><view><navigator url='/3/2027/2027'>快转赚</navigator></view>
+				<view><navigator url='/3/2079/2079'>随手快报</navigator></view><view><navigator url='/3/1950/1950'>猫人网</navigator></view><view><navigator url='/3/1881/1881'>火山转</navigator></view><view><navigator url='/3/1973/1973'>蜜桃转</navigator></view>
 			</view>
 		</view>
 	</view>

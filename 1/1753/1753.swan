@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							很好赚优客平台是国内领先的手机网络兼职赚钱平台，支持苹果手机赚钱，安卓手机赚钱，电脑挂机赚钱，海量任务，自由选择，轻松赚钱，很好赚真的很好赚！ 惊爆福利大派送： 注册就送两元，外加赚钱教程一份！ 全网最高的任务奖励比例，秒杀一切！ 25%下级提成，外加无限下级提成模式！ 节假日照样兑换，全年365绝不拖欠！ 丰富好玩的道具和游戏，绝不枯燥！ 奖励丰厚的优客等级系统，越玩越嗨！{{isAll?intro:''}}
+							很好赚优客平台是国内领先的手机网络兼职赚钱平台，支持苹果手机赚钱，安卓手机赚钱，电脑挂机赚钱，海量任{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1551/1551'>钱派试玩</navigator></view><view><navigator url='/4/2179/2179'>葫芦赚</navigator></view><view><navigator url='/1/1507/1507'>全民悬赏</navigator></view><view><navigator url='/4/2401/2401'>淘粉吧返利拿集分宝</navigator></view>
+				<view><navigator url='/2/1816/1816'>微漂云众包</navigator></view><view><navigator url='/2/1795/1795'>淘差事</navigator></view><view><navigator url='/1/1629/1629'>东方头条苹果版</navigator></view><view><navigator url='/1/1501/1501'>钱脉</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							众得宝为广大用户提供各类微任务，用户完成任务即可获得相应现金奖励，1元就可以提现哦！完成任务越多获得现金奖励越多！还可邀请好友帮您赚钱！好友越多收益越多！ 手机扫一扫二维码{{isAll?intro:''}}
+							众得宝为广大用户提供各类微任务，用户完成任务即可获得相应现金奖励，1元就可以提现哦！完成任务越多获得{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1754/1754'>赚帮iOS版</navigator></view><view><navigator url='/1/1745/1745'>无聊赚苹果版</navigator></view><view><navigator url='/3/1982/1982'>精彩头条</navigator></view><view><navigator url='/1/1679/1679'>一元赚苹果版</navigator></view>
+				<view><navigator url='/4/2378/2378'>玩赚</navigator></view><view><navigator url='/3/2124/2124'>吉祥赚</navigator></view><view><navigator url='/4/2209/2209'>易读资讯</navigator></view><view><navigator url='/1/1619/1619'>子弹试玩</navigator></view>
 			</view>
 		</view>
 	</view>

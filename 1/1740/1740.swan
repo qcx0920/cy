@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							每获APP是一款纸质宣传单的移动端终结者，一款以体验为中心的移动端赚钱神器。 每天，你是否被无聊垃圾广告骚扰到不想逛街；被漫天纸质宣传单的狂轰滥炸而一无所获？ 现在每获来了，通过每获你可以第一时间看到周边感兴趣的商品打折信息，一个指尖上的动作就可以轻松导航到店，一个诚恳的评价赚取应得的佣金。 每天赚一赚，轻松又实惠，你还在等什么。推荐小伙伴一起来每获，推荐多多，现金多多，我只告诉你哦？{{isAll?intro:''}}
+							每获APP是一款纸质宣传单的移动端终结者，一款以体验为中心的移动端赚钱神器。 每天，你是否被无聊垃圾{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2033/2033'>小牛快看</navigator></view><view><navigator url='/1/1636/1636'>可可赚</navigator></view><view><navigator url='/3/2080/2080'>悦目精选</navigator></view><view><navigator url='/1/1684/1684'>首席体验师</navigator></view>
+				<view><navigator url='/4/2335/2335'>快赚锁屏</navigator></view><view><navigator url='/1/1639/1639'>猎豆试客</navigator></view><view><navigator url='/4/2243/2243'>来赚分享</navigator></view><view><navigator url='/4/2277/2277'>e赚-看广告赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

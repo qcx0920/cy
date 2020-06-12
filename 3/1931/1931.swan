@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							花火资讯是一个自己阅读文章赚钱和转发文章赚钱的平台，新用户注册就送1元，自己阅读每次1分钱，分享被阅读每次6分，满10元即可提现到支付宝、微信和话费充值。这是一个新潮创作平台APP。这里有故事接龙(后续版本开放)、微小说，搞笑的视频，爆笑的段子。 免费？？？不不不，我们不但免费，我们还发钱，从2017年8月10日起至12月，凡是优秀接龙故事和其它内容生产的用户均有可能与APP签约，享受高额的报酬。 打开花火资讯app，进入“我的”-“任务中心”-完成“新手任务”：新手任务包括绑定账号（手机号和微信号）以及填写邀请码（tbw7o2），有红包哦。{{isAll?intro:''}}
+							花火资讯是一个自己阅读文章赚钱和转发文章赚钱的平台，新用户注册就送1元，自己阅读每次1分钱，分享被阅{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1757/1757'>省钱助手iOS版</navigator></view><view><navigator url='/2/1810/1810'>飞鸟山庄</navigator></view><view><navigator url='/3/1987/1987'>小桔文摘</navigator></view><view><navigator url='/4/2198/2198'>今日阅读</navigator></view>
+				<view><navigator url='/1/1515/1515'>赏呗兼职</navigator></view><view><navigator url='/4/2317/2317'>黄金指</navigator></view><view><navigator url='/3/2087/2087'>任务宝</navigator></view><view><navigator url='/1/1557/1557'>赚客</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							你还没听过看文章也可以赚钱？那是因为你落伍啦！车主无忧，引领全民疯狂阅读，让阅读更有价值，带你体验边看文章边赚钱，从此阅读赚钱两不误。新人注册送8.8元，满30元可提现到微信，阅读单价10金币。每日认真阅读头条好文，可获得相应金币奖励，轻松体验边阅读边拿金币。同时，每天都有很多其他奖励丰富的任务待你完成，任务完成越多，金币涨得越快。{{isAll?intro:''}}
+							你还没听过看文章也可以赚钱？那是因为你落伍啦！车主无忧，引领全民疯狂阅读，让阅读更有价值，带你体验边{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2128/2128'>采乐赚</navigator></view><view><navigator url='/1/1628/1628'>麦子赚苹果版</navigator></view><view><navigator url='/2/1796/1796'>桔子兼职</navigator></view><view><navigator url='/3/2140/2140'>多人气</navigator></view>
+				<view><navigator url='/1/1597/1597'>钱鹿</navigator></view><view><navigator url='/2/1804/1804'>世界农场</navigator></view><view><navigator url='/1/1670/1670'>应用返利</navigator></view><view><navigator url='/3/1998/1998'>天天趣闻</navigator></view>
 			</view>
 		</view>
 	</view>

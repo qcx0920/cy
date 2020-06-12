@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							今日赚，一款用苹果手机赚钱的APP，是国内最大的ASO搜索流量分发渠道，应用单价1元起，10元提现，是北京上榜科技科技有限公司推出的苹果iOS试玩应用赚钱平台。一部手机试玩应用就可以赚钱啦，轻松提现秒到账，快和我一起赚钱吧。 不需投入 就可赚钱 不管您是学生，上班族，还是宝妈，直要您有空余的时间还有Wi-Fi就可通过《今日赚》赚钱。 每下载一个应用获得1元的奖励，做的越多奖励越多。每天赚点零花钱。 10元就能提现在我们的应用里，只要您赚够10元，就能提现。提现金额我们会直接转账到您的支付宝。10元起提，上不封顶，赚的越多，提的越多。 邀请好友还能赚这么好的软件，必须邀请好友一起来玩，您邀请的好友每个好友能给你带来10元的收益。邀请越多奖励越多，带上您的好朋友一起来赚吧！ 今日赚介绍 任务列表：快速任务，联盟任务，次日留存，多日留存，截图任务（返现快任务多） 邀请好友：分享邀请，晒单邀请，图片邀请（种类多，任你挑）{{isAll?intro:''}}
+							今日赚，一款用苹果手机赚钱的APP，是国内最大的ASO搜索流量分发渠道，应用单价1元起，10元提现，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2208/2208'>豆豆趣玩安卓版</navigator></view><view><navigator url='/1/1642/1642'>钱夹</navigator></view><view><navigator url='/1/1665/1665'>开钱宝</navigator></view><view><navigator url='/1/1603/1603'>微赚</navigator></view>
+				<view><navigator url='/3/2063/2063'>文摘头条</navigator></view><view><navigator url='/4/2221/2221'>学生赚</navigator></view><view><navigator url='/2/1854/1854'>云闪付</navigator></view><view><navigator url='/2/1793/1793'>拼手气</navigator></view>
 			</view>
 		</view>
 	</view>

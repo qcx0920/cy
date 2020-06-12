@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							番茄小组，阅读有趣内容获取现金收益奖励（注册送3-10元，1元可提现。），完成每日任务，日常签到、开宝箱，就能获得收益，关注感兴趣的内容，每日新鲜信息为您推送。《番薯小报》是一款为ACGN（动画、漫画、游戏、小说）爱好者量身打造的同好社区，宅、腐、萌、基的伊甸园。内置动漫相机，助你轻松突破次元壁，创作漫画技能分分钟get！{{isAll?intro:''}}
+							番茄小组，阅读有趣内容获取现金收益奖励（注册送3-10元，1元可提现。），完成每日任务，日常签到、开{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1881/1881'>火山转</navigator></view><view><navigator url='/3/1946/1946'>斑马网</navigator></view><view><navigator url='/3/1902/1902'>杨桃资讯</navigator></view><view><navigator url='/3/1927/1927'>淘最热点</navigator></view>
+				<view><navigator url='/3/2149/2149'>满满钱包</navigator></view><view><navigator url='/3/1972/1972'>斑马热点</navigator></view><view><navigator url='/1/1674/1674'>A米</navigator></view><view><navigator url='/3/1930/1930'>互动看点</navigator></view>
 			</view>
 		</view>
 	</view>

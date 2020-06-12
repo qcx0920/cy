@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							红信是一款基于自身定位的红包交互平台，看广告领红包，1元提现秒到账，也可以自己发红包打广告。打开红信，就能看到自己所处的位置以及半径一公里范围内的红包广告，点击红包图标观看6秒钟广告就能领取现金红包，累计满1元便可提现到微信钱包，秒到账。 作为商家，可以在上面发布自己的红包广告，还可以通过设置精准度来锁定目标人群，比如设定专门女的或男的能收的红包，年轻人或老年人能收的红包，以及在你范围类出现才允许抢的红包等。 红信以红包为载体，进行信息传递与互动。每条信息内容都是以红包的形式进行传递，用户在抢红包的同时，便浏览了红包信息所包含的内容，并可以在内容下方进行评论、点赞、转发等互动操作。{{isAll?intro:''}}
+							红信是一款基于自身定位的红包交互平台，看广告领红包，1元提现秒到账，也可以自己发红包打广告。打开红信{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2073/2073'>他阅读</navigator></view><view><navigator url='/1/1693/1693'>那米-APPCPI</navigator></view><view><navigator url='/1/1586/1586'>小猫赚钱</navigator></view><view><navigator url='/3/1870/1870'>抢先收</navigator></view>
+				<view><navigator url='/1/1573/1573'>搬砖啦</navigator></view><view><navigator url='/4/2281/2281'>小水滴</navigator></view><view><navigator url='/3/2009/2009'>闲看点</navigator></view><view><navigator url='/2/1771/1771'>赏金榜</navigator></view>
 			</view>
 		</view>
 	</view>

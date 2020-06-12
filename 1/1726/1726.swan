@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							《红包锁屏》是一款解锁屏幕就能获得收益的App，安装后可以通过下载广告和解锁屏幕获得奖励。安卓版向右划动，解锁进入桌面；向左划动，浏览广告或者下载推荐软件。右划解锁，左划浏览或下载均能获得奖励。iOS版本通过签到、首页抽奖、下载软件获得奖励，双平台获得的奖励金额在累计后，可以在软件内兑换话费、Q币以及提现支付宝。{{isAll?intro:''}}
+							《红包锁屏》是一款解锁屏幕就能获得收益的App，安装后可以通过下载广告和解锁屏幕获得奖励。安卓版向右{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2227/2227'>时时转</navigator></view><view><navigator url='/1/1678/1678'>免费流量宝ios版</navigator></view><view><navigator url='/4/2404/2404'>应用金矿</navigator></view><view><navigator url='/2/1826/1826'>支付宝红包</navigator></view>
+				<view><navigator url='/3/2115/2115'>鱼群</navigator></view><view><navigator url='/4/2201/2201'>72G赚吧</navigator></view><view><navigator url='/2/1772/1772'>绿洲</navigator></view><view><navigator url='/1/1521/1521'>红淘客</navigator></view>
 			</view>
 		</view>
 	</view>

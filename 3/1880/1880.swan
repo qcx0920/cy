@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							今日头条极速版是一款可以看新闻赚钱的软件，下载今日头条极速版微信登陆后输入邀请码LA5H792送2元，完成新手任务签到一次、开宝箱一次、认真阅读文章3篇再送1元，每天看新闻的同时还能获得金币，看的越多赚的越多，金币次日自动兑换成现金，15元即可提现秒到账。 今日头条极速版支持支付宝和微信提现，内存小，省流量，使用流畅，为你提供有温度有价值的新闻资讯。{{isAll?intro:''}}
+							今日头条极速版是一款可以看新闻赚钱的软件，下载今日头条极速版微信登陆后输入邀请码LA5H792送2元{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1549/1549'>蜜蜂试玩</navigator></view><view><navigator url='/2/1838/1838'>挣钱宝</navigator></view><view><navigator url='/4/2189/2189'>火种游戏</navigator></view><view><navigator url='/4/2273/2273'>快摇吧</navigator></view>
+				<view><navigator url='/4/2403/2403'>挖金-手机赚钱</navigator></view><view><navigator url='/4/2324/2324'>锁屏高手</navigator></view><view><navigator url='/3/2150/2150'>开玩</navigator></view><view><navigator url='/1/1668/1668'>至尊宝</navigator></view>
 			</view>
 		</view>
 	</view>

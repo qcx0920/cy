@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							那米（APPCPI）一个能用碎片时间玩手机赚钱的应用，随时随地起手机就能赚，无需额外投入。10元起快捷提现，各种提现方式任你选。 手机扫一扫二维码（推荐用微信）{{isAll?intro:''}}
+							那米（APPCPI）一个能用碎片时间玩手机赚钱的应用，随时随地起手机就能赚，无需额外投入。10元起快{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2384/2384'>玩赚APP</navigator></view><view><navigator url='/1/1608/1608'>爱试玩</navigator></view><view><navigator url='/1/1548/1548'>试玩赚钱入口</navigator></view><view><navigator url='/1/1526/1526'>萌宝爱消除</navigator></view>
+				<view><navigator url='/1/1617/1617'>云米赚</navigator></view><view><navigator url='/1/1674/1674'>A米</navigator></view><view><navigator url='/4/2341/2341'>极锁屏</navigator></view><view><navigator url='/3/2156/2156'>全民试用</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							知聊是一款可以通过聊天赚钱的社交应用，一分钟赚2元，全民陪聊疯狂赚聊币。任何人都可以以视频、语音或短信的方式为他人提供聊天或答疑服务，按聊天时间向对方收费，超简单的发布一切你可提供的聊天话题，听人倾诉、给人安慰排忧、为人答疑----。 下载登陆就送100聊币（价值1元），完成新手任务再送300金币。然后就可以设置价格发布陪聊了，大厅大部分都是150聊币一分钟。如果你有颜值，200聊币都有人找你聊的！平台50元起提现。{{isAll?intro:''}}
+							知聊是一款可以通过聊天赚钱的社交应用，一分钟赚2元，全民陪聊疯狂赚聊币。任何人都可以以视频、语音或短{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1513/1513'>王朝星球</navigator></view><view><navigator url='/3/2013/2013'>好看视频</navigator></view><view><navigator url='/4/2318/2318'>疯狂赚金币</navigator></view><view><navigator url='/1/1576/1576'>探米</navigator></view>
+				<view><navigator url='/3/2039/2039'>赚头条</navigator></view><view><navigator url='/3/1984/1984'>沙发视频</navigator></view><view><navigator url='/1/1607/1607'>PP红包助手</navigator></view><view><navigator url='/1/1545/1545'>恐龙有钱</navigator></view>
 			</view>
 		</view>
 	</view>

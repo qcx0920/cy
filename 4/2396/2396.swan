@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							淘粉吧粉赚来了！玩粉赚，赚钱其实很简单！每日签到摇奖轻松赚集分宝或现金奖励，小奖励，大惊喜。完成粉赚任务赚的更多哦，天天赚钱，任务平均奖励0.5元以上，轻松获取集分宝或现金。 淘粉吧粉赚特点： ＞急速到账：所有的集分宝返利不需要用户自己提现，自动到账到支付宝（独家）    ＞快捷登录：不需要注册新账号,直接用淘宝账号授权登陆即可   ＞安全便捷：所有的购买都在淘宝完成:安全、便捷、熟悉   ＞购物分享：火爆的真实拍社区，分享您购买的商品还可赚集分宝{{isAll?intro:''}}
+							淘粉吧粉赚来了！玩粉赚，赚钱其实很简单！每日签到摇奖轻松赚集分宝或现金奖励，小奖励，大惊喜。完成粉赚{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2012/2012'>身边</navigator></view><view><navigator url='/2/1859/1859'>冲顶大会</navigator></view><view><navigator url='/4/2201/2201'>72G赚吧</navigator></view><view><navigator url='/3/1934/1934'>暴龙</navigator></view>
+				<view><navigator url='/3/2077/2077'>逗比赚</navigator></view><view><navigator url='/3/1895/1895'>钱库资讯</navigator></view><view><navigator url='/1/1598/1598'>元宝猫</navigator></view><view><navigator url='/4/2365/2365'>乐游宝</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							免费流量宝海量免费流量等你赚，多种流量活动，好玩好赚。流量红包不仅仅是现金，也可以是流量。每天连续签到，流量大礼包等你来拿。新手礼包，新用户下载即送流量。{{isAll?intro:''}}
+							免费流量宝海量免费流量等你赚，多种流量活动，好玩好赚。流量红包不仅仅是现金，也可以是流量。每天连续签{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1945/1945'>阅资讯</navigator></view><view><navigator url='/1/1758/1758'>好赚跳跳球iOS版</navigator></view><view><navigator url='/3/2163/2163'>爱捞金</navigator></view><view><navigator url='/4/2370/2370'>玩乐族</navigator></view>
+				<view><navigator url='/3/2137/2137'>喵赚</navigator></view><view><navigator url='/3/1960/1960'>好多视频</navigator></view><view><navigator url='/3/1970/1970'>红包视界</navigator></view><view><navigator url='/4/2221/2221'>学生赚</navigator></view>
 			</view>
 		</view>
 	</view>

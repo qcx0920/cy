@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							来米资讯，让你在碎片时间，轻松用手机赚钱。首次提现1元秒到账，后续提现5元起，24小时内到账。分享文章赚零花，通过微信、QQ等移动社交软件分享来米资讯内的高质量内容，朋友阅读后可以轻松赚零花钱。2级分成，徒弟分享收益的20％，徒孙分享收益的10％。 官方客服： QQ：3594703325  微信：laimizixunkefu{{isAll?intro:''}}
+							来米资讯，让你在碎片时间，轻松用手机赚钱。首次提现1元秒到账，后续提现5元起，24小时内到账。分享文{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2329/2329'>招财熊【骗子】</navigator></view><view><navigator url='/3/2152/2152'>趣点点</navigator></view><view><navigator url='/2/1789/1789'>趣多帮</navigator></view><view><navigator url='/1/1752/1752'>点指成金iOS版</navigator></view>
+				<view><navigator url='/3/2141/2141'>91人气</navigator></view><view><navigator url='/3/2136/2136'>友钱APP</navigator></view><view><navigator url='/4/2220/2220'>约钱</navigator></view><view><navigator url='/3/2144/2144'>有奖问答APP</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							赚钱猫是问津技术又一款养成游戏分红赚钱平台，新用户登陆送随机红包，大概一两块，0.3元就能提现，秒到账。通过合成升级猫咪来获得红包奖励，新用户加入就送1.5元左右的现金奖励，升级猫咪还有相应的等级红包。猫咪最高等级38级，有机会获得分红猫，每天坐享全平台广告的20%收益分红，目前350元一天！   【平台特点】 1、新用户加入就送1.5元左右现金奖励，升级猫咪获得红包，邀请码【101007028】； 2、邀请好友享受两级好友在线活跃提成，并且享受好友得分红猫20%分成； 3、支持微信提现，新人专享0.3元提现秒到账特权，后续需赚满20元起提！ 客服QQ：964733000{{isAll?intro:''}}
+							赚钱猫是问津技术又一款养成游戏分红赚钱平台，新用户登陆送随机红包，大概一两块，0.3元就能提现，秒到{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1782/1782'>知聊</navigator></view><view><navigator url='/3/2064/2064'>逛有钱</navigator></view><view><navigator url='/4/2379/2379'>挣钱吧</navigator></view><view><navigator url='/1/1619/1619'>子弹试玩</navigator></view>
+				<view><navigator url='/2/1848/1848'>小微托管挂机赚钱</navigator></view><view><navigator url='/3/1948/1948'>来米资讯</navigator></view><view><navigator url='/3/1897/1897'>冠鼠网</navigator></view><view><navigator url='/4/2259/2259'>酷赚锁屏</navigator></view>
 			</view>
 		</view>
 	</view>

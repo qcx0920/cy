@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							好省，自用省钱、分享赚钱，高额佣金享不停。好省邀请口令：好赚好省。好省App是杭州嘉洁网络推出的手机优惠购物移动软件。好省App让用户的网络购物可以通过好省赚钱也可以省钱。消费者网购用户注册后获取省钱口令，可以无限领取购物优惠券；合伙人用户向朋友推荐商品还可以享受高额佣金奖励。零门槛加入，零投入、零风险，无需囤货。{{isAll?intro:''}}
+							好省，自用省钱、分享赚钱，高额佣金享不停。好省邀请口令：好赚好省。好省App是杭州嘉洁网络推出的手机{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2143/2143'>Robin8</navigator></view><view><navigator url='/4/2388/2388'>采宝</navigator></view><view><navigator url='/3/2116/2116'>悦推</navigator></view><view><navigator url='/1/1637/1637'>二鸟</navigator></view>
+				<view><navigator url='/1/1738/1738'>看看有钱苹果版</navigator></view><view><navigator url='/4/2205/2205'>乐趣闻</navigator></view><view><navigator url='/1/1646/1646'>试客小兵</navigator></view><view><navigator url='/1/1601/1601'>花生米</navigator></view>
 			</view>
 		</view>
 	</view>

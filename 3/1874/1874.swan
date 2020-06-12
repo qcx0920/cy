@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							抢先收旗下大平台——《金刚涨》，注册就送2元，5元即可提现，点击阅读3毛每次，还有限时高单价“5毛”，涨分嗖嗖的。贺岁杯收徒大赛瓜分“18万元”大奖，参加活动0门槛，一个徒弟也能参与瓜分，除正常收徒奖金16～21元，再瓜分18万，保底“6.18元”。 活动期间，收个徒弟就有几十块钱拿 ，还有徒弟徒孙分成～活动多多，奖励多多，快来一起赚钱吧！ 客服QQ群：912455932，客服QQ3021027739、3365143688{{isAll?intro:''}}
+							抢先收旗下大平台——《金刚涨》，注册就送2元，5元即可提现，点击阅读3毛每次，还有限时高单价“5毛”{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1713/1713'>友米德苹果版 （骗子）</navigator></view><view><navigator url='/3/1930/1930'>互动看点</navigator></view><view><navigator url='/2/1763/1763'>赚钱了</navigator></view><view><navigator url='/1/1618/1618'>赚美金</navigator></view>
+				<view><navigator url='/2/1784/1784'>叮咚众包</navigator></view><view><navigator url='/4/2189/2189'>火种游戏</navigator></view><view><navigator url='/1/1513/1513'>王朝星球</navigator></view><view><navigator url='/1/1514/1514'>陀螺多多</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							搜猴儿赚钱是新一代手赚平台，一键任务体验，一样时间多倍收入第二代创新体验，多任务极速秒赚任务达人特权，一键自动扫荡任务。{{isAll?intro:''}}
+							搜猴儿赚钱是新一代手赚平台，一键任务体验，一样时间多倍收入第二代创新体验，多任务极速秒赚任务达人特权{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1860/1860'>百万英雄</navigator></view><view><navigator url='/4/2298/2298'>微看点</navigator></view><view><navigator url='/4/2312/2312'>钱鹿锁屏</navigator></view><view><navigator url='/2/1787/1787'>赏乐帮</navigator></view>
+				<view><navigator url='/1/1741/1741'>学费赚苹果版</navigator></view><view><navigator url='/1/1499/1499'>武林外赚</navigator></view><view><navigator url='/1/1595/1595'>赚钱宝</navigator></view><view><navigator url='/1/1753/1753'>很好赚iOS版</navigator></view>
 			</view>
 		</view>
 	</view>

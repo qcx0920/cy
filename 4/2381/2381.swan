@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							私房钱APP是一款完全免费的手机赚钱应用，只要每天利用茶余饭后的空闲时间，完成一些下载任务，即可轻松获得话费、Q币和现金收益。一个月轻轻松松赚出话费！您还可以通过在微信、微博等社交平台进行分享和邀请好友获得收益，并且能够发展你的小伙伴人数，拥有越多小伙伴，会给你带来更多的额外收入和意外惊喜哦！ 1、私房钱您茶余饭后的小钱包，轻松赚话费、Q币和支付宝现金充值 2、利用私房钱APP做任务赚钱、分享赚钱和提成赚钱轻松获取收益 3、赚的钱可以充话费可、Q币，更可以支付宝提现哦！ 4、私房钱手赚APP轻松赚钱，分分钟就能搞定！{{isAll?intro:''}}
+							私房钱APP是一款完全免费的手机赚钱应用，只要每天利用茶余饭后的空闲时间，完成一些下载任务，即可轻松{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1542/1542'>赏链</navigator></view><view><navigator url='/1/1544/1544'>小白赚钱</navigator></view><view><navigator url='/3/2085/2085'>阅天下[下架]</navigator></view><view><navigator url='/3/2116/2116'>悦推</navigator></view>
+				<view><navigator url='/3/2153/2153'>狠狠赚</navigator></view><view><navigator url='/3/2128/2128'>采乐赚</navigator></view><view><navigator url='/2/1823/1823'>投吧网</navigator></view><view><navigator url='/1/1704/1704'>今日试玩</navigator></view>
 			</view>
 		</view>
 	</view>

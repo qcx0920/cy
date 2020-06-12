@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							享赚钱，简单的分享转发赚钱软件，在线发朋友圈、推广好友等就能轻松赚钱，操作简单，玩法多样，软件还有着各种赚钱任务，每天实时更新，赶快邀请好友一起赚钱吧！{{isAll?intro:''}}
+							享赚钱，简单的分享转发赚钱软件，在线发朋友圈、推广好友等就能轻松赚钱，操作简单，玩法多样，软件还有着{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1743/1743'>米赚苹果版</navigator></view><view><navigator url='/4/2268/2268'>新爱赚安卓版（暂停）</navigator></view><view><navigator url='/1/1629/1629'>东方头条苹果版</navigator></view><view><navigator url='/1/1685/1685'>蜂传苹果版</navigator></view>
+				<view><navigator url='/1/1648/1648'>快手红包</navigator></view><view><navigator url='/3/2003/2003'>悦头条</navigator></view><view><navigator url='/1/1632/1632'>聚优钱</navigator></view><view><navigator url='/2/1834/1834'>飞赚宝</navigator></view>
 			</view>
 		</view>
 	</view>

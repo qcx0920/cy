@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							魔视，一款看视频、分享视频也能赚钱的短视频APP。登陆填写邀请码106195就送3毛，可拿更多奖励，可立即提现秒到账。这里不仅有有趣好玩的短视频还有多种趣味玩法，让你在娱乐中还能收获零花钱。赚钱休闲两不误，用心为你推荐有魔力的视频，还有更多精彩活动等你参与！ 联系官方 官方QQ群：579849990，微信客服：xiaotangyuan4568{{isAll?intro:''}}
+							魔视，一款看视频、分享视频也能赚钱的短视频APP。登陆填写邀请码106195就送3毛，可拿更多奖励，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2131/2131'>财神道</navigator></view><view><navigator url='/1/1678/1678'>免费流量宝ios版</navigator></view><view><navigator url='/3/1908/1908'>66阅读</navigator></view><view><navigator url='/4/2336/2336'>解锁赚【骗子软件】</navigator></view>
+				<view><navigator url='/1/1755/1755'>挖金iOS版手机赚钱</navigator></view><view><navigator url='/1/1547/1547'>钱大师</navigator></view><view><navigator url='/4/2361/2361'>赚翻翻</navigator></view><view><navigator url='/4/2379/2379'>挣钱吧</navigator></view>
 			</view>
 		</view>
 	</view>

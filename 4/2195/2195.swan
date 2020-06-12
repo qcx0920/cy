@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							小龙赚钱，在家兼职赚钱首选平台，随时随地赚钱，让您的休闲时间更具有价值，1元就能提现。小龙赚钱是一款适用于广大兼职爱好者的app，里面有多种任务形式（快速任务，实名任务，绑卡赚钱，小程序赚钱，玩游戏赚钱...），让你在家轻松赚更多的零花钱。仅限安卓 客服QQ：1091209640{{isAll?intro:''}}
+							小龙赚钱，在家兼职赚钱首选平台，随时随地赚钱，让您的休闲时间更具有价值，1元就能提现。小龙赚钱是一款{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1683/1683'>牛逼赚苹果版</navigator></view><view><navigator url='/4/2345/2345'>聚宝盆</navigator></view><view><navigator url='/1/1741/1741'>学费赚苹果版</navigator></view><view><navigator url='/1/1718/1718'>轻玩客苹果版</navigator></view>
+				<view><navigator url='/3/1967/1967'>蚂蚁阅读</navigator></view><view><navigator url='/4/2250/2250'>试玩猫</navigator></view><view><navigator url='/1/1532/1532'>iMoney爱盈利</navigator></view><view><navigator url='/3/2104/2104'>包赚</navigator></view>
 			</view>
 		</view>
 	</view>

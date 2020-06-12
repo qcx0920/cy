@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							哆啦赚是一个任务悬赏、互助的兼职手赚平台，最低3元起提现，悬赏主发布需求，万计乐友合力帮忙， 协助悬赏主快速实现要求目标，乐友也利用零碎时间赚取合理佣金。填写邀请码【641570】，领新手红包奖励！平台担保交易公平，APP注册体验、软件试玩、转发广告、产品推广、商务推广等，欢迎您的加入！ 哆啦赚给你一个快乐的兼职方式！ 1、悬赏多、品类多：每天上万多个悬赏让你赚个够，简单高价、浏览阅读、转发赚钱赚钱、签到品类多。 2、个性化需求：根据个人需求，最新悬赏、单价高、通过率高，选你所想！ 3、佣金有保障：所有悬赏主资金在平台，做了任务就得赏金，安全保障！ 4、提现快：满1元即可提现，秒到微信、支付宝。 联系我们 客服QQ群：992511417{{isAll?intro:''}}
+							哆啦赚是一个任务悬赏、互助的兼职手赚平台，最低3元起提现，悬赏主发布需求，万计乐友合力帮忙， 协助悬{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1962/1962'>腾讯新闻极速版</navigator></view><view><navigator url='/4/2401/2401'>淘粉吧返利拿集分宝</navigator></view><view><navigator url='/3/1947/1947'>快虎</navigator></view><view><navigator url='/4/2181/2181'>米赚</navigator></view>
+				<view><navigator url='/4/2295/2295'>喵喵赚钱</navigator></view><view><navigator url='/1/1517/1517'>云咖看点</navigator></view><view><navigator url='/4/2315/2315'>有钱</navigator></view><view><navigator url='/3/2054/2054'>车主无忧</navigator></view>
 			</view>
 		</view>
 	</view>

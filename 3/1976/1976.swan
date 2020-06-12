@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							微趣看是一款新闻阅读赚钱的软件，新用户注册填写邀请码19187672送1元。一方面我们给用户提供最新、最热的个性化头条新闻，另一方面用户可以通过阅读获得的金币奖励，可以进行生活用品兑换、现金提现、虚拟会员卡券购买等。{{isAll?intro:''}}
+							微趣看是一款新闻阅读赚钱的软件，新用户注册填写邀请码19187672送1元。一方面我们给用户提供最新{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1804/1804'>世界农场</navigator></view><view><navigator url='/1/1577/1577'>豆豆趣玩</navigator></view><view><navigator url='/3/2018/2018'>6秒阅读</navigator></view><view><navigator url='/4/2319/2319'>挖钻</navigator></view>
+				<view><navigator url='/1/1499/1499'>武林外赚</navigator></view><view><navigator url='/1/1753/1753'>很好赚iOS版</navigator></view><view><navigator url='/3/1924/1924'>点点转</navigator></view><view><navigator url='/4/2392/2392'>G媒-看广告赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

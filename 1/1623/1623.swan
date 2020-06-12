@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							爱疯赚是专为iOS用户打造的越玩越有钱的APP（填写邀请码领红包10000013），微信3元提现秒到账（目前仅限iOS10）。利用闲暇时间，打开【爱疯赚】，看看广告，看看视频，轻松赚取零花钱。爱疯赚旨在合理利用你的时间碎片，等车时、午休时、睡觉前，利用你的零碎时间，点开爱疯赚，看看广告，看看视频，轻松赚取零花钱。{{isAll?intro:''}}
+							爱疯赚是专为iOS用户打造的越玩越有钱的APP（填写邀请码领红包10000013），微信3元提现秒到{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2388/2388'>采宝</navigator></view><view><navigator url='/3/1956/1956'>众享阅读</navigator></view><view><navigator url='/1/1638/1638'>柚子众测</navigator></view><view><navigator url='/3/2005/2005'>青萌部落</navigator></view>
+				<view><navigator url='/4/2260/2260'>手上活</navigator></view><view><navigator url='/3/1982/1982'>精彩头条</navigator></view><view><navigator url='/1/1608/1608'>爱试玩</navigator></view><view><navigator url='/4/2225/2225'>薪客众包</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							应用喵是一款苹果手机试玩应用就能赚钱的app，单价1元左右，10元就能提现，在APP输入红包口令744218领最高8元红包。国内最新最好玩的手机赚钱平台，手机赚钱就选应用喵。用户无需投入，动动手指下载app就能赚钱。{{isAll?intro:''}}
+							应用喵是一款苹果手机试玩应用就能赚钱的app，单价1元左右，10元就能提现，在APP输入红包口令74{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2399/2399'>有信免费网络电话</navigator></view><view><navigator url='/4/2384/2384'>玩赚APP</navigator></view><view><navigator url='/1/1722/1722'>生菜苹果版</navigator></view><view><navigator url='/1/1561/1561'>金钱豹</navigator></view>
+				<view><navigator url='/1/1509/1509'>小猫种鱼</navigator></view><view><navigator url='/3/2000/2000'>精彩看点</navigator></view><view><navigator url='/2/1822/1822'>小红店</navigator></view><view><navigator url='/1/1612/1612'>App体验客--鼠宝赚</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							蹦蹦网手机APP，手机也可以玩游戏赚钱啦！注册就送3元红包，非常好玩的手机赚钱App， 手机玩游戏就能赚钱，赚微信红包。蹦蹦网手机app强势来袭，手机上我们也可以玩游戏赚钱啦，模式、方法都是超级简单，手游赚钱！在人手一部智能手机的今天，能用手机玩游戏赚钱无疑是一个不错的方式。{{isAll?intro:''}}
+							蹦蹦网手机APP，手机也可以玩游戏赚钱啦！注册就送3元红包，非常好玩的手机赚钱App， 手机玩游戏就{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1766/1766'>章鱼输入法</navigator></view><view><navigator url='/1/1684/1684'>首席体验师</navigator></view><view><navigator url='/3/2010/2010'>皮皮车</navigator></view><view><navigator url='/3/2002/2002'>趣故事</navigator></view>
+				<view><navigator url='/2/1831/1831'>悦动圈</navigator></view><view><navigator url='/3/2145/2145'>挖人气</navigator></view><view><navigator url='/4/2366/2366'>业余赚</navigator></view><view><navigator url='/1/1625/1625'>轻松赚</navigator></view>
 			</view>
 		</view>
 	</view>

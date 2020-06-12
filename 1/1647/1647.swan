@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							易银是一款手机试玩赚钱应用，可以通过完成平台上的各种任务赚钱，也可以通过分享收徒赚取提成。用手机玩应用奖励多，即时提现快速到帐。易银手机应用试玩赚钱平台是厦门市六维度网络科技有限公司推出的。{{isAll?intro:''}}
+							易银是一款手机试玩赚钱应用，可以通过完成平台上的各种任务赚钱，也可以通过分享收徒赚取提成。用手机玩应{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2234/2234'>众赚宝</navigator></view><view><navigator url='/4/2328/2328'>快赚[下架]</navigator></view><view><navigator url='/3/2069/2069'>咔咔赚</navigator></view><view><navigator url='/4/2393/2393'>抢抢乐-抢红包</navigator></view>
+				<view><navigator url='/4/2399/2399'>有信免费网络电话</navigator></view><view><navigator url='/2/1779/1779'>截图宝</navigator></view><view><navigator url='/4/2250/2250'>试玩猫</navigator></view><view><navigator url='/3/1931/1931'>花火资讯极速版</navigator></view>
 			</view>
 		</view>
 	</view>

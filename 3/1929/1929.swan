@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							天天赚好福利，分享好友就有钱，呱呱头条旗下，5元起提现秒到账，将文章内容分享到微信朋友圈，微信好友，QQ好友，QQ空间，朋友点击就能轻松获得收入。 客服相关的问题请咨询微信：ttzkf01{{isAll?intro:''}}
+							天天赚好福利，分享好友就有钱，呱呱头条旗下，5元起提现秒到账，将文章内容分享到微信朋友圈，微信好友，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1542/1542'>赏链</navigator></view><view><navigator url='/4/2180/2180'>赚客安卓版</navigator></view><view><navigator url='/4/2205/2205'>乐趣闻</navigator></view><view><navigator url='/1/1513/1513'>王朝星球</navigator></view>
+				<view><navigator url='/4/2292/2292'>掌上赚</navigator></view><view><navigator url='/3/1972/1972'>斑马热点</navigator></view><view><navigator url='/3/1974/1974'>趣多拍</navigator></view><view><navigator url='/2/1814/1814'>赚钢镚</navigator></view>
 			</view>
 		</view>
 	</view>

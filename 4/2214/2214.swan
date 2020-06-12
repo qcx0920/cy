@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							想转啦和有银子、良心赚、趣转发、好好转等平台是一家的。注册有1元，文章单价0.1元，收徒最高奖励5元，30%收徒提成，首次2元提现，以后10元微信提现.专注转发行业三年，长期靠谱稳定，提现秒到账。通过转发文章、邀请好友等获得零钱奖励。转发越多、邀请越多、赚钱越多。{{isAll?intro:''}}
+							想转啦和有银子、良心赚、趣转发、好好转等平台是一家的。注册有1元，文章单价0.1元，收徒最高奖励5元{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2261/2261'>魔豆</navigator></view><view><navigator url='/1/1688/1688'>微钱购</navigator></view><view><navigator url='/3/1995/1995'>聚转啦</navigator></view><view><navigator url='/4/2228/2228'>快乐赚赚</navigator></view>
+				<view><navigator url='/1/1542/1542'>赏链</navigator></view><view><navigator url='/3/2088/2088'>人气头条</navigator></view><view><navigator url='/4/2170/2170'>巨宝朋安卓版</navigator></view><view><navigator url='/3/2094/2094'>兜兜赚</navigator></view>
 			</view>
 		</view>
 	</view>

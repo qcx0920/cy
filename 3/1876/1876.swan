@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							番茄小说是一款主打正版、免费的小说阅读器，注册就送2元，1元提现秒到账，让你看小说看书不花钱还能赚钱，悠享阅读时光。 【海量正版小说】 海量正版小说免费看，现代言情、古代言情、青春校园、同人小说、唯美纯爱、现代都市、异世玄幻、武侠世界、历史穿越、军事战争、悬疑灵异、科幻末世、游戏电竞……你想看的这里都有！ 【男女频道】 特色频道划分，打造男生、女生专属的阅读空间。 【私人订制】 选择阅读偏好，发现属于你的私人订制小说。 【阅读体验】 精心选图、匠心排版，给你精品的阅读体验！{{isAll?intro:''}}
+							番茄小说是一款主打正版、免费的小说阅读器，注册就送2元，1元提现秒到账，让你看小说看书不花钱还能赚钱{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1534/1534'>内涵红包</navigator></view><view><navigator url='/1/1713/1713'>友米德苹果版 （骗子）</navigator></view><view><navigator url='/4/2310/2310'>爱捞金微信</navigator></view><view><navigator url='/3/2107/2107'>星赚</navigator></view>
+				<view><navigator url='/3/2000/2000'>精彩看点</navigator></view><view><navigator url='/3/1936/1936'>百姓看点</navigator></view><view><navigator url='/2/1864/1864'>抓实惠</navigator></view><view><navigator url='/2/1811/1811'>赚钱猫</navigator></view>
 			</view>
 		</view>
 	</view>

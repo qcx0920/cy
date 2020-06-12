@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							米赚由北京米拓世纪科技有限公司研发并运营，在2011年9月正式发布，是国内第一个专注于移动威客的手机应用，拥有3000万用户，是国内外知名的手机赚钱应用。 安装后完成新手任务即可兑换1Q币！也可兑换话费、提现到支付宝和微信等等！{{isAll?intro:''}}
+							米赚由北京米拓世纪科技有限公司研发并运营，在2011年9月正式发布，是国内第一个专注于移动威客的手机{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1670/1670'>应用返利</navigator></view><view><navigator url='/2/1778/1778'>恐龙世界</navigator></view><view><navigator url='/3/1996/1996'>多米资讯</navigator></view><view><navigator url='/2/1826/1826'>支付宝红包</navigator></view>
+				<view><navigator url='/4/2344/2344'>玛尼赚钱</navigator></view><view><navigator url='/1/1578/1578'>抖赚</navigator></view><view><navigator url='/2/1772/1772'>绿洲</navigator></view><view><navigator url='/1/1496/1496'>趣玩</navigator></view>
 			</view>
 		</view>
 	</view>

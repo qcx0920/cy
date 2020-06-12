@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							理财通新用户只要支付0.01元即可100%免费领1-888元随机微信红包，赶快来领。苹果手机安卓手机都可以，微信理财通官方活动安全靠谱！【赶快分享到朋友圈 让你的好友也来领红包吧！】{{isAll?intro:''}}
+							理财通新用户只要支付0.01元即可100%免费领1-888元随机微信红包，赶快来领。苹果手机安卓手机{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2367/2367'>小湿妹-手机赚钱</navigator></view><view><navigator url='/4/2370/2370'>玩乐族</navigator></view><view><navigator url='/4/2284/2284'>7块糖</navigator></view><view><navigator url='/4/2223/2223'>钱兔赚钱</navigator></view>
+				<view><navigator url='/2/1781/1781'>玩洽</navigator></view><view><navigator url='/3/1921/1921'>花生转</navigator></view><view><navigator url='/3/2028/2028'>雪梨网</navigator></view><view><navigator url='/1/1695/1695'>试玩团长</navigator></view>
 			</view>
 		</view>
 	</view>

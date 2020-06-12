@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							金镶玉是抢先收继大八仙之后的又新的分享赚钱平台，转发精彩文章到微信或朋友圈，阅读一次即奖励0.6元，阅读单价全天6毛，注册送1元，还是一如即玩的5元就能提现的超低门槛。明天上线，敬请期待！   首期转发满5增1活动从5月15日开始到5月24日结束，每天转发获得的收益： 满5元送1元（连续10天达标再送5元） 满10元送2元（连续10天达标再送10元） 满20元送4元（连续10天达标再送20元） 满30元送6元（连续10天达标再送30元） 奖金第二天上午以红包形式发放，24小时不领即过期，请记得及时在活动页面领取哦。{{isAll?intro:''}}
+							金镶玉是抢先收继大八仙之后的又新的分享赚钱平台，转发精彩文章到微信或朋友圈，阅读一次即奖励0.6元，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1627/1627'>即刻赚</navigator></view><view><navigator url='/3/2020/2020'>乐头条</navigator></view><view><navigator url='/3/1902/1902'>杨桃资讯</navigator></view><view><navigator url='/2/1783/1783'>高佣联盟</navigator></view>
+				<view><navigator url='/2/1860/1860'>百万英雄</navigator></view><view><navigator url='/3/2063/2063'>文摘头条</navigator></view><view><navigator url='/3/1939/1939'>点点新闻</navigator></view><view><navigator url='/1/1567/1567'>首席试玩官</navigator></view>
 			</view>
 		</view>
 	</view>

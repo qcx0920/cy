@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							全民赞是一款手机兼职赚钱的悬赏任务平台，在这里可以快速的接单做任务赚钱，也能快速的发布任务、推广项目。全民赞app已上架安卓和苹果正式版，稳定可靠。做任务余额满1元可提现，目前仅支持支付宝提现。   全民赞奖励说明： 1、每天领钱：每天签到即可获得现金红包，无套路、无广告。 2、做任务赚赏金：平台提供众多简单的小任务，完成后即可获得悬赏。 3、收徒赚钱：好友首次完成任务奖励1元、完成新手任务奖励1元、好友首次提现再奖励1元;后续任务，可获得徒弟10%、徒孙3%的两级任务收益，奖励无上限。 4、轻松提现：满1元即可提现至支付宝，轻松赚零花钱。 联系全民赞 客服QQ群：383830446，客服QQ：2146932981、598033653{{isAll?intro:''}}
+							全民赞是一款手机兼职赚钱的悬赏任务平台，在这里可以快速的接单做任务赚钱，也能快速的发布任务、推广项目{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1955/1955'>快米看点</navigator></view><view><navigator url='/4/2246/2246'>爱玩商店</navigator></view><view><navigator url='/3/1907/1907'>2345星球联盟</navigator></view><view><navigator url='/3/2151/2151'>蜂传app</navigator></view>
+				<view><navigator url='/1/1730/1730'>爱玩客</navigator></view><view><navigator url='/2/1796/1796'>桔子兼职</navigator></view><view><navigator url='/1/1571/1571'>小猪赚钱</navigator></view><view><navigator url='/3/1987/1987'>小桔文摘</navigator></view>
 			</view>
 		</view>
 	</view>

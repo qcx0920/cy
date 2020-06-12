@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							牛帮 - 悬赏众帮平台，手机赚钱软件！是重庆网赚科技有限公司旗下的一款悬赏任务平台。为商家提供项目推广，任务分发的渠道。为用户提供赏金任务，兼职信息的平台。1元起提现，提现秒到账！ *好的手机赚钱软件： 商家发布任务（可以包含注册，下载，体验，分享，试用等形式）。 用户完成任务，可获取赏金报酬。还有红包，各种奖励可以拿。 客服QQ：2461348249、纠纷客服QQ：744680685，客服交流QQ群：604285219{{isAll?intro:''}}
+							牛帮 - 悬赏众帮平台，手机赚钱软件！是重庆网赚科技有限公司旗下的一款悬赏任务平台。为商家提供项目推{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1597/1597'>钱鹿</navigator></view><view><navigator url='/3/2141/2141'>91人气</navigator></view><view><navigator url='/4/2331/2331'>每日锁屏</navigator></view><view><navigator url='/1/1704/1704'>今日试玩</navigator></view>
+				<view><navigator url='/1/1606/1606'>大虾试玩</navigator></view><view><navigator url='/4/2395/2395'>爱赚钱</navigator></view><view><navigator url='/4/2274/2274'>亿屏互动</navigator></view><view><navigator url='/1/1756/1756'>赚泡泡iOS赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

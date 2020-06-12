@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							草莓视界是一款看视频就能赚钱的APP（需绑定手机号、绑定微信和关注微信公众号，否则看视频没奖励，不用下载APP直接在微信上观看领红包即可），看视频的红包奖励不等，从几毛到几块或更多，1元就能提现（秒到）。{{isAll?intro:''}}
+							草莓视界是一款看视频就能赚钱的APP（需绑定手机号、绑定微信和关注微信公众号，否则看视频没奖励，不用{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1680/1680'>旺财</navigator></view><view><navigator url='/4/2335/2335'>快赚锁屏</navigator></view><view><navigator url='/2/1805/1805'>余额淘</navigator></view><view><navigator url='/4/2325/2325'>手机淘米</navigator></view>
+				<view><navigator url='/3/1999/1999'>松鼠资讯</navigator></view><view><navigator url='/4/2301/2301'>快玩我</navigator></view><view><navigator url='/1/1545/1545'>恐龙有钱</navigator></view><view><navigator url='/3/2018/2018'>6秒阅读</navigator></view>
 			</view>
 		</view>
 	</view>

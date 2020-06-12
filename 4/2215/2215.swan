@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							赚钱帮是手机赚钱APP，看头条文章赚零钱，玩手机兼职做赚钱任务，1元提现秒到账，填写邀请码956316免费送3元新人红包。学生赚钱、宝妈赚钱都在用赚钱帮，轻松网赚赚钱，一元提现秒到，1元、5元、10元任意提现，门槛超低等你来赚钱！ 【新手任务赚钱】 新手任务专为新人定制，帮帮传授赚钱秘笈，帮你轻松赚取2元红包。 【任务体验赚钱】 帮帮为你优选任务，边体验边赚钱，乐趣多多钱多多。 【文章分享赚钱】 分享头条文章到微信、朋友圈、QQ等社交平台，好友点击阅读后就可得到现金奖励。他读你赚，坐享红包奖励。 【邀请好友赚钱】 邀请好友一起加入赚钱帮，注册后输入邀请码，好友和你都可获得现金奖励，追高可获得1000+现金奖励，还不赶快加入赚钱帮。 【宝箱金币赚钱】 每天挑战开启宝箱，金币领不停，惊喜送不停，帮帮告诉你，金币还可兑换现金哦！ 【签到任务赚钱】 每天坚持签到打卡任务，也可额外赚钱，帮帮助你实现“每天1小时，月赚上千元”的赚钱小目标。 有任何问题请加入帮帮QQ群：758981447{{isAll?intro:''}}
+							赚钱帮是手机赚钱APP，看头条文章赚零钱，玩手机兼职做赚钱任务，1元提现秒到账，填写邀请码95631{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1656/1656'>易钻ATM</navigator></view><view><navigator url='/4/2188/2188'>手游超人</navigator></view><view><navigator url='/3/1926/1926'>松鼠网</navigator></view><view><navigator url='/4/2253/2253'>天天钻</navigator></view>
+				<view><navigator url='/3/1967/1967'>蚂蚁阅读</navigator></view><view><navigator url='/4/2188/2188'>手游超人</navigator></view><view><navigator url='/1/1725/1725'>应用微客苹果版</navigator></view><view><navigator url='/1/1529/1529'>王者联盟赚钱游戏</navigator></view>
 			</view>
 		</view>
 	</view>

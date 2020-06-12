@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							花解解，看视频抢红包，是一款短视频社交平台+刷广告视频抢红包+热门话题讨论为一体的APP，填写邀请码10022782领红包。在花解解看视频、抢红包，记录生活，千万用户真实互动，让你不孤单。提现的时候10元可提现1元，但是兑换商品的是等额兑换。 【看视频 抢红包 记录生活点点滴滴】刷到的都喜欢，想看的全都有，海量精彩小视频内容填充你娱乐生活的24小时，还能抢红包哦！ 每个红包视频里面的小视频都含有大量现金红包，无门槛领取，看的多领的多。红包一键到账微信钱包，花不完的零花钱。 【一键美颜 秒变大片】一键美颜、海量背景音乐，功能强大易上手，创作属于自己的小视频，一秒剪辑变大片。 【支持高清播放上传】试试传递高清画面，录制上传更稳定。大屏观看同样清晰，视频播放体验满分！ 【下载分享至朋友圈】配乐视频全部支持下载、分享上传至朋友圈，一键操作简单方便，玩转朋友圈力气，从此不担心丢失精彩生活片段！ 【达人奇趣都在花解解】普通人展示自己的平台，发现你喜欢的人，发现喜欢你的人，新鲜永远刷不停。让你普通的生活从此不普通。 【热门话题】美女、段子、同城、种草、宠物、萌宝······你找到组织了吗？参与你感兴趣的热门话题，交更多志同道合的朋友。 花解解APP，看视频，抢红包，与世界没有距离。 联系官方 花解解用户交流群：606852703{{isAll?intro:''}}
+							花解解，看视频抢红包，是一款短视频社交平台+刷广告视频抢红包+热门话题讨论为一体的APP，填写邀请码{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1675/1675'>开玩苹果赚钱</navigator></view><view><navigator url='/4/2188/2188'>手游超人</navigator></view><view><navigator url='/1/1504/1504'>金满堂</navigator></view><view><navigator url='/4/2379/2379'>挣钱吧</navigator></view>
+				<view><navigator url='/3/2161/2161'>APP疯狂赚</navigator></view><view><navigator url='/4/2345/2345'>聚宝盆</navigator></view><view><navigator url='/1/1582/1582'>爱搜懒人领钱</navigator></view><view><navigator url='/4/2294/2294'>传说APP</navigator></view>
 			</view>
 		</view>
 	</view>

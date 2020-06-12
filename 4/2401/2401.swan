@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							淘粉吧致力于打造最快速最方便的淘宝返利网站，做到免注册免提现、直接返利到支付宝！ 淘粉吧赚集分宝方法： 1、玩粉赚，装手机应用赚集分宝，每个应用可赚70-100以上的集分宝，玩的越多赚钱越多！ 2、天天签到摇奖，最高可获得一等奖，奖励1元现金或100集分宝。 3、邀请有奖，成功邀请好友登陆淘粉吧可随机获得集分宝，好友成功返利最高还可获得31元（随机集分宝+30元现金）的奖励。 4、新人见面礼，用淘宝账号登陆淘粉吧您将获得1-50个不等的集分宝，抽得的集分宝会马上打到您的支付宝账号！ 5、购物返利，在淘粉吧商城购物可按照购物金额获得一定的现金返利。{{isAll?intro:''}}
+							淘粉吧致力于打造最快速最方便的淘宝返利网站，做到免注册免提现、直接返利到支付宝！ 淘粉吧赚集分宝方法{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2062/2062'>良心赚</navigator></view><view><navigator url='/1/1634/1634'>钱兔</navigator></view><view><navigator url='/1/1607/1607'>PP红包助手</navigator></view><view><navigator url='/3/1870/1870'>抢先收</navigator></view>
+				<view><navigator url='/4/2373/2373'>马上有钱</navigator></view><view><navigator url='/1/1495/1495'>橙试客</navigator></view><view><navigator url='/1/1630/1630'>淘来赚钱</navigator></view><view><navigator url='/4/2306/2306'>每获</navigator></view>
 			</view>
 		</view>
 	</view>

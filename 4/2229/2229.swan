@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							全球最火锁屏APP正式登陆中国，解锁就送你钱哦，可随时提现，也可兑换成话费、流量包、京东卡等。全球用户累计返现超过3亿元。注册时填写8050633邀请码，即送5元现金！ 解锁赚钱，左右划动即可赚钱 邀请朋友，赚到更多，邀请你的朋友使用酷划你和她（他）都可以得到奖励 提现，赚到的钱可以随时提现 酷划商城有流量包，话费，京东卡，精美商品等着你{{isAll?intro:''}}
+							全球最火锁屏APP正式登陆中国，解锁就送你钱哦，可随时提现，也可兑换成话费、流量包、京东卡等。全球用{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1806/1806'>分享赚</navigator></view><view><navigator url='/1/1544/1544'>小白赚钱</navigator></view><view><navigator url='/1/1611/1611'>小手试玩</navigator></view><view><navigator url='/1/1709/1709'>爱魔豆苹果版</navigator></view>
+				<view><navigator url='/4/2182/2182'>零用钱</navigator></view><view><navigator url='/4/2172/2172'>天天趣玩</navigator></view><view><navigator url='/3/2063/2063'>文摘头条</navigator></view><view><navigator url='/3/1879/1879'>酷狗音乐大字版</navigator></view>
 			</view>
 		</view>
 	</view>

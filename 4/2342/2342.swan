@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							极猫，一款免费赚手机流量的APP！填写邀请码23324365可获得猫粮和成长值。全国三网通用，安全、免费流量随兑随用！简单易上手，每天10分钟，免费流量轻松获得！  【极猫特色】  1、免费流量：登陆注册极猫即送免费流量！每日持续关注极猫，免费流量月月领；  2、免费礼品：上极猫，赚猫粮，兑礼品，实物礼品只用猫粮不用钱；  3、流量交易：全国三网手机流量订购优惠，流量可随时免费兑换、赠送、交易，我的流量我做主；  4、流量红包：全网最低价购买流量，极猫让你一秒变身流量土豪，发免费流量红包，任性；  5、精彩活动：周周月月精彩活动不断，参与活动拼人品，iPhone6、iPad mini“壕”礼，等你来赢！  极猫，让你手机流量上网更安全！{{isAll?intro:''}}
+							极猫，一款免费赚手机流量的APP！填写邀请码23324365可获得猫粮和成长值。全国三网通用，安全、{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1678/1678'>免费流量宝ios版</navigator></view><view><navigator url='/3/2067/2067'>多多小说</navigator></view><view><navigator url='/1/1557/1557'>赚客</navigator></view><view><navigator url='/1/1603/1603'>微赚</navigator></view>
+				<view><navigator url='/3/2152/2152'>趣点点</navigator></view><view><navigator url='/3/2037/2037'>百姓头条</navigator></view><view><navigator url='/3/1878/1878'>抖音极速版</navigator></view><view><navigator url='/1/1536/1536'>小啄赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

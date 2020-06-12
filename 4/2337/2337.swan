@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							遛达APP为北京天下秀科技有限公司独立自主研发运营的手机应用，公司是国内首家提出社交营销活动一站式服务解决方案理念，并基于社交媒体的广泛应用深度挖掘用户在社会化交互过程中的品牌营销价值，同时专业致力于为品牌客户提供社交营销解决方案的技术型网络服务公司。 你还没玩遛达吗？它现在是目前很火爆的一款分享赚钱神器！最近朋友们都玩疯了，你也赶紧下载吧！ 在遛达，你能看到大量喜欢的资讯，只要分享就能赚钱！ 在遛达，你能欣赏很多精彩美文，只要阅读，就能领赏！ 在遛达，你不用辛苦打工，只要动动手指就能轻松赚钱！ 在遛达，你利用碎片化的时间，就能经营自己的人脉圈！ 在遛达，你不用参加挑战，就能成为达人，并获得赞誉！ 在遛达，你不仅能玩得high，还能得到惊喜！ 总之，玩遛达，让你随心所欲任性，随时随地赚钱！  {{isAll?intro:''}}
+							遛达APP为北京天下秀科技有限公司独立自主研发运营的手机应用，公司是国内首家提出社交营销活动一站式服{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1804/1804'>世界农场</navigator></view><view><navigator url='/4/2295/2295'>喵喵赚钱</navigator></view><view><navigator url='/1/1600/1600'>青蛙试玩</navigator></view><view><navigator url='/3/2016/2016'>五条</navigator></view>
+				<view><navigator url='/4/2358/2358'>比比宝</navigator></view><view><navigator url='/4/2352/2352'>聚宝屏</navigator></view><view><navigator url='/3/2114/2114'>爱传</navigator></view><view><navigator url='/4/2361/2361'>赚翻翻</navigator></view>
 			</view>
 		</view>
 	</view>

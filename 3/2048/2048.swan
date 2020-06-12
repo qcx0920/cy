@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							洋葱视频—边看视频边抢红包，看视频赚零钱，注册立即领取2-10元红包。使用洋葱视频一边看海量精彩视频，一边抢红包。看视频娱乐赚钱两不误，开心快乐就三字：赚赚赚！{{isAll?intro:''}}
+							洋葱视频—边看视频边抢红包，看视频赚零钱，注册立即领取2-10元红包。使用洋葱视频一边看海量精彩视频{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1683/1683'>牛逼赚苹果版</navigator></view><view><navigator url='/3/1986/1986'>淘小说</navigator></view><view><navigator url='/1/1548/1548'>试玩赚钱入口</navigator></view><view><navigator url='/1/1647/1647'>易银</navigator></view>
+				<view><navigator url='/1/1587/1587'>赚多多</navigator></view><view><navigator url='/3/2131/2131'>财神道</navigator></view><view><navigator url='/1/1557/1557'>赚客</navigator></view><view><navigator url='/2/1834/1834'>飞赚宝</navigator></view>
 			</view>
 		</view>
 	</view>

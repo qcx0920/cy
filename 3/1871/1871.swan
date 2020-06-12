@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							大七喜是抢先收旗下最新转发文章赚钱平台，继金刚涨、大五福、大六顺等实力平台后，又一实力大平台，阅读文章单价高达7毛每次，注册就送1元，5元起提现。 2020年4月8日周三上午，抢先收新出平台“大七喜”！  1、  单价3毛5（高单价时7毛）注册就送1元 2、  5元首提，秒到！ 3、  新客前4次提现师父有奖励3124；满百再父5-10元，最高共奖20元 4、  两级35%收益分成：徒弟25%，徒孙10%。 5、  有效徒弟总数达到7人的师父，有7元额外的“七星报喜奖” 6、  特别提出：首发期3天，全天单价翻翻，高达7毛！ 客服QQ群：689957295{{isAll?intro:''}}
+							大七喜是抢先收旗下最新转发文章赚钱平台，继金刚涨、大五福、大六顺等实力平台后，又一实力大平台，阅读文{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2283/2283'>应用微客</navigator></view><view><navigator url='/2/1823/1823'>投吧网</navigator></view><view><navigator url='/1/1525/1525'>小淘世界</navigator></view><view><navigator url='/3/1979/1979'>随手涨分王</navigator></view>
+				<view><navigator url='/2/1833/1833'>十金</navigator></view><view><navigator url='/3/1937/1937'>海豚网</navigator></view><view><navigator url='/4/2206/2206'>全民皆赚</navigator></view><view><navigator url='/3/2005/2005'>青萌部落</navigator></view>
 			</view>
 		</view>
 	</view>

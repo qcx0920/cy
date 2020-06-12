@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							柚子试玩，苹果手机下载APP就能赚钱的软件。登陆就送1元，下载一个应用试玩3分钟奖励8毛，10元就能提现。柚子试玩，随时随地，零成本、无分享的手机赚钱软件。好玩的手机赚钱平台，体验更有趣的APP。 客服QQ：429019089 柚子试玩是业内知名的移动应用媒体平台。为用户提供流行应用和游戏的资讯以及试玩服务，让每一个应用为人所用。让用户更方便的找到应用、了解应用，更有体验应用的红包奖励给你拿，让柚子试玩成为人人喜爱的应用社区。 试玩应用领现金红包 柚子试玩为你提供超多好玩的应用，试玩应用还能领取丰厚的现金红包，赶快加入柚子试玩~ 支持 微信/支付宝 提现 随时提现，次工作日到账，你可以在这里享受最便捷的服务，柚子试玩还为你提供手机流量实时兑换服务。{{isAll?intro:''}}
+							柚子试玩，苹果手机下载APP就能赚钱的软件。登陆就送1元，下载一个应用试玩3分钟奖励8毛，10元就能{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1743/1743'>米赚苹果版</navigator></view><view><navigator url='/3/1895/1895'>钱库资讯</navigator></view><view><navigator url='/2/1785/1785'>蜘蛛盟</navigator></view><view><navigator url='/2/1829/1829'>省钱快报</navigator></view>
+				<view><navigator url='/3/1920/1920'>多多转</navigator></view><view><navigator url='/4/2165/2165'>萌萌小笨龙</navigator></view><view><navigator url='/1/1686/1686'>热葫芦iOS版</navigator></view><view><navigator url='/3/1971/1971'>黑豆社群</navigator></view>
 			</view>
 		</view>
 	</view>

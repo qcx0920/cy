@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							有信免费电话可以免费拨打全国手机、座机，更是港澳台、海外通话神器。天天打电话，不花一分钱。0月租、0漫游、0服务费，通话流畅，音质清晰。手机、座机免费任打，国内电话随意打，话费自动送,每月100分钟起。无需每日签到有信话费免费送。 有信是一款基于通讯录的免费电话软件，支持有信用户间免费语音呼叫，对方不在线或非有信用户时，还支持网络电话免费拨打全国座机和手机，真正实现通话0费用。{{isAll?intro:''}}
+							有信免费电话可以免费拨打全国手机、座机，更是港澳台、海外通话神器。天天打电话，不花一分钱。0月租、0{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2320/2320'>愤怒的富翁</navigator></view><view><navigator url='/4/2394/2394'>找到APP</navigator></view><view><navigator url='/1/1749/1749'>挖钻iOS版</navigator></view><view><navigator url='/3/2066/2066'>阅趣</navigator></view>
+				<view><navigator url='/3/1964/1964'>贝米资讯</navigator></view><view><navigator url='/2/1848/1848'>小微托管挂机赚钱</navigator></view><view><navigator url='/2/1816/1816'>微漂云众包</navigator></view><view><navigator url='/1/1723/1723'>小水滴苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

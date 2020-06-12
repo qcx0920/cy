@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							今晚八点半 - 千万奖金互动问答游戏的APP，每天十三点和晚上八点半，准时开始！复活邀请码560511！叫上你的小伙伴，一起来挑战吧！12道题全部答对视为冲顶成功，与其他参与游戏的小伙伴瓜分100000元奖金！冲顶成功的用户均分当期奖金。 奖金可以直接提现到微信和支付宝账户。再也不用为零花钱担心啦！每晚8点半，参与直播答题，与全世界的年轻潮人一起娱乐互动。今晚八点半是上海诺贞信息技术有限公司推出的益智类全民问答APP。{{isAll?intro:''}}
+							今晚八点半 - 千万奖金互动问答游戏的APP，每天十三点和晚上八点半，准时开始！复活邀请码56051{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1591/1591'>金日赚</navigator></view><view><navigator url='/1/1647/1647'>易银</navigator></view><view><navigator url='/3/1968/1968'>乐趣推</navigator></view><view><navigator url='/4/2393/2393'>抢抢乐-抢红包</navigator></view>
+				<view><navigator url='/2/1827/1827'>超级淘</navigator></view><view><navigator url='/4/2385/2385'>一起免单</navigator></view><view><navigator url='/1/1756/1756'>赚泡泡iOS赚钱</navigator></view><view><navigator url='/1/1570/1570'>立马赚</navigator></view>
 			</view>
 		</view>
 	</view>

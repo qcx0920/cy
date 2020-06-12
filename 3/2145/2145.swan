@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							挖人气是一款专为手机用户推出的口袋赚钱神器，安装即送1元现金，到挖人气，随时随地轻松赚钱！。等车、坐车、排队吃饭、对着天花板发呆。这时候掏出你的手机，打开挖人气，轻轻松松、动动手指，使用信手捏来的手机购物技能，无需购买、无需付款，只需搜索、收藏、加购物车等简单操作。海量任务，等着你接招，收入轻松到手，安全无风险。充分利用碎片化时间，积少成多，滴水成河。邀请好友加入，奖励无上限，零花钱轻松GET。随时随地，轻松赚钱，我在挖人气等你。{{isAll?intro:''}}
+							挖人气是一款专为手机用户推出的口袋赚钱神器，安装即送1元现金，到挖人气，随时随地轻松赚钱！。等车、坐{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2300/2300'>可米酷漫画</navigator></view><view><navigator url='/3/2024/2024'>亿刻</navigator></view><view><navigator url='/4/2166/2166'>iMoney安卓版</navigator></view><view><navigator url='/4/2254/2254'>e赚</navigator></view>
+				<view><navigator url='/3/1932/1932'>米转</navigator></view><view><navigator url='/1/1615/1615'>芝麻试客</navigator></view><view><navigator url='/1/1560/1560'>小啄赚钱</navigator></view><view><navigator url='/4/2200/2200'>袋鼠赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

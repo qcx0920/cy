@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							新用户下载神灯赚钱助手进入神灯试玩平台绑定微信、绑定手机号即送3元现金！神灯平台是上海清源绿网科技有限公司推出的iOS应用体验平台。{{isAll?intro:''}}
+							新用户下载神灯赚钱助手进入神灯试玩平台绑定微信、绑定手机号即送3元现金！神灯平台是上海清源绿网科技有{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2009/2009'>闲看点</navigator></view><view><navigator url='/2/1775/1775'>玩家享赚</navigator></view><view><navigator url='/1/1682/1682'>赚客app</navigator></view><view><navigator url='/1/1516/1516'>全民赞</navigator></view>
+				<view><navigator url='/2/1859/1859'>冲顶大会</navigator></view><view><navigator url='/4/2222/2222'>99赚钱</navigator></view><view><navigator url='/4/2217/2217'>亿起赚</navigator></view><view><navigator url='/3/2066/2066'>阅趣</navigator></view>
 			</view>
 		</view>
 	</view>

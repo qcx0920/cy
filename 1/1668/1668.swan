@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							加入至尊宝，躺着也能赚钱！至尊宝APP新人激活就送2元现金红包，试玩每个应用单价1元起。填写邀请码送1元：3508220，支持苹果iOS和安卓平台。{{isAll?intro:''}}
+							加入至尊宝，躺着也能赚钱！至尊宝APP新人激活就送2元现金红包，试玩每个应用单价1元起。填写邀请码送{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1918/1918'>抖呱呱极速版</navigator></view><view><navigator url='/1/1509/1509'>小猫种鱼</navigator></view><view><navigator url='/4/2218/2218'>掌赚宝</navigator></view><view><navigator url='/4/2350/2350'>红包惠锁屏</navigator></view>
+				<view><navigator url='/4/2380/2380'>锁屏客</navigator></view><view><navigator url='/1/1697/1697'>呱呱赚苹果版</navigator></view><view><navigator url='/4/2235/2235'>盯点汇</navigator></view><view><navigator url='/1/1568/1568'>蚂蚁小咖</navigator></view>
 			</view>
 		</view>
 	</view>

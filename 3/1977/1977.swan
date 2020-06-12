@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							橙子快报（原有料），边看新闻边赚钱。新用户注册随机送1~10元现金红包，10元可提现！有料是一款看资讯能赚钱的APP，你的每篇阅读都将产生价值！汇聚海量优质内容，丰富好玩的任务系统，让你每天在看看资讯的同时获得丰厚的报酬。 1. 丰富内容和任务，边看边赚 2. 邀请好友即送双方红包，大家一起赚 3. 每日自动兑换零钱，可直接提现，快速到账{{isAll?intro:''}}
+							橙子快报（原有料），边看新闻边赚钱。新用户注册随机送1~10元现金红包，10元可提现！有料是一款看资{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2226/2226'>红包先森</navigator></view><view><navigator url='/4/2202/2202'>橙赚</navigator></view><view><navigator url='/2/1837/1837'>小程序试玩</navigator></view><view><navigator url='/2/1787/1787'>赏乐帮</navigator></view>
+				<view><navigator url='/2/1860/1860'>百万英雄</navigator></view><view><navigator url='/1/1697/1697'>呱呱赚苹果版</navigator></view><view><navigator url='/4/2236/2236'>盈牛牛</navigator></view><view><navigator url='/4/2389/2389'>锁屏赚</navigator></view>
 			</view>
 		</view>
 	</view>

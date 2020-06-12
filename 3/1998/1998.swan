@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							天天趣闻是一款可以阅读资讯 ，看新闻赚零钱的软件，1元即可提现秒到账，填写邀请码【8899UE】领红包。杭州兑吧集团旗下杭州麦全网络科技有限公司研发，一个有趣好玩能挣钱的阅读软件。用户可通过阅读资讯、看视频、看小说、玩游戏、参与福利活动的方式赚取零花钱。 【产品特色】 1、海量资讯： 爆笑、小说、三农、财经、广场舞、NBA等海量内容天天看~ 2、丰富游戏：红包农场、摇钱树、每日福利、挖金币等玩的开心福利不断~ 3、签到领福利：每日App内签到，领取奖励，累积额度可提现！ 4、邀请拿红包：提供清晰的奖励规则和丰富的邀请技巧，助力拿到更多红包奖励！ 5、趣闻合伙人：升级成为趣闻合伙人，获得专享特权，轻轻松松赚更多！ 官方QQ：2940173386{{isAll?intro:''}}
+							天天趣闻是一款可以阅读资讯 ，看新闻赚零钱的软件，1元即可提现秒到账，填写邀请码【8899UE】领红{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1835/1835'>淘券吧</navigator></view><view><navigator url='/2/1851/1851'>苏宁金融</navigator></view><view><navigator url='/4/2259/2259'>酷赚锁屏</navigator></view><view><navigator url='/3/2158/2158'>顺手转</navigator></view>
+				<view><navigator url='/3/1889/1889'>中青看点</navigator></view><view><navigator url='/3/2091/2091'>视频赚</navigator></view><view><navigator url='/4/2244/2244'>100赚安卓版</navigator></view><view><navigator url='/4/2210/2210'>小象读吧</navigator></view>
 			</view>
 		</view>
 	</view>

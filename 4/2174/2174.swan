@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							每天赚点是一个手机赚钱的应用，安装拆红包，一元秒提！收益最高！任务最多！红包送不停！让用户在玩手机的同时还能赚到钱，用户可以通过安装，试玩，邀请好友，签到等赚取积分，还可以把积分变现成充值卡、Q币、支付宝充值等。 每天都有固定的下载任务，下载赚取财富，您的所有资金都可以打到您的支付宝上或者是进行话费充值，每日参与抽奖有机会中积分大奖。 【一元提现赚钱】 全新版本降低提现门槛，1元、5元、10元任意提现，门槛超低等你来赚钱！ 【新手任务赚钱】 新手任务专为新人定制，小赚传授赚钱秘笈，帮你轻松赚取3.5元红包。 【巨额游戏赚钱】 边玩游戏边赚钱，轻轻松松成为超级金领。 【邀请好友赚钱】 邀请好友一起加入每天赚点，通过专属收徒链接，瞬间俘获大批徒弟，好友和你都可获得现金奖励，追高可获得1000+现金奖励，赶快加入每天赚点。 【签到任务赚钱】 每天坚持签到打卡任务，也可额外赚钱，帮帮助你实现“每天1小时，月赚上千元”的赚钱小目标。 每天赚点是一个满一元可立即提现、奖励高的赚钱app。 有任何问题欢迎加入每天赚点官方Q群：654981518 官方微信公众号：mtzd521{{isAll?intro:''}}
+							每天赚点是一个手机赚钱的应用，安装拆红包，一元秒提！收益最高！任务最多！红包送不停！让用户在玩手机的{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1945/1945'>阅资讯</navigator></view><view><navigator url='/1/1689/1689'>赚点-调查赚钱app</navigator></view><view><navigator url='/3/2116/2116'>悦推</navigator></view><view><navigator url='/4/2176/2176'>蛋蛋赚</navigator></view>
+				<view><navigator url='/4/2333/2333'>零花锁屏</navigator></view><view><navigator url='/3/2083/2083'>传客美文网</navigator></view><view><navigator url='/4/2275/2275'>口袋红包</navigator></view><view><navigator url='/1/1726/1726'>红包锁屏苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							快视频是360旗下推出的看视频领红包的APP，边看视频边赚钱，10元就能提现。看视频就能领红包，躺着也能赚钱！快视频APP全新升级，每天福利送不停，看视频就可以领取现金红包奖励，每天只用几分钟，赚钱根本停不下来。天天有钱赚，随时能提现，每天都像过大年…… 快视频聚合海量视频内容，通过人工智能揣摩你的兴趣，分秒内就能懂你，量身推荐你感兴趣的内容。支持离线缓存、无广告观看，还能边看视频边赚钱！{{isAll?intro:''}}
+							快视频是360旗下推出的看视频领红包的APP，边看视频边赚钱，10元就能提现。看视频就能领红包，躺着{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1712/1712'>赢联苹果版</navigator></view><view><navigator url='/3/2032/2032'>香蕉网</navigator></view><view><navigator url='/4/2216/2216'>葡萄转</navigator></view><view><navigator url='/4/2319/2319'>挖钻</navigator></view>
+				<view><navigator url='/4/2358/2358'>比比宝</navigator></view><view><navigator url='/3/1911/1911'>资讯随享</navigator></view><view><navigator url='/4/2236/2236'>盈牛牛</navigator></view><view><navigator url='/3/2061/2061'>有银子</navigator></view>
 			</view>
 		</view>
 	</view>

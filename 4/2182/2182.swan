@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							零用钱就送3元现金，做任务领现金，收益满1元就能提现，可信的手机版赚钱软件。简洁的操作，尊贵的体验，只需轻松动动手指，轻松赚钱，每天一分钟安装手机软件，零用钱到手。{{isAll?intro:''}}
+							零用钱就送3元现金，做任务领现金，收益满1元就能提现，可信的手机版赚钱软件。简洁的操作，尊贵的体验，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1694/1694'>秉钧红人苹果版</navigator></view><view><navigator url='/3/2077/2077'>逗比赚</navigator></view><view><navigator url='/1/1689/1689'>赚点-调查赚钱app</navigator></view><view><navigator url='/3/1919/1919'>闲鱼</navigator></view>
+				<view><navigator url='/1/1590/1590'>爱元宝</navigator></view><view><navigator url='/4/2205/2205'>乐趣闻</navigator></view><view><navigator url='/4/2198/2198'>今日阅读</navigator></view><view><navigator url='/1/1717/1717'>口袋红包苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

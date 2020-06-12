@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							小微是一个新的微信挂机托管赚钱平台，满1元提现秒打造，建议是用注册满1月以上的小号托管，托管之后不需要做任何操作，收益满1元，提现到银行卡即可，秒到。{{isAll?intro:''}}
+							小微是一个新的微信挂机托管赚钱平台，满1元提现秒打造，建议是用注册满1月以上的小号托管，托管之后不需{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1580/1580'>聪明赚</navigator></view><view><navigator url='/1/1579/1579'>体验赚</navigator></view><view><navigator url='/2/1769/1769'>众人帮</navigator></view><view><navigator url='/1/1663/1663'>超级体验师</navigator></view>
+				<view><navigator url='/1/1611/1611'>小手试玩</navigator></view><view><navigator url='/3/1891/1891'>贝分网</navigator></view><view><navigator url='/3/2117/2117'>耳多资讯</navigator></view><view><navigator url='/4/2251/2251'>突见安卓版</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							钱小喵是一款最新最火的苹果手机兼职试玩应用赚钱APP，任务单价1元起，新用户登录可获得1~10元现金，10元提现。下载APP试玩即可随时随地赚取现金奖励，可提现到支付宝、微信，适用于学生手机兼职赚钱、宝妈等，随时随地动动手指就能赚取零花钱。 温馨提示：任务每天下午3-6点集中投放，其他时间随机。遇到问题请找客服小妹 QQ：2037149028{{isAll?intro:''}}
+							钱小喵是一款最新最火的苹果手机兼职试玩应用赚钱APP，任务单价1元起，新用户登录可获得1~10元现金{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1627/1627'>即刻赚</navigator></view><view><navigator url='/2/1832/1832'>趣呀</navigator></view><view><navigator url='/4/2391/2391'>招财猫锁屏赚钱</navigator></view><view><navigator url='/1/1613/1613'>壹狗试玩</navigator></view>
+				<view><navigator url='/3/1975/1975'>皮蛋家园</navigator></view><view><navigator url='/3/2038/2038'>快视频</navigator></view><view><navigator url='/4/2216/2216'>葡萄转</navigator></view><view><navigator url='/1/1589/1589'>应用猎人</navigator></view>
 			</view>
 		</view>
 	</view>

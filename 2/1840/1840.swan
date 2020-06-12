@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							小赚宝是一个微信小程序试玩的赚钱平台，满1元即可提现秒到账。只要试玩小程序30秒即可获得收益，每个小程序试玩可获得0.05元到0.2元现金奖励。支持四级分润模式，一级0.04元，二级0.03元，三级0.02元，四级0.01元。{{isAll?intro:''}}
+							小赚宝是一个微信小程序试玩的赚钱平台，满1元即可提现秒到账。只要试玩小程序30秒即可获得收益，每个小{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1883/1883'>孔雀网</navigator></view><view><navigator url='/4/2376/2376'>点趣-手机赚钱</navigator></view><view><navigator url='/3/2142/2142'>阅读多多</navigator></view><view><navigator url='/2/1763/1763'>赚钱了</navigator></view>
+				<view><navigator url='/4/2358/2358'>比比宝</navigator></view><view><navigator url='/3/1952/1952'>有条</navigator></view><view><navigator url='/3/2098/2098'>有文共赏</navigator></view><view><navigator url='/2/1783/1783'>高佣联盟</navigator></view>
 			</view>
 		</view>
 	</view>

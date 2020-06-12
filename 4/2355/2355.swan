@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							米多通话赚钱——首款会赚钱的通话软件，从此手机变聚宝盆。   接、打任意电话，都能赚！  支持支付宝提现 从此手机就是你的聚宝盆 更快赚钱小秘诀：马上邀请10位好友，30元立刻到手 别在这浪费时间看文字了，赶快下载安装啦{{isAll?intro:''}}
+							米多通话赚钱——首款会赚钱的通话软件，从此手机变聚宝盆。   接、打任意电话，都能赚！  支持支付宝{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1690/1690'>生活赚苹果版</navigator></view><view><navigator url='/1/1727/1727'>小微助手【骗子】</navigator></view><view><navigator url='/2/1763/1763'>赚钱了</navigator></view><view><navigator url='/2/1844/1844'>悦动圈红包</navigator></view>
+				<view><navigator url='/3/2099/2099'>转发宝</navigator></view><view><navigator url='/3/2128/2128'>采乐赚</navigator></view><view><navigator url='/4/2236/2236'>盈牛牛</navigator></view><view><navigator url='/1/1652/1652'>体验喵</navigator></view>
 			</view>
 		</view>
 	</view>

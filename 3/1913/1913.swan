@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							蚂蚁看点，让你的阅读更具价值，10元就能提现！摆脱传统阅读模式，边阅读边赚钱，让你的阅读更具价值。满一元即可提现，当天提现当天到账，每日可赚上百元，有时候赚钱就是这么简单，北京立达方胜旗下。{{isAll?intro:''}}
+							蚂蚁看点，让你的阅读更具价值，10元就能提现！摆脱传统阅读模式，边阅读边赚钱，让你的阅读更具价值。满{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1918/1918'>抖呱呱极速版</navigator></view><view><navigator url='/4/2239/2239'>72G游戏助手</navigator></view><view><navigator url='/4/2314/2314'>钱加</navigator></view><view><navigator url='/1/1543/1543'>哆啦赚</navigator></view>
+				<view><navigator url='/2/1838/1838'>挣钱宝</navigator></view><view><navigator url='/1/1733/1733'>微看点苹果版</navigator></view><view><navigator url='/4/2202/2202'>橙赚</navigator></view><view><navigator url='/2/1778/1778'>恐龙世界</navigator></view>
 			</view>
 		</view>
 	</view>

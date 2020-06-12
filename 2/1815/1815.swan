@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							番茄赚是一个看广告看视频赚钱和试玩任务赚钱的平台，3元就能提现。该平台是必须支付宝授权登陆的，支付宝授权登入不会涉及到账户安全问题，请放心登入！这是一个类似爱疯赚的平台，类似的平台还有小牛赚。 看广告任务 根据提示，倒计时结束后，点击上半部分可点击区域内的广告。浏览15秒以上后即可完成任务。最上方（10/10）表示当前还有10个红包可以领取。 看视频任务 击开始播放按钮，视频开始自动播放。观看完一组视频后即可获得奖励。（10/10）表示当前还有10个红包可以领取。 试玩任务 点击“推荐”按钮获取广告 横幅广告：当广告是下载类广告时点击“确认广告”按钮，然后再点击广告进行下载并复制链接。 视频广告：当广告是下载类广告时截屏保存，然后再点击广告进行下载并复制链接。 回到试玩任务页后粘贴链接并跳转下载的应用并进行试玩三分钟即可获得奖励。 点击可签到任务，跳转应用后浏览60秒，可获得5-10金币。 客服QQ群：672440183{{isAll?intro:''}}
+							番茄赚是一个看广告看视频赚钱和试玩任务赚钱的平台，3元就能提现。该平台是必须支付宝授权登陆的，支付宝{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1542/1542'>赏链</navigator></view><view><navigator url='/4/2256/2256'>返利赚</navigator></view><view><navigator url='/3/2079/2079'>随手快报</navigator></view><view><navigator url='/4/2230/2230'>零钱猫</navigator></view>
+				<view><navigator url='/1/1542/1542'>赏链</navigator></view><view><navigator url='/1/1687/1687'>聚啦苹果版</navigator></view><view><navigator url='/4/2384/2384'>玩赚APP</navigator></view><view><navigator url='/3/2043/2043'>全民头条</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							快手极速版是快手旗下一个看视频赚钱的软件，看视频赚金币（金币可兑换现金），新用户注册填写邀请码2xxvpiq就送0.36元，0.36元可直接提现，秒到账。快手状元直播答题复活卡邀请码【3zw4hv4】！登陆领现金，每天刷视频都可以赚钱，快来快手极速版。 联系我们 快手客服电话：010-53911309，快手号：kuaishou，QQ交流群：902840458{{isAll?intro:''}}
+							快手极速版是快手旗下一个看视频赚钱的软件，看视频赚金币（金币可兑换现金），新用户注册填写邀请码2xx{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2029/2029'>番薯网</navigator></view><view><navigator url='/4/2299/2299'>易赚达人</navigator></view><view><navigator url='/1/1698/1698'>赚800苹果版</navigator></view><view><navigator url='/1/1501/1501'>钱脉</navigator></view>
+				<view><navigator url='/1/1551/1551'>钱派试玩</navigator></view><view><navigator url='/4/2178/2178'>蛋咖赚钱</navigator></view><view><navigator url='/1/1582/1582'>爱搜懒人领钱</navigator></view><view><navigator url='/1/1536/1536'>小啄赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							趣玩赚钱是最新苹果手机APP试玩赚钱平台，越玩越有钱，安装就送新人红包0.88元，10元提现，下载是我那应用试玩3分钟即可获得现金奖励，每日签到还能领现金奖励。 联系方式：趣玩QQ客服 959263645{{isAll?intro:''}}
+							趣玩赚钱是最新苹果手机APP试玩赚钱平台，越玩越有钱，安装就送新人红包0.88元，10元提现，下载是{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2144/2144'>有奖问答APP</navigator></view><view><navigator url='/1/1611/1611'>小手试玩</navigator></view><view><navigator url='/1/1690/1690'>生活赚苹果版</navigator></view><view><navigator url='/2/1861/1861'>赏金联盟</navigator></view>
+				<view><navigator url='/4/2169/2169'>玩游赚</navigator></view><view><navigator url='/3/2141/2141'>91人气</navigator></view><view><navigator url='/4/2189/2189'>火种游戏</navigator></view><view><navigator url='/1/1672/1672'>蜜果派</navigator></view>
 			</view>
 		</view>
 	</view>

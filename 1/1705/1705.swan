@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							向钱冲是什么？向钱冲是一款用IPHONE手机赚钱的好玩应用 微信扫一扫二维码   IOS用户专享福利 2016全新优化向钱冲正式上线啦！ 小伙伴们可以通过完成指定的小任务从而获得相应的任务奖励，累计满10元即可直接提现到支付宝账户。新增拜师收徒新模式，新用户通过扫描师傅二维码名片来建立师徒关系，成功收徒后师傅立即奖励1元，多收多赚。在徒弟完成任务的同时师傅还能额外获得奖励，上不封顶，一起来赚钱吧。{{isAll?intro:''}}
+							向钱冲是什么？向钱冲是一款用IPHONE手机赚钱的好玩应用 微信扫一扫二维码   IOS用户专享福利{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1912/1912'>闪电盒子</navigator></view><view><navigator url='/2/1774/1774'>宝石星球</navigator></view><view><navigator url='/3/1868/1868'>快音</navigator></view><view><navigator url='/4/2383/2383'>百度众测</navigator></view>
+				<view><navigator url='/4/2264/2264'>赢联APP</navigator></view><view><navigator url='/1/1574/1574'>柠檬赚</navigator></view><view><navigator url='/3/2052/2052'>转乐</navigator></view><view><navigator url='/3/2083/2083'>传客美文网</navigator></view>
 			</view>
 		</view>
 	</view>

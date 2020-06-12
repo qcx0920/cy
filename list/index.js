@@ -75,7 +75,7 @@ Page({
         //trendsflag  0没有生成详情页面  1已生成
         var trendsflag = e.currentTarget.dataset.trendsflag
         var pid = e.currentTarget.dataset.pid;
-        var type =e.currentTarget.dataset.type;
+        var type = e.currentTarget.dataset.type;
         if (trendsflag == 0) {
             swan.navigateTo({
                 url: contstantParam.detailPage + '?pid=' + e.currentTarget.dataset.pid
@@ -98,7 +98,6 @@ Page({
     },
     switchTabType(e) {
         this.scrollToTop();
-        this.setData({ activeName1: e.detail.name });
         this.initData(this.data.activeName, e.detail.name, true, 1);
     },
     initData(type, flag, isNew, pageNo) {
@@ -115,16 +114,15 @@ Page({
                         var time = applist[i].createtime;
                         applist[i].createtime = this.getDate(time * 1000)
                     }
-                    if (isNew) {
-                        this.setData({ applist: applist });
-                    } else {
-                        this.setData({ applist: this.data.applist.concat(applist) });
-                    }
                     pageNo++;
-                    this.setData({ pageNo: pageNo });
+                    if (isNew) {
+                        this.setData({ applist: applist, pageNo: pageNo, activeName1: flag });
+                    } else {
+                        this.setData({ applist: this.data.applist.concat(applist), pageNo: pageNo, activeName1: flag });
+                    }
                 } else {
                     swan.showToast({
-                        title: '没有新的内容了'
+                        title: '没有更多内容了'
                     });
                 }
             },
@@ -220,12 +218,18 @@ Page({
         if (searchName != null && searchName != "") {
             this.searchData(searchName, 1, true);
         } else {
-            this.setData({ searchLists: [] ,issearch:false});
+            this.setData({ searchLists: [], issearch: false });
         }
     },
     searchData(name, pageNo, isNew) {
+        //activeName 其他:产品 5资讯
+        var activeName = this.data.activeName;
+        var url="szw/list";
+        if(activeName==5){
+            url="szw/articlebyname";
+        }
         swan.request({
-            url: contstantParam.apiurl + '/szw/list',
+            url: contstantParam.apiurl + '/'+url,
             data: { "name": name, "pageNo": pageNo, "pageSize": this.data.pageSize },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
             method: "post",
@@ -244,7 +248,7 @@ Page({
                     }
                 } else {
                     swan.showToast({
-                        title: '没有搜索到内容'
+                        title: '没有更多内容了'
                     });
                 }
             },

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							巨宝朋是是一个手机兼职应用试玩赚钱的软件，试玩应用赚现金，新手送随机现金，1元就能提现，巨宝朋为你提供超多好玩的应用，玩一玩应用就领现金奖励，赶快加入巨宝朋领奖励！支持苹果和安卓手机 官方客服QQ：2604918398、1677252279{{isAll?intro:''}}
+							巨宝朋是是一个手机兼职应用试玩赚钱的软件，试玩应用赚现金，新手送随机现金，1元就能提现，巨宝朋为你提{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2192/2192'>赚宝</navigator></view><view><navigator url='/1/1549/1549'>蜜蜂试玩</navigator></view><view><navigator url='/2/1848/1848'>小微托管挂机赚钱</navigator></view><view><navigator url='/3/2148/2148'>犀牛投票任务</navigator></view>
+				<view><navigator url='/1/1523/1523'>游易赚</navigator></view><view><navigator url='/1/1642/1642'>钱夹</navigator></view><view><navigator url='/4/2270/2270'>抢红包神器</navigator></view><view><navigator url='/1/1501/1501'>钱脉</navigator></view>
 			</view>
 		</view>
 	</view>

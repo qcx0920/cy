@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							推猫网赚，全民轻松赚，让你五分钟改变生活。【注册送6元】（支持苹果和安卓版） 推猫上每天都有海量网赚任务发布，在这里能看到各种新鲜有趣的网络热点，劲爆给力的商家活动，只要手指轻轻一点，将任务分享到微信朋友圈，新浪微博，QQ空间，或者玩下答题红包，你就可以轻松赚现金了。 无论你是学生还是白领，无论你在走路还是坐车，哪怕是课间或者是工作间歇的几分钟，都可以拿起手机，点开推猫接任务，然后就是坐等收钱了。 5分钟一键网赚21.5，只是“起步价”。 应用特点 1.任务多样：推猫每天都会上大量新任务，除了浏览转发，还能参加最实惠的商家活动。 2.参与简单：不需要任何门槛，只需要一部智能手机，一根手指就能领取任务。 3.无需付费：推猫不收取任何手续费，上推猫做任务完全零投入。 4.赚钱轻松：省时省力省心，每天仅需五分钟，佣金自动累积，轻松赚取生活费。{{isAll?intro:''}}
+							推猫网赚，全民轻松赚，让你五分钟改变生活。【注册送6元】（支持苹果和安卓版） 推猫上每天都有海量网赚{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2400/2400'>淘宝手机助手赚集分宝</navigator></view><view><navigator url='/1/1633/1633'>应用小秘</navigator></view><view><navigator url='/2/1852/1852'>好手气斗地主</navigator></view><view><navigator url='/1/1737/1737'>西瓜妹</navigator></view>
+				<view><navigator url='/4/2266/2266'>友米德（骗子）</navigator></view><view><navigator url='/4/2249/2249'>众得宝</navigator></view><view><navigator url='/4/2301/2301'>快玩我</navigator></view><view><navigator url='/4/2336/2336'>解锁赚【骗子软件】</navigator></view>
 			</view>
 		</view>
 	</view>

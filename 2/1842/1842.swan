@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							一点赚是一个免费的网络手机兼职赚钱平台，每天有大量的各种简单任务，完成即可获得奖励，不注册不下载微信扫码3秒完成，秒得1.8元现金，1元起提现秒到账。自己做任务能赚钱，邀请好友来做任务可获得6级收益。 做任务流程：点击“快速任务”进入任务二维码获取界面，长按二维码后点“ 确定辅助”即可获取1.8元佣金，此任务只需3秒钟。一点赚app正在内测中， App上线后会投放各种任务，到时候可进入app领取更多任务奖励。 邀请好友流程：点击“推广海报”窗口，获取你的推广二维码，然后保存到相册再发送给好友扫码进入一点赚平台做任务，即可享受到6级代理提成，6级佣金奖励，前3级每级奖励0.5元/人，后3级0.3元/人，无限裂变的推广模式。{{isAll?intro:''}}
+							一点赚是一个免费的网络手机兼职赚钱平台，每天有大量的各种简单任务，完成即可获得奖励，不注册不下载微信{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1766/1766'>章鱼输入法</navigator></view><view><navigator url='/1/1553/1553'>i红包</navigator></view><view><navigator url='/4/2370/2370'>玩乐族</navigator></view><view><navigator url='/1/1637/1637'>二鸟</navigator></view>
+				<view><navigator url='/4/2380/2380'>锁屏客</navigator></view><view><navigator url='/3/2155/2155'>熊猫试玩微信</navigator></view><view><navigator url='/3/1986/1986'>淘小说</navigator></view><view><navigator url='/3/1927/1927'>淘最热点</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							省钱助手是一款既省钱又赚钱的手机赚钱软件。 你可以通过下载我们推荐的优秀免费的应用、分享软件、竞猜游戏等完成指定的任务获得相当大数额的金币。只要积累到一定程度就可以兑换话费、q币、支付宝提现。 多种任务类型，总有一种适合你！玩手机，轻松省钱又赚钱。 省钱助手是国内一款活跃度最高的 Unlock Reward App,把移动互联网的成千上万亿广告费分享给每一个用户，让每一个用户都能将自己的手机当作广告位出租，并能积少成多，赚取话费。 省钱助手的每日签到5毛，是所有威客类应用，最给力的。也是我们省钱助手粉丝们，最喜欢完成的任务咯，千万不能断签哦。{{isAll?intro:''}}
+							省钱助手是一款既省钱又赚钱的手机赚钱软件。 你可以通过下载我们推荐的优秀免费的应用、分享软件、竞猜游{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1605/1605'>多赚红包</navigator></view><view><navigator url='/3/2000/2000'>精彩看点</navigator></view><view><navigator url='/3/2082/2082'>快赚</navigator></view><view><navigator url='/2/1842/1842'>一点赚</navigator></view>
+				<view><navigator url='/1/1503/1503'>海推</navigator></view><view><navigator url='/1/1641/1641'>游虎试玩</navigator></view><view><navigator url='/1/1521/1521'>红淘客</navigator></view><view><navigator url='/4/2289/2289'>欢乐点-看广告赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

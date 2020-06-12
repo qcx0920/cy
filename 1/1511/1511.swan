@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							互赚宝是一款任务悬赏、接单互助的兼职赚钱平台，平台任务有多重类型，每天上千个任务等你来做，在这里，你可以接任务赚赏金，轻松赚钱生活费，实现“每天半小时，月赚1000元”的小目标。此外需要引流的朋友，还可以发布各种悬赏，让大家帮忙。 加入互赚宝，动动手指领现金，随时随地用手机做赏金任务赚零花钱，1元起提现秒到账，在家躺着也能赚钱！此外为了引流、增加粉丝等还可以发布悬赏任务，让大家帮忙做任务。 关于提现 支持微信和支付宝提现，1元起提现，每次最多提现1000元，每日最多提现一次，手续费3%。 客服QQ：1065856547{{isAll?intro:''}}
+							互赚宝是一款任务悬赏、接单互助的兼职赚钱平台，平台任务有多重类型，每天上千个任务等你来做，在这里，你{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1912/1912'>闪电盒子</navigator></view><view><navigator url='/1/1640/1640'>钱脉试玩</navigator></view><view><navigator url='/3/2030/2030'>玉米网</navigator></view><view><navigator url='/4/2184/2184'>零钱试玩</navigator></view>
+				<view><navigator url='/3/2046/2046'>趣看</navigator></view><view><navigator url='/3/2152/2152'>趣点点</navigator></view><view><navigator url='/3/2056/2056'>红包头条</navigator></view><view><navigator url='/3/1921/1921'>花生转</navigator></view>
 			</view>
 		</view>
 	</view>

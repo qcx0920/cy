@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							聚啦是一个拿起手机点点即可每天持续获取收益的赚钱App，注册即送2元，5元可提现。聚啦是上市公司旗下的全资平台，给你持续保障甩同类App几条街。聚啦平台基于轻任务模式运行，轻任务不需要您拥有任何专业技能，只需要拿出您可爱的小手指点点即可轻松完成。聚啦的轻任务分享转发，您可以自由选择参与各任务并获取即时收益，听上去就很棒呢。 微信扫一扫二维码{{isAll?intro:''}}
+							聚啦是一个拿起手机点点即可每天持续获取收益的赚钱App，注册即送2元，5元可提现。聚啦是上市公司旗下{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1597/1597'>钱鹿</navigator></view><view><navigator url='/2/1831/1831'>悦动圈</navigator></view><view><navigator url='/4/2265/2265'>易赚联盟</navigator></view><view><navigator url='/3/1974/1974'>趣多拍</navigator></view>
+				<view><navigator url='/3/1885/1885'>番茄免费小说</navigator></view><view><navigator url='/3/2013/2013'>好看视频</navigator></view><view><navigator url='/2/1796/1796'>桔子兼职</navigator></view><view><navigator url='/3/2083/2083'>传客美文网</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -72,6 +72,7 @@ a {
     border-radius: 20rpx;
     border: 1px solid #eee;
     text-indent: 70rpx;
+    padding-left: 10px;
 }
 .search .icon {
     position: absolute;
@@ -435,13 +436,13 @@ image {
     display: none;
 }
 .bottom {
-    padding: 20rpx;
+    padding: 0 20rpx 20rpx 20rpx;
 }
 .bottom .cont {
     text-align: center;
     color: #666;
-    font-size: 28rpx;
-    line-height: 50rpx;
+    font-size: 25rpx;
+    line-height: 40rpx;
 }
 .bottom .bottom_list {
     width: 100%;
@@ -450,7 +451,7 @@ image {
     align-items: center;
 }
 .bottom .bottom_list {
-    line-height: 50rpx;
+    line-height: 70rpx;
     flex:1;
     text-align: center;
     color: #666;

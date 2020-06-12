@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							生活赚（新用户送2元），可以随时随地赚钱的必备软件！加入生活赚，每天都能免费摇红包，派大奖。还有不同的任务等你来挑战，获取更多现金奖励。 微信扫一扫二维码关注后开始赚钱。{{isAll?intro:''}}
+							生活赚（新用户送2元），可以随时随地赚钱的必备软件！加入生活赚，每天都能免费摇红包，派大奖。还有不同{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1693/1693'>那米-APPCPI</navigator></view><view><navigator url='/4/2164/2164'>手赚网官方app</navigator></view><view><navigator url='/1/1641/1641'>游虎试玩</navigator></view><view><navigator url='/4/2198/2198'>今日阅读</navigator></view>
+				<view><navigator url='/1/1728/1728'>eTommer苹果版</navigator></view><view><navigator url='/1/1589/1589'>应用猎人</navigator></view><view><navigator url='/2/1844/1844'>悦动圈红包</navigator></view><view><navigator url='/4/2223/2223'>钱兔赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

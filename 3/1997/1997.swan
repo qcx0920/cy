@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							淘看点是一款看小视频赚钱的软件，填写邀请码180210即可领取红包，2元就能提现。看视频，轻松赚金币，小钱包鼓起来，零投入大回报，金币兑换现金，提现秒到。 【产品特色】 【边看视频边赚钱】精彩内容有的看有得赚 【邀好友拿奖金】邀好友就能赚钱，好友赚金币，我来拿提成，好友越多奖励越多 【做任务赚红包】日常任务每日更新，做完就能换到大红包 【提现秒到账】一元提现，马上秒到，提现无限制，赚多少提多少！ 【联系我们】 公测QQ群号：397776550 淘看点致力于促进全民看视频的视频观看软件。为了帮助大家养成良好的观看习惯，在观看视频的过程中，将给予一定的金币奖励，积攒的金币可兑换商品或提现。让您在阅读中不仅增长见识，还能有所收益。{{isAll?intro:''}}
+							淘看点是一款看小视频赚钱的软件，填写邀请码180210即可领取红包，2元就能提现。看视频，轻松赚金币{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1759/1759'>91淘金iOS版</navigator></view><view><navigator url='/3/2021/2021'>火力橙</navigator></view><view><navigator url='/3/1984/1984'>沙发视频</navigator></view><view><navigator url='/3/2079/2079'>随手快报</navigator></view>
+				<view><navigator url='/4/2292/2292'>掌上赚</navigator></view><view><navigator url='/1/1745/1745'>无聊赚苹果版</navigator></view><view><navigator url='/2/1837/1837'>小程序试玩</navigator></view><view><navigator url='/2/1830/1830'>享物说</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							零钱试玩，安卓赚钱新平台！一款手机试玩几分钟就能赚钱的APP。只要有一部手机，无需出门，无需投入，轻轻松松动手指，就能每天赚取现金奖励！！！还能通过收取徒弟，赚取徒弟同等的分成奖励哦~ 【每日任务】每天大量任务，只需试玩几分钟，零花钱赚得根本停不下来~ 【收徒返现】收取徒弟，你可获得徒弟任务同等的分成现金，徒弟越多，奖金叠加，上不封顶哟~ 【快速提现】便捷快速的提现流程，安全保障零花钱每天到账，完全无需担忧哦~ -遇到问题，联系我们 官方QQ交流群：879136914 客服小姐姐QQ：248973501、226986975{{isAll?intro:''}}
+							零钱试玩，安卓赚钱新平台！一款手机试玩几分钟就能赚钱的APP。只要有一部手机，无需出门，无需投入，轻{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1664/1664'>试尚团</navigator></view><view><navigator url='/1/1749/1749'>挖钻iOS版</navigator></view><view><navigator url='/3/2045/2045'>中华头条</navigator></view><view><navigator url='/4/2204/2204'>零用猫</navigator></view>
+				<view><navigator url='/4/2279/2279'>锁财宝</navigator></view><view><navigator url='/4/2312/2312'>钱鹿锁屏</navigator></view><view><navigator url='/1/1718/1718'>轻玩客苹果版</navigator></view><view><navigator url='/1/1681/1681'>铜板墙</navigator></view>
 			</view>
 		</view>
 	</view>

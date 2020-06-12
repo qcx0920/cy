@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							钱程-专为手机玩家打造的移动威客平台（填写邀请码2337完成新手任务送3元），任务丰富，趣玩多多，奖励更是多到泪洒一地！动动手指就能免费赚钱，机友们，全民手赚嗨起来！ 玩把游戏，就能刷个人品值； 签个到，发现全世界都在刷脸！ 最后大伙儿居然安安静静得做任务去了！ 钱程，就是手机移动威客。 所有都是轻而易举就能完成的任务。 每天分分钟，就有话费流量充！ 钱程，是这个互联网时代的钱程； 钱程，就是我们年轻人的钱程； 钱程，只为让美好传播得更好！{{isAll?intro:''}}
+							钱程-专为手机玩家打造的移动威客平台（填写邀请码2337完成新手任务送3元），任务丰富，趣玩多多，奖{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1813/1813'>小牛赚</navigator></view><view><navigator url='/4/2327/2327'>疯传100</navigator></view><view><navigator url='/4/2401/2401'>淘粉吧返利拿集分宝</navigator></view><view><navigator url='/1/1556/1556'>掉钱眼儿</navigator></view>
+				<view><navigator url='/1/1572/1572'>咋赚</navigator></view><view><navigator url='/3/2043/2043'>全民头条</navigator></view><view><navigator url='/2/1768/1768'>牛帮</navigator></view><view><navigator url='/4/2282/2282'>爱调研</navigator></view>
 			</view>
 		</view>
 	</view>

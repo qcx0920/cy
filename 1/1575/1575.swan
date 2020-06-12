@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							顽狮试玩是一个苹果手机试玩应用赚钱的平台，下载并试玩一个应用奖励0.8元，注册送1元，6元就能提现。顽狮试玩是北京有为互动科技有限公司旗下一个试玩应用平台，下载苹果手机APP试玩就能赚钱。{{isAll?intro:''}}
+							顽狮试玩是一个苹果手机试玩应用赚钱的平台，下载并试玩一个应用奖励0.8元，注册送1元，6元就能提现。{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1786/1786'>微帮</navigator></view><view><navigator url='/4/2388/2388'>采宝</navigator></view><view><navigator url='/4/2392/2392'>G媒-看广告赚钱</navigator></view><view><navigator url='/1/1637/1637'>二鸟</navigator></view>
+				<view><navigator url='/3/1883/1883'>孔雀网</navigator></view><view><navigator url='/3/2082/2082'>快赚</navigator></view><view><navigator url='/4/2247/2247'>生活赚</navigator></view><view><navigator url='/4/2321/2321'>点指成金</navigator></view>
 			</view>
 		</view>
 	</view>

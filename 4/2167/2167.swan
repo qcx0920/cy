@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							有赚app是有赚网旗下手机赚钱软件，开启你的懒人模式还能快速赚钱，就来下载有赚app吧，新人送12元福利卡，1元提现快速到账！有赚app让您随时随地赚大钱。动动手指就能赚钱，大家都在用手机赚钱。玩手机游戏兼职做任务赚钱，给需要兼职赚钱的学生和宝妈们，带来方便快捷的兼职平台。 平台特点： 【新人福利】登陆就送12元，1元即可提现，支持微信与支付宝，小伙伴们可不要错过哦！ 【二元提现】 全新版本降低提现门槛，2元即可提现，秒到账，登陆就送12元，门槛超低等你来赚钱！  【签到打卡】 每天坚持签到打卡任务，也可额外赚钱，助你实现的赚钱小目标。 【邀请赚钱】 邀请好友一起加入有赚一起玩手机赚钱，一人可得50元，他赚你也赚，还不赶快加入？  【海量任务】众多简单赚钱任务，奖励高，福利好，开开心心赚钱！ 【分享赚钱】 淘有趣的新闻、今日的头条以及精美的文章，分享到微信、朋友圈、QQ等社交，好友点击阅读后就可得到现金奖励。他读你赚，坐享红包奖励。 安装有赚APP进入手机赚钱频道，按照要求完成下载安装和体验，即可轻松领取金币奖励，兑换支付宝现金充值或手机话费充值。 联系有赚 客服QQ：2482514662、3007523403，客服QQ群：136182741{{isAll?intro:''}}
+							有赚app是有赚网旗下手机赚钱软件，开启你的懒人模式还能快速赚钱，就来下载有赚app吧，新人送12元{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1651/1651'>易银赚钱</navigator></view><view><navigator url='/1/1733/1733'>微看点苹果版</navigator></view><view><navigator url='/2/1795/1795'>淘差事</navigator></view><view><navigator url='/1/1599/1599'>有钱赚</navigator></view>
+				<view><navigator url='/1/1503/1503'>海推</navigator></view><view><navigator url='/1/1719/1719'>聚享赚苹果版</navigator></view><view><navigator url='/1/1504/1504'>金满堂</navigator></view><view><navigator url='/3/2140/2140'>多人气</navigator></view>
 			</view>
 		</view>
 	</view>

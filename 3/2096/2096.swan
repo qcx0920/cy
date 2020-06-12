@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							红豆赚转发阅读文章赚钱每次0.1元，5元起提现。无论你是学生还是白领，在“红豆赚”每天只要你小手一点将有趣的内容分享到微信好友、微信朋友圈、QQ好友、QQ空间，你就可以躺着收你的零花钱了。{{isAll?intro:''}}
+							红豆赚转发阅读文章赚钱每次0.1元，5元起提现。无论你是学生还是白领，在“红豆赚”每天只要你小手一点{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2283/2283'>应用微客</navigator></view><view><navigator url='/1/1749/1749'>挖钻iOS版</navigator></view><view><navigator url='/3/2154/2154'>试玩团微信</navigator></view><view><navigator url='/3/2078/2078'>随手头条</navigator></view>
+				<view><navigator url='/3/2022/2022'>今日爆点</navigator></view><view><navigator url='/3/2062/2062'>良心赚</navigator></view><view><navigator url='/4/2164/2164'>手赚网官方app</navigator></view><view><navigator url='/3/1876/1876'>番茄小说</navigator></view>
 			</view>
 		</view>
 	</view>

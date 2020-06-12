@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							最新最给力平台【吉祥赚】 火爆上线，涨分飞快！注册送2元，点击0.08元！收徒0.5元！ 徒弟15%提成，徒孙提成5%; 10元起提现，玩转发必做平台 文章火爆，上分飞快，支持微信群，朋友圈，快快注册当元老。{{isAll?intro:''}}
+							最新最给力平台【吉祥赚】 火爆上线，涨分飞快！注册送2元，点击0.08元！收徒0.5元！ 徒弟15%{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1748/1748'>上榜乐</navigator></view><view><navigator url='/3/1945/1945'>阅资讯</navigator></view><view><navigator url='/3/2161/2161'>APP疯狂赚</navigator></view><view><navigator url='/1/1562/1562'>红包达人</navigator></view>
+				<view><navigator url='/1/1597/1597'>钱鹿</navigator></view><view><navigator url='/4/2333/2333'>零花锁屏</navigator></view><view><navigator url='/3/1970/1970'>红包视界</navigator></view><view><navigator url='/4/2276/2276'>轻玩客</navigator></view>
 			</view>
 		</view>
 	</view>

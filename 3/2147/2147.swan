@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							小萌差事是微信投票赚钱，无须下载APP，注册进去后点接任务就可以投票了！1元提现秒到账！一分钟投一票，每票0.12元！一天有几十票，如果提示任务被抢光，多点几下就有了！可以准备多个微信小号，抢任务，一天大概1到10元，提现秒到。{{isAll?intro:''}}
+							小萌差事是微信投票赚钱，无须下载APP，注册进去后点接任务就可以投票了！1元提现秒到账！一分钟投一票{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1766/1766'>章鱼输入法</navigator></view><view><navigator url='/4/2397/2397'>省钱助手</navigator></view><view><navigator url='/3/1902/1902'>杨桃资讯</navigator></view><view><navigator url='/4/2187/2187'>手机蹦蹦</navigator></view>
+				<view><navigator url='/3/2162/2162'>PP试玩</navigator></view><view><navigator url='/3/1968/1968'>乐趣推</navigator></view><view><navigator url='/4/2365/2365'>乐游宝</navigator></view><view><navigator url='/2/1850/1850'>来钱道</navigator></view>
 			</view>
 		</view>
 	</view>

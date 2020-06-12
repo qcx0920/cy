@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							恐龙有钱也叫萌萌小笨龙是一款经济繁荣共享的休闲类游戏，玩家在游戏中会给开发者产生经济收益，而这些收益将通过游戏，以分红的方式返还给玩家。游戏本身没有任何的充值功能，玩不玩都是由玩家自己决定的，所以也不存在骗局，并且玩家收到的分红都是公开公正且透明的。恐龙有钱是居家兼职的最好途径，也是学生族的福音。每天5分钟，轻松领分红龙！ 恐龙有钱是一款基于大数据研发的价值收益共享APP，这款APP融合了游戏养成与现金分红的模式，用户可以在玩游戏的同时进行收益，新鲜又好玩。若需邀请码请填写【5752fc】   恐龙有钱的龙晶是什么，有什么用？ 龙晶俗称恐龙代币，是玩家通过游戏试玩之后在虚拟世界产生的游戏代币。龙晶的产生数量可以反映出游戏本身是否繁荣，而龙晶数量证明了玩家在虚拟世界的地位。龙晶的产生是有限的，每年都会根据游戏本身的繁荣程度进行调整，龙晶的价值也在被逐渐开发。未来的两个月内，官方将进行龙晶的试运营，敬请期待！{{isAll?intro:''}}
+							恐龙有钱也叫萌萌小笨龙是一款经济繁荣共享的休闲类游戏，玩家在游戏中会给开发者产生经济收益，而这些收益{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2047/2047'>蚂蚁头条</navigator></view><view><navigator url='/4/2324/2324'>锁屏高手</navigator></view><view><navigator url='/1/1535/1535'>趣闲赚</navigator></view><view><navigator url='/4/2170/2170'>巨宝朋安卓版</navigator></view>
+				<view><navigator url='/3/2155/2155'>熊猫试玩微信</navigator></view><view><navigator url='/3/2133/2133'>快点</navigator></view><view><navigator url='/1/1520/1520'>星球</navigator></view><view><navigator url='/4/2185/2185'>聚享游</navigator></view>
 			</view>
 		</view>
 	</view>

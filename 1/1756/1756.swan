@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							赚泡泡是国内最专业的手机网赚平台，赚泡泡发展至今已有300万米赚手机网赚用户,是学生、白领智能手机赚钱儿的力器。玩转赚泡泡，创造美好梦想。 动动手指，轻松赚钱 应用体验、购物返现、调研等，多种手机赚钱任务   奖品多多，等你来兑 Q币、话费、手机充值等，还可提现到支付宝、财付通{{isAll?intro:''}}
+							赚泡泡是国内最专业的手机网赚平台，赚泡泡发展至今已有300万米赚手机网赚用户,是学生、白领智能手机赚{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1689/1689'>赚点-调查赚钱app</navigator></view><view><navigator url='/3/2091/2091'>视频赚</navigator></view><view><navigator url='/1/1554/1554'>金手指</navigator></view><view><navigator url='/4/2215/2215'>赚钱帮</navigator></view>
+				<view><navigator url='/3/2108/2108'>51赚</navigator></view><view><navigator url='/2/1767/1767'>蜂窝帮</navigator></view><view><navigator url='/1/1558/1558'>懒猫试玩</navigator></view><view><navigator url='/3/2158/2158'>顺手转</navigator></view>
 			</view>
 		</view>
 	</view>

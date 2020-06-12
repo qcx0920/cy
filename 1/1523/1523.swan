@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							游易赚是一款边玩游戏边赚钱的APP，用户可以通过试玩类型丰富的游戏赚取现金奖励，围绕游戏长期开展丰富活动，如：每日签到、每周挑战、邀请好友等，通过试玩的深入逐步升级成为更高等级VIP，可提高每天收益！赚取的奖励支持使用支付宝、微信快速提现！ 游易赚，一款边玩游戏边赚钱的APP，通过指示完成任务即可获取现金奖励。游易赚，让学生、宝妈、白领、自由职业者利用零碎时间每月多增加一份收入。 一款靠谱老牌赚钱神器 【任务多】每天几百个试玩任务，天天都领现金，玩不停赚不停！ 【单价高】高额试玩任务简单几步，一个游戏能赚上千巨额收益！ 【翻倍赚】持有VIP功能卡赚更多，所有任务单价提升翻倍的奖励！ 【收徒赚】邀请好友也还能赚钱，躺着也赚现金，邀请一个10元！ 一款随时随地赚钱的APP 新人加入翻倍获得奖励 每日签到也领红包奖励 每周冲击百元现金大奖 持有VIP卡赚+翻倍奖励 任务小助手赚钱倍提升 一款从不拖欠奖励的APP 注册就送红包，提现就秒到账。 如有疑问请联系客服QQ号：2718272873 游易赚，边玩游戏边赚钱的APP。感谢您下载游易赚应用，祝您生活更好！{{isAll?intro:''}}
+							游易赚是一款边玩游戏边赚钱的APP，用户可以通过试玩类型丰富的游戏赚取现金奖励，围绕游戏长期开展丰富{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1838/1838'>挣钱宝</navigator></view><view><navigator url='/1/1714/1714'>享e下苹果版（下架）</navigator></view><view><navigator url='/3/2067/2067'>多多小说</navigator></view><view><navigator url='/1/1545/1545'>恐龙有钱</navigator></view>
+				<view><navigator url='/3/2124/2124'>吉祥赚</navigator></view><view><navigator url='/3/2027/2027'>快转赚</navigator></view><view><navigator url='/1/1737/1737'>西瓜妹</navigator></view><view><navigator url='/3/1931/1931'>花火资讯极速版</navigator></view>
 			</view>
 		</view>
 	</view>

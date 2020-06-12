@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							欢乐点是一款能够通过观看视频广告赚钱的App, 广告内容和红包由广告商投放，用户可以通过观看广告，抽奖，做任务等方式获得点币，所获得的点币可以通过支付宝提现。{{isAll?intro:''}}
+							欢乐点是一款能够通过观看视频广告赚钱的App, 广告内容和红包由广告商投放，用户可以通过观看广告，抽{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1824/1824'>网易圈圈</navigator></view><view><navigator url='/1/1697/1697'>呱呱赚苹果版</navigator></view><view><navigator url='/4/2233/2233'>红包锁屏</navigator></view><view><navigator url='/1/1667/1667'>达人试玩</navigator></view>
+				<view><navigator url='/1/1687/1687'>聚啦苹果版</navigator></view><view><navigator url='/2/1824/1824'>网易圈圈</navigator></view><view><navigator url='/3/2020/2020'>乐头条</navigator></view><view><navigator url='/1/1634/1634'>钱兔</navigator></view>
 			</view>
 		</view>
 	</view>

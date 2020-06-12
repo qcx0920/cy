@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							刷刷乐，全新手机微任务兼职赚钱软件，1元就能提现，秒到账。动动手指，上网上网轻松赚钱，新人福利送1000金币。{{isAll?intro:''}}
+							刷刷乐，全新手机微任务兼职赚钱软件，1元就能提现，秒到账。动动手指，上网上网轻松赚钱，新人福利送10{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1941/1941'>霏霏</navigator></view><view><navigator url='/1/1654/1654'>财蛙</navigator></view><view><navigator url='/4/2189/2189'>火种游戏</navigator></view><view><navigator url='/1/1533/1533'>全民养龙</navigator></view>
+				<view><navigator url='/4/2240/2240'>聚啦</navigator></view><view><navigator url='/1/1747/1747'>手上活（手机赚钱宝）苹果版</navigator></view><view><navigator url='/4/2204/2204'>零用猫</navigator></view><view><navigator url='/4/2207/2207'>嘎嘎赚</navigator></view>
 			</view>
 		</view>
 	</view>

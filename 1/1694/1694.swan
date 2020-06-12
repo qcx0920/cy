@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							注册秉钧红人完成新手任务立得现金奖励10元，其中下载注册并绑定微信即送4元奖励。秉钧红人APP 随手分享价值，让你分享即能赚钱。{{isAll?intro:''}}
+							注册秉钧红人完成新手任务立得现金奖励10元，其中下载注册并绑定微信即送4元奖励。秉钧红人APP 随手{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1580/1580'>聪明赚</navigator></view><view><navigator url='/2/1831/1831'>悦动圈</navigator></view><view><navigator url='/4/2357/2357'>赚钱儿</navigator></view><view><navigator url='/4/2335/2335'>快赚锁屏</navigator></view>
+				<view><navigator url='/2/1766/1766'>章鱼输入法</navigator></view><view><navigator url='/3/2159/2159'>试玩守护</navigator></view><view><navigator url='/3/1970/1970'>红包视界</navigator></view><view><navigator url='/1/1752/1752'>点指成金iOS版</navigator></view>
 			</view>
 		</view>
 	</view>

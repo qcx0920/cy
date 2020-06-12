@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							今日头条百万英雄答题拿奖金，填写复活邀请码33G7H即可获得复活卡一张，只要答对12题就可瓜分百万大奖，10元就能提现。{{isAll?intro:''}}
+							今日头条百万英雄答题拿奖金，填写复活邀请码33G7H即可获得复活卡一张，只要答对12题就可瓜分百万大{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1757/1757'>省钱助手iOS版</navigator></view><view><navigator url='/1/1686/1686'>热葫芦iOS版</navigator></view><view><navigator url='/1/1578/1578'>抖赚</navigator></view><view><navigator url='/4/2303/2303'>拍得利</navigator></view>
+				<view><navigator url='/4/2347/2347'>赚呗</navigator></view><view><navigator url='/3/2067/2067'>多多小说</navigator></view><view><navigator url='/4/2305/2305'>聚享赚</navigator></view><view><navigator url='/3/1919/1919'>闲鱼</navigator></view>
 			</view>
 		</view>
 	</view>

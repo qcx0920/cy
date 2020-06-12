@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							小桔文摘，带你“点亮心灯，温暖人生”~看小桔文摘，天天都能赚现金，一元即可提现，若需邀请码填写12850310。小桔竭力渴望走进你的内心，成为你的良师益友。 请允许我成为你生活的一份子，来温暖你一辈子~ 小桔在温暖你的同时，也非常渴望您能够把温暖传递给更多的人，为此小桔还特地为您准备了邀请同伴赚金币以及一边阅读一边赚钱的小福利！让心灵温暖口袋也感受得到~ {{isAll?intro:''}}
+							小桔文摘，带你“点亮心灯，温暖人生”~看小桔文摘，天天都能赚现金，一元即可提现，若需邀请码填写128{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2079/2079'>随手快报</navigator></view><view><navigator url='/3/1971/1971'>黑豆社群</navigator></view><view><navigator url='/3/2042/2042'>看点头条</navigator></view><view><navigator url='/4/2252/2252'>龙猫众包</navigator></view>
+				<view><navigator url='/2/1797/1797'>赚分享</navigator></view><view><navigator url='/1/1631/1631'>麻袋赚赚</navigator></view><view><navigator url='/1/1517/1517'>云咖看点</navigator></view><view><navigator url='/3/1906/1906'>满堂福</navigator></view>
 			</view>
 		</view>
 	</view>

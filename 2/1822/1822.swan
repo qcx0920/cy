@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							小红店是小红书旗下社交电商平台，省钱又赚钱，10元起提现，分享邀请小红店给别人赚钱，自买最高返利40%，。小红店精选优质好物，开启红人新生活。{{isAll?intro:''}}
+							小红店是小红书旗下社交电商平台，省钱又赚钱，10元起提现，分享邀请小红店给别人赚钱，自买最高返利40{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1666/1666'>51发发 - 51fafa</navigator></view><view><navigator url='/1/1595/1595'>赚钱宝</navigator></view><view><navigator url='/2/1850/1850'>来钱道</navigator></view><view><navigator url='/3/1957/1957'>你好阅读</navigator></view>
+				<view><navigator url='/1/1572/1572'>咋赚</navigator></view><view><navigator url='/2/1856/1856'>微米投票</navigator></view><view><navigator url='/1/1598/1598'>元宝猫</navigator></view><view><navigator url='/4/2276/2276'>轻玩客</navigator></view>
 			</view>
 		</view>
 	</view>

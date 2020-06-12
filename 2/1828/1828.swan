@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							聚宝鹏是一个微信号托管赚钱平台，系统会定期结算，满1元即可提现，方便快捷。建议用满月小号进行托管，在托管期间不要在别的平板或电脑上登陆该号。平台使用您的小号干活获取收益，期间不会影响您微信号的正常交流使用，也不会消耗您的流量。 平台不会索取您的登录密码、支付密码以及身份信息，所以无需担心账号安全问题。您的小号仅用于做网赚，比如文章浏览，关注公众号等，不从事任何非法活动。您的直接下线做任务，您会有10%的提成；二级下线做任务，您会有5%的提成。{{isAll?intro:''}}
+							聚宝鹏是一个微信号托管赚钱平台，系统会定期结算，满1元即可提现，方便快捷。建议用满月小号进行托管，在{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2160/2160'>爱玩客（原69客）</navigator></view><view><navigator url='/4/2397/2397'>省钱助手</navigator></view><view><navigator url='/4/2191/2191'>明明乐园</navigator></view><view><navigator url='/4/2221/2221'>学生赚</navigator></view>
+				<view><navigator url='/3/1908/1908'>66阅读</navigator></view><view><navigator url='/2/1787/1787'>赏乐帮</navigator></view><view><navigator url='/4/2168/2168'>蘑菇乐园</navigator></view><view><navigator url='/4/2371/2371'>豆豆赚钱机</navigator></view>
 			</view>
 		</view>
 	</view>

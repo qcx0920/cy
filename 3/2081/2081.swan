@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							嘿嘿新闻是一款自己阅读新闻资讯就可以赚零花钱的手机赚钱软件，每天利用碎片化时间阅读分享，就可以获得金币奖励。新用户注册就送2元的新手奖励，完成新手任务大概可以获得6000金币左右的奖励！满10元即可提现，秒到账，只支持微信提现。 赚钱方式： 嘿嘿新闻每天签到可以获得10-40金币，阅读10篇新闻资讯可以获得100金币，官方还会再奖励100金币，每周50篇奖励500金币；同时评论10篇资讯也可以获得100金币，还可以获得官方的100金币奖励，一周评论50篇新闻资讯，再奖励你500金币。 应用特点： 随时随地利用碎片化时间阅读文章就可以赚钱； 新人加入送2元新手红包，完成新手任务可以获得5元左右； 10元即可申请结算，微信提现秒到账； 邀请好友加入永久获得好友提成奖励。 邀请好友加入嘿嘿新闻APP，你可以永久获得好友的阅读奖励提成，邀请的好友越多你的收益也就越高，整天在家都能收钱！{{isAll?intro:''}}
+							嘿嘿新闻是一款自己阅读新闻资讯就可以赚零花钱的手机赚钱软件，每天利用碎片化时间阅读分享，就可以获得金{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1488/1488'>iMoney爱钱试玩</navigator></view><view><navigator url='/4/2405/2405'>AA赚</navigator></view><view><navigator url='/4/2257/2257'>口袋赚</navigator></view><view><navigator url='/1/1609/1609'>快赚岛</navigator></view>
+				<view><navigator url='/1/1587/1587'>赚多多</navigator></view><view><navigator url='/4/2214/2214'>想转啦</navigator></view><view><navigator url='/1/1735/1735'>推猫苹果版</navigator></view><view><navigator url='/3/1946/1946'>斑马网</navigator></view>
 			</view>
 		</view>
 	</view>

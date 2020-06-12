@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							多多世界app是Game打造的全新手机游戏娱乐世界，多多世界 - 多多玩，多多赚钱。多多世界看广告视频喂鸟抽现金红包，还能开宝箱领现金红包，鸟每隔一定等级即可抽取随机红包，需实名认证（即输下姓名）。 多多世界是一个看激励视频广告赚钱的app，玩家每天通过观看广告视频，达到一定数值就可以抽取红包，新人观看6个视频后可以抽取两个必中红包，首次0.3元起提。 多多世界每天能观看50次视频，每小时只能看10次，达到一定数量后可开启宝箱。这个并不是100%中奖的，而且中奖大小也不一定，非常的考验运气成分。{{isAll?intro:''}}
+							多多世界app是Game打造的全新手机游戏娱乐世界，多多世界 - 多多玩，多多赚钱。多多世界看广告视{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2088/2088'>人气头条</navigator></view><view><navigator url='/2/1853/1853'>千米红包</navigator></view><view><navigator url='/2/1863/1863'>玩赚</navigator></view><view><navigator url='/4/2270/2270'>抢红包神器</navigator></view>
+				<view><navigator url='/4/2345/2345'>聚宝盆</navigator></view><view><navigator url='/2/1795/1795'>淘差事</navigator></view><view><navigator url='/1/1560/1560'>小啄赚钱</navigator></view><view><navigator url='/1/1583/1583'>Bala快赚</navigator></view>
 			</view>
 		</view>
 	</view>

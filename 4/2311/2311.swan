@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							推钱儿是一款专门为大学生及上班族量身打造的网络威客产品，上手容易，低门槛无难度，轻松赚钱不是梦。   做任务 只需要在手机上点击就能完成的任务，比如装应用、发微博、分享。   赚金币 通过完成各种任务赚取金币，一分钟可以赚够金币兑换1Q币。   换奖品 金币可以换话费充值卡、Q币和支付宝等奖品{{isAll?intro:''}}
+							推钱儿是一款专门为大学生及上班族量身打造的网络威客产品，上手容易，低门槛无难度，轻松赚钱不是梦。  {{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2382/2382'>赚钱花</navigator></view><view><navigator url='/4/2308/2308'>学费赚</navigator></view><view><navigator url='/1/1500/1500'>小涵兼职</navigator></view><view><navigator url='/3/2016/2016'>五条</navigator></view>
+				<view><navigator url='/3/1979/1979'>随手涨分王</navigator></view><view><navigator url='/3/1990/1990'>蜜蜂阅读</navigator></view><view><navigator url='/1/1531/1531'>猪猪世界</navigator></view><view><navigator url='/3/1872/1872'>大六顺</navigator></view>
 			</view>
 		</view>
 	</view>

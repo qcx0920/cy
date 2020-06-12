@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							米钱APP是一款免费的赚钱APP。【已跑路 倒闭了 骗子软件】您只需要利用闲 暇时间（比如：公交车上、地铁上、排队中、等候 中、睡前），做一做米钱APP上的任务，就可以轻 轻松松赚到零花钱。{{isAll?intro:''}}
+							米钱APP是一款免费的赚钱APP。【已跑路 倒闭了 骗子软件】您只需要利用闲 暇时间（比如：公交车上{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1862/1862'>花赚</navigator></view><view><navigator url='/4/2261/2261'>魔豆</navigator></view><view><navigator url='/4/2229/2229'>酷划锁屏</navigator></view><view><navigator url='/3/2088/2088'>人气头条</navigator></view>
+				<view><navigator url='/1/1623/1623'>爱疯赚</navigator></view><view><navigator url='/3/1990/1990'>蜜蜂阅读</navigator></view><view><navigator url='/3/2070/2070'>快转客</navigator></view><view><navigator url='/1/1619/1619'>子弹试玩</navigator></view>
 			</view>
 		</view>
 	</view>

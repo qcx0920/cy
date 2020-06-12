@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							下载知晓壹客领取红包，转赚家最新平台《知晓一客》火爆上线，现在注册送1元， 3元提现秒到账，每次有效阅读0.1元，长分飞快。两级30%提成。{{isAll?intro:''}}
+							下载知晓壹客领取红包，转赚家最新平台《知晓一客》火爆上线，现在注册送1元， 3元提现秒到账，每次有效{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1822/1822'>小红店</navigator></view><view><navigator url='/1/1691/1691'>来赚分享苹果版</navigator></view><view><navigator url='/1/1709/1709'>爱魔豆苹果版</navigator></view><view><navigator url='/1/1660/1660'>刀刀赚钱</navigator></view>
+				<view><navigator url='/1/1676/1676'>试玩团</navigator></view><view><navigator url='/4/2227/2227'>时时转</navigator></view><view><navigator url='/4/2388/2388'>采宝</navigator></view><view><navigator url='/3/1979/1979'>随手涨分王</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							小牛快看是一个转发赚钱的平台，小牛快看下载领0.38元新手红包，5元提现秒到账，填写邀请码2025领红包，徒弟20%提成，10%徒孙提成。您只需利用碎片时间，用玩手机转发文章的方式做任务获取高额收益，没有时间地域的限制，让您随时随地赚取更多的收益，赶快加入我们，一起开启赚钱生活！{{isAll?intro:''}}
+							小牛快看是一个转发赚钱的平台，小牛快看下载领0.38元新手红包，5元提现秒到账，填写邀请码2025领{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2281/2281'>小水滴</navigator></view><view><navigator url='/1/1590/1590'>爱元宝</navigator></view><view><navigator url='/1/1544/1544'>小白赚钱</navigator></view><view><navigator url='/4/2221/2221'>学生赚</navigator></view>
+				<view><navigator url='/2/1867/1867'>享赚钱</navigator></view><view><navigator url='/2/1769/1769'>众人帮</navigator></view><view><navigator url='/1/1561/1561'>金钱豹</navigator></view><view><navigator url='/4/2216/2216'>葡萄转</navigator></view>
 			</view>
 		</view>
 	</view>

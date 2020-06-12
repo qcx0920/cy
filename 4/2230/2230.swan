@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							零钱猫，超给力的赚零钱工具，兼职赚钱好帮手！完成新手任务即可领至少1元，微信秒到。不用做下载任务，轻松做任务每个0.2-0.3不等，还有关注公众号赚钱任务，10元就可提现。手机端轻松做任务，抢红包，领零钱，学生党、上班族必备哦！{{isAll?intro:''}}
+							零钱猫，超给力的赚零钱工具，兼职赚钱好帮手！完成新手任务即可领至少1元，微信秒到。不用做下载任务，轻{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1833/1833'>十金</navigator></view><view><navigator url='/3/1984/1984'>沙发视频</navigator></view><view><navigator url='/1/1526/1526'>萌宝爱消除</navigator></view><view><navigator url='/4/2185/2185'>聚享游</navigator></view>
+				<view><navigator url='/1/1671/1671'>爽啦</navigator></view><view><navigator url='/3/1964/1964'>贝米资讯</navigator></view><view><navigator url='/3/2032/2032'>香蕉网</navigator></view><view><navigator url='/1/1660/1660'>刀刀赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

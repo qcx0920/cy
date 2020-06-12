@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							微信来赚分享，简单分享，轻松赚钱！现在加入 即送随机现金红包！一大波红包免费领，新人到领红包（首次安装注册、发红包给好友、首次分享文章、连续签到7天）等新人红包等你来领。还有做任务抢红包，邀请大于5位好友即可随机抽取现金红包。{{isAll?intro:''}}
+							微信来赚分享，简单分享，轻松赚钱！现在加入 即送随机现金红包！一大波红包免费领，新人到领红包（首次安{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1713/1713'>友米德苹果版 （骗子）</navigator></view><view><navigator url='/3/1905/1905'>奇迹小说</navigator></view><view><navigator url='/3/2028/2028'>雪梨网</navigator></view><view><navigator url='/3/1947/1947'>快虎</navigator></view>
+				<view><navigator url='/1/1564/1564'>鼠宝试玩</navigator></view><view><navigator url='/2/1856/1856'>微米投票</navigator></view><view><navigator url='/3/1971/1971'>黑豆社群</navigator></view><view><navigator url='/1/1752/1752'>点指成金iOS版</navigator></view>
 			</view>
 		</view>
 	</view>

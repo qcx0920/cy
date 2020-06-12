@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							好手气斗地主游戏中心，玩斗地主拿红包，5元奖券即可兑换5元话费，同一场次内获胜5次即可获得一抽抽奖券机会，赢得越多机会越多。{{isAll?intro:''}}
+							好手气斗地主游戏中心，玩斗地主拿红包，5元奖券即可兑换5元话费，同一场次内获胜5次即可获得一抽抽奖券{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1735/1735'>推猫苹果版</navigator></view><view><navigator url='/1/1753/1753'>很好赚iOS版</navigator></view><view><navigator url='/3/1921/1921'>花生转</navigator></view><view><navigator url='/2/1783/1783'>高佣联盟</navigator></view>
+				<view><navigator url='/1/1523/1523'>游易赚</navigator></view><view><navigator url='/1/1584/1584'>小猫试玩</navigator></view><view><navigator url='/1/1622/1622'>乐酷试玩</navigator></view><view><navigator url='/1/1737/1737'>西瓜妹</navigator></view>
 			</view>
 		</view>
 	</view>

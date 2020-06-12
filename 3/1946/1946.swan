@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							快转旗下子公司《斑马网》平台火热推出，注册就送1块，首次(5块)提现以后10块(微信提现)，提现当天到账，推广期间全天阅读单价0.3元；邀请好友奖励15元，并可永久享受下线提成最多50%，每天签到赚钱，支持安卓和苹果手机。{{isAll?intro:''}}
+							快转旗下子公司《斑马网》平台火热推出，注册就送1块，首次(5块)提现以后10块(微信提现)，提现当天{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1889/1889'>中青看点</navigator></view><view><navigator url='/4/2198/2198'>今日阅读</navigator></view><view><navigator url='/4/2245/2245'>点点赚</navigator></view><view><navigator url='/4/2213/2213'>玩得转</navigator></view>
+				<view><navigator url='/4/2358/2358'>比比宝</navigator></view><view><navigator url='/4/2369/2369'>骓客</navigator></view><view><navigator url='/4/2326/2326'>码上买</navigator></view><view><navigator url='/4/2170/2170'>巨宝朋安卓版</navigator></view>
 			</view>
 		</view>
 	</view>

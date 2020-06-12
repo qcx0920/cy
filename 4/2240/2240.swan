@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							聚啦是一个拿起手机点点即可每天持续获取收益的赚钱App，注册即送2元，5元可提现。聚啦是上市公司旗下的全资平台，给你持续保障甩同类App几条街。聚啦平台基于轻任务模式运行，轻任务不需要您拥有任何专业技能，只需要拿出您可爱的小手指点点即可轻松完成。聚啦的轻任务分享转发，您可以自由选择参与各任务并获取即时收益，听上去就很棒呢。 微信扫一扫二维码 【即时到账】 所有的收益都可以通过微信支付即时到账，满5元即可提现。 【任务类型】 分享转发：分享文章到微信朋友圈，每增加一个阅读访问量都会获得相应的报酬奖赏。 更多趣味类型任务，将会持续更新，这钱来的太容易，我都不好意思了！ 【更多趣处】 有了一些小钱，不妨去一元区转转。目前已经开放一元抽奖，来玩一把试试你的手气吧，一元夺宝等更多活动也将陆续推出，小钱也能砸出大声响。{{isAll?intro:''}}
+							聚啦是一个拿起手机点点即可每天持续获取收益的赚钱App，注册即送2元，5元可提现。聚啦是上市公司旗下{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1610/1610'>大拇指</navigator></view><view><navigator url='/2/1851/1851'>苏宁金融</navigator></view><view><navigator url='/1/1663/1663'>超级体验师</navigator></view><view><navigator url='/3/1977/1977'>橙子快报</navigator></view>
+				<view><navigator url='/3/2029/2029'>番薯网</navigator></view><view><navigator url='/3/1889/1889'>中青看点</navigator></view><view><navigator url='/3/1896/1896'>稳稳赚</navigator></view><view><navigator url='/3/1871/1871'>大七喜</navigator></view>
 			</view>
 		</view>
 	</view>

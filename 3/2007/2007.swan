@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							惠头条做更有价值的头条/更会返利的头条，边阅读边赚钱，红包拿到手软。填写邀请码14374573领红包。邀请好友有惊喜，万元金币享不停，有趣更有钱 。头条帐户金额随时提现，还有商城好礼任你挑选。{{isAll?intro:''}}
+							惠头条做更有价值的头条/更会返利的头条，边阅读边赚钱，红包拿到手软。填写邀请码14374573领红包{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2385/2385'>一起免单</navigator></view><view><navigator url='/4/2394/2394'>找到APP</navigator></view><view><navigator url='/1/1649/1649'>小刀赚钱</navigator></view><view><navigator url='/3/1870/1870'>抢先收</navigator></view>
+				<view><navigator url='/3/1997/1997'>淘看点</navigator></view><view><navigator url='/2/1776/1776'>快乐赚</navigator></view><view><navigator url='/1/1531/1531'>猪猪世界</navigator></view><view><navigator url='/3/2078/2078'>随手头条</navigator></view>
 			</view>
 		</view>
 	</view>

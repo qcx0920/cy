@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							豆豆资讯上线福利大放送，限时7毛，抽奖得大礼。新用户注册填写邀请码4a9284bc领红包，完成新手任务奖励5毛，5元起提现。新平台上线啦，众多好礼等你来赚。   福利1:转发单价翻倍 4月18日-4月22日，每天7-8点，12点-13定，18-19点，限时单价翻倍，7毛/阅读！   福利2:幸运大转盘，超级幸运大奖，苹果手机！另外还有88元，18元，8元等现金红包奖励！点击首页大转盘入口即可进入抽奖！   福利3:收徒奖励19元 徒弟首提奖励师傅1元 徒弟第二次提现奖励师傅3元 徒弟第三次提现奖励师傅5元 徒弟转发收益满100奖励师傅10元   快去转发赚大钱吧！！！！！！！{{isAll?intro:''}}
+							豆豆资讯上线福利大放送，限时7毛，抽奖得大礼。新用户注册填写邀请码4a9284bc领红包，完成新手任{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2355/2355'>米多通话赚钱</navigator></view><view><navigator url='/1/1632/1632'>聚优钱</navigator></view><view><navigator url='/3/1939/1939'>点点新闻</navigator></view><view><navigator url='/4/2353/2353'>天天来电宝-赚集分宝</navigator></view>
+				<view><navigator url='/3/2114/2114'>爱传</navigator></view><view><navigator url='/3/1890/1890'>枫叶网</navigator></view><view><navigator url='/4/2313/2313'>虾米锁屏</navigator></view><view><navigator url='/4/2336/2336'>解锁赚【骗子软件】</navigator></view>
 			</view>
 		</view>
 	</view>

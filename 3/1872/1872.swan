@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							大六顺，抢先收、金刚涨旗下——隆重推出强力新平台，涨分更给力，门槛还更低，若需要邀请码填写A10302678，注册登陆就送5毛，永久5元提现。   平台特点 1、  首提仅3元！秒到！注册就送5毛 2、  永久5元提现； 3、  单价3毛2（高单价时6毛） 4、  新客前4次提现师父有奖励2224；满百再父5-10元，最高共奖20元 5、  两级35%收益分成：徒弟25%，徒孙10%。 6、  有效徒弟总数达到6人的师父，有6元额外的“六六大顺奖”（详情见规则） 7、支持上传文章 官方客服QQ群：1079880777{{isAll?intro:''}}
+							大六顺，抢先收、金刚涨旗下——隆重推出强力新平台，涨分更给力，门槛还更低，若需要邀请码填写A1030{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1925/1925'>像素蜜蜂</navigator></view><view><navigator url='/2/1853/1853'>千米红包</navigator></view><view><navigator url='/1/1685/1685'>蜂传苹果版</navigator></view><view><navigator url='/1/1511/1511'>互赚宝</navigator></view>
+				<view><navigator url='/4/2200/2200'>袋鼠赚钱</navigator></view><view><navigator url='/4/2301/2301'>快玩我</navigator></view><view><navigator url='/4/2341/2341'>极锁屏</navigator></view><view><navigator url='/3/1919/1919'>闲鱼</navigator></view>
 			</view>
 		</view>
 	</view>

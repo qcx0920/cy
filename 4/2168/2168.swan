@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							蘑菇乐园，一款玩手机游戏轻松赚钱的兼职赚钱APP。在蘑菇乐园赚钱送您三大福利，新人送你7天蘑菇会员奖励加成20%，新人专享0.4元现金红包，打卡体验金1元，挑战成功瓜分奖励，1元即可提现。填写邀请码DUCV领现金红包！ 蘑菇乐园，一款可以赚钱的APP,更有趣、更好玩、内容更丰富。轻松体验领红包，更多门槛低、易上手、赚钱快的任务等着你哦！邀好友一起躺赚，好友赚钱你拿提成，上不封顶，提现秒到账。   我们正在让流量变现变得更丰富更简单！我们以先进的技术为合作伙伴提供支持，最大程度提高收益，实现共赢。我们以先进的技术为合作伙伴提供支持，最大程度提高收益，实现共赢。   客服QQ：10556271{{isAll?intro:''}}
+							蘑菇乐园，一款玩手机游戏轻松赚钱的兼职赚钱APP。在蘑菇乐园赚钱送您三大福利，新人送你7天蘑菇会员奖{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1540/1540'>应用喵</navigator></view><view><navigator url='/4/2180/2180'>赚客安卓版</navigator></view><view><navigator url='/3/1976/1976'>微趣看</navigator></view><view><navigator url='/3/2078/2078'>随手头条</navigator></view>
+				<view><navigator url='/1/1597/1597'>钱鹿</navigator></view><view><navigator url='/2/1761/1761'>旅行日记</navigator></view><view><navigator url='/3/1900/1900'>聚钱宝</navigator></view><view><navigator url='/4/2248/2248'>秉钧红人</navigator></view>
 			</view>
 		</view>
 	</view>

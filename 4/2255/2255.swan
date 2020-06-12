@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							享推，是国内一款专注于众包营销分享经济的手机赚钱网络兼职神器。注册即送2元！ 碎片时间，轻松赚钱 ，海量任务，每日上新， 安全可靠，随时提现。享推，让分享改变生活！巧用碎片时间，利用手机赚钱，让分享改善生活，改变生活！{{isAll?intro:''}}
+							享推，是国内一款专注于众包营销分享经济的手机赚钱网络兼职神器。注册即送2元！ 碎片时间，轻松赚钱 ，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1611/1611'>小手试玩</navigator></view><view><navigator url='/1/1505/1505'>多多农场</navigator></view><view><navigator url='/4/2277/2277'>e赚-看广告赚钱</navigator></view><view><navigator url='/3/1872/1872'>大六顺</navigator></view>
+				<view><navigator url='/4/2330/2330'>并读新闻</navigator></view><view><navigator url='/1/1666/1666'>51发发 - 51fafa</navigator></view><view><navigator url='/3/2083/2083'>传客美文网</navigator></view><view><navigator url='/1/1545/1545'>恐龙有钱</navigator></view>
 			</view>
 		</view>
 	</view>

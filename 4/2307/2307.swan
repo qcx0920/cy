@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							百度众测出品的一款做任务拿礼品的应用，完成应用中的各种小任务即可获得礼券奖励，礼券可以在众测平台兑换很多礼品！逛街、旅游，顺手拍拍身边的楼景、门店，就可以获得奖励！百度微任务出行、拍照、记录生活，无聊、挂机、打发时间！百度微任务，为您的日常行为付费，让您随时随地创造财富！ 可以兑换京东E咖、百度糯米红包哦 1、下载安装百度微任务 2、完成任务赚礼券，每天登陆微任务，做任务得礼券 3、礼品中心换大礼，拎着一麻袋礼券到百度众测换礼品 赚礼券，换大礼！快来登录众测平台，赚礼券兑换丰厚实物大礼！iPad、小米、百度U盘，海量礼品等您拿！{{isAll?intro:''}}
+							百度众测出品的一款做任务拿礼品的应用，完成应用中的各种小任务即可获得礼券奖励，礼券可以在众测平台兑换{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2009/2009'>闲看点</navigator></view><view><navigator url='/3/1972/1972'>斑马热点</navigator></view><view><navigator url='/1/1599/1599'>有钱赚</navigator></view><view><navigator url='/4/2372/2372'>玩赚-看广告答题赚钱</navigator></view>
+				<view><navigator url='/2/1831/1831'>悦动圈</navigator></view><view><navigator url='/4/2320/2320'>愤怒的富翁</navigator></view><view><navigator url='/1/1561/1561'>金钱豹</navigator></view><view><navigator url='/1/1539/1539'>钱牛</navigator></view>
 			</view>
 		</view>
 	</view>

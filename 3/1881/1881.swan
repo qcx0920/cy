@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							火山转app是一款非常真实靠谱的赚钱软件，你可以使用火山转app更好的轻松赚钱，并且软件操作简单便捷，只需要一键领取即可开启赚钱之旅，还可以更好的进行各种邀请推广赚钱等等。 火山转app是一款全新的手机转发类赚钱的软件，火山转app这款软件中每天都会更新海量的阅读新闻，转发赚钱的任务，用户不需要任何的抵押，而且操作简单，收益丰厚，轻松完成任务就能赚钱，点击量越高你的收益也就越高。 1、 转发文章赚钱，单价3毛5(高单价时7毛)注册就送1元 2、 新客前4次提现师父有奖励;满百再父5-10元，最高共奖20元 3、 两级35%收益分成：徒弟25%，徒孙10%。{{isAll?intro:''}}
+							火山转app是一款非常真实靠谱的赚钱软件，你可以使用火山转app更好的轻松赚钱，并且软件操作简单便捷{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2387/2387'>赚多宝</navigator></view><view><navigator url='/4/2206/2206'>全民皆赚</navigator></view><view><navigator url='/1/1712/1712'>赢联苹果版</navigator></view><view><navigator url='/3/1882/1882'>金镶玉</navigator></view>
+				<view><navigator url='/4/2383/2383'>百度众测</navigator></view><view><navigator url='/1/1560/1560'>小啄赚钱</navigator></view><view><navigator url='/4/2327/2327'>疯传100</navigator></view><view><navigator url='/2/1828/1828'>聚宝鹏</navigator></view>
 			</view>
 		</view>
 	</view>

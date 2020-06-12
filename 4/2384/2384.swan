@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							玩赚是一款让你边玩手机边赚钱的手机应用，目前仅支持Android手机，后续还将推出IOS版本。业余时间赚钱？没错，您只需每日看几个图片广告，就能用手机轻松赚钱了。赚的钱可以充值Q币，也可以通过支付宝和财付通进行提现。   玩赚App有何与众不同?   玩赚App，手机APP新玩法！掌握商家最新优惠信息，分分钟还能至少能赚到5毛钱！   看书间隙、等待公交，睡眠前奏；任何时间，任何地点，只要无聊，就能打开玩赚App开始赚钱！   每看完一张图片，即可获得现金奖励，一张图片最少能赚0.05元。10元即可提现哦！支持支付宝、财付通，只需T+1个工作日就能到账！   推荐有奖，你懂的！分享玩赚App给好友。每成功推荐一位好友注册，可赚取10%提成。推荐越多，奖励越多，无封顶！{{isAll?intro:''}}
+							玩赚是一款让你边玩手机边赚钱的手机应用，目前仅支持Android手机，后续还将推出IOS版本。业余时{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2292/2292'>掌上赚</navigator></view><view><navigator url='/4/2222/2222'>99赚钱</navigator></view><view><navigator url='/2/1843/1843'>来米啦</navigator></view><view><navigator url='/3/2049/2049'>奇葩看点</navigator></view>
+				<view><navigator url='/3/2084/2084'>招财兔</navigator></view><view><navigator url='/2/1837/1837'>小程序试玩</navigator></view><view><navigator url='/3/1958/1958'>顺手赚</navigator></view><view><navigator url='/1/1707/1707'>美赚苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

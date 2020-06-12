@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							皮蛋家园是青萌部落旗下自阅和转发文章赚钱的平台，看新闻资讯或转发文章即可赚钱，5元即可提现。在皮蛋家园阅读、分享、邀请和签到还能够获得奖励，转发单价800金币（8分），不扣量，涨钱飞快！赶紧加入皮蛋家园，在家只管葛优躺，金币蹭蹭往上涨！{{isAll?intro:''}}
+							皮蛋家园是青萌部落旗下自阅和转发文章赚钱的平台，看新闻资讯或转发文章即可赚钱，5元即可提现。在皮蛋家{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1606/1606'>大虾试玩</navigator></view><view><navigator url='/4/2296/2296'>米钱（跑路了）</navigator></view><view><navigator url='/3/1975/1975'>皮蛋家园</navigator></view><view><navigator url='/2/1853/1853'>千米红包</navigator></view>
+				<view><navigator url='/4/2361/2361'>赚翻翻</navigator></view><view><navigator url='/1/1756/1756'>赚泡泡iOS赚钱</navigator></view><view><navigator url='/3/1940/1940'>淘头条</navigator></view><view><navigator url='/4/2392/2392'>G媒-看广告赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

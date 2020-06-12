@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							下载口碑APP玩口碑农场，种菜免费换菜，免费换德克士、汉堡王，口碑农场神奇任务，种菜养牛，0元兑换美食。双11口碑狂欢节来了，5折狂欢，开启精彩，亿元红包福利马上抢。 用口碑APP点餐，线上提前点，到店免排队，开启便捷高效的移动生活。 【双十一活动】 1.双11狂欢节，5折狂欢开启精彩，抢亿元红包 2.成为双11合伙人，集能量瓜分10亿红包 3.50元新人红包，扫线下门店活动二维码参与活动 口碑，是阿里巴巴旗下本地生活服务平台，为消费者提供美食、外卖、点餐、订餐、团购、电影票、酒店预订、机票/火车票、打车出行、休闲娱乐、周边游、KTV、丽人美容美发、足疗养生、结婚、亲子、摄影、健身等全面生活服务。口碑通过机器算法精准推荐，让用户用更低的价格找到好店、好商品，同时口碑提供多种平台红包补贴，让消费者体会更多实惠。{{isAll?intro:''}}
+							下载口碑APP玩口碑农场，种菜免费换菜，免费换德克士、汉堡王，口碑农场神奇任务，种菜养牛，0元兑换美{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2046/2046'>趣看</navigator></view><view><navigator url='/4/2279/2279'>锁财宝</navigator></view><view><navigator url='/3/1884/1884'>聚赚资讯</navigator></view><view><navigator url='/3/2158/2158'>顺手转</navigator></view>
+				<view><navigator url='/1/1515/1515'>赏呗兼职</navigator></view><view><navigator url='/1/1689/1689'>赚点-调查赚钱app</navigator></view><view><navigator url='/4/2338/2338'>优锁屏</navigator></view><view><navigator url='/3/2060/2060'>趣转发</navigator></view>
 			</view>
 		</view>
 	</view>

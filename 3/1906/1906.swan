@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							满堂福是抢先赚旗下又一转发平台，注册送5毛，首次3元提现之后10元起提现，文章阅读单价3毛。每天打款两次，提现基本当天到账，还有签到红包，持续越久，红包越大。此外，抢先赚旗下还有个来丰收的平台。 满堂福官方客服QQ群：710850612{{isAll?intro:''}}
+							满堂福是抢先赚旗下又一转发平台，注册送5毛，首次3元提现之后10元起提现，文章阅读单价3毛。每天打款{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1935/1935'>全民快讯</navigator></view><view><navigator url='/1/1544/1544'>小白赚钱</navigator></view><view><navigator url='/4/2224/2224'>薪客</navigator></view><view><navigator url='/4/2191/2191'>明明乐园</navigator></view>
+				<view><navigator url='/3/1955/1955'>快米看点</navigator></view><view><navigator url='/3/2059/2059'>快马小报</navigator></view><view><navigator url='/4/2224/2224'>薪客</navigator></view><view><navigator url='/3/1990/1990'>蜜蜂阅读</navigator></view>
 			</view>
 		</view>
 	</view>

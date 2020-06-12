@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							疯狂合体鸭是一款休闲挂机搞怪类合成游戏，用户开局购买一只小黄鸭，通过不断培养合成来提升鸭子战斗力，鸭子可帮忙闯关，闯关成功即可领取不同金额的红包，鸭子造型搞怪，应用轻松解压。疯狂合体鸭，玩法不一样的合成类手机游戏，搞笑轻松还能赚钱。 疯狂合体鸭游戏中有着大量的可爱卡通鸭子，玩家通过养殖的方式来赚取到不同类型的获取红包，玩家在把鸭子养殖到达37级合成38级的分红鸭的时候，不仅能获得广告分红，还能同时进行战斗，同时通过养成、研究等游戏进阶玩法，让整个游戏显得更有趣味，也更加丰富，相信对游戏讲究的玩家会喜欢上这一款游戏。 疯狂合体鸭玩法 1、主要的方式就是合成鸭子，把鸭子的等级培养到38级，获得分红鸭； 2、分红鸭能够享受到游戏的每日广告分成，每日分红的金额会越来越高； 3、同时邀请好友下载游戏，获得抽奖卷是可以利用去抽取手机的，非常真实； 4、玩家可以通过培养鸭子，等级越高能够战胜的鸭子越多，同时也能获得大量的红包。 疯狂合体鸭是一款最新上线的手机赚钱游戏，在这里你可以去通过邀请好友可以获得抽奖劵，让你在抽奖的时候有概率抽奖到分红鸭！能够让玩家在休闲的时候还能赚取收入！非常值得大家使用！ 客服QQ：800868856{{isAll?intro:''}}
+							疯狂合体鸭是一款休闲挂机搞怪类合成游戏，用户开局购买一只小黄鸭，通过不断培养合成来提升鸭子战斗力，鸭{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1651/1651'>易银赚钱</navigator></view><view><navigator url='/3/2122/2122'>知晓</navigator></view><view><navigator url='/1/1728/1728'>eTommer苹果版</navigator></view><view><navigator url='/2/1828/1828'>聚宝鹏</navigator></view>
+				<view><navigator url='/1/1518/1518'>丐帮</navigator></view><view><navigator url='/4/2317/2317'>黄金指</navigator></view><view><navigator url='/3/2118/2118'>阅头条</navigator></view><view><navigator url='/1/1536/1536'>小啄赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

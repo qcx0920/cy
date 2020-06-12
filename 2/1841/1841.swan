@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							芝士小视频，持COS币填写邀请码DWTY7每日领分红奖励，看小视频得分红奖励，“看视频，点赞，评论，发视频”都会得到对应的COS币奖励，平台根据用户所持COS币比例，每日下发人民币现金分红，分红可以随时提现到支付宝账户。号称国外版火牛视频，但是查了下好像是金山猎豹旗下。{{isAll?intro:''}}
+							芝士小视频，持COS币填写邀请码DWTY7每日领分红奖励，看小视频得分红奖励，“看视频，点赞，评论，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1751/1751'>指尖精灵iOS版</navigator></view><view><navigator url='/1/1677/1677'>搜猴儿赚钱</navigator></view><view><navigator url='/3/2011/2011'>快头条</navigator></view><view><navigator url='/3/2010/2010'>皮皮车</navigator></view>
+				<view><navigator url='/2/1795/1795'>淘差事</navigator></view><view><navigator url='/3/1929/1929'>天天赚</navigator></view><view><navigator url='/1/1681/1681'>铜板墙</navigator></view><view><navigator url='/1/1521/1521'>红淘客</navigator></view>
 			</view>
 		</view>
 	</view>

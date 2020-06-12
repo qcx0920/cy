@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1895/1895'>钱库资讯</navigator></view><view><navigator url='/1/1622/1622'>乐酷试玩</navigator></view><view><navigator url='/3/1938/1938'>来丰收</navigator></view><view><navigator url='/1/1669/1669'>赚一兜苹果版</navigator></view>
+				<view><navigator url='/4/2381/2381'>私房钱</navigator></view><view><navigator url='/4/2402/2402'>零用宝-手机赚钱</navigator></view><view><navigator url='/4/2351/2351'>财神锁屏</navigator></view><view><navigator url='/4/2326/2326'>码上买</navigator></view>
 			</view>
 		</view>
 	</view>

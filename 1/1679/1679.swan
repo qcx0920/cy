@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							一元赚，一款能赚钱的APP，1分钟赚1元，1元能提现。一款让你越来越有钱的APP。小伙伴们通过完成指定的小任务，来获得现金和实物奖励。 用户完成由一元赚指定的任务，从而获得相应的报酬，此奖励为您的劳动所得、由一元赚以及合作广告商支付相应报酬。{{isAll?intro:''}}
+							一元赚，一款能赚钱的APP，1分钟赚1元，1元能提现。一款让你越来越有钱的APP。小伙伴们通过完成指{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1605/1605'>多赚红包</navigator></view><view><navigator url='/1/1735/1735'>推猫苹果版</navigator></view><view><navigator url='/1/1598/1598'>元宝猫</navigator></view><view><navigator url='/1/1507/1507'>全民悬赏</navigator></view>
+				<view><navigator url='/1/1706/1706'>口袋赚苹果版</navigator></view><view><navigator url='/3/2087/2087'>任务宝</navigator></view><view><navigator url='/1/1674/1674'>A米</navigator></view><view><navigator url='/1/1558/1558'>懒猫试玩</navigator></view>
 			</view>
 		</view>
 	</view>

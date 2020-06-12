@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							杨桃资讯，水果联盟旗下新平台，上线期间全天单价0.5元，收徒18元+20%徒弟提成+10%徒孙提成；3.20号-3.26号有7天的收徒大赛活动，收徒大赛保底16元（有效徒弟两人以上自动参与活动） 新手红包：注册就送1元，5元起提现。 每日签到：当天的收益达到2元才可以签到， 连续签到7天，第7天的签到领0.5元； 连续签到15天，第15天的签到领1元； 连续签到 30天，第30天的签到领5元。 客服微信：yangtaoo2{{isAll?intro:''}}
+							杨桃资讯，水果联盟旗下新平台，上线期间全天单价0.5元，收徒18元+20%徒弟提成+10%徒孙提成；{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1818/1818'>热量星球</navigator></view><view><navigator url='/1/1735/1735'>推猫苹果版</navigator></view><view><navigator url='/4/2239/2239'>72G游戏助手</navigator></view><view><navigator url='/4/2210/2210'>小象读吧</navigator></view>
+				<view><navigator url='/2/1762/1762'>悬赏猫</navigator></view><view><navigator url='/1/1579/1579'>体验赚</navigator></view><view><navigator url='/4/2383/2383'>百度众测</navigator></view><view><navigator url='/4/2187/2187'>手机蹦蹦</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							众人帮赚钱,千万用户首选兼职，赚钱APP！ 1元即可提现，秒到微信、支付宝。众人帮每天一万多个悬赏让你赚个够，随时随地，躺在家里，轻松手机赚钱！ 每个悬赏的赏金都已托管到众人帮，只要您完成悬赏，众人帮立即发放赏金，再也不用担心拖欠和受骗。  轻松赚取生活费，实现”每天半小时，月赚1000元”的小目标。 生活中的棘手、为难事情，都可以在众人帮发悬赏来解决。 众人帮赚钱，一个更好的生活方式！{{isAll?intro:''}}
+							众人帮赚钱,千万用户首选兼职，赚钱APP！ 1元即可提现，秒到微信、支付宝。众人帮每天一万多个悬赏让{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1784/1784'>叮咚众包</navigator></view><view><navigator url='/3/2106/2106'>趣阅赚</navigator></view><view><navigator url='/2/1851/1851'>苏宁金融</navigator></view><view><navigator url='/4/2322/2322'>小钱包APP(下架)</navigator></view>
+				<view><navigator url='/3/1979/1979'>随手涨分王</navigator></view><view><navigator url='/3/1951/1951'>聚合头条</navigator></view><view><navigator url='/4/2354/2354'>黄金锁屏</navigator></view><view><navigator url='/4/2350/2350'>红包惠锁屏</navigator></view>
 			</view>
 		</view>
 	</view>

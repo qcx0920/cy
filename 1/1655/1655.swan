@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							51红包是基于iPhone手机平台开发的手机赚钱软件。该款刷钱app不同于其他多种诸如聚赚钱、米赚等手机赚钱软件，在完善功能的同时，在产品界面和用户体验上做了很大的改进，将简洁、易用的产品理念融入了产品设计之中。 微信扫一扫下图二维码 手机网赚应用已逐步融入用户的生活之中，在用户闲暇娱乐之际，不仅满足了用户休闲娱乐的需求，而且再次同时满足了广告主app产品推广的需求。 51红包功能介绍 注册即领3元现金 接入更多渠道，每日更新赚钱任务，手机赚钱更多 分享要求好友功能，徒弟15%得分奖励，徒孙5%任务奖励 快速提现功能，支持支付宝、话费充值{{isAll?intro:''}}
+							51红包是基于iPhone手机平台开发的手机赚钱软件。该款刷钱app不同于其他多种诸如聚赚钱、米赚等{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2174/2174'>每天赚点</navigator></view><view><navigator url='/1/1548/1548'>试玩赚钱入口</navigator></view><view><navigator url='/2/1810/1810'>飞鸟山庄</navigator></view><view><navigator url='/4/2271/2271'>小柿快递用户版</navigator></view>
+				<view><navigator url='/1/1587/1587'>赚多多</navigator></view><view><navigator url='/4/2241/2241'>老板锁屏</navigator></view><view><navigator url='/4/2201/2201'>72G赚吧</navigator></view><view><navigator url='/1/1505/1505'>多多农场</navigator></view>
 			</view>
 		</view>
 	</view>

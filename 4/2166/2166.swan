@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							iMoney爱盈利试玩平台出安卓版啦，2元就能提现，超低门槛，通过试玩应用或做指定的小任务获得现金奖励。帮助用户赚钱的手机应用，用户通过软件完成相应的任务，点赞，邀请好友等即可赚钱，支持用户提现哦，如果你有兴趣的话，千万不要犹豫，赶紧来下载赚钱吧！ imoney特点 试玩赚钱：你可以通过试玩软件提供的应用来赚钱哦，想赚钱，就是这么简单！ 海量任务：每天为你更新优选渠道，海量任务，赚钱赚到不停 丰厚奖励：任务最多，奖励最高，有钱任性就是这么拽 点赞赚钱：你可以通过收集对软件上提供的网页进行的点赞来赚钱； 邀请好友：还可以通过邀请你的好友来获得一定的利润，有钱大家一起赚！ 闪电提现：10元就可以提现，随时随地想提就提，操作简易，闪电处理，方便快捷{{isAll?intro:''}}
+							iMoney爱盈利试玩平台出安卓版啦，2元就能提现，超低门槛，通过试玩应用或做指定的小任务获得现金奖{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1665/1665'>开钱宝</navigator></view><view><navigator url='/1/1619/1619'>子弹试玩</navigator></view><view><navigator url='/1/1621/1621'>17试客</navigator></view><view><navigator url='/3/2014/2014'>全民小视频</navigator></view>
+				<view><navigator url='/2/1848/1848'>小微托管挂机赚钱</navigator></view><view><navigator url='/2/1785/1785'>蜘蛛盟</navigator></view><view><navigator url='/4/2298/2298'>微看点</navigator></view><view><navigator url='/1/1624/1624'>口袋ATM</navigator></view>
 			</view>
 		</view>
 	</view>

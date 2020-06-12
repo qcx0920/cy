@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							贝壳转是一个微信转发赚钱平台，登陆就送3毛，转发文章被 阅读一次奖励3毛2，5元起提现。用户可通过转发产品内文章到微信群/朋友圈，微信用户点击文章，分享者即获取现金奖励，现金可以通过提现到微信。大家快快加入吧！ 添加客服公众号可以优先提现审核哦 首码，爆力涨钱【贝壳转】最新0投资项目，转发文章就能赚钱，别人点击一次你得0.32元，一千人点击你就赚320元，遇到一篇热门文章点击量轻松过万，秒赚几千！推广收徒永久拿50%提成奖励，一级30%，二级20%，收入上不封顶！    客服微信公众号：bkzhuan{{isAll?intro:''}}
+							贝壳转是一个微信转发赚钱平台，登陆就送3毛，转发文章被 阅读一次奖励3毛2，5元起提现。用户可通过转{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2352/2352'>聚宝屏</navigator></view><view><navigator url='/2/1788/1788'>全民赚</navigator></view><view><navigator url='/3/1940/1940'>淘头条</navigator></view><view><navigator url='/1/1536/1536'>小啄赚钱</navigator></view>
+				<view><navigator url='/1/1575/1575'>顽狮试玩</navigator></view><view><navigator url='/1/1706/1706'>口袋赚苹果版</navigator></view><view><navigator url='/3/1911/1911'>资讯随享</navigator></view><view><navigator url='/1/1633/1633'>应用小秘</navigator></view>
 			</view>
 		</view>
 	</view>

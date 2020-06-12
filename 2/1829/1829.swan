@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							省钱快报是一个集购物返利、阅读赚钱和任务赚钱为一体的app，1元就能提现。多家媒体推荐：2018年度省钱购物App，比淘宝天猫直接买，省50%； 绝对不花1笔冤枉钱 9.9包邮专场、限时秒杀等特色专区低价好物等你来抢！{{isAll?intro:''}}
+							省钱快报是一个集购物返利、阅读赚钱和任务赚钱为一体的app，1元就能提现。多家媒体推荐：2018年度{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1561/1561'>金钱豹</navigator></view><view><navigator url='/3/2035/2035'>喜赚</navigator></view><view><navigator url='/3/1884/1884'>聚赚资讯</navigator></view><view><navigator url='/2/1811/1811'>赚钱猫</navigator></view>
+				<view><navigator url='/3/1903/1903'>西柚资讯</navigator></view><view><navigator url='/2/1798/1798'>淘小铺</navigator></view><view><navigator url='/2/1825/1825'>走路钱多多</navigator></view><view><navigator url='/3/1938/1938'>来丰收</navigator></view>
 			</view>
 		</view>
 	</view>

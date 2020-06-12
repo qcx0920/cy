@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							91人气是一款手机赚钱的软件，轻松完成任务赚取收益，操作简单，赶紧来下载吧。注册送2元，普通任务一单0.2元，直通车任务1单0.3到0.8 元。91人气为兼职群体提供一个无风险无押金，只要有手机就可以轻轻松松赚取零花钱的平台。【苹果和安卓手机都可以用】 大家注册后，提示下载app登录后，在app-我-帮助中心 学习任务流程。{{isAll?intro:''}}
+							91人气是一款手机赚钱的软件，轻松完成任务赚取收益，操作简单，赶紧来下载吧。注册送2元，普通任务一单{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2304/2304'>看看有钱</navigator></view><view><navigator url='/3/2098/2098'>有文共赏</navigator></view><view><navigator url='/3/2042/2042'>看点头条</navigator></view><view><navigator url='/1/1650/1650'>触金</navigator></view>
+				<view><navigator url='/4/2246/2246'>爱玩商店</navigator></view><view><navigator url='/1/1731/1731'>放眼苹果版</navigator></view><view><navigator url='/1/1507/1507'>全民悬赏</navigator></view><view><navigator url='/4/2401/2401'>淘粉吧返利拿集分宝</navigator></view>
 			</view>
 		</view>
 	</view>

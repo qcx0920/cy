@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							玩乐族是一款让你边玩手机边赚钱的手机应用，目前仅支持Android手机，后续还将推出IOS版本。业余时间赚钱？没错，您只需每日看几个图片广告，就能用手机轻松赚钱了。赚的钱可以充值Q币，也可以通过支付宝和财付通进行提现。 目前玩乐族提供三种兑换渠道，Q币、支付宝和财付通。最低一元即可兑换1个Q币，如果您有支付宝或财付通账户，10元以上便可以直接兑换RMB啦！ 除了看广告还有别的赚钱渠道吗？当然有！方法还不止一种。 1、 参与到商家互动中来，多多为广告商提供建议，就有机会获得广告商的现金奖励！ 2、 下载应用赚钱，我们为您精选了多个好玩实用的应用，您在下载注册后，就能赚取应用商家提供的奖励。 3、 抽奖小游戏，如果您觉得当天赚到的钱太少了不够提取,不如试试抽奖小游戏吧，0.1元就能博取10元大奖哦！{{isAll?intro:''}}
+							玩乐族是一款让你边玩手机边赚钱的手机应用，目前仅支持Android手机，后续还将推出IOS版本。业余{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1649/1649'>小刀赚钱</navigator></view><view><navigator url='/3/1881/1881'>火山转</navigator></view><view><navigator url='/4/2184/2184'>零钱试玩</navigator></view><view><navigator url='/3/1987/1987'>小桔文摘</navigator></view>
+				<view><navigator url='/1/1694/1694'>秉钧红人苹果版</navigator></view><view><navigator url='/4/2214/2214'>想转啦</navigator></view><view><navigator url='/4/2272/2272'>龙易赚</navigator></view><view><navigator url='/4/2341/2341'>极锁屏</navigator></view>
 			</view>
 		</view>
 	</view>

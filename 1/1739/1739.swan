@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							聚賺钱（仅限iOS）是让用户体验试玩各种类型app的同时还能获得真实奖励的一款手机賺钱类app,是目前同类型产品里用户收益比例最高的产品。   用用微信扫一扫，开始赚钱之旅！    {{isAll?intro:''}}
+							聚賺钱（仅限iOS）是让用户体验试玩各种类型app的同时还能获得真实奖励的一款手机賺钱类app,是目{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2172/2172'>天天趣玩</navigator></view><view><navigator url='/3/1999/1999'>松鼠资讯</navigator></view><view><navigator url='/1/1499/1499'>武林外赚</navigator></view><view><navigator url='/1/1641/1641'>游虎试玩</navigator></view>
+				<view><navigator url='/1/1591/1591'>金日赚</navigator></view><view><navigator url='/2/1856/1856'>微米投票</navigator></view><view><navigator url='/1/1544/1544'>小白赚钱</navigator></view><view><navigator url='/1/1589/1589'>应用猎人</navigator></view>
 			</view>
 		</view>
 	</view>

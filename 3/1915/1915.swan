@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							快转旗下新平台，麒麟网火热推出~ 注册送1元，5元就能提现。11.11万红包瓜分活动进行中，推广期间全天阅读单价0.42元，只要分享点击就有收益，收徒享受18元+50%分享提成，福利多多，快来注册参加吧~ 客服微信：Yimoshaonian{{isAll?intro:''}}
+							快转旗下新平台，麒麟网火热推出~ 注册送1元，5元就能提现。11.11万红包瓜分活动进行中，推广期间{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1846/1846'>刷刷客</navigator></view><view><navigator url='/3/1876/1876'>番茄小说</navigator></view><view><navigator url='/4/2326/2326'>码上买</navigator></view><view><navigator url='/4/2350/2350'>红包惠锁屏</navigator></view>
+				<view><navigator url='/4/2357/2357'>赚钱儿</navigator></view><view><navigator url='/1/1661/1661'>钱咖赚钱</navigator></view><view><navigator url='/4/2356/2356'>手机赚零钱</navigator></view><view><navigator url='/1/1629/1629'>东方头条苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

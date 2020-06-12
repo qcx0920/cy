@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							一起免单是2014年最受欢迎的免费赚钱购物兑换平台。输入邀请码：25710，可领100金币=1元，不输领50金币。只需动动手指完成任务，即可免费赚钱！你还会发现，原来买东西可以不花钱！你还可以在一起免单赚到的积分，兑换高价值商品，随你兑换领取。   【应用特色】 特色一：安装即送现金 ，填邀请码可以拿2元现金！ 特色二：商品兑换，商品全场包邮，零食、公仔、数码产品那不停.... 特色三：现金兑换，快速兑换到支付宝，现金随你拿！ 特色四：一键分享，快速分享到微博、微信、QQ等社交平台，并邀请好友一起拿金币！ 特色五：全新的师徒系统，超高收益，让您享受不劳而获的快感 ！   用了一起免单，大家都说，“话费再也不用钱充了，零食再也不用钱买了！”  {{isAll?intro:''}}
+							一起免单是2014年最受欢迎的免费赚钱购物兑换平台。输入邀请码：25710，可领100金币=1元，不{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1714/1714'>享e下苹果版（下架）</navigator></view><view><navigator url='/3/1908/1908'>66阅读</navigator></view><view><navigator url='/4/2216/2216'>葡萄转</navigator></view><view><navigator url='/3/1930/1930'>互动看点</navigator></view>
+				<view><navigator url='/1/1718/1718'>轻玩客苹果版</navigator></view><view><navigator url='/1/1562/1562'>红包达人</navigator></view><view><navigator url='/3/2104/2104'>包赚</navigator></view><view><navigator url='/4/2251/2251'>突见安卓版</navigator></view>
 			</view>
 		</view>
 	</view>

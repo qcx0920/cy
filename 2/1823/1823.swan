@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							投吧网致力于为广大网民提供各种有奖调查项目和调查赚钱的机会，您可通过参加网络调查兼职、参与问卷投票赚取现金。会员在投吧网每完成一份有奖调查问卷，可获得1-60元不等的现金奖励。现金10元起兑，支付宝一周到账！ 客服咨询QQ：3241411644{{isAll?intro:''}}
+							投吧网致力于为广大网民提供各种有奖调查项目和调查赚钱的机会，您可通过参加网络调查兼职、参与问卷投票赚{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2357/2357'>赚钱儿</navigator></view><view><navigator url='/3/1881/1881'>火山转</navigator></view><view><navigator url='/1/1674/1674'>A米</navigator></view><view><navigator url='/3/1934/1934'>暴龙</navigator></view>
+				<view><navigator url='/1/1694/1694'>秉钧红人苹果版</navigator></view><view><navigator url='/1/1575/1575'>顽狮试玩</navigator></view><view><navigator url='/1/1651/1651'>易银赚钱</navigator></view><view><navigator url='/4/2341/2341'>极锁屏</navigator></view>
 			</view>
 		</view>
 	</view>

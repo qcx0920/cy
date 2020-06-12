@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							豆豆趣玩用手机赚钱的好玩平台，现在新用户加入还有6元现金大奖。安卓用户填写邀请码S10001665，立得5元。试玩APP获得高收益，每试玩一个APP可获得1元现金奖励的收益。随时可提现，10元就能微信提现秒到账。{{isAll?intro:''}}
+							豆豆趣玩用手机赚钱的好玩平台，现在新用户加入还有6元现金大奖。安卓用户填写邀请码S10001665，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1898/1898'>辣椒转</navigator></view><view><navigator url='/3/1884/1884'>聚赚资讯</navigator></view><view><navigator url='/2/1812/1812'>乐益看</navigator></view><view><navigator url='/1/1543/1543'>哆啦赚</navigator></view>
+				<view><navigator url='/1/1522/1522'>王者联盟</navigator></view><view><navigator url='/3/2024/2024'>亿刻</navigator></view><view><navigator url='/2/1829/1829'>省钱快报</navigator></view><view><navigator url='/3/2040/2040'>牛牛头条</navigator></view>
 			</view>
 		</view>
 	</view>

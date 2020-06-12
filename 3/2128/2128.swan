@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							采乐赚是一款手机采矿娱乐赚钱游戏，采乐赚玩家可以通过手机采矿矿石与水晶，采乐赚出矿水晶可以提现，采乐赚矿石可以出售给其他玩家购买，采乐赚不止于赚钱！手机挖矿赚，不用下载就能赚钱哦，5元就能提现。挂住，然后收矿就OK。{{isAll?intro:''}}
+							采乐赚是一款手机采矿娱乐赚钱游戏，采乐赚玩家可以通过手机采矿矿石与水晶，采乐赚出矿水晶可以提现，采乐{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1802/1802'>有米众帮接单</navigator></view><view><navigator url='/3/1900/1900'>聚钱宝</navigator></view><view><navigator url='/2/1779/1779'>截图宝</navigator></view><view><navigator url='/3/2125/2125'>闲猫</navigator></view>
+				<view><navigator url='/4/2364/2364'>米栈-手机赚钱</navigator></view><view><navigator url='/1/1671/1671'>爽啦</navigator></view><view><navigator url='/3/2132/2132'>众众赚</navigator></view><view><navigator url='/3/2113/2113'>瞎转</navigator></view>
 			</view>
 		</view>
 	</view>

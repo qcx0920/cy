@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							上2155 APP随手财就来，＂2155 APP＂（仅限苹果iOS，安装送3元 邀请ID填186031），是一个崭新的移动APP的实用平台，您通过2155下载APP试玩体验，即可获得相应现金奖励。2155开启赚钱之旅，带你装逼带你飞，带你数钱到天黑！ 新手礼包，注册即送3元红包免费领，更多奖励等你拿 丰厚奖励，任务最多，奖励最高，有钱任性就是这么拽 师徒系统，为师这就来教你，如何躺着把钱赚 闪电兑换，随时随换，操作简易，闪电处理，方便快捷{{isAll?intro:''}}
+							上2155 APP随手财就来，＂2155 APP＂（仅限苹果iOS，安装送3元 邀请ID填18603{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1494/1494'>多多红包</navigator></view><view><navigator url='/2/1813/1813'>小牛赚</navigator></view><view><navigator url='/4/2309/2309'>众用助手【骗子】</navigator></view><view><navigator url='/4/2251/2251'>突见安卓版</navigator></view>
+				<view><navigator url='/2/1855/1855'>企鹅众测</navigator></view><view><navigator url='/1/1628/1628'>麦子赚苹果版</navigator></view><view><navigator url='/1/1598/1598'>元宝猫</navigator></view><view><navigator url='/1/1531/1531'>猪猪世界</navigator></view>
 			</view>
 		</view>
 	</view>

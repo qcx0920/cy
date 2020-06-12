@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							掌上头条是一款看看生活娱乐信息就能赚钱的APP，看一篇文章1分5（无上限），1元就能提现（邀请码M86961985278）。躺着玩手机也能赚钱？秘密都在掌上头条APP里。掌上头条是一款充分发挥寓教于乐思想，鼓励用户使用碎片时间阅读资讯，观看视频，并且让用户的每一次阅读都产生一定的价值，以此让用户养成良好的阅读习惯，打造全民阅读的良好氛围。{{isAll?intro:''}}
+							掌上头条是一款看看生活娱乐信息就能赚钱的APP，看一篇文章1分5（无上限），1元就能提现（邀请码M8{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2046/2046'>趣看</navigator></view><view><navigator url='/3/1882/1882'>金镶玉</navigator></view><view><navigator url='/4/2396/2396'>淘粉吧粉赚</navigator></view><view><navigator url='/3/2052/2052'>转乐</navigator></view>
+				<view><navigator url='/3/2128/2128'>采乐赚</navigator></view><view><navigator url='/4/2264/2264'>赢联APP</navigator></view><view><navigator url='/3/2052/2052'>转乐</navigator></view><view><navigator url='/1/1727/1727'>小微助手【骗子】</navigator></view>
 			</view>
 		</view>
 	</view>

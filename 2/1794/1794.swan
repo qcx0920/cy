@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							趣味星球，靠谱赚零花的app，做任务、玩游戏轻松挣零花钱，星球每天还会自动产生收益，边玩边赚，3元就能提现，支持微信和支付宝提现，集趣网旗下赚零花钱的平台。 趣味星球新用户只要注册，即可解锁新人任务大礼包，任务炒鸡简单，10元新人红包轻轻松松拿到手！集趣玩家可直接登录，同样拥有此福利哦！（15天内领取有效~） 星球每小时会自动产出趣钻，1万趣钻=1元，3元即可提现，所以小伙伴记得每天登陆收取哦，12小时不领取会作废哒~~看看新闻、小说也能赚钱哒 联系我们 趣味星球官方会员群：597030148，客服QQ：3505372544{{isAll?intro:''}}
+							趣味星球，靠谱赚零花的app，做任务、玩游戏轻松挣零花钱，星球每天还会自动产生收益，边玩边赚，3元就{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2192/2192'>赚宝</navigator></view><view><navigator url='/1/1580/1580'>聪明赚</navigator></view><view><navigator url='/1/1611/1611'>小手试玩</navigator></view><view><navigator url='/1/1554/1554'>金手指</navigator></view>
+				<view><navigator url='/3/2059/2059'>快马小报</navigator></view><view><navigator url='/4/2402/2402'>零用宝-手机赚钱</navigator></view><view><navigator url='/3/1998/1998'>天天趣闻</navigator></view><view><navigator url='/3/1946/1946'>斑马网</navigator></view>
 			</view>
 		</view>
 	</view>

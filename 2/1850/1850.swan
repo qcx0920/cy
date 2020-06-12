@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							来钱道是一个手机微信投票软件，余额满1元即可提现，提现秒到账，同时支持苹果设备和安卓设备。来钱道的任务单价在1毛左右，简单参与微信投票就可以获得奖励，满1元即可提现。{{isAll?intro:''}}
+							来钱道是一个手机微信投票软件，余额满1元即可提现，提现秒到账，同时支持苹果设备和安卓设备。来钱道的任{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2165/2165'>萌萌小笨龙</navigator></view><view><navigator url='/1/1616/1616'>啪啪赚</navigator></view><view><navigator url='/2/1849/1849'>红信</navigator></view><view><navigator url='/1/1752/1752'>点指成金iOS版</navigator></view>
+				<view><navigator url='/4/2211/2211'>左玩右玩</navigator></view><view><navigator url='/3/1964/1964'>贝米资讯</navigator></view><view><navigator url='/4/2333/2333'>零花锁屏</navigator></view><view><navigator url='/3/2058/2058'>芝麻转转</navigator></view>
 			</view>
 		</view>
 	</view>

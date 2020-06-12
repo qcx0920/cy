@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							小牛赚是一个可以试玩APP和观看广告视频赚钱的软件，应用试玩是小牛赚每日获得金币的主要来源之一，用户可在应用试玩中安装新应用，获得相应数目的金币，满3元即可提现。 同类的还有赚钢镚，番茄赚等。 客服QQ群：710730157{{isAll?intro:''}}
+							小牛赚是一个可以试玩APP和观看广告视频赚钱的软件，应用试玩是小牛赚每日获得金币的主要来源之一，用户{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1994/1994'>观天下</navigator></view><view><navigator url='/2/1817/1817'>口碑</navigator></view><view><navigator url='/1/1685/1685'>蜂传苹果版</navigator></view><view><navigator url='/2/1857/1857'>趣专享</navigator></view>
+				<view><navigator url='/1/1593/1593'>首富赚钱</navigator></view><view><navigator url='/1/1661/1661'>钱咖赚钱</navigator></view><view><navigator url='/1/1623/1623'>爱疯赚</navigator></view><view><navigator url='/1/1550/1550'>柚子试玩</navigator></view>
 			</view>
 		</view>
 	</view>

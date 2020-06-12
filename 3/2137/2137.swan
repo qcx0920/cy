@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							喵赚-朋友圈转发赚钱神器，喵赚是一款让你在看文章的同时还能赚到钱的智能手机应用。安装送1元，3元提现！不论在哪里，只要下载喵赚App，利用碎片时间，看文章学习知识的同时，还能轻松赚钱。拥有手机，拥有空余时间你就可以轻松赚钱。 国内专注于营销分享任务的手机兼职赚钱神器。0投入，高收益。只需要一部手机，就可以兼职做任务赚钱，不管你是学生还是宝妈还是闲的无聊的人，不管你是否有经验，很简单的动动手指就可以赚钱的神器，网络赚钱，就是这么简单。{{isAll?intro:''}}
+							喵赚-朋友圈转发赚钱神器，喵赚是一款让你在看文章的同时还能赚到钱的智能手机应用。安装送1元，3元提现{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2281/2281'>小水滴</navigator></view><view><navigator url='/3/2044/2044'>头条看点</navigator></view><view><navigator url='/3/1979/1979'>随手涨分王</navigator></view><view><navigator url='/4/2207/2207'>嘎嘎赚</navigator></view>
+				<view><navigator url='/1/1661/1661'>钱咖赚钱</navigator></view><view><navigator url='/1/1535/1535'>趣闲赚</navigator></view><view><navigator url='/2/1792/1792'>刷刷乐</navigator></view><view><navigator url='/4/2321/2321'>点指成金</navigator></view>
 			</view>
 		</view>
 	</view>

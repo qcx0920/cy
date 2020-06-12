@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							海推APP是新生代互联网营销推广服务平台，每天签到、做任务分享文章发圈领蓝钻，持有蓝钻可参与每天分红。首次3毛起提现秒到账，后续20元起提现。采用S2C2B关系链模式，将广告需求方与推广服务方链接在一起。通过大数据、人工智能算法等底层技术手段。实现供需双方精准链接，将不同的广告需求与不同特点的推广服务者精准匹配。充分做到精准营销的推广效果。 在海推，广告主可以付费发布推广需求，普通用户或推广者可以通过点击、分享、注册下载等完成推广任务，并获得推广奖励。 任务规则 1.每次分享奖励0.5蓝钻； 2.每人每天最高奖励次数暂定为10次； 3.每次分享不低于5次真实阅读量； 4.分享到微信群、QQ群、朋友圈等曝光较多的地方更容易获得奖励； 5.非真实分享，如大小号互阅、群刷、分享即撤回等无法获得奖励； 6.如通过非正常手段套取奖励将被封禁账号。{{isAll?intro:''}}
+							海推APP是新生代互联网营销推广服务平台，每天签到、做任务分享文章发圈领蓝钻，持有蓝钻可参与每天分红{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1865/1865'>皓夜任务派发</navigator></view><view><navigator url='/2/1841/1841'>芝士小视频</navigator></view><view><navigator url='/4/2322/2322'>小钱包APP(下架)</navigator></view><view><navigator url='/3/2101/2101'>轶闻趣事</navigator></view>
+				<view><navigator url='/1/1627/1627'>即刻赚</navigator></view><view><navigator url='/4/2338/2338'>优锁屏</navigator></view><view><navigator url='/3/2063/2063'>文摘头条</navigator></view><view><navigator url='/3/2060/2060'>趣转发</navigator></view>
 			</view>
 		</view>
 	</view>

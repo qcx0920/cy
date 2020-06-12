@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							爱调研，只需答问卷就能赚钱啦！最真实最轻松的赚钱方式，您只需动动手指，就可以轻松赚取现金奖励（支付宝转账给您）！ 除了现金还有购物卡、话费等奖品，适合学生、白领、主妇兼职赚钱，国内知名调查社区爱调研诚意出品！{{isAll?intro:''}}
+							爱调研，只需答问卷就能赚钱啦！最真实最轻松的赚钱方式，您只需动动手指，就可以轻松赚取现金奖励（支付宝{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2292/2292'>掌上赚</navigator></view><view><navigator url='/1/1703/1703'>钱贵</navigator></view><view><navigator url='/1/1641/1641'>游虎试玩</navigator></view><view><navigator url='/1/1538/1538'>试用宝</navigator></view>
+				<view><navigator url='/1/1706/1706'>口袋赚苹果版</navigator></view><view><navigator url='/2/1762/1762'>悬赏猫</navigator></view><view><navigator url='/4/2357/2357'>赚钱儿</navigator></view><view><navigator url='/1/1659/1659'>小马试客</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							采宝—最好的手机赚钱应用，动动手也能赚钱。采宝，靠谱的赚钱平台，是支付宝的合作伙伴，500万用户的选择。   一、功能介绍 1、下载并试玩应用，轻松获取一定收益。 2、每日签到，获取额外丰富的签到奖励，也是采迷们最喜欢的任务，不要断签哦。 3、轻松分享到朋友圈、微信微博等，收货更多奖励。 4、日常兑换，可兑换话费、Q币、支付宝等任你选择。 5、免费秒杀，累积足够的积分可免费秒杀现金红包、话费、Q币、黄钻等。 6、推荐好友，只要推荐给您的同学、朋友，即可获得奖励，并且您邀请的同学、朋友做的任务，您将会有50%的分成。 二、独家亮点 1、任务最多，多家合作企业，带来应有尽有的任务。 2、赚钱最多，单个应用奖励最多，每天下载无上限。 3、兑换最快，点击兑换到支付宝后及时到账。 4、奖品丰富，Q币、话费、现金红包、集分宝等，还可以直接提现到支付宝。 5、赚钱方便，动动手指，轻松赚钱到口袋。{{isAll?intro:''}}
+							采宝—最好的手机赚钱应用，动动手也能赚钱。采宝，靠谱的赚钱平台，是支付宝的合作伙伴，500万用户的选{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1802/1802'>有米众帮接单</navigator></view><view><navigator url='/3/2109/2109'>超人赚</navigator></view><view><navigator url='/1/1666/1666'>51发发 - 51fafa</navigator></view><view><navigator url='/3/2018/2018'>6秒阅读</navigator></view>
+				<view><navigator url='/4/2402/2402'>零用宝-手机赚钱</navigator></view><view><navigator url='/1/1685/1685'>蜂传苹果版</navigator></view><view><navigator url='/2/1770/1770'>闲蛋</navigator></view><view><navigator url='/4/2278/2278'>360手机助手送红包</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							有钻石是2020年有银子旗下全新平台，注册就送1元，2元就能提现，转发被阅读每次3毛1，高单价涨分猛，支持2级徒弟分成。每天每天即可提现一次，无手续费，到账速度快。{{isAll?intro:''}}
+							有钻石是2020年有银子旗下全新平台，注册就送1元，2元就能提现，转发被阅读每次3毛1，高单价涨分猛{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1537/1537'>小桔试玩</navigator></view><view><navigator url='/3/2030/2030'>玉米网</navigator></view><view><navigator url='/4/2186/2186'>猫猫赚</navigator></view><view><navigator url='/3/1957/1957'>你好阅读</navigator></view>
+				<view><navigator url='/1/1755/1755'>挖金iOS版手机赚钱</navigator></view><view><navigator url='/4/2318/2318'>疯狂赚金币</navigator></view><view><navigator url='/4/2275/2275'>口袋红包</navigator></view><view><navigator url='/1/1692/1692'>i疯玩</navigator></view>
 			</view>
 		</view>
 	</view>

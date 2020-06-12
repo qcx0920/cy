@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							试玩团长（新平台，任务多，每个2块起步。极力推介）所有任务无需注册，无需首次安装单价很高，每个2元起！每天35元！支持支付宝提现、微信红包提现、手机话话费充值、手机流量充值、Q币充值！ 微信扫一扫二维码开始赚钱{{isAll?intro:''}}
+							试玩团长（新平台，任务多，每个2块起步。极力推介）所有任务无需注册，无需首次安装单价很高，每个2元起{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1572/1572'>咋赚</navigator></view><view><navigator url='/4/2274/2274'>亿屏互动</navigator></view><view><navigator url='/1/1636/1636'>可可赚</navigator></view><view><navigator url='/1/1612/1612'>App体验客--鼠宝赚</navigator></view>
+				<view><navigator url='/1/1498/1498'>蝉试客</navigator></view><view><navigator url='/1/1752/1752'>点指成金iOS版</navigator></view><view><navigator url='/3/2110/2110'>金赚宝</navigator></view><view><navigator url='/1/1588/1588'>51赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

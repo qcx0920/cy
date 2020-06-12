@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							有钱赚，苹果试玩应用赚钱平台，下载一个app体验三分钟奖励8毛，10元起提现。大量任务下午放出，充分利用碎片化时间，畅快赚钱。 联系平台官方：客服QQ群1017206854，客服QQ2122300054{{isAll?intro:''}}
+							有钱赚，苹果试玩应用赚钱平台，下载一个app体验三分钟奖励8毛，10元起提现。大量任务下午放出，充分{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1580/1580'>聪明赚</navigator></view><view><navigator url='/3/2146/2146'>水滴任务投票平台</navigator></view><view><navigator url='/3/2154/2154'>试玩团微信</navigator></view><view><navigator url='/1/1539/1539'>钱牛</navigator></view>
+				<view><navigator url='/2/1865/1865'>皓夜任务派发</navigator></view><view><navigator url='/1/1678/1678'>免费流量宝ios版</navigator></view><view><navigator url='/2/1851/1851'>苏宁金融</navigator></view><view><navigator url='/3/2156/2156'>全民试用</navigator></view>
 			</view>
 		</view>
 	</view>

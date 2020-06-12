@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							爱搜·懒人领钱（也叫馅饼儿）是提现最快的App试玩体验平台，完成新手任务填写邀请码40305147即送1.88元红包，可以直接提现，所有任务单价高于1元，更有独家首次下载2元截图任务，微信1元提现秒到账，支付宝满10元提现，1小时到账。  馅饼儿官方客服QQ群：52852691{{isAll?intro:''}}
+							爱搜·懒人领钱（也叫馅饼儿）是提现最快的App试玩体验平台，完成新手任务填写邀请码40305147即{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1689/1689'>赚点-调查赚钱app</navigator></view><view><navigator url='/3/2079/2079'>随手快报</navigator></view><view><navigator url='/2/1768/1768'>牛帮</navigator></view><view><navigator url='/4/2193/2193'>Q玩小游戏</navigator></view>
+				<view><navigator url='/1/1759/1759'>91淘金iOS版</navigator></view><view><navigator url='/3/1917/1917'>趣头条</navigator></view><view><navigator url='/1/1611/1611'>小手试玩</navigator></view><view><navigator url='/3/2112/2112'>知晓一客</navigator></view>
 			</view>
 		</view>
 	</view>

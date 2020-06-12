@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							免费淘小说是一款正版免费小说软件，看书还能赚零钱，填写邀请码【A71216852】送2元新手红包。千万小说云集， 各种宠文爽文一网打尽。光速更新小说章节，让你在这里快速追更，读的更顺畅。 【免费读】 海量小说免费畅意读，网络小说一站式搜索。全站数本精品小说全部正版，全部免费，让你从此脱离书荒！ 【题材广】 小说覆盖了总裁豪门小说、言情小说、穿越架空小说、玄幻小说、青春校园小说、修仙小说、悬疑小说、同人小说等题材。你想要的这里全部满足 【福利多】 任务奖励多多：新手红包，阅读时长，每日签到，书籍分享，完成可赚取大量书币现金奖励。 邀好友惊喜不断：邀请好友可获得现金奖励，邀请越多，就让你拿现金拿到手软。 现金可提现，提现门槛低，速度快！ 【界面优】 流畅舒适的界面满足你，背景颜色主题的切换，字体，字号的随意变换，夜间模式等功能给你无与伦比的阅读享受。 qq群：859040067{{isAll?intro:''}}
+							免费淘小说是一款正版免费小说软件，看书还能赚零钱，填写邀请码【A71216852】送2元新手红包。千{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1518/1518'>丐帮</navigator></view><view><navigator url='/1/1651/1651'>易银赚钱</navigator></view><view><navigator url='/2/1800/1800'>投投</navigator></view><view><navigator url='/4/2327/2327'>疯传100</navigator></view>
+				<view><navigator url='/3/1967/1967'>蚂蚁阅读</navigator></view><view><navigator url='/1/1525/1525'>小淘世界</navigator></view><view><navigator url='/3/1972/1972'>斑马热点</navigator></view><view><navigator url='/2/1792/1792'>刷刷乐</navigator></view>
 			</view>
 		</view>
 	</view>

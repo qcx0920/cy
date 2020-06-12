@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							小程序新品体验师是一款微信小程序赚钱平台，新品体验屋只要2元起提现秒到，微信扫码后直接在任务列表里点点广告，体验一下其他小程序就可以赚钱，每看一次广告0.05-0.2元，每天任务很多，简单体验20秒，邀请好友5级提成。 扫码方式： 方式1：PC访问请用微信扫一扫二维码开始赚钱。 方式2：手机访问请长按小程序二维码保存，然后微信右上角扫一扫，选择从相册选取图片识别。{{isAll?intro:''}}
+							小程序新品体验师是一款微信小程序赚钱平台，新品体验屋只要2元起提现秒到，微信扫码后直接在任务列表里点{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2031/2031'>芒果网</navigator></view><view><navigator url='/3/1941/1941'>霏霏</navigator></view><view><navigator url='/4/2263/2263'>招财锁</navigator></view><view><navigator url='/4/2185/2185'>聚享游</navigator></view>
+				<view><navigator url='/1/1525/1525'>小淘世界</navigator></view><view><navigator url='/1/1495/1495'>橙试客</navigator></view><view><navigator url='/4/2235/2235'>盯点汇</navigator></view><view><navigator url='/1/1585/1585'>随意赚</navigator></view>
 			</view>
 		</view>
 	</view>

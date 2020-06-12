@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							无敌赚是一个转发赚钱的app，阅读单价0.1元起，注册就送2元，5元即可提现。用户通过分享指定的文章至微信或qq，有人点击阅读即可获得一定的奖励，充分挖掘您的粉丝价值，支持苹果和安卓手机。 平台优势 1、单价1毛，点击就计费，秒涨分； 2、支持微信群、朋友圈、QQ空间、QQ群，支持二次转发； 3、两级下线机制，永久享受10%分成奖励； 4、注册就送2元，每天抢红包； 5、5元起提现，秒到账，提现次数无限制。{{isAll?intro:''}}
+							无敌赚是一个转发赚钱的app，阅读单价0.1元起，注册就送2元，5元即可提现。用户通过分享指定的文章{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2008/2008'>安心赚</navigator></view><view><navigator url='/4/2166/2166'>iMoney安卓版</navigator></view><view><navigator url='/1/1670/1670'>应用返利</navigator></view><view><navigator url='/4/2210/2210'>小象读吧</navigator></view>
+				<view><navigator url='/1/1527/1527'>大八仙</navigator></view><view><navigator url='/3/2040/2040'>牛牛头条</navigator></view><view><navigator url='/4/2305/2305'>聚享赚</navigator></view><view><navigator url='/4/2245/2245'>点点赚</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							王者联盟是一款全民合成推塔类创新赚钱小游戏，超炫酷的合成游戏，每日登陆玩游戏，都有机会获得限时分红英雄，和众多玩家一起分红平台的广告收益，更有机会获得永久分红英雄哦。画面炫酷玩法更有趣，现在下载即送现金奖励，现金奖励可立即提现，提现秒到账。合成新英雄可获得更多现金奖励。 王者联盟是一款以英雄推塔为主线的手机合成类游戏，区别于传统单一的合成游戏，具备英雄攻击防御塔、聚气释放大招等全新玩法，炫酷的英雄技能、新颖的玩法带给您全新的合成游戏体验。 玩法介绍 （1）英雄聚气，怒发大招：利用普通和完美合成英雄来积攒怒气值，集满怒气触发唤醒大招技能，可点击释放大招攻击防御塔造成高额伤害。 （2）完美再现，三路推塔：关卡地图、世界地图，完美还原PVP对战场景，给在玩家回味经典战斗的同时带来更强的合成游戏乐趣。 （3）英雄回收，重新开始：游戏中设置英雄回收站，回收多余的英雄，以换取金币购买更高等级的英雄。 玩法攻略 王者联盟刚进入就会领新手红包，领完红包必须实名，不实名没办法玩 合成的时候最好让2个英雄达到白线那个地方大招18次完美合成会有大招 推塔一个地图9个塔一个水晶，推完这一个地图进入下一个地图，推塔的时候会出来一个宝箱，可以抽奖。 每日答题可以获取金币，宝箱1小时获取金币，王者联盟是由2个36级的英雄合成最高等级38级，每天可以看30次广告中午12点和凌晨12点。{{isAll?intro:''}}
+							王者联盟是一款全民合成推塔类创新赚钱小游戏，超炫酷的合成游戏，每日登陆玩游戏，都有机会获得限时分红英{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2089/2089'>麻雀浏览器</navigator></view><view><navigator url='/1/1690/1690'>生活赚苹果版</navigator></view><view><navigator url='/4/2354/2354'>黄金锁屏</navigator></view><view><navigator url='/4/2194/2194'>泡泡赚</navigator></view>
+				<view><navigator url='/2/1835/1835'>淘券吧</navigator></view><view><navigator url='/4/2375/2375'>掌上财进</navigator></view><view><navigator url='/1/1682/1682'>赚客app</navigator></view><view><navigator url='/4/2326/2326'>码上买</navigator></view>
 			</view>
 		</view>
 	</view>

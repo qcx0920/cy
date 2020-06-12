@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							多米资讯是来米资讯旗下又一转发赚钱平台，1元提现秒到账，每次阅读8分，填写邀请码637280领红包。转发文章赚钱收益稳定，涨分快，适合长期转发，收益提现到账稳定。分享的文章被好友阅读次数越多，收益越高，新人登录获得专属红包。 多米资讯官方客服微信：duomizixunkefu{{isAll?intro:''}}
+							多米资讯是来米资讯旗下又一转发赚钱平台，1元提现秒到账，每次阅读8分，填写邀请码637280领红包。{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2048/2048'>洋葱视频</navigator></view><view><navigator url='/4/2266/2266'>友米德（骗子）</navigator></view><view><navigator url='/4/2288/2288'>七块糖-7块糖</navigator></view><view><navigator url='/1/1556/1556'>掉钱眼儿</navigator></view>
+				<view><navigator url='/3/2031/2031'>芒果网</navigator></view><view><navigator url='/2/1791/1791'>甩手赚</navigator></view><view><navigator url='/2/1779/1779'>截图宝</navigator></view><view><navigator url='/4/2166/2166'>iMoney安卓版</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							热量星球，为大家打造一款免费抢红包的APP，通过完成新手任务，参与抢红包。注册填写邀请码【tgscb】可直接获得6元红包，0.3元就能提现，秒到账。抢红包，赚红包，每天可免费抢24次红包，走路签到都可换钱。每天最高可抢88元，也可邀请更多好友，一起参与抢红包，邀请满3人系统自动为您创造属于您的星球，居住在星球的居民所抢的红包您都可以分成。 官方联系微信：reliangxingqiu{{isAll?intro:''}}
+							热量星球，为大家打造一款免费抢红包的APP，通过完成新手任务，参与抢红包。注册填写邀请码【tgscb{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1941/1941'>霏霏</navigator></view><view><navigator url='/3/1959/1959'>趣看看</navigator></view><view><navigator url='/3/1887/1887'>多多世界</navigator></view><view><navigator url='/2/1767/1767'>蜂窝帮</navigator></view>
+				<view><navigator url='/3/2115/2115'>鱼群</navigator></view><view><navigator url='/3/2090/2090'>每日快报</navigator></view><view><navigator url='/2/1813/1813'>小牛赚</navigator></view><view><navigator url='/1/1506/1506'>研之有礼</navigator></view>
 			</view>
 		</view>
 	</view>

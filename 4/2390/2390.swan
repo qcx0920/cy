@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							好赚跳跳球是一个手机赚钱的应用，让用户在玩手机的同时还能赚到钱，支持Android系统和苹果iOS系统。用户可以使用好赚跳跳球安装推荐应用、淘宝任务、打码任务、练矿等多种方式挣取您的佣金，还可以把跳跳矿变现成话费、Q币、支付宝充值、财付通充值、银行卡提现等。 好赚跳跳球特点： 玩应用：手机的乐趣在于应用，好赚跳跳球会推荐好玩的应用给用户 赚钱中心：用户可以通过安装使用应用以及评论等方法赚跳跳矿石 炼矿系统：用户可以通过炼矿，来炼出钻石，钻石价值1.2元{{isAll?intro:''}}
+							好赚跳跳球是一个手机赚钱的应用，让用户在玩手机的同时还能赚到钱，支持Android系统和苹果iOS系{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1591/1591'>金日赚</navigator></view><view><navigator url='/4/2230/2230'>零钱猫</navigator></view><view><navigator url='/3/1971/1971'>黑豆社群</navigator></view><view><navigator url='/3/2130/2130'>人人资讯</navigator></view>
+				<view><navigator url='/3/1935/1935'>全民快讯</navigator></view><view><navigator url='/3/1925/1925'>像素蜜蜂</navigator></view><view><navigator url='/3/1904/1904'>快手极速版</navigator></view><view><navigator url='/4/2302/2302'>赚乐</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							淘宝手机助手是淘宝官方推出的手机软件商店，为您提供丰富、安全、优质的安卓应用及游戏资源，同时我们也在努力打造手机网购安全保障、零流量当面传等特色功能，为您提供个性化手机助手服务。 1. 签到送集分宝：用户每天登陆淘宝手机助手客户端并点击签到按钮，可以获得一定数量的集分宝。每个用户每天仅能签到一次；用户通常通过签到可以获得1个集分宝，淘宝随时可能根据活动情况对集分宝发放数量进行临时性或长期性的调整，届时会以客户端消息通知的方式告知用户，用户也可以查看“每日签到”处注明的集分宝个数，每日获奖数量有限，先到先得。 2. 下载安装送集分宝：用户每天登陆淘宝手机助手客户端，选择有集分宝标识的应用进行下载安装，前2次成功的应用下载安装可以获得相应数量的集分宝。对同一应用同一版本进行重复下载安装或者下载前手机设备中已经安装的，不视为成功的下载安装。 奖品发放：   集分宝将在用户完成签到或将应用下载安装成功后24小时内发放至中奖用户的淘宝账号所绑定的支付宝账户中。   集分宝使用规则： 100集分宝可以抵1元钱，可在支付宝付款时抵现，还可用于淘宝购物、还信用卡、缴水电煤等。具体使用规则见支付宝集分宝官方介绍。  {{isAll?intro:''}}
+							淘宝手机助手是淘宝官方推出的手机软件商店，为您提供丰富、安全、优质的安卓应用及游戏资源，同时我们也在{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1610/1610'>大拇指</navigator></view><view><navigator url='/1/1628/1628'>麦子赚苹果版</navigator></view><view><navigator url='/3/2087/2087'>任务宝</navigator></view><view><navigator url='/2/1814/1814'>赚钢镚</navigator></view>
+				<view><navigator url='/3/2151/2151'>蜂传app</navigator></view><view><navigator url='/2/1856/1856'>微米投票</navigator></view><view><navigator url='/4/2219/2219'>秒赚大钱安卓版</navigator></view><view><navigator url='/1/1514/1514'>陀螺多多</navigator></view>
 			</view>
 		</view>
 	</view>

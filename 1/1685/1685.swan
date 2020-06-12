@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							蜂传是用户阅读和转发文章就能赚钱的平台，不仅能赚钱，还有各种免费福利拿。 【应用亮点】 1、满10元就可以提现，提现无附加条件。 2、转发收益上不封顶，有人一天能赚500块。  3、文章单价高，有的土豪客户文章单价0.5元，网赚行业最高。 蜂传的理念是：通过去掉报纸、电视、网站等传播媒介，将企业投放的品牌广告费用直接分发给阅读和转发品牌信息的手机用户。{{isAll?intro:''}}
+							蜂传是用户阅读和转发文章就能赚钱的平台，不仅能赚钱，还有各种免费福利拿。 【应用亮点】 1、满10元{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2059/2059'>快马小报</navigator></view><view><navigator url='/3/2030/2030'>玉米网</navigator></view><view><navigator url='/4/2230/2230'>零钱猫</navigator></view><view><navigator url='/3/2052/2052'>转乐</navigator></view>
+				<view><navigator url='/4/2385/2385'>一起免单</navigator></view><view><navigator url='/1/1673/1673'>零钱掌柜</navigator></view><view><navigator url='/3/1972/1972'>斑马热点</navigator></view><view><navigator url='/2/1770/1770'>闲蛋</navigator></view>
 			</view>
 		</view>
 	</view>

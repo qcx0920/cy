@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							小猫赚钱苹果手机试玩应用就能赚钱的软件，安装app试玩3分钟， 即可获取现金奖励，10元即可提现，单价1元起。加入小猫赚钱一部手机，就可以开启你的赚钱之旅... 联系我们 ABC试玩客服QQ：2753877828，客服交流QQ群：667665980{{isAll?intro:''}}
+							小猫赚钱苹果手机试玩应用就能赚钱的软件，安装app试玩3分钟， 即可获取现金奖励，10元即可提现，单{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1575/1575'>顽狮试玩</navigator></view><view><navigator url='/4/2297/2297'>蝌蚪赚钱</navigator></view><view><navigator url='/3/1996/1996'>多米资讯</navigator></view><view><navigator url='/3/2014/2014'>全民小视频</navigator></view>
+				<view><navigator url='/3/1917/1917'>趣头条</navigator></view><view><navigator url='/3/2162/2162'>PP试玩</navigator></view><view><navigator url='/3/2132/2132'>众众赚</navigator></view><view><navigator url='/4/2175/2175'>蜜蜂试玩安卓版</navigator></view>
 			</view>
 		</view>
 	</view>

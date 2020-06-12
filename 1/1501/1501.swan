@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							要赚钱，找钱脉，钱脉APP是一款能把人脉变成钱脉的应用试玩软件，试玩应用赚现金，试玩一个应用单价1元，5元就能提现。玩一玩应用就领现金奖励，钱脉为你提供超多好玩的应用，赶快加入钱脉领奖励！ 支持微信/支付宝提现，随时提现，当日到账，你可以在这里享受最便捷的服务，钱脉 的所获奖励真实有效。{{isAll?intro:''}}
+							要赚钱，找钱脉，钱脉APP是一款能把人脉变成钱脉的应用试玩软件，试玩应用赚现金，试玩一个应用单价1元{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1840/1840'>小赚宝</navigator></view><view><navigator url='/3/2011/2011'>快头条</navigator></view><view><navigator url='/3/1943/1943'>今日十大新闻</navigator></view><view><navigator url='/2/1834/1834'>飞赚宝</navigator></view>
+				<view><navigator url='/3/1945/1945'>阅资讯</navigator></view><view><navigator url='/3/2153/2153'>狠狠赚</navigator></view><view><navigator url='/3/2096/2096'>红豆赚</navigator></view><view><navigator url='/1/1650/1650'>触金</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							高佣联盟，2000万网购达人使用的App，自买省钱，分享赚钱。邀请码：12231976，成为超级会员必填。使用高佣联盟可以查看淘宝、天猫、京东的商品优惠券并支持分享给朋友， 适用于学生党、上班族、宝妈、自由职业者，首选高佣联盟； 大家一起来找商品优惠券吧。 使用高佣联盟可以查看淘宝、天猫、京东的商品优惠券并支持分享给朋友， 适用于学生党、上班族、宝妈、自由职业者，首选高佣联盟； 大家一起来找商品优惠券吧{{isAll?intro:''}}
+							高佣联盟，2000万网购达人使用的App，自买省钱，分享赚钱。邀请码：12231976，成为超级会员{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2060/2060'>趣转发</navigator></view><view><navigator url='/4/2370/2370'>玩乐族</navigator></view><view><navigator url='/3/2140/2140'>多人气</navigator></view><view><navigator url='/4/2284/2284'>7块糖</navigator></view>
+				<view><navigator url='/4/2387/2387'>赚多宝</navigator></view><view><navigator url='/1/1694/1694'>秉钧红人苹果版</navigator></view><view><navigator url='/4/2175/2175'>蜜蜂试玩安卓版</navigator></view><view><navigator url='/3/1943/1943'>今日十大新闻</navigator></view>
 			</view>
 		</view>
 	</view>

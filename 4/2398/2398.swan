@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							手机赚钱宝于2013年末设立于中国深圳，是国内领先的移动互联网综合服务提供商之一。有多年的互联网、移动互联网工作经验。在智能手机和手机互联网飞速走进我们生活的时代，手机赚钱宝作为国内领先的手机赚钱平台，致力于让普通用户在手机上进行简单的操作以获取丰厚的收益，让商家能够方便地接触到更多客户。 通过手机端做任务，手机赚钱宝是一款让你在玩手机的同时还能得到一定实惠的手机应用。在手机赚钱宝上，你可以通过安装手机赚钱宝推荐的优秀应用、评论和分享应用、完成指定任务等方式赚取乐币，最终通过乐币的兑换机制实现一定的收益。{{isAll?intro:''}}
+							手机赚钱宝于2013年末设立于中国深圳，是国内领先的移动互联网综合服务提供商之一。有多年的互联网、移{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1676/1676'>试玩团</navigator></view><view><navigator url='/3/2075/2075'>天天转</navigator></view><view><navigator url='/3/1936/1936'>百姓看点</navigator></view><view><navigator url='/1/1738/1738'>看看有钱苹果版</navigator></view>
+				<view><navigator url='/3/1966/1966'>淘金阅读</navigator></view><view><navigator url='/4/2229/2229'>酷划锁屏</navigator></view><view><navigator url='/4/2385/2385'>一起免单</navigator></view><view><navigator url='/1/1729/1729'>欢乐点苹果版</navigator></view>
 			</view>
 		</view>
 	</view>

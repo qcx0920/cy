@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							微播圈是苹果iOS的最新分享平台，分享一篇文章1~3元，首次1元即可提现，扫码即可加入。注册后下载微播圈APP，里面有详细的分享教程！邀请好友也是2元，提现每周一统一打款。 请用微信扫一扫扫描二维码{{isAll?intro:''}}
+							微播圈是苹果iOS的最新分享平台，分享一篇文章1~3元，首次1元即可提现，扫码即可加入。注册后下载微{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2084/2084'>招财兔</navigator></view><view><navigator url='/3/2026/2026'>今日热闻</navigator></view><view><navigator url='/2/1791/1791'>甩手赚</navigator></view><view><navigator url='/3/1884/1884'>聚赚资讯</navigator></view>
+				<view><navigator url='/3/2084/2084'>招财兔</navigator></view><view><navigator url='/4/2292/2292'>掌上赚</navigator></view><view><navigator url='/4/2189/2189'>火种游戏</navigator></view><view><navigator url='/3/2094/2094'>兜兜赚</navigator></view>
 			</view>
 		</view>
 	</view>

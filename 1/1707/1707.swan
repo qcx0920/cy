@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							美赚，一款能赚钱的APP，一款让广大用户越来越有钱的APP，用户通过完成指定的小任务，来获得现金和实物奖励。   在美赚里赚钱方式主要有两种：做任务赚钱+徒弟分成和转发文章。 徒弟分成：发展的徒弟与徒弟发展的徒弟（就是徒孙），其所做的任务，都将获得最高30%现金奖励。{{isAll?intro:''}}
+							美赚，一款能赚钱的APP，一款让广大用户越来越有钱的APP，用户通过完成指定的小任务，来获得现金和实{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1887/1887'>多多世界</navigator></view><view><navigator url='/1/1577/1577'>豆豆趣玩</navigator></view><view><navigator url='/1/1643/1643'>神灯平台</navigator></view><view><navigator url='/1/1576/1576'>探米</navigator></view>
+				<view><navigator url='/4/2399/2399'>有信免费网络电话</navigator></view><view><navigator url='/3/2037/2037'>百姓头条</navigator></view><view><navigator url='/4/2340/2340'>宅客联盟</navigator></view><view><navigator url='/1/1514/1514'>陀螺多多</navigator></view>
 			</view>
 		</view>
 	</view>

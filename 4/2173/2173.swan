@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							丁豆赚钱APP是重庆白鹤互娱网络科技有限公司旗下新产品，一款包含了手机游戏试玩、手机应用、互动广告、移动营销于一体的移动互联网推广平台，用户可以利用闲暇时间试玩游戏赚钱、分享文章赚钱、阅读文章赚钱、答题赚钱，利用碎片时间休闲娱乐赚到零花钱的APP。 丁豆赚钱一款让你轻松赚钱的手机APP神器，注册送5元新手红包1元提现秒到账！看新闻、玩游戏、体验应用、拼一拼、玩竞猜、轻轻松松月入千元不坑人。丁豆赚钱拼一拼活动实物大奖有小米手机、话费、京东购物卡、华为智能手表等你抢，快乐游戏轻松赚钱！ 丁豆赚钱是重庆白鹤互娱网络科技有限公司旗下推出的一款颠覆传统的应用体验赚钱平台！超多游戏试玩任务，赚钱赚到手软， 1元即可快速提现，微信支付宝实时到账。 丁豆特点 1、新手5元红包福利：优惠活动前所未有，体验应用5元轻松领，1元提现秒到账！ 2、高额奖励：试玩游戏、看新闻、签到、海量任务轻松赚，让你体验快乐赚钱！ 3、游戏赚钱：拼一拼和积分开宝箱，中大奖，现金、iphone、话费卡，实物天天送！ 4、推广赚钱：邀请好友一起玩，额外奖励2元，永久分成，立马月入上万！ 联系我们 客服QQ：723553559，QQ群：856136767{{isAll?intro:''}}
+							丁豆赚钱APP是重庆白鹤互娱网络科技有限公司旗下新产品，一款包含了手机游戏试玩、手机应用、互动广告、{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1572/1572'>咋赚</navigator></view><view><navigator url='/4/2399/2399'>有信免费网络电话</navigator></view><view><navigator url='/1/1656/1656'>易钻ATM</navigator></view><view><navigator url='/2/1861/1861'>赏金联盟</navigator></view>
+				<view><navigator url='/4/2339/2339'>钱包锁屏</navigator></view><view><navigator url='/4/2202/2202'>橙赚</navigator></view><view><navigator url='/1/1512/1512'>赚钱呗</navigator></view><view><navigator url='/4/2289/2289'>欢乐点-看广告赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							皓夜任务派发是一个微信兼职投票等微任务赚钱的平台，在微信上或浏览器上投票做任务即可赚钱。工资是隔天结算，佣金大于1元即可提现，提现正常都是秒到账，如没秒到，12小时内也会到账。单个任务一般0.11元到3.5元之间，根据任务的难易程度不等。操作熟练后每分钟可做2~5个任务。{{isAll?intro:''}}
+							皓夜任务派发是一个微信兼职投票等微任务赚钱的平台，在微信上或浏览器上投票做任务即可赚钱。工资是隔天结{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2395/2395'>爱赚钱</navigator></view><view><navigator url='/1/1595/1595'>赚钱宝</navigator></view><view><navigator url='/4/2183/2183'>趣游戏</navigator></view><view><navigator url='/3/1871/1871'>大七喜</navigator></view>
+				<view><navigator url='/4/2324/2324'>锁屏高手</navigator></view><view><navigator url='/1/1595/1595'>赚钱宝</navigator></view><view><navigator url='/4/2383/2383'>百度众测</navigator></view><view><navigator url='/3/1977/1977'>橙子快报</navigator></view>
 			</view>
 		</view>
 	</view>

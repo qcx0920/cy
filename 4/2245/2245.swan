@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							《点点赚》是一款利用零碎的时间赚取零花钱的手机应用。 注册为点点赚会员之后，您在挤地铁、排队等难熬的等候时间里，点一点账号里的问卷调查，就可以获得现金奖励。奖励满20元，您点击兑换，点点赚工作人员会将现金打入您的支付宝账号中。您不仅可以回答问卷还可以发布问卷，一旦审核通过会发布一份署名是你的问卷哦，现在就开始“点点赚”吧！{{isAll?intro:''}}
+							《点点赚》是一款利用零碎的时间赚取零花钱的手机应用。 注册为点点赚会员之后，您在挤地铁、排队等难熬的{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1801/1801'>任务猪</navigator></view><view><navigator url='/3/2020/2020'>乐头条</navigator></view><view><navigator url='/1/1567/1567'>首席试玩官</navigator></view><view><navigator url='/2/1843/1843'>来米啦</navigator></view>
+				<view><navigator url='/1/1523/1523'>游易赚</navigator></view><view><navigator url='/1/1579/1579'>体验赚</navigator></view><view><navigator url='/3/1970/1970'>红包视界</navigator></view><view><navigator url='/1/1681/1681'>铜板墙</navigator></view>
 			</view>
 		</view>
 	</view>

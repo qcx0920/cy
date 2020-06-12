@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							西瓜妹小游戏，安装西瓜妹（新用户微信登陆即送5.5元）开心玩游戏，轻松赚钱！ 温馨提示：西瓜妹APP仅限于苹果iOS系统{{isAll?intro:''}}
+							西瓜妹小游戏，安装西瓜妹（新用户微信登陆即送5.5元）开心玩游戏，轻松赚钱！ 温馨提示：西瓜妹APP{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2382/2382'>赚钱花</navigator></view><view><navigator url='/3/2004/2004'>掌上头条</navigator></view><view><navigator url='/3/2074/2074'>阅点点</navigator></view><view><navigator url='/1/1644/1644'>钱小喵</navigator></view>
+				<view><navigator url='/2/1818/1818'>热量星球</navigator></view><view><navigator url='/1/1598/1598'>元宝猫</navigator></view><view><navigator url='/2/1861/1861'>赏金联盟</navigator></view><view><navigator url='/3/1906/1906'>满堂福</navigator></view>
 			</view>
 		</view>
 	</view>

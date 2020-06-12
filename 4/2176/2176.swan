@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							蛋蛋赚是一款学生手机赚钱软件，提现秒到账。适合学生兼职赚零钱，宝妈兼职赚钱软件，用户可以利用闲暇时间玩游戏赚钱，答题赚钱，在玩麻将，斗地主等小游戏的同时还能分享精彩内容赚零花钱。蛋蛋赚操作简单，较现在流行的学生赚，米赚，钱咖等要更加的直观，新手引导微信红包秒提到账。 用户只需按照要求体验蛋蛋赚推荐的应用和游戏，通过微信朋友圈分享文章或者是关注蛋蛋赚推荐的微信公众账号，即可获得相应的奖励，真的是10分钟赚10元，当奖励到达20元就可以提现了。你手机上还没安装蛋蛋赚你就out了！大家都在赚钱，赶紧加入吧！新人还有特享微信红包任务哦！ 蛋蛋赚是国内领先的手机赚钱APP, 蛋蛋赚除了可以兑换Q币，相较于惠头条，钱咖，红包头条，酷划，趣头条等新闻赚钱软件，还兑换支持中国移动、中国电信、中国联通话费，流量等丰富的奖品，支持微信，支付宝免手续费提现快速到账。{{isAll?intro:''}}
+							蛋蛋赚是一款学生手机赚钱软件，提现秒到账。适合学生兼职赚零钱，宝妈兼职赚钱软件，用户可以利用闲暇时间{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2238/2238'>体验达人</navigator></view><view><navigator url='/1/1591/1591'>金日赚</navigator></view><view><navigator url='/2/1786/1786'>微帮</navigator></view><view><navigator url='/1/1725/1725'>应用微客苹果版</navigator></view>
+				<view><navigator url='/3/2024/2024'>亿刻</navigator></view><view><navigator url='/3/2083/2083'>传客美文网</navigator></view><view><navigator url='/1/1578/1578'>抖赚</navigator></view><view><navigator url='/1/1543/1543'>哆啦赚</navigator></view>
 			</view>
 		</view>
 	</view>

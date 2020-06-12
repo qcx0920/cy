@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							淘金客是一款苹果应用试玩app，通过在淘金客上试玩软件，就能赚钱的软件，单价0.8元起，10元提现。 果粉无需任何投入，只需按照指定要求做任务就可获得对应奖励， 收入超过10元即可提现到支付宝。{{isAll?intro:''}}
+							淘金客是一款苹果应用试玩app，通过在淘金客上试玩软件，就能赚钱的软件，单价0.8元起，10元提现。{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1966/1966'>淘金阅读</navigator></view><view><navigator url='/1/1671/1671'>爽啦</navigator></view><view><navigator url='/2/1838/1838'>挣钱宝</navigator></view><view><navigator url='/4/2264/2264'>赢联APP</navigator></view>
+				<view><navigator url='/1/1654/1654'>财蛙</navigator></view><view><navigator url='/2/1822/1822'>小红店</navigator></view><view><navigator url='/1/1684/1684'>首席体验师</navigator></view><view><navigator url='/1/1560/1560'>小啄赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							找到锁屏是一款能个性订制解锁屏幕赚钱的App，是天奕公司旗下的又一力作，全球第一款个性订制资讯的锁屏应用。下载找到APP送30M流量。 找到赚钱方式： 1、注册送5元，完善信息0.5元、绑定手机号0.5元、设置快捷方式0.5元、完成找到设置0.5元、每成功邀请一位用户3元 2、分享不在免费，参加分享活动，赚取更多收益 3、领红包，这里每天真的掉馅饼，发红包，不用自己掏腰包，任务红包，下载APP领取任务红包 4、试试手气，时刻都有惊喜，试试您的手气是否和您一样棒{{isAll?intro:''}}
+							找到锁屏是一款能个性订制解锁屏幕赚钱的App，是天奕公司旗下的又一力作，全球第一款个性订制资讯的锁屏{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2180/2180'>赚客安卓版</navigator></view><view><navigator url='/3/1948/1948'>来米资讯</navigator></view><view><navigator url='/2/1814/1814'>赚钢镚</navigator></view><view><navigator url='/1/1576/1576'>探米</navigator></view>
+				<view><navigator url='/4/2197/2197'>乐米资讯</navigator></view><view><navigator url='/1/1689/1689'>赚点-调查赚钱app</navigator></view><view><navigator url='/3/1937/1937'>海豚网</navigator></view><view><navigator url='/3/1926/1926'>松鼠网</navigator></view>
 			</view>
 		</view>
 	</view>

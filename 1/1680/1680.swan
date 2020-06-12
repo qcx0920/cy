@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							2016-06-21h恢复打款了。加入旺财，立送3元！玩应用，得红包，月得千元！任务多，单价奖励高，实时兑现，快来试试吧！ 微信扫一扫二维码下载旺财帮手送3元{{isAll?intro:''}}
+							2016-06-21h恢复打款了。加入旺财，立送3元！玩应用，得红包，月得千元！任务多，单价奖励高，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2384/2384'>玩赚APP</navigator></view><view><navigator url='/3/2093/2093'>无敌赚-大神转</navigator></view><view><navigator url='/1/1620/1620'>淘金客</navigator></view><view><navigator url='/3/2036/2036'>头条多多</navigator></view>
+				<view><navigator url='/3/2103/2103'>提款机</navigator></view><view><navigator url='/1/1640/1640'>钱脉试玩</navigator></view><view><navigator url='/4/2257/2257'>口袋赚</navigator></view><view><navigator url='/3/2005/2005'>青萌部落</navigator></view>
 			</view>
 		</view>
 	</view>

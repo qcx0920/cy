@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							腾讯新闻极速版，看资讯领红包，下载APP绑定邀请码【 Q9KA46 】就送新手红包，边看新闻边赚钱！最高199元现金等你拿！ 看新闻、种摇钱树领红包，完成任务越多红包越多，5元就能提现。 腾讯新闻极速版是为用户精心打造的一款精简的新闻资讯阅读产品，让你足不出户速览新鲜事，带你阅尽人生百态，发现生活乐趣，不浪费你的碎片时间。{{isAll?intro:''}}
+							腾讯新闻极速版，看资讯领红包，下载APP绑定邀请码【 Q9KA46 】就送新手红包，边看新闻边赚钱！{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2212/2212'>酷头条</navigator></view><view><navigator url='/3/2116/2116'>悦推</navigator></view><view><navigator url='/1/1491/1491'>小鱼赚钱</navigator></view><view><navigator url='/1/1511/1511'>互赚宝</navigator></view>
+				<view><navigator url='/1/1680/1680'>旺财</navigator></view><view><navigator url='/2/1762/1762'>悬赏猫</navigator></view><view><navigator url='/1/1660/1660'>刀刀赚钱</navigator></view><view><navigator url='/4/2181/2181'>米赚</navigator></view>
 			</view>
 		</view>
 	</view>

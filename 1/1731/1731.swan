@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							放眼是一款拍视频就能赚钱的APP。新用户下载注册即送新手红包（1~999元随机送），红包金额可直接提现到支付宝！ 拍视频被点赞就有钱，每日收入最多的前3名，还可以额外领取官方奖金。   【发任务】想看看国庆大阅兵现场？来放眼发个任务，热心的朋友们会通过视频直播给你 【做任务】恰巧有人想看看你附近的现场？接单拍视频，顺便把钱给赚了 【视频打赏】有过人才艺？上传到放眼平台，让更多人分享你的快乐，也获得被打赏现金收入 【版权交易】买入正在升值的视频版权，赚取视频的被打赏收入 【邀请小伙伴】独乐乐不如众乐乐，邀请小伙伴加入，他们可以获得新手红包，你也能收到平台的拉新奖励{{isAll?intro:''}}
+							放眼是一款拍视频就能赚钱的APP。新用户下载注册即送新手红包（1~999元随机送），红包金额可直接提{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1757/1757'>省钱助手iOS版</navigator></view><view><navigator url='/2/1845/1845'>元宝挂机</navigator></view><view><navigator url='/1/1644/1644'>钱小喵</navigator></view><view><navigator url='/1/1672/1672'>蜜果派</navigator></view>
+				<view><navigator url='/2/1833/1833'>十金</navigator></view><view><navigator url='/3/1903/1903'>西柚资讯</navigator></view><view><navigator url='/1/1493/1493'>体验狮</navigator></view><view><navigator url='/3/1875/1875'>趣看天下</navigator></view>
 			</view>
 		</view>
 	</view>

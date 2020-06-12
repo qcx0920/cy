@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							恐龙世界一个类似恐龙有钱的全新的通过合成升级的养成赚钱小游戏，登陆填写邀请码【1017299840】就送大红包，3毛就能提现秒到账，每升一级就送红包，奖励高，福利多。简单合成快乐养龙，简单的召唤与合成，娱乐从养龙开始。   趣味任务锻炼思维，在龙不断的成长，放松心情的同时，趣味任务可以锻炼你的思维，与龙共同进步，茁壮成长。今天你养龙，明天龙养你！   联系我们 恐龙世界官方QQ群：1038644937、1031025314，客服QQ：3608435866、751387416、2307343793、2402465714{{isAll?intro:''}}
+							恐龙世界一个类似恐龙有钱的全新的通过合成升级的养成赚钱小游戏，登陆填写邀请码【1017299840】{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1605/1605'>多赚红包</navigator></view><view><navigator url='/4/2330/2330'>并读新闻</navigator></view><view><navigator url='/3/2149/2149'>满满钱包</navigator></view><view><navigator url='/4/2223/2223'>钱兔赚钱</navigator></view>
+				<view><navigator url='/4/2399/2399'>有信免费网络电话</navigator></view><view><navigator url='/3/1994/1994'>观天下</navigator></view><view><navigator url='/4/2226/2226'>红包先森</navigator></view><view><navigator url='/2/1824/1824'>网易圈圈</navigator></view>
 			</view>
 		</view>
 	</view>

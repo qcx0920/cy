@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							赚客，一款让你轻松赚钱的手机APP，新用户安装送3元现金，任务量爆棚的平台，一个能赚8毛，15分钟赚20元，话费，现金10元可提现，24小时闪电到账！赚客每日抽奖秒领现金，实物大奖笔记本、平衡车、音响免费抽！开箱夺宝送iphone，游戏赚钱两不误！   赚客特点： 1、新手福利：优惠活动前所未有，安装送3元现金，新手任务高达10元！ 2、高额奖励：试玩、签到、截图，海量任务轻松赚，让你体验快速赚钱！ 3、游戏赚钱：特设每日抽奖和开箱夺宝，秒中大奖，现金、iphone、笔记本，实物大奖惊喜不间断！ 4、收徒赚钱：邀请好友一起玩，坚持每日收徒，永久分成，立马月入上千！{{isAll?intro:''}}
+							赚客，一款让你轻松赚钱的手机APP，新用户安装送3元现金，任务量爆棚的平台，一个能赚8毛，15分钟赚{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2019/2019'>天天看视频</navigator></view><view><navigator url='/1/1716/1716'>抢红包神器苹果版</navigator></view><view><navigator url='/1/1529/1529'>王者联盟赚钱游戏</navigator></view><view><navigator url='/3/2071/2071'>乐享看</navigator></view>
+				<view><navigator url='/3/2056/2056'>红包头条</navigator></view><view><navigator url='/2/1792/1792'>刷刷乐</navigator></view><view><navigator url='/1/1674/1674'>A米</navigator></view><view><navigator url='/3/2036/2036'>头条多多</navigator></view>
 			</view>
 		</view>
 	</view>

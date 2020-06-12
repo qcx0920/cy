@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							手游赚，玩手机游戏能挣钱的APP，是一款让每个人都能赚钱的神奇应用，不投一分钱，玩玩游戏，签到分享就能赚钱，非常简单，新人注册填写邀请码161969送红包2元，10元提现,每天签到都能RMB，邀请好友成为徒弟做任务还有提成。{{isAll?intro:''}}
+							手游赚，玩手机游戏能挣钱的APP，是一款让每个人都能赚钱的神奇应用，不投一分钱，玩玩游戏，签到分享就{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1896/1896'>稳稳赚</navigator></view><view><navigator url='/4/2318/2318'>疯狂赚金币</navigator></view><view><navigator url='/4/2225/2225'>薪客众包</navigator></view><view><navigator url='/4/2379/2379'>挣钱吧</navigator></view>
+				<view><navigator url='/2/1784/1784'>叮咚众包</navigator></view><view><navigator url='/3/2037/2037'>百姓头条</navigator></view><view><navigator url='/3/1908/1908'>66阅读</navigator></view><view><navigator url='/4/2293/2293'>放眼APP</navigator></view>
 			</view>
 		</view>
 	</view>

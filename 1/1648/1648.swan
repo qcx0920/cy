@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							快手红包，业内最佳手机赚钱平台，全网单价最高。快手红包是一款用手机就能赚钱的软件既不占用时间，也不浪费体力，还能玩最新最炫的应用。立即加入快手红包，开启赚钱之旅。 什么时候有新任务？ 一般是在上午10-11点，下午13:30 - 15:30点之间有新任务,另外请留意下载的助手，会有消息通知新任务 友情提醒：为保证收益，请使用Safari浏览器访问，下载后打开点击"激活快手红包"做任务时必须开启激活助手，请勿删除或关闭。{{isAll?intro:''}}
+							快手红包，业内最佳手机赚钱平台，全网单价最高。快手红包是一款用手机就能赚钱的软件既不占用时间，也不浪{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1962/1962'>腾讯新闻极速版</navigator></view><view><navigator url='/1/1596/1596'>试玩大师</navigator></view><view><navigator url='/1/1690/1690'>生活赚苹果版</navigator></view><view><navigator url='/4/2273/2273'>快摇吧</navigator></view>
+				<view><navigator url='/3/2150/2150'>开玩</navigator></view><view><navigator url='/3/1909/1909'>有钻石</navigator></view><view><navigator url='/1/1650/1650'>触金</navigator></view><view><navigator url='/4/2259/2259'>酷赚锁屏</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							看看视频就能赚钱（填邀请码MEDWJ1送10+1元），赚到的钱可以充流量、兑话费、换礼品、消费券； 还可以边打电话边看视频（支持苹果iOS和安卓系统d），无需复杂操作，真的是看看就有钱哦~~ 现安装完成任务，注册输入以下邀请码MEDWJ1，就有10元，还可额外奖励 ￥1.00元。{{isAll?intro:''}}
+							看看视频就能赚钱（填邀请码MEDWJ1送10+1元），赚到的钱可以充流量、兑话费、换礼品、消费券； {{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1683/1683'>牛逼赚苹果版</navigator></view><view><navigator url='/2/1774/1774'>宝石星球</navigator></view><view><navigator url='/3/1884/1884'>聚赚资讯</navigator></view><view><navigator url='/1/1618/1618'>赚美金</navigator></view>
+				<view><navigator url='/4/2201/2201'>72G赚吧</navigator></view><view><navigator url='/3/1974/1974'>趣多拍</navigator></view><view><navigator url='/2/1803/1803'>小红淘</navigator></view><view><navigator url='/2/1790/1790'>追看视频</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							抢红包神器，一分钟赚一元，一元钱就能提现。签到随机奖励，最高奖励100元；拆红包，邀请好友拆红包，好友拆开对半分；做任务，任务多，奖励好，轻松一点就赚钱。{{isAll?intro:''}}
+							抢红包神器，一分钟赚一元，一元钱就能提现。签到随机奖励，最高奖励100元；拆红包，邀请好友拆红包，好{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1673/1673'>零钱掌柜</navigator></view><view><navigator url='/4/2188/2188'>手游超人</navigator></view><view><navigator url='/1/1594/1594'>摇钱树</navigator></view><view><navigator url='/1/1557/1557'>赚客</navigator></view>
+				<view><navigator url='/3/1993/1993'>放心赚</navigator></view><view><navigator url='/3/2073/2073'>他阅读</navigator></view><view><navigator url='/4/2205/2205'>乐趣闻</navigator></view><view><navigator url='/1/1507/1507'>全民悬赏</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							蜜果派是一个适用于苹果手机APP应用试玩赚钱平台，安装注册并填写收徒码00001328绑定手机后奖励4元。 仅通过下载试玩APP即可获得超多现金奖励,邀请好友还可获得额外10元不等红包！每天12点，14点，16点都会刷新新任务供试客试玩。用户每成功试玩一个APP，奖励1-5元不等，每天赚10元小意思。满十元即可提现，第二天即可到账！【支持苹果iOS和安卓系统】{{isAll?intro:''}}
+							蜜果派是一个适用于苹果手机APP应用试玩赚钱平台，安装注册并填写收徒码00001328绑定手机后奖励{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2261/2261'>魔豆</navigator></view><view><navigator url='/1/1746/1746'>疯狂赚金币苹果版</navigator></view><view><navigator url='/3/2162/2162'>PP试玩</navigator></view><view><navigator url='/4/2219/2219'>秒赚大钱安卓版</navigator></view>
+				<view><navigator url='/3/2088/2088'>人气头条</navigator></view><view><navigator url='/1/1678/1678'>免费流量宝ios版</navigator></view><view><navigator url='/1/1708/1708'>任务超市苹果版</navigator></view><view><navigator url='/2/1803/1803'>小红淘</navigator></view>
 			</view>
 		</view>
 	</view>

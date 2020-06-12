@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							众用助手的宗旨是让会员在碎片时间里，发现有用好玩、有趣的手机应用，顺带还可以赚赏金。 众用助手是一个补贴式应用分发平台，APP内包含海量应用，只要你想到的，都能在众用助手找到，下载应用的同时，还能得到补贴；每周使用应用，也还有补贴！{{isAll?intro:''}}
+							众用助手的宗旨是让会员在碎片时间里，发现有用好玩、有趣的手机应用，顺带还可以赚赏金。 众用助手是一个{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2091/2091'>视频赚</navigator></view><view><navigator url='/3/2028/2028'>雪梨网</navigator></view><view><navigator url='/4/2337/2337'>遛达赚钱（溜达）</navigator></view><view><navigator url='/1/1652/1652'>体验喵</navigator></view>
+				<view><navigator url='/3/2131/2131'>财神道</navigator></view><view><navigator url='/2/1840/1840'>小赚宝</navigator></view><view><navigator url='/3/1917/1917'>趣头条</navigator></view><view><navigator url='/1/1589/1589'>应用猎人</navigator></view>
 			</view>
 		</view>
 	</view>

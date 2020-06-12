@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							搜虎赚钱是北京搜虎科技旗下的苹果手机试玩应用赚钱软件，任务单价8毛，10元起提现。搜虎每天会上线超多应用试玩任务，每款应用只需要花三分钟试玩，用户就能获得高额的现金酬劳回报，利用闲暇时间动动手指试玩应用轻松赚零花钱！ 联系我们： 官方客服QQ：623345387{{isAll?intro:''}}
+							搜虎赚钱是北京搜虎科技旗下的苹果手机试玩应用赚钱软件，任务单价8毛，10元起提现。搜虎每天会上线超多{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2122/2122'>知晓</navigator></view><view><navigator url='/3/2092/2092'>豆大宝</navigator></view><view><navigator url='/2/1807/1807'>斗鱼极速版</navigator></view><view><navigator url='/1/1730/1730'>爱玩客</navigator></view>
+				<view><navigator url='/4/2346/2346'>ICUE</navigator></view><view><navigator url='/1/1736/1736'>玛尼APP苹果版</navigator></view><view><navigator url='/3/1907/1907'>2345星球联盟</navigator></view><view><navigator url='/4/2309/2309'>众用助手【骗子】</navigator></view>
 			</view>
 		</view>
 	</view>

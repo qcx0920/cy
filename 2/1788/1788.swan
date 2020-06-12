@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							全民赚是一款靠谱的任务悬赏互助的手机兼职赚钱平台，1元就能提现，平台上拥有超多丰富的赚钱任务，信息量大供给各类人群做兼职，每天轻松做兼职天天收益不断。另外还可以自己发布任务给别人，自己在赚任务佣金的同时也可以发布任务给别人来做，平台信息真，结算快，提现瞬间到账。 任务类型涉及关注公众号及砍价任务、问答调查、应用注册、投票跟小程序、成长任务等 任务单价0.12-1.2元不等，首次1元提现微信，后续5元起，秒到账。 联系我们 客服QQ群：983319376，客服QQ：1939569357、3278154125{{isAll?intro:''}}
+							全民赚是一款靠谱的任务悬赏互助的手机兼职赚钱平台，1元就能提现，平台上拥有超多丰富的赚钱任务，信息量{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1587/1587'>赚多多</navigator></view><view><navigator url='/4/2166/2166'>iMoney安卓版</navigator></view><view><navigator url='/4/2309/2309'>众用助手【骗子】</navigator></view><view><navigator url='/1/1707/1707'>美赚苹果版</navigator></view>
+				<view><navigator url='/4/2257/2257'>口袋赚</navigator></view><view><navigator url='/1/1622/1622'>乐酷试玩</navigator></view><view><navigator url='/3/1880/1880'>今日头条极速版</navigator></view><view><navigator url='/1/1695/1695'>试玩团长</navigator></view>
 			</view>
 		</view>
 	</view>

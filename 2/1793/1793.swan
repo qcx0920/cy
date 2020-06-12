@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							拼手气是一个拼手气抢红包的app，0.3元就能提现，秒到账。每天派上百个现金红包，让你抢到手软，登陆就送0.3元红包，可直接提现，立马到账。{{isAll?intro:''}}
+							拼手气是一个拼手气抢红包的app，0.3元就能提现，秒到账。每天派上百个现金红包，让你抢到手软，登陆{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1779/1779'>截图宝</navigator></view><view><navigator url='/4/2243/2243'>来赚分享</navigator></view><view><navigator url='/1/1529/1529'>王者联盟赚钱游戏</navigator></view><view><navigator url='/2/1799/1799'>猫小贱</navigator></view>
+				<view><navigator url='/4/2222/2222'>99赚钱</navigator></view><view><navigator url='/1/1493/1493'>体验狮</navigator></view><view><navigator url='/3/2083/2083'>传客美文网</navigator></view><view><navigator url='/4/2190/2190'>钱大师安卓版</navigator></view>
 			</view>
 		</view>
 	</view>

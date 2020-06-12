@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							欢迎加入试玩二团试玩苹果iOS应用赚钱，单价2元起，20元即可提现。每天下午4点左右会有大量新任务上线，无需首次，任务数量有限，先到先得。 微信扫一扫二维码开始赚钱{{isAll?intro:''}}
+							欢迎加入试玩二团试玩苹果iOS应用赚钱，单价2元起，20元即可提现。每天下午4点左右会有大量新任务上{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1855/1855'>企鹅众测</navigator></view><view><navigator url='/1/1739/1739'>聚赚钱</navigator></view><view><navigator url='/4/2262/2262'>钱程</navigator></view><view><navigator url='/4/2322/2322'>小钱包APP(下架)</navigator></view>
+				<view><navigator url='/4/2402/2402'>零用宝-手机赚钱</navigator></view><view><navigator url='/4/2219/2219'>秒赚大钱安卓版</navigator></view><view><navigator url='/4/2198/2198'>今日阅读</navigator></view><view><navigator url='/4/2277/2277'>e赚-看广告赚钱</navigator></view>
 			</view>
 		</view>
 	</view>

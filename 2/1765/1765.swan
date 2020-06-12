@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							第一调查网旗下给力赚是一个做问卷调查赚钱的小程序，微信扫码即刻参加调查得现金，100金币=1元，5元即可提现（大概做两三个调查）。一份问卷大概需要4-5分钟的时间去完成，只要你的回答符合平台需要，那么你就会获得现金奖励。类似调查赚钱的还有集思吧旗下的赚点app和投吧网。{{isAll?intro:''}}
+							第一调查网旗下给力赚是一个做问卷调查赚钱的小程序，微信扫码即刻参加调查得现金，100金币=1元，5元{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1816/1816'>微漂云众包</navigator></view><view><navigator url='/1/1746/1746'>疯狂赚金币苹果版</navigator></view><view><navigator url='/4/2371/2371'>豆豆赚钱机</navigator></view><view><navigator url='/2/1857/1857'>趣专享</navigator></view>
+				<view><navigator url='/3/2012/2012'>身边</navigator></view><view><navigator url='/1/1754/1754'>赚帮iOS版</navigator></view><view><navigator url='/1/1497/1497'>巨宝朋</navigator></view><view><navigator url='/3/2104/2104'>包赚</navigator></view>
 			</view>
 		</view>
 	</view>

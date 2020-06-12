@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							搜狐资讯是一个看资讯还可以赚钱的新闻资讯App，注册送1-100元（一般是1元），看新闻转发新闻资讯都能赚钱，任务中心，竞猜任你玩！获得的狐币还可以兑换成现金提现。另外，大方地告诉你邀请好友直接就可以赚现金，发家致富就靠它了~~ 奖励规则： 【阅读资讯】认真阅读资讯或观看视频可获得每篇10狐币的奖励，为了防止恶意刷狐币，不是每次阅读均会获得狐币，所以一定要认真看哦。 【分享文章】成功分享资讯、视频、竞猜给好友，待分享的内容至少被查看过一次后就可以获得10狐币的奖励，同一内容多次分享不重复奖励，每天最多奖励5次。 【晒收入】分享收入给好友，待被好友查看后即可获得10狐币的奖励，每天只有首次有效分享才能获得狐币。 【邀请好友】每邀请一个好友成为徒弟，您将获得3元现金奖励（分7次）。徒弟登录App后，您将获得首次现金奖励，此后徒弟每获得1次阅读奖励您将得到20狐币，累计60狐币即可获得一次现金奖励（每天限1次）。{{isAll?intro:''}}
+							搜狐资讯是一个看资讯还可以赚钱的新闻资讯App，注册送1-100元（一般是1元），看新闻转发新闻资讯{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1542/1542'>赏链</navigator></view><view><navigator url='/3/1912/1912'>闪电盒子</navigator></view><view><navigator url='/3/2136/2136'>友钱APP</navigator></view><view><navigator url='/1/1602/1602'>嘀嗒赚</navigator></view>
+				<view><navigator url='/1/1666/1666'>51发发 - 51fafa</navigator></view><view><navigator url='/1/1623/1623'>爱疯赚</navigator></view><view><navigator url='/4/2168/2168'>蘑菇乐园</navigator></view><view><navigator url='/1/1521/1521'>红淘客</navigator></view>
 			</view>
 		</view>
 	</view>

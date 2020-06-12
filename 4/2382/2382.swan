@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							《赚钱花》是一款专注手机威客的软件，做任务，赚金币，即可通过话费，QQ币，支付宝和优惠券等方式兑换，手机赚钱，说有就有。     1、超多任务，赚钱速度超乎想象   独创玩游戏得奖励，更有欣赏广告，网购返利，问卷调查，收徒弟，每天签到，晒单有奖等方式，手机赚钱花，没有赚不到。     2、超低兑换，兑换速度超乎想象   最低可以5元兑换，兑换最快五分钟到帐，真正的快捷体验。公司的保证，该给用户的钱一份都会少！{{isAll?intro:''}}
+							《赚钱花》是一款专注手机威客的软件，做任务，赚金币，即可通过话费，**币，支付宝和优惠券等方式兑换，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1900/1900'>聚钱宝</navigator></view><view><navigator url='/2/1807/1807'>斗鱼极速版</navigator></view><view><navigator url='/1/1550/1550'>柚子试玩</navigator></view><view><navigator url='/4/2250/2250'>试玩猫</navigator></view>
+				<view><navigator url='/3/2047/2047'>蚂蚁头条</navigator></view><view><navigator url='/3/1925/1925'>像素蜜蜂</navigator></view><view><navigator url='/4/2226/2226'>红包先森</navigator></view><view><navigator url='/3/2096/2096'>红豆赚</navigator></view>
 			</view>
 		</view>
 	</view>

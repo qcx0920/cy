@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							第五媒体资讯有限公司是以通过智能手机平台推广商业、公益广告等综合资讯为主营项目的经营主体。经过国内外行业专家组成的科技研发团队多年研发，目前已经开发出国际领先、国内唯一的手机媒体系统骓客。   骓客是延边第五媒体资讯有限公司推出的一款手机返现应用。您可以通过骓客观看广告，获得相应的现金奖励。   我们可以为广告商提供精准的统计数据、制定完善的营销策略。为了最大限度的提高广告效果，可以根据用户的性别、年龄段、地区等信息进行广告的投放，广告商可以有针对性的投放广告。   我们还与慈善机构合作，将收入的一部分用于帮助生活困难的人。   我们会努力地为您提供更准确与安全的服务。{{isAll?intro:''}}
+							第五媒体资讯有限公司是以通过智能手机平台推广商业、公益广告等综合资讯为主营项目的经营主体。经过国内外{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1798/1798'>淘小铺</navigator></view><view><navigator url='/3/2044/2044'>头条看点</navigator></view><view><navigator url='/4/2179/2179'>葫芦赚</navigator></view><view><navigator url='/3/2101/2101'>轶闻趣事</navigator></view>
+				<view><navigator url='/1/1748/1748'>上榜乐</navigator></view><view><navigator url='/3/1894/1894'>爆分网</navigator></view><view><navigator url='/4/2360/2360'>点点乐</navigator></view><view><navigator url='/4/2293/2293'>放眼APP</navigator></view>
 			</view>
 		</view>
 	</view>

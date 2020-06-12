@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							《锁屏达人》是畅娱互动科技(北京)有限公司推出的一款锁屏App【注册填写邀请码1810送5元现金】。可以美化手机，提供多种精美壁纸的锁屏软件，并且可以阅读精美文章、分享、做任务赚取奖励兑换电话卡、Q币及支付宝兑现等奖励的锁屏软件。{{isAll?intro:''}}
+							《锁屏达人》是畅娱互动科技(北京)有限公司推出的一款锁屏App【注册填写邀请码1810送5元现金】。{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1837/1837'>小程序试玩</navigator></view><view><navigator url='/3/2023/2023'>菠萝小组</navigator></view><view><navigator url='/2/1778/1778'>恐龙世界</navigator></view><view><navigator url='/3/2061/2061'>有银子</navigator></view>
+				<view><navigator url='/1/1665/1665'>开钱宝</navigator></view><view><navigator url='/1/1607/1607'>PP红包助手</navigator></view><view><navigator url='/1/1709/1709'>爱魔豆苹果版</navigator></view><view><navigator url='/4/2170/2170'>巨宝朋安卓版</navigator></view>
 			</view>
 		</view>
 	</view>

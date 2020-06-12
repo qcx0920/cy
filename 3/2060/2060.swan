@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							趣转发是创新型的优质分享文章赚钱平台，注册就送1元，2元即可提现，每次有效阅读0.06元起，提现秒到账。{{isAll?intro:''}}
+							趣转发是创新型的优质分享文章赚钱平台，注册就送1元，2元即可提现，每次有效阅读0.06元起，提现秒到{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2025/2025'>头条巴士</navigator></view><view><navigator url='/4/2327/2327'>疯传100</navigator></view><view><navigator url='/4/2315/2315'>有钱</navigator></view><view><navigator url='/3/2060/2060'>趣转发</navigator></view>
+				<view><navigator url='/3/2079/2079'>随手快报</navigator></view><view><navigator url='/1/1741/1741'>学费赚苹果版</navigator></view><view><navigator url='/1/1633/1633'>应用小秘</navigator></view><view><navigator url='/2/1811/1811'>赚钱猫</navigator></view>
 			</view>
 		</view>
 	</view>

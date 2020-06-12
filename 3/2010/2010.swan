@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							皮皮车 － 看车选车玩车赚钱神器，能赚钱的汽车内容分享社区，填写邀请码A0820161领红包，1元提现。皮皮车是一个专业、有趣的汽车内容分享社区，拥有海量的专业汽车资讯，精彩的短视频社区，让你看车选车玩车赚不停，看视频看资讯发帖都能赚钱！天天活动送不停，宝箱、福利等奖励让阅读变得更有价值，邀请好友一起看，有趣还有钱。 ——【联系我们】—— 客服微信：532228863{{isAll?intro:''}}
+							皮皮车 － 看车选车玩车赚钱神器，能赚钱的汽车内容分享社区，填写邀请码A0820161领红包，1元提{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1910/1910'>99阅读</navigator></view><view><navigator url='/1/1592/1592'>搜虎</navigator></view><view><navigator url='/3/2008/2008'>安心赚</navigator></view><view><navigator url='/3/1893/1893'>豆豆资讯</navigator></view>
+				<view><navigator url='/1/1722/1722'>生菜苹果版</navigator></view><view><navigator url='/2/1841/1841'>芝士小视频</navigator></view><view><navigator url='/4/2219/2219'>秒赚大钱安卓版</navigator></view><view><navigator url='/4/2198/2198'>今日阅读</navigator></view>
 			</view>
 		</view>
 	</view>

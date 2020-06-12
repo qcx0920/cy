@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							新应用试客-人人都喜爱的应用社区，玩应用有现金奖励，单价1-4元，8元即可提现（秒到帐）。发现好玩有趣的APP，试玩应用更有现金奖励，赶快来试玩吧。仅限苹果iOS 9.0以上系统。{{isAll?intro:''}}
+							新应用试客-人人都喜爱的应用社区，玩应用有现金奖励，单价1-4元，8元即可提现（秒到帐）。发现好玩有{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2311/2311'>推钱儿</navigator></view><view><navigator url='/4/2248/2248'>秉钧红人</navigator></view><view><navigator url='/4/2392/2392'>G媒-看广告赚钱</navigator></view><view><navigator url='/3/1927/1927'>淘最热点</navigator></view>
+				<view><navigator url='/3/1964/1964'>贝米资讯</navigator></view><view><navigator url='/3/1901/1901'>极速赚</navigator></view><view><navigator url='/2/1852/1852'>好手气斗地主</navigator></view><view><navigator url='/1/1667/1667'>达人试玩</navigator></view>
 			</view>
 		</view>
 	</view>

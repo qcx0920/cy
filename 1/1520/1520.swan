@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							星球，是一个最新合成游戏的赚钱软件，首次3毛提现，后续20元起，千万注册资金的大公司推出的产品。必填邀请码【1442791】！星球app，让休闲更有趣，让快乐更有价值。星球纪元2333年，地球遭遇了前所未有的自然灾难，长久以来人类无穷尽的索取，遭到了大自然反噬。这时，人类开始思考，是去探索新的星球，还是留在地球重建家园，而你毅然选择，去探索那未知的世界…… 在星球App你可以和朋友组成探索团一起探索更多好玩的星球..... 1. 通过合成星球，可以发现更高等级的星球 2. 邀请好友合成星球，还可以获得好友合成星球产生的金币收益 在星球您目前有3种方式来获得收益： 首先您可以通过升级星球或者通过转盘抽奖游戏获得红包奖励； 其次，您可以通过将38级星球合成获得红包奖励； 同时您也可以通过邀请好友来组成探索团，好友的助力也将为您带来收益。{{isAll?intro:''}}
+							星球，是一个最新合成游戏的赚钱软件，首次3毛提现，后续20元起，千万注册资金的大公司推出的产品。必填{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1925/1925'>像素蜜蜂</navigator></view><view><navigator url='/3/1899/1899'>看点快报</navigator></view><view><navigator url='/4/2219/2219'>秒赚大钱安卓版</navigator></view><view><navigator url='/4/2199/2199'>淘金赚</navigator></view>
+				<view><navigator url='/4/2359/2359'>赚零花钱</navigator></view><view><navigator url='/3/1990/1990'>蜜蜂阅读</navigator></view><view><navigator url='/2/1826/1826'>支付宝红包</navigator></view><view><navigator url='/3/1888/1888'>魔视</navigator></view>
 			</view>
 		</view>
 	</view>

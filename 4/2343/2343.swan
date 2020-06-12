@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							看图赚是一款有趣互动形式浏览广告、商品赚钱的APP，您可以用工作、学习之余的空闲时间滑动手指就能赚钱、找优惠！ 扫描二维码注册并下载看图赚 看图赚——国内首创B2C2C移动广告交易平台震撼来袭。手机免费打广告，有趣更有料， 看图赚钱找优惠，“逛街”购物还挣钱。剁手党华丽变身顾家好娘们，释放你的省钱赚钱本能，全新商业模式重新诠释移动互联网O2O电商核心价值 。创新移动广告助推企业粉丝增长，一个平台满足用户衣、食、住、行、购、赚、玩，粉丝经济下的产品自动变现，助力企业赢赚未来！{{isAll?intro:''}}
+							看图赚是一款有趣互动形式浏览广告、商品赚钱的APP，您可以用工作、学习之余的空闲时间滑动手指就能赚钱{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1910/1910'>99阅读</navigator></view><view><navigator url='/1/1516/1516'>全民赞</navigator></view><view><navigator url='/3/1923/1923'>猫眼</navigator></view><view><navigator url='/1/1570/1570'>立马赚</navigator></view>
+				<view><navigator url='/1/1574/1574'>柠檬赚</navigator></view><view><navigator url='/2/1771/1771'>赏金榜</navigator></view><view><navigator url='/1/1699/1699'>钱逗</navigator></view><view><navigator url='/4/2209/2209'>易读资讯</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							今日热闻社是一款生活娱乐类的看新闻资讯赚钱的App，2元就能提现，注册送1元。每天直达新鲜好玩的生活资讯，阅读还可以获得金币奖励哦！ 【丰富资讯】热点生活资讯内容应有尽有 【好玩活动】任务中心各种好玩任务源源不断 【好友分享】邀请好友获得奖励停不下来 联系官方：客服咨询，QQ： 569403059 ，我们将竭诚为您服务。 本站微信：yuri-le{{isAll?intro:''}}
+							今日热闻社是一款生活娱乐类的看新闻资讯赚钱的App，2元就能提现，注册送1元。每天直达新鲜好玩的生活{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2188/2188'>手游超人</navigator></view><view><navigator url='/1/1586/1586'>小猫赚钱</navigator></view><view><navigator url='/1/1717/1717'>口袋红包苹果版</navigator></view><view><navigator url='/3/2081/2081'>嘿嘿新闻</navigator></view>
+				<view><navigator url='/4/2339/2339'>钱包锁屏</navigator></view><view><navigator url='/3/1905/1905'>奇迹小说</navigator></view><view><navigator url='/4/2391/2391'>招财猫锁屏赚钱</navigator></view><view><navigator url='/3/2053/2053'>辣头条</navigator></view>
 			</view>
 		</view>
 	</view>

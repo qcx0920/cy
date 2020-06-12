@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							多多转据传贝赚旗下最新转发手赚平台，涨分快，单次点击3毛，登陆送5毛，首次提现2元，马上到账！ 复制本条信息￥￥5dce077b2b538￥￥打开【多多转】App，领取最高99元现金红包，每天可领1次。 另外，重磅推出红包活动：人人都可领发红包，领多少红包，你就赚多少赏金。收徒奖励18元+50%贡献，还可以升级合伙人领无限下级10%收益分成。来【多多转】领红包，日入万元不是梦！ 联系官方 客服交流QQ群：791995153，客服微信：xkxzs6{{isAll?intro:''}}
+							多多转据传贝赚旗下最新转发手赚平台，涨分快，单次点击3毛，登陆送5毛，首次提现2元，马上到账！ 复制{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2279/2279'>锁财宝</navigator></view><view><navigator url='/1/1733/1733'>微看点苹果版</navigator></view><view><navigator url='/1/1630/1630'>淘来赚钱</navigator></view><view><navigator url='/2/1852/1852'>好手气斗地主</navigator></view>
+				<view><navigator url='/3/2147/2147'>小萌差事 - 微信投票赚钱</navigator></view><view><navigator url='/1/1646/1646'>试客小兵</navigator></view><view><navigator url='/3/1872/1872'>大六顺</navigator></view><view><navigator url='/3/1906/1906'>满堂福</navigator></view>
 			</view>
 		</view>
 	</view>

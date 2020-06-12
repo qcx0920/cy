@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							微看点是一款贴心的智能阅读app，旨在“传递互联网最具价值干货”！【注册时填写邀请码qq3des立送2元现金，最强奖品兑换，话费，现金，糯米券等你来拿。】包括头条爆文、社会新闻、笑话、美文、娱乐、健康、科技、财经、生活、汽车、探索、职场、美食、生活、时尚、旅游、育儿、教育、星座、宠物等,随着使用时间的增长，推荐内容也越精准、越贴心！{{isAll?intro:''}}
+							微看点是一款贴心的智能阅读app，旨在“传递互联网最具价值干货”！【最强奖品兑换，话费，现金，糯米券{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2089/2089'>麻雀浏览器</navigator></view><view><navigator url='/1/1741/1741'>学费赚苹果版</navigator></view><view><navigator url='/4/2362/2362'>免费流量王-手机赚钱</navigator></view><view><navigator url='/3/2036/2036'>头条多多</navigator></view>
+				<view><navigator url='/3/1936/1936'>百姓看点</navigator></view><view><navigator url='/1/1730/1730'>爱玩客</navigator></view><view><navigator url='/1/1512/1512'>赚钱呗</navigator></view><view><navigator url='/3/1978/1978'>想看</navigator></view>
 			</view>
 		</view>
 	</view>

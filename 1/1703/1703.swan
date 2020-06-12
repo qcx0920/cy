@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							钱贵APP动动手指，轻松赚钱。现在安装即送2元！利用碎片时间，下应用、分享文章等获得现金报酬，手机赚钱不是梦。{{isAll?intro:''}}
+							钱贵APP动动手指，轻松赚钱。现在安装即送2元！利用碎片时间，下应用、分享文章等获得现金报酬，手机赚{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1955/1955'>快米看点</navigator></view><view><navigator url='/1/1678/1678'>免费流量宝ios版</navigator></view><view><navigator url='/4/2333/2333'>零花锁屏</navigator></view><view><navigator url='/1/1750/1750'>我赚-iOS赚钱</navigator></view>
+				<view><navigator url='/4/2211/2211'>左玩右玩</navigator></view><view><navigator url='/3/1950/1950'>猫人网</navigator></view><view><navigator url='/3/2013/2013'>好看视频</navigator></view><view><navigator url='/3/1978/1978'>想看</navigator></view>
 			</view>
 		</view>
 	</view>

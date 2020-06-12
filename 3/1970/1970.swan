@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							红包视界是一款游戏化短视频产品，看视频看新闻领红包，1元就能提现，用户观看短视频可以获得活力值，可以通过活力值种种植红包，开红包领取随机金额。 【海量视频】红包视界内含海量短视频，可以对视频进行点赞和评论 【红包庄园】用户可以将获得的活力值购买种子进行种植，可以长出红包，开启红包获得随机现金奖励 【附近庄园】用户可以偷摘附近庄园红包，额外获得大量红包 【天降红包】每天定时会降下红包雨，用户抢到越多的红包，获得奖励金额越多{{isAll?intro:''}}
+							红包视界是一款游戏化短视频产品，看视频看新闻领红包，1元就能提现，用户观看短视频可以获得活力值，可以{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2103/2103'>提款机</navigator></view><view><navigator url='/2/1841/1841'>芝士小视频</navigator></view><view><navigator url='/3/2096/2096'>红豆赚</navigator></view><view><navigator url='/1/1669/1669'>赚一兜苹果版</navigator></view>
+				<view><navigator url='/3/2031/2031'>芒果网</navigator></view><view><navigator url='/1/1747/1747'>手上活（手机赚钱宝）苹果版</navigator></view><view><navigator url='/4/2310/2310'>爱捞金微信</navigator></view><view><navigator url='/2/1768/1768'>牛帮</navigator></view>
 			</view>
 		</view>
 	</view>

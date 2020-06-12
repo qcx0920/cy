@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							一直赚，2019最新上线的苹果手机试玩平台，下载APP就能赚钱，记得第一时间绑定手机号，以免账号丢失引起资金损失。日常任务单价1元起，满10元就能提现，完成1个新手任务奖励1.5元。特别适合想用零散时间赚点零花钱的朋友们，每天平台有充足任务。一般每天下午三四点上任务，每天下午多留意下。 官方客服微信：yizhizhuan111{{isAll?intro:''}}
+							一直赚，2019最新上线的苹果手机试玩平台，下载APP就能赚钱，记得第一时间绑定手机号，以免账号丢失{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1573/1573'>搬砖啦</navigator></view><view><navigator url='/3/1895/1895'>钱库资讯</navigator></view><view><navigator url='/3/2041/2041'>资讯宝</navigator></view><view><navigator url='/4/2307/2307'>百度微任务</navigator></view>
+				<view><navigator url='/4/2399/2399'>有信免费网络电话</navigator></view><view><navigator url='/4/2167/2167'>有赚</navigator></view><view><navigator url='/3/2047/2047'>蚂蚁头条</navigator></view><view><navigator url='/3/2146/2146'>水滴任务投票平台</navigator></view>
 			</view>
 		</view>
 	</view>

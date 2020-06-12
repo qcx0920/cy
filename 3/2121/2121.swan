@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							百万猪是微界公司推出的看新闻资讯赚钱的app，边看文章边取钱，注册送0.5元，5元即可提现。百万猪是一个取钱罐，里面存有100万人民币。你每天都可以从里面取钱一次，推荐的朋友越多取出的钱越多，阅读的文章越多取出的钱也会越多，每天每人最多取1万元。{{isAll?intro:''}}
+							百万猪是微界公司推出的看新闻资讯赚钱的app，边看文章边取钱，注册送0.5元，5元即可提现。百万猪是{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1809/1809'>第一调查</navigator></view><view><navigator url='/3/2033/2033'>小牛快看</navigator></view><view><navigator url='/2/1849/1849'>红信</navigator></view><view><navigator url='/1/1750/1750'>我赚-iOS赚钱</navigator></view>
+				<view><navigator url='/4/2283/2283'>应用微客</navigator></view><view><navigator url='/2/1867/1867'>享赚钱</navigator></view><view><navigator url='/4/2361/2361'>赚翻翻</navigator></view><view><navigator url='/1/1521/1521'>红淘客</navigator></view>
 			</view>
 		</view>
 	</view>

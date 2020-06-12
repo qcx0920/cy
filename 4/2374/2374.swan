@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							WiFi宝，一款能免费上网还能赚钱的神器！   蹭网：超强WIFI热点数据库，一网打尽您附近的WIFI热点，让你随时随地免费上网，妈妈再也不担心你没有流量！   赚钱：分享WiFi、下载应用，轻松领积分；购物卡、Q币火爆兑换中；一觉醒来，被4G坑走的房子又赚回来了！多样积分玩法，精彩不容错过！{{isAll?intro:''}}
+							WiFi宝，一款能免费上网还能赚钱的神器！   蹭网：超强WIFI热点数据库，一网打尽您附近的WIF{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2286/2286'>推猫</navigator></view><view><navigator url='/3/1959/1959'>趣看看</navigator></view><view><navigator url='/4/2381/2381'>私房钱</navigator></view><view><navigator url='/3/1879/1879'>酷狗音乐大字版</navigator></view>
+				<view><navigator url='/1/1730/1730'>爱玩客</navigator></view><view><navigator url='/2/1812/1812'>乐益看</navigator></view><view><navigator url='/1/1603/1603'>微赚</navigator></view><view><navigator url='/1/1658/1658'>疯狂百宝箱</navigator></view>
 			</view>
 		</view>
 	</view>

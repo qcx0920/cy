@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							淘差事（原来钱道升级版）是一个手机自助兼职任务赚钱平台，商家发布任务需求，平台用户接单赚钱，让商家花更少的钱，实现更大的经济效益，而完成兼职任务的用户也可以赚到相应的酬劳。 全程只需手机操作，不用出门跑腿照样兼职赚钱，只要一点点时间就能完成任务而获得奖励，无需任何投入，就可以轻松操作手机赚钱，没有任何风险，让大家能够自由赚钱。 淘差事特点： 1、每天提供上千个兼职赚钱任务，种类丰富，总有一款适合你。 2、丰富的奖励机制，邀请好友使用即可获得更多的分成奖励。 3、超低的提现要求，让你更加方便地进行赚钱提现，满1元即可提现到微信、支付宝、微信秒到账。 客服微信：s13358798244{{isAll?intro:''}}
+							淘差事（原来钱道升级版）是一个手机自助兼职任务赚钱平台，商家发布任务需求，平台用户接单赚钱，让商家花{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2384/2384'>玩赚APP</navigator></view><view><navigator url='/4/2262/2262'>钱程</navigator></view><view><navigator url='/1/1643/1643'>神灯平台</navigator></view><view><navigator url='/1/1538/1538'>试用宝</navigator></view>
+				<view><navigator url='/4/2174/2174'>每天赚点</navigator></view><view><navigator url='/1/1497/1497'>巨宝朋</navigator></view><view><navigator url='/4/2397/2397'>省钱助手</navigator></view><view><navigator url='/2/1796/1796'>桔子兼职</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							小啄赚钱是一款用手机兼职做任务赚零钱的APP，用户可以通过试玩应用获得现金奖励，1元就可提现，现加入即有机会获取1-200元新手红包。小啄赚钱是由杭州小啄科技开发的一款利用空余时间赚钱的APP，独创的趣味性玩法小啄一下更容易吸引用户的关注，同时小啄答题、小啄答题助手结合最流行的问答玩法，可对冲顶大会、百万英雄助手等问答平台进行答题辅助。 签到领红包 15日签到，每天签到都有1元+红包，提现 秒到微信，连续15天，赚到嗨！ 钻石任务上线 钻石任务上线啦！任务奖励+充值奖励， 一个任务一天最高可赚2888元！ 疯狂师徒 邀请好友一起来玩小啄，邀请越多，奖励 越高，提现秒到账！ 开启赚钱之旅！小啄赚钱，杭州小啄科技有限公司旗下一款会赚钱的app！支持苹果和安卓手机{{isAll?intro:''}}
+							小啄赚钱是一款用手机兼职做任务赚零钱的APP，用户可以通过试玩应用获得现金奖励，1元就可提现，现加入{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2329/2329'>招财熊【骗子】</navigator></view><view><navigator url='/1/1686/1686'>热葫芦iOS版</navigator></view><view><navigator url='/1/1624/1624'>口袋ATM</navigator></view><view><navigator url='/4/2349/2349'>钻石APP</navigator></view>
+				<view><navigator url='/4/2202/2202'>橙赚</navigator></view><view><navigator url='/3/1896/1896'>稳稳赚</navigator></view><view><navigator url='/4/2304/2304'>看看有钱</navigator></view><view><navigator url='/2/1814/1814'>赚钢镚</navigator></view>
 			</view>
 		</view>
 	</view>

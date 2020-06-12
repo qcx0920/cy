@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							海豚网，快转旗下转发文章赚钱平台，一直以转发单价高的特点深受广大用户的喜爱，平台更是推出现在注册即可获得1元现金福利，收益满5元起即可提现，另外收一名有效徒弟奖励15元，外加2级徒弟50%的收益奖励！{{isAll?intro:''}}
+							海豚网，快转旗下转发文章赚钱平台，一直以转发单价高的特点深受广大用户的喜爱，平台更是推出现在注册即可{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1913/1913'>蚂蚁看点</navigator></view><view><navigator url='/4/2205/2205'>乐趣闻</navigator></view><view><navigator url='/4/2191/2191'>明明乐园</navigator></view><view><navigator url='/4/2325/2325'>手机淘米</navigator></view>
+				<view><navigator url='/3/2157/2157'>试玩二团</navigator></view><view><navigator url='/2/1766/1766'>章鱼输入法</navigator></view><view><navigator url='/3/1878/1878'>抖音极速版</navigator></view><view><navigator url='/1/1601/1601'>花生米</navigator></view>
 			</view>
 		</view>
 	</view>

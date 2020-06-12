@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							聚钱宝（邀请码80001888）是颐家公司一款最新分享文章资讯至微信/朋友圈就能赚钱的软件，让您在阅读中获取知识，分享中获得收益。完成新手任务就送5毛钱，文章阅读单价3毛起，提现5元起。一级徒弟30％，二级徒弟30％分成。   关于提现问题 a.早9点-晚8点提现会实时到你填写的微信账号，如果遇到休息日提现顺延。 b.提现失败后提现的金额会返回到你的账号余额  客服微信：HR22222H{{isAll?intro:''}}
+							聚钱宝（邀请码80001888）是颐家公司一款最新分享文章资讯至微信/朋友圈就能赚钱的软件，让您在阅{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/4/2356/2356'>手机赚零钱</navigator></view><view><navigator url='/2/1843/1843'>来米啦</navigator></view><view><navigator url='/4/2245/2245'>点点赚</navigator></view><view><navigator url='/3/2002/2002'>趣故事</navigator></view>
+				<view><navigator url='/4/2324/2324'>锁屏高手</navigator></view><view><navigator url='/2/1790/1790'>追看视频</navigator></view><view><navigator url='/1/1624/1624'>口袋ATM</navigator></view><view><navigator url='/3/2154/2154'>试玩团微信</navigator></view>
 			</view>
 		</view>
 	</view>

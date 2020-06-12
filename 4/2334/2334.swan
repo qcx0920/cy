@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							赚钱大咖是一款免费APP，他能让您的手机会赚钱。【填写邀请码32716奖励3元】您只需要按要求完成任务就能赚钱。赚钱大咖最新上线大咖圈社交功能，如果您觉得一款应用非常好玩可以将它分享到大咖圈，让好友们共同参与，好友领取了该应用后您还可以获得相应的奖励。同时您还可以在大咖圈参与好友间的互动交流，让大咖们玩起来吧！{{isAll?intro:''}}
+							赚钱大咖是一款免费APP，他能让您的手机会赚钱。【填写邀请码32716奖励3元】您只需要按要求完成任{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/1975/1975'>皮蛋家园</navigator></view><view><navigator url='/3/1984/1984'>沙发视频</navigator></view><view><navigator url='/2/1769/1769'>众人帮</navigator></view><view><navigator url='/1/1682/1682'>赚客app</navigator></view>
+				<view><navigator url='/2/1773/1773'>钱帮</navigator></view><view><navigator url='/1/1546/1546'>独匠赚钱</navigator></view><view><navigator url='/3/2133/2133'>快点</navigator></view><view><navigator url='/4/2368/2368'>微生活锁屏</navigator></view>
 			</view>
 		</view>
 	</view>

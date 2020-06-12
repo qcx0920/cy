@@ -19,7 +19,8 @@
 			</view>
 			<view s-if="{{!isZx}}" class="lists">
 				<view class="item">
-					<view class="list" s-for="list,index in applist" bindtap="todetail" data-pid="{{list.pid}}" data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+					<view class="list" s-for="list,index in applist" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
 						<view class="img">
 							<image src="{{list.logo}}" alt="{{list.name}}">
 							</image>
@@ -53,9 +54,10 @@
 	</view>
 
 	<view s-if="{{issearch}}" class="BN-a">
-		<view class="lists" style="margin-top:13vw">
+		<view s-if="{{activeName!=5}}" class="lists" style="margin-top:13vw">
 			<view class="item">
-				<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}" data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+				<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+					data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
 					<view class="img">
 						<image src="{{list.logo}}" alt="{{list.name}}">
 						</image>
@@ -69,6 +71,20 @@
 				</view>
 			</view>
 		</view>
+
+		<view s-if="{{activeName==5}}" class="news_list" style="margin-top:13vw">
+			<view class="li" s-for="list,index in searchLists" bindtap="gozxDetail" data-pid="{{list.pid}}">
+				<view class="img">
+					<image class="image" src="{{list.logo}}"></image>
+				</view>
+				<view class="text">
+					<view class="bt">{{list.title}}</view>
+					<text>{{list.readtimes}}人在关注</text>
+					<text>{{list.createtime}}</text>
+				</view>
+			</view>
+		</view>
+
 	</view>
 
 </view>

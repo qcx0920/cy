@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							橙赚是款利用你空闲时间，让你足不出户就能轻松赚钱的神奇APP，填写邀请码PJS2QS3R领新手红包。只要你完成橙赚APP上的任务就能得到相对应的奖励，动动手指就把钱赚了。而且1元就能提现，体验应用赢钱、网络答题、试玩赚钱等赚钱方法，邀请好友还能赚更多的钱。{{isAll?intro:''}}
+							橙赚是款利用你空闲时间，让你足不出户就能轻松赚钱的神奇APP，填写邀请码PJS2QS3R领新手红包。{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1795/1795'>淘差事</navigator></view><view><navigator url='/3/2138/2138'>嗨皮赚</navigator></view><view><navigator url='/2/1852/1852'>好手气斗地主</navigator></view><view><navigator url='/3/1871/1871'>大七喜</navigator></view>
+				<view><navigator url='/1/1734/1734'>2155百宝袋</navigator></view><view><navigator url='/3/2073/2073'>他阅读</navigator></view><view><navigator url='/3/2144/2144'>有奖问答APP</navigator></view><view><navigator url='/3/2093/2093'>无敌赚-大神转</navigator></view>
 			</view>
 		</view>
 	</view>

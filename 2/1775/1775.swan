@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							玩家享赚，玩游戏就能赚钱的app，玩棋牌、玩手游、体验应用，每天轻松赚钱，娱乐赚钱两不误。玩家享赚，是一个集合体验广告、互动广告、电子商务的网络营销以及平台。拥有任务系统，自媒体广告，购物返利，服务于广告主，用户也能获得收入。支持苹果和安卓手机同步玩。 玩家享赚，是一家集合体验游戏试玩、互动任务、电子商务的网络营销平台。作为国内专业的网赚平台，将为用户带来更极致的体验与更丰富的收获。玩家享赚为用户提供快速、真实、可靠、免费的赚钱项目；会员可通过试玩游戏、关注任务体验、益智竞猜等方式赚取黄豆，通过黄豆可进行提现、兑换Q币、话费、实物等各种奖励。   什么是黄钻？   黄钻是玩家享赚的一种虚拟货币，会员可通过试玩游戏、关注赚钱、推荐好友、完成新人任务等各种形式获得，通过正规渠道赚取的黄钻是长期有效的。   什么是等级？   等级是玩家享赚独有的一套网站特色系统。用户通过账号等级的提升，等级越高做任务等获取的收益也就越大。 获得经验值的途径：参与任务赚钱，关注赚钱等，领取等级奖励可获得指定数量的经验值。 完善个人信息，可获得指定数量的经验值。   客服在线时间：每天09:30~18:30 玩家享赚官方QQ号：3200917368， 玩家享赚官方新人群：695967059{{isAll?intro:''}}
+							玩家享赚，玩游戏就能赚钱的app，玩棋牌、玩手游、体验应用，每天轻松赚钱，娱乐赚钱两不误。玩家享赚，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2074/2074'>阅点点</navigator></view><view><navigator url='/3/1934/1934'>暴龙</navigator></view><view><navigator url='/4/2365/2365'>乐游宝</navigator></view><view><navigator url='/4/2209/2209'>易读资讯</navigator></view>
+				<view><navigator url='/4/2404/2404'>应用金矿</navigator></view><view><navigator url='/3/2080/2080'>悦目精选</navigator></view><view><navigator url='/4/2386/2386'>手机赚宝</navigator></view><view><navigator url='/2/1857/1857'>趣专享</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							秒赚大钱 全网最火赚钱APP，轻轻松松赚钱，真的躺着都会赚钱的平台！10元即可提现，支持苹果iOS和安卓系统。 微信扫一扫二维码开始赚钱 1、每天签到即可赚金币 2、下载APP试玩即可立得现金和金币 3，转发任务，把文章分享到朋友圈，有人浏览就有钱，看得越多给的越多 每当你的徒弟完成任务，你还有10%的额外分成奖励哦  {{isAll?intro:''}}
+							秒赚大钱 全网最火赚钱APP，轻轻松松赚钱，真的躺着都会赚钱的平台！10元即可提现，支持苹果iOS和{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1664/1664'>试尚团</navigator></view><view><navigator url='/1/1611/1611'>小手试玩</navigator></view><view><navigator url='/3/2025/2025'>头条巴士</navigator></view><view><navigator url='/4/2319/2319'>挖钻</navigator></view>
+				<view><navigator url='/2/1804/1804'>世界农场</navigator></view><view><navigator url='/4/2290/2290'>etommer</navigator></view><view><navigator url='/3/1875/1875'>趣看天下</navigator></view><view><navigator url='/3/2074/2074'>阅点点</navigator></view>
 			</view>
 		</view>
 	</view>

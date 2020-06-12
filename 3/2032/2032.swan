@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							香蕉网是快转赚、雪梨网、番薯网和玉米网旗下新平台，注册送1元，5元即可提现。每次阅读0.1元-0.15元，老平台旗下稳定靠谱。{{isAll?intro:''}}
+							香蕉网是快转赚、雪梨网、番薯网和玉米网旗下新平台，注册送1元，5元即可提现。每次阅读0.1元-0.1{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1605/1605'>多赚红包</navigator></view><view><navigator url='/1/1579/1579'>体验赚</navigator></view><view><navigator url='/3/1963/1963'>火锅视频</navigator></view><view><navigator url='/1/1511/1511'>互赚宝</navigator></view>
+				<view><navigator url='/4/2299/2299'>易赚达人</navigator></view><view><navigator url='/3/2073/2073'>他阅读</navigator></view><view><navigator url='/3/1999/1999'>松鼠资讯</navigator></view><view><navigator url='/4/2213/2213'>玩得转</navigator></view>
 			</view>
 		</view>
 	</view>

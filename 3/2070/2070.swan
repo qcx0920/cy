@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							快转客APP是业内涨钱最快APP，国企背景支撑，资金雄厚，收益稳，奖励多！首次5元提现，之后10元起提现，转发阅读0.12元起，还有88元新手红包等你来拿！ ——软件特点—— ①：新人注册即送1元的现金奖励，涨分快； ②：满5元即可申请微信提现，到账速度飞快； ③：文章阅读单价0.12元，邀请好友奖励3.5元。{{isAll?intro:''}}
+							快转客APP是业内涨钱最快APP，国企背景支撑，资金雄厚，收益稳，奖励多！首次5元提现，之后10元起{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/2/1867/1867'>享赚钱</navigator></view><view><navigator url='/3/2162/2162'>PP试玩</navigator></view><view><navigator url='/3/1868/1868'>快音</navigator></view><view><navigator url='/3/2005/2005'>青萌部落</navigator></view>
+				<view><navigator url='/4/2320/2320'>愤怒的富翁</navigator></view><view><navigator url='/4/2166/2166'>iMoney安卓版</navigator></view><view><navigator url='/1/1752/1752'>点指成金iOS版</navigator></view><view><navigator url='/3/2134/2134'>理财通 - 1分领1元红包</navigator></view>
 			</view>
 		</view>
 	</view>

@@ -37,7 +37,7 @@
 				<view class="txtwrap">
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
-							微帮，是一款手机做任务赚钱的兼职APP，1元就能提现。注册填邀请码8063867领8.5元成长奖励，提现秒到账！！微帮每天一万多个任务让你赚个够，随时随地，轻松手机赚钱！ 每个任务的赏金都已托管到微帮，只要您完成任务，微帮立即发放赏金，再也不用提心受骗和被坑。 微帮1元起提现，实时到账支付宝！ 关于微帮 微帮是一个手机兼职赚零花的任务平台，一单一结，赏金立返，让用户在闲暇之余可以获得一份额外的收入。 关于任务 下载安装微帮app做任务，零门槛、零投资、零风险、一部手机就可以开始做任务赚零花，投票、关注、浏览、下载、注册、分享、转发……日常的微信小动作就能轻松零钱啦！让你零碎的时间赚起来。 关于佣金 零门槛接任务，根据任务要求，做完任务上传审核截图，就会收到任务赏金，赏金满1元可提现到支付宝，随提随到！{{isAll?intro:''}}
+							微帮，是一款手机做任务赚钱的兼职APP，1元就能提现。注册填邀请码8063867领8.5元成长奖励，{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
@@ -95,10 +95,10 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆微赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆微赚@2020</view>
+			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">小豆网赚@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/1/1729/1729'>欢乐点苹果版</navigator></view><view><navigator url='/3/2080/2080'>悦目精选</navigator></view><view><navigator url='/2/1789/1789'>趣多帮</navigator></view><view><navigator url='/1/1529/1529'>王者联盟赚钱游戏</navigator></view>
+				<view><navigator url='/1/1597/1597'>钱鹿</navigator></view><view><navigator url='/1/1692/1692'>i疯玩</navigator></view><view><navigator url='/4/2284/2284'>7块糖</navigator></view><view><navigator url='/4/2204/2204'>零用猫</navigator></view>
 			</view>
 		</view>
 	</view>
