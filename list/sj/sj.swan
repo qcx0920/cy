@@ -1,0 +1,57 @@
+<view class="container">
+	<view class="headtip">
+		<view class="search">
+			<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+			<icon type="search" bindtap="search" class="icon" />
+		</view>
+	</view>
+	<view s-if="{{!issearch}}">
+		<view class="wrap">
+			<view style="margin-left:1%;" class="tablist">
+				<tabs tabs-underline-color="none" active-name="{{activeName1}}" tabs-active-text-color="#19b5fe"
+					bindtabchange="switchTabType">
+					<tab-item style="width: 33.3%;" s-for="tab in tabsType" name="{{tab.name}}" label="{{tab.label}}" />
+				</tabs>
+			</view>
+			<view class="lists">
+				<view class="item">
+					<view class="list" s-for="list,index in applist" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						<view class="img">
+							<image src="{{list.logo}}" alt="{{list.name}}">
+							</image>
+						</view>
+						<view class="info">
+							<view class="bt">{{list.name}}</view>
+							<view style="font-size:12px">{{list.remark}}</view>
+							<view style="font-size:12px">{{list.createtime}}</view>
+							<view class="star"><text style="width:100%;"></text></view>
+						</view>
+						<view class="downl_btn">下载</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view s-if="{{issearch}}" class="BN-a">
+		<view class="lists" style="margin-top:13vw">
+			<view class="item">
+				<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+					data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+					<view class="img">
+						<image src="{{list.logo}}" alt="{{list.name}}">
+						</image>
+					</view>
+					<view class="info">
+						<view class="bt">{{list.name}}</view>
+						<view class="star"><text style="width:100%;"></text></view>
+						<view style="font-size:12px">分类：{{tabLabels[list.type]}}/{{list.remark}}</view>
+					</view>
+					<view class="downl_btn">下载</view>
+				</view>
+			</view>
+		</view>
+	</view>
+
+</view>

@@ -1,9 +1,10 @@
 Page({
     data: {
-
+       hint:null,
     },
     onLoad: function () {
         // 监听页面加载的生命周期函数
+        this.setData({hint:swan.getSystemInfoSync()});  
     },
     onReady: function() {
         // 监听页面初次渲染完成的生命周期函数

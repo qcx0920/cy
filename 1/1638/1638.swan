@@ -95,8 +95,8 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<view class="cont">小豆网赚是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-			<view class="cont">小豆网赚@2020</view>
+			<view class="cont">手赚盒子是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<view class="cont">手赚盒子@2020</view>
 			<view class="bottom_list">
 				<view><navigator url='/1/1703/1703'>钱贵</navigator></view><view><navigator url='/2/1863/1863'>玩赚</navigator></view><view><navigator url='/4/2269/2269'>体验宝</navigator></view><view><navigator url='/4/2223/2223'>钱兔赚钱</navigator></view>
 			</view>

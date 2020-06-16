@@ -1,19 +1,5 @@
-<navigator url="/1/1488/1488">测试</navigator>
+<navigator url="/zxdetail/detail?pid=2973">测试</navigator>
 
 <view class="container">
-    <view class="lists">
-        <view class="item">
-            <view class="list">
-                <view class="img">
-                    <image src="http://wz-bd.oss-cn-zhangjiakou.aliyuncs.com/images/SZW3743525a326b4afd818d0af16481ce25.png" alt=""></image>
-                </view>
-                <view class="info">
-                    <view class="bt">是的是的</view>
-                    <view class="star"><text style="width:100%;"></text></view>
-                    <view style="font-size:12px">分类：安卓ios/4444次下载</view>
-                </view>
-                <view class="downl_btn">下载</view>
-            </view>
-        </view>
-    </view>
+    基础库版本{{hint.SDKVersion}} 手机型号{{hint.model}} 浏览器版本{{hint.version}} 宿主平台{{hint.host}}
 </view>

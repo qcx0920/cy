@@ -2,7 +2,12 @@
     "pages": [
         "list/index",
         "detail/detail",
-        "zxdetail/detail"
+        "zxdetail/detail",
+        "list/read/read",
+        "list/sj/sj",
+        "list/ios/ios",
+        "list/sz/sz",
+        "list/az/az"
     ],
     "subPackages": [
         {
@@ -41,7 +46,7 @@
     "window": {
         "navigationBarBackgroundColor": "#ffffff",
         "navigationBarTextStyle": "black",
-        "navigationBarTitleText": "小豆网赚",
+        "navigationBarTitleText": "手赚盒子",
         "backgroundTextStyle": "light"
     }
 }

@@ -140,10 +140,10 @@ Page({
     getSystem() {
         swan.getSystemInfo({
             success: res => {
-                if (res.system != 'Android') {
+                if (res.system.search('Android')<=-1) {
                     this.setData({ isIos: true, tabs: this.data.tabsIos })
                 } else {
-                    this.setData({ isIos: true, tabs: this.data.tabsAndroid, activeName: 2 })
+                    this.setData({ isIos: false, tabs: this.data.tabsAndroid, activeName: 2 })
                 }
             }
         });

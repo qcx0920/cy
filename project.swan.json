@@ -2,11 +2,11 @@
     "appid": "20066098",
     "host": "baiduboxapp",
     "preview": {
-        "packageId": 693997
+        "packageId": 702287
     },
     "projectname": "cy",
     "publish": {
-        "version": "1.0.1.0"
+        "version": "1.0.0"
     },
     "setting": {
         "urlCheck": false
@@ -14,7 +14,7 @@
     "swan": {
         "baiduboxapp": {
             "extensionJsVersion": "1.13.1",
-            "swanJsVersion": "3.180.7"
+            "swanJsVersion": "3.180.10"
         }
     }
 }

@@ -1,0 +1,43 @@
+<view class="container">
+	<view class="headtip">
+		<view class="search">
+			<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
+			<icon type="search" bindtap="search" class="icon" />
+		</view>
+	</view>
+	<view s-if="{{!issearch}}">
+		<view class="wrap">
+			<!-- 资讯列表开始 -->
+			<view  class="news_list" style="margin-top:13vw">
+				<view class="li" s-for="list,index in applist" bindtap="gozxDetail" data-pid="{{list.pid}}">
+					<view class="img">
+						<image class="image" src="{{list.logo}}"></image>
+					</view>
+					<view class="text">
+						<view class="bt">{{list.title}}</view>
+						<text>{{list.readtimes}}人在关注</text>
+						<text>{{list.createtime}}</text>
+					</view>
+				</view>
+			</view>
+			<!-- 资讯列表结束 -->
+		</view>
+	</view>
+
+	<view s-if="{{issearch}}" class="BN-a">
+		<view class="news_list" style="margin-top:13vw">
+			<view class="li" s-for="list,index in searchLists" bindtap="gozxDetail" data-pid="{{list.pid}}">
+				<view class="img">
+					<image class="image" src="{{list.logo}}"></image>
+				</view>
+				<view class="text">
+					<view class="bt">{{list.title}}</view>
+					<text>{{list.readtimes}}人在关注</text>
+					<text>{{list.createtime}}</text>
+				</view>
+			</view>
+		</view>
+
+	</view>
+
+</view>
