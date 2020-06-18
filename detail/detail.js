@@ -73,7 +73,7 @@ Page({
     getSystem() {
         swan.getSystemInfo({
             success: res => {
-                if (res.system != 'Android') {
+                if (res.system.search('Android') <= -1) {
                     this.setData({ isIos: true, tabs: this.data.tabsIos })
                 } else {
                     this.setData({ isIos: false, tabs: this.data.tabsAndroid })
@@ -82,24 +82,14 @@ Page({
         });
     },
     changetab(e) {
-        let pages = getCurrentPages();
-        let prevPage = pages[pages.length - 2];
-        if (e.currentTarget.dataset.name != 5) {
-            prevPage.setData({
-                activeName: e.currentTarget.dataset.name,
-                isZx: false
-            })
-        } else {
-            prevPage.setData({
-                activeName: e.currentTarget.dataset.name,
-                isZx: true
-            })
-        }
-        prevPage.setTitle(prevPage.data.tabLabels[e.currentTarget.dataset.name]);
-        prevPage.initData(e.currentTarget.dataset.name, 0, true, 1);
-        swan.navigateBack({
-            delta: 1
-        })
+        swan.navigateTo({
+            url: '/list/index?an=' + e.currentTarget.dataset.name
+        });
+    },
+    gozxList() {
+        swan.navigateTo({
+            url: '/list/index?an=' + 5
+        });
     },
     getAllData(pid) {
         // 0正常 1资讯页面

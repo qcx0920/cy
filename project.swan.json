@@ -2,11 +2,11 @@
     "appid": "20066098",
     "host": "baiduboxapp",
     "preview": {
-        "packageId": 702287
+        "packageId": 705609
     },
     "projectname": "cy",
     "publish": {
-        "version": "1.0.0"
+        "version": "1.0.2"
     },
     "setting": {
         "urlCheck": false

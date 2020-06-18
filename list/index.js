@@ -66,10 +66,9 @@ Page({
     onShow() {
         this.setPageInfo();
     },
-    onLoad() {
-        this.getSystem();
+    onLoad(options) {
+        this.getSystem(options.an);
         this.setTitle(this.data.tabLabels[this.data.activeName]);
-        this.initData(1, 0, true, 1)
     },
     todetail(e) {
         //trendsflag  0没有生成详情页面  1已生成
@@ -128,23 +127,45 @@ Page({
             },
             fail: err => {
                 swan.showToast({
-                    title: JSON.stringify(err)
+                    title: "加载异常,请重试!"
                 });
+                console.log('request fail', err);
             },
             complete: () => {
-                this.setData('loading', true);
             }
         });
 
     },
-    getSystem() {
+    getSystem(an) {
         swan.getSystemInfo({
             success: res => {
-                if (res.system.search('Android')<=-1) {
-                    this.setData({ isIos: true, tabs: this.data.tabsIos })
+                var isZx = false;
+                var isIos = false;
+                var tabs = null;
+                var activeName = 1;
+                if (res.system.search('Android') <= -1) {
+                    isIos = true;
+                    tabs = this.data.tabsIos;
+                    if (an != null) {
+                        activeName=an;
+                        if (an == 5) {
+                            isZx = true;
+                        }
+                    } 
                 } else {
-                    this.setData({ isIos: false, tabs: this.data.tabsAndroid, activeName: 2 })
+                    isIos = false;
+                    tabs = this.data.tabsAndroid;
+                    if (an != null) {
+                        if (an == 5) {
+                            isZx = true;
+                        }
+                        activeName=an;
+                    } else {
+                       activeName=2;
+                    }
                 }
+                this.setData({ isIos: isIos, tabs: tabs, activeName: activeName, isZx: isZx })
+                this.initData(this.data.activeName, 0, true, 1)
             }
         });
     },
@@ -197,7 +218,7 @@ Page({
             },
             fail: err => {
                 swan.showToast({
-                    title: JSON.stringify(err)
+                    title: "加载异常,请重试!"
                 });
                 console.log('request fail', err);
             },
@@ -224,12 +245,12 @@ Page({
     searchData(name, pageNo, isNew) {
         //activeName 其他:产品 5资讯
         var activeName = this.data.activeName;
-        var url="szw/list";
-        if(activeName==5){
-            url="szw/articlebyname";
+        var url = "szw/list";
+        if (activeName == 5) {
+            url = "szw/articlebyname";
         }
         swan.request({
-            url: contstantParam.apiurl + '/'+url,
+            url: contstantParam.apiurl + '/' + url,
             data: { "name": name, "pageNo": pageNo, "pageSize": this.data.pageSize },
             header: { 'content-type': 'application/x-www-form-urlencoded' },
             method: "post",
@@ -254,8 +275,9 @@ Page({
             },
             fail: err => {
                 swan.showToast({
-                    title: JSON.stringify(err)
+                    title: "加载异常,请重试!"
                 });
+                console.log('request fail', err);
             }
         });
     }

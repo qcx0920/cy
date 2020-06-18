@@ -126,5 +126,10 @@ Page({
         swan.navigateTo({
             url: contstantParam.zxDetailPage + '?pid=' + e.currentTarget.dataset.pid
         });
+    },
+    gozxList() {
+        swan.navigateTo({
+            url: '/list/index?an=' + 5
+        });
     }
 });
