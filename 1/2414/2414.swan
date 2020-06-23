@@ -14,11 +14,14 @@
 				</view>
 			</block>
 		</view>
+		<text style="display:none;">应用试客</text>
 		<view s-if="{{!issearch}}" class="BN-a">
 			<view class="downl_wrap">
 				<view class="info">
 					<view class="left">
-						<image src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZW2d94a5a187a84ef88985789e5c0c15a4.png"></image>
+						<image
+							src="http://vxread-prod.oss-cn-zhangjiakou.aliyuncs.com/images/SZW2d94a5a187a84ef88985789e5c0c15a4.png">
+						</image>
 					</view>
 					<view class="center">
 						<view class="bt">应用试客</view>
@@ -30,17 +33,21 @@
 					</view>
 				</view>
 			</view>
+			<text style="display:none;">应用试客</text>
 			<view class="boxwrap">
 				<view class="box_title">
+					<text style="display:none;">应用试客</text>
 					<text>应用介绍</text>
 				</view>
 				<view class="txtwrap">
+					<text style="display:none;">应用试客</text>
 					<view class="txtcont {{isAll?'':'des-short'}}">
 						<view style="text-indent:2em;">
 							应用试客是人人都喜爱的应用社区，下载试玩应用有现金奖励，单价1-3元，8元即可提现（秒到帐）。应用试{{isAll?intro:''}}
 						</view>
 					</view>
 					<view class="txt_foot">
+						<text style="display:none;">应用试客</text>
 						<view class="open_btn {{isAll?'hide':''}}" bindtap="showAll">展开</view>
 						<view class="open_btn {{isAll?'':'hide'}}" bindtap="packUp">收起</view>
 					</view>
@@ -53,9 +60,11 @@
 							</view>
 						</view>
 					</view>
+					<text style="display:none;">应用试客</text>
 				</view>
 			</view>
 			<view class="boxwrap">
+				<text style="display:none;">应用试客</text>
 				<view class="box_title">
 					<text>最新资讯</text>
 					<text class="more" bindtap="gozxList">更多 +</text>
@@ -74,7 +83,7 @@
 				</view>
 			</view>
 		</view>
-
+		<text style="display:none;">应用试客</text>
 		<view s-if="{{issearch}}" class="BN-a">
 			<view class="lists">
 				<view class="item">
@@ -93,13 +102,27 @@
 					</view>
 				</view>
 			</view>
+			<text style="display:none;">应用试客</text>
 		</view>
 		<view class="bottom">
 			<view class="cont">手赚盒子是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
+			<text style="display:none;">应用试客</text>
 			<view class="cont">手赚盒子@2020</view>
 			<view class="bottom_list">
-				<view><navigator url='/3/2960/2960'>亿刻</navigator></view><view><navigator url='/3/2817/2817'>聚赚资讯</navigator></view><view><navigator url='/1/2552/2552'>口袋ATM</navigator></view><view><navigator url='/1/2432/2432'>阳光旅行</navigator></view>
+				<view>
+					<navigator url='/3/2960/2960'>亿刻</navigator>
+				</view>
+				<view>
+					<navigator url='/3/2817/2817'>聚赚资讯</navigator>
+				</view>
+				<view>
+					<navigator url='/1/2552/2552'>口袋ATM</navigator>
+				</view>
+				<view>
+					<navigator url='/1/2432/2432'>阳光旅行</navigator>
+				</view>
 			</view>
+			<text style="display:none;">应用试客</text>
 		</view>
 	</view>
 </view>
