@@ -24,7 +24,7 @@
 					<text>最新资讯</text>
 					<text class="more" bindtap="gozxList">更多 +</text>
 				</view>
-				<view class="news_list">
+				<view class="news_zxlist">
 					<view class="li" s-for="list,index in applist" data-pid="{{list.pid}}" bindtap="gozxDetail">
 						<view class="img">
 							<image class="image" src="{{list.logo}}"></image>

@@ -1,8 +1,16 @@
 <view class="container">
-	<view class="headtip">
-		<view class="search">
-			<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
-			<icon type="search" bindtap="search" class="icon" />
+	<view class="search">
+		<view class="search-box">
+			<view class="search-icon"></view>
+			<input class="search-input" style="max-width:70%;" type="text" focus="{{focus}}" placeholder="搜索内容"
+				 placeholder-class="searchholder" bindfocus="searchFocus" bindinput="searchInput"
+				bindconfirm="searchConfirm" confirm-type="search" bindblur="searchBlur" />
+			<block s-if="focus">
+				<block s-if="value">
+					<button class="search-input-clear" hover-class="search-clear-hover" bindtap="searchClear"></button>
+				</block>
+				<view class="{{value ? 'search-deep' : 'search-sear'}}" bindtap="searchConfirm">搜索</view>
+			</block>
 		</view>
 	</view>
 	<tabs class="border-bottom" tabs-underline-color="none" active-name="{{activeName}}" max-tab-item-amount="5"
@@ -11,7 +19,7 @@
 	</tabs>
 	<view s-if="{{!issearch}}">
 		<view class="wrap">
-			<view s-if="{{!isZx}}" style="margin-left:1%;" class="tablist">
+			<view s-if="{{!isZx}}" class="tablist">
 				<tabs tabs-underline-color="none" active-name="{{activeName1}}" tabs-active-text-color="#19b5fe"
 					bindtabchange="switchTabType">
 					<tab-item style="width: 33.3%;" s-for="tab in tabsType" name="{{tab.name}}" label="{{tab.label}}" />
@@ -20,7 +28,8 @@
 			<view s-if="{{!isZx}}" class="lists">
 				<view class="item">
 					<view class="list" s-for="list,index in applist" bindtap="todetail" data-pid="{{list.pid}}"
-						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+						data-trendsflag="0" data-type="{{list.type}}">
+						<!-- {{list.trendsflag}} -->
 						<view class="img">
 							<image src="{{list.logo}}" alt="{{list.name}}">
 							</image>
@@ -37,7 +46,7 @@
 			</view>
 
 			<!-- 资讯列表开始 -->
-			<view s-else class="news_list" style="margin-top:13vw">
+			<view s-else class="news_list" style="margin-top:17vw">
 				<view class="li" s-for="list,index in applist" bindtap="gozxDetail" data-pid="{{list.pid}}">
 					<view class="img">
 						<image class="image" src="{{list.logo}}"></image>
@@ -54,7 +63,7 @@
 	</view>
 
 	<view s-if="{{issearch}}" class="BN-a">
-		<view s-if="{{activeName!=5}}" class="lists" style="margin-top:13vw">
+		<view s-if="{{activeName!=5}}" class="lists" style="margin-top:17vw">
 			<view class="item">
 				<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
 					data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
@@ -72,7 +81,7 @@
 			</view>
 		</view>
 
-		<view s-if="{{activeName==5}}" class="news_list" style="margin-top:13vw">
+		<view s-if="{{activeName==5}}" class="news_list" style="margin-top:17vw">
 			<view class="li" s-for="list,index in searchLists" bindtap="gozxDetail" data-pid="{{list.pid}}">
 				<view class="img">
 					<image class="image" src="{{list.logo}}"></image>

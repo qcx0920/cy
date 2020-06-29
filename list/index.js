@@ -6,6 +6,11 @@
 import { contstantParam } from '../util/commConstants';
 Page({
     data: {
+        value: '',
+        focus: false,
+        hasResult: false,
+        showEmptyResult: false,
+        blur: true,
         activeName: 1,
         activeName1: 0,
         pageNo: 1,
@@ -147,11 +152,11 @@ Page({
                     isIos = true;
                     tabs = this.data.tabsIos;
                     if (an != null) {
-                        activeName=an;
+                        activeName = an;
                         if (an == 5) {
                             isZx = true;
                         }
-                    } 
+                    }
                 } else {
                     isIos = false;
                     tabs = this.data.tabsAndroid;
@@ -159,9 +164,9 @@ Page({
                         if (an == 5) {
                             isZx = true;
                         }
-                        activeName=an;
+                        activeName = an;
                     } else {
-                       activeName=2;
+                        activeName = 2;
                     }
                 }
                 this.setData({ isIos: isIos, tabs: tabs, activeName: activeName, isZx: isZx })
@@ -226,22 +231,6 @@ Page({
             }
         });
     },
-    searchInput(e) {
-        var value = e.detail.value;
-        if (value != null && value != "") {
-            this.setData({ searchName: value })
-        } else {
-            this.setData({ searchName: "" });
-        }
-    },
-    search() {
-        var searchName = this.data.searchName;
-        if (searchName != null && searchName != "") {
-            this.searchData(searchName, 1, true);
-        } else {
-            this.setData({ searchLists: [], issearch: false });
-        }
-    },
     searchData(name, pageNo, isNew) {
         //activeName 其他:产品 5资讯
         var activeName = this.data.activeName;
@@ -279,6 +268,50 @@ Page({
                 });
                 console.log('request fail', err);
             }
+        });
+    },
+    searchFocus(e) {
+        this.setData({
+            focus: true
+        });
+    },
+    searchInput(e) {
+        const value = e.detail.value;
+        this.setData({
+            value,
+            component: [],
+            api: [],
+            hasResult: false,
+            showEmptyResult: false
+        });
+        if (value != null && value != "") {
+            this.setData({ searchName: value })
+        } else {
+            this.setData({ searchName: "" });
+        }
+    },
+    searchConfirm(e) {
+        var searchName = this.data.searchName;
+        if (searchName != null && searchName != "") {
+            this.searchData(searchName, 1, true);
+            this.setData({
+                showEmptyResult: true,
+                hasHistory: true
+            });
+        } else {
+            this.setData({ searchLists: [], issearch: false });
+        }
+    },
+    searchBlur(e) {
+        this.setData({
+            focus: false
+        });
+    },
+    searchClear() {
+        this.setData({
+            value: '',
+            hasResult: false,
+            showEmptyResult: false
         });
     }
 })
