@@ -61,6 +61,28 @@
 					<text>评论</text>
 					<text class="more" bindtap="addComment">写评论</text>
 				</view>
+                <view class="comment_list">
+                    <view class="comment_li">
+                        <view class="img">
+                            <image src="http://wz-bd.oss-cn-zhangjiakou.aliyuncs.com/images/SZW4869e0d0f3534979a57018498c48f9fd.png"></image>
+                        </view>
+                        <view class="comment_text">
+                            <view class="comment_name">百家号</view>
+                            <view class="comment_cont">及时答复</view>
+                            <view class="comment_time">1小时前</view>
+                        </view>
+                    </view>
+                    <view class="comment_li">
+                        <view class="img">
+                            <image src="http://wz-bd.oss-cn-zhangjiakou.aliyuncs.com/images/SZW4869e0d0f3534979a57018498c48f9fd.png"></image>
+                        </view>
+                        <view class="comment_text">
+                            <view class="comment_name">百家号</view>
+                            <view class="comment_cont">及时答复</view>
+                            <view class="comment_time">1小时前</view>
+                        </view>
+                    </view>
+                </view>
 				<view class="component">
 					<view class="comment">
                         <input name="input" confirm-type="search" class="ipt" placeholder="请输入评论" />
