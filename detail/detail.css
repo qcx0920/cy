@@ -456,3 +456,27 @@ image {
     color: #666;
     font-size: 28rpx;
 }
+.component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40rpx;
+}
+.comment {
+    width: 80%;
+    height: 80rpx;
+    position: relative;
+}
+.comment .ipt {
+    width: 90%;
+    height: 70rpx;
+    margin: 5rpx auto;
+    border-radius: 20rpx;
+    border: 1px solid #eee;
+    text-indent: 30rpx;
+}
+.component .publish {
+    width: 20%;
+    text-align: center;
+}
+

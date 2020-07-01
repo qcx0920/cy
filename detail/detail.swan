@@ -62,7 +62,10 @@
 					<text class="more" bindtap="addComment">写评论</text>
 				</view>
 				<view class="component">
-					
+					<view class="comment">
+                        <input name="input" confirm-type="search" class="ipt" placeholder="请输入评论" />
+                    </view>
+                    <view class="publish">发表</view>
 				</view>
 			</view>
 			<view class="boxwrap">
