@@ -45,7 +45,12 @@ Page({
         issearch: false,
         searchLists: [],
         searchName: '',
-        tabLabels: ['首页', '苹果赚钱', '手机兼职', '阅读赚钱', '安卓赚钱', '手赚资讯']
+        tabLabels: ['首页', '苹果赚钱', '手机兼职', '阅读赚钱', '安卓赚钱', '手赚资讯'],
+        value: '',
+        focus: false,
+        hasResult: false,
+        showEmptyResult: false,
+        blur: true,
 
     },
     changemore(e) {
@@ -197,25 +202,7 @@ Page({
             }
         });
     },
-    searchInput(e) {
-        var value = e.detail.value;
-        if (value != null && value != "") {
-            this.setData({ searchName: value })
-        }else {
-            this.setData({ searchName: "" });
-        }
-    },
-    search() {
-        var searchName = this.data.searchName;
-        if (searchName != null && searchName != "") {
-            this.searchData(searchName, 1, true);
-        }else{
-            this.setData({ searchLists: [] ,issearch:false});
-
-        }
-    },
     searchData(name, pageNo, isNew) {
-
         swan.request({
             url: contstantParam.apiurl + '/szw/list',
             data: { "name": name, "pageNo": pageNo, "pageSize": this.data.pageSize },
@@ -236,7 +223,7 @@ Page({
                     }
                 } else {
                     swan.showToast({
-                        title: '没有搜索到内容'
+                        title: '没有更多内容了'
                     });
                 }
             },
@@ -282,5 +269,67 @@ Page({
         if (searchName != null && searchName != "") {
             this.searchData(searchName, this.data.pageNo, false);
         }
+    },
+    searchFocus(e) {
+        this.setData({
+            focus: true
+        });
+    },
+    searchInput(e) {
+        const value = e.detail.value;
+        this.setData({
+            value,
+            component: [],
+            api: [],
+            hasResult: false,
+            showEmptyResult: false
+        });
+        if (value != null && value != "") {
+            this.setData({ searchName: value })
+        } else {
+            this.setData({ searchName: "" });
+        }
+    },
+    searchConfirm(e) {
+        var searchName = this.data.searchName;
+        if (searchName != null && searchName != "") {
+            this.searchData(searchName, 1, true);
+            this.setData({
+                showEmptyResult: true,
+                hasHistory: true
+            });
+        } else {
+            this.setData({ searchLists: [], issearch: false });
+        }
+    },
+    searchBlur(e) {
+        this.setData({
+            focus: false
+        });
+    },
+    searchClear() {
+        this.setData({
+            value: '',
+            hasResult: false,
+            showEmptyResult: false
+        });
+    },
+    openShare() {
+        swan.openShare({
+            title: this.data.appInfo.name,
+            content: this.data.appInfo.description,
+            path: "/"+this.data.appInfo.type+"/"+ this.data.appInfo.pid+"/"+this.data.appInfo.pid,
+            imageUrl: this.data.appInfo.logo,
+            success: res => {
+                swan.showToast({
+                    title: '分享成功',
+                    icon: 'none'
+                });
+                console.log('openShare success', res);
+            },
+            fail: err => {
+                console.log('openShare fail', err);
+            }
+        });
     }
 });

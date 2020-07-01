@@ -2,36 +2,16 @@ import { contstantParam } from '../util/commConstants';
 
 Page({
     data: {
-        
+
     },
     onLoad() {
         swan.setEnableDebug({
             enableDebug: true
         });
-        this.authorize();
     },
-    authorize() {
-        let scope = ""
-        swan.authorize({
-            scope,
-            success: res => {
-                swan.showToast({
-                    title: '授权后登录',
-                    icon: 'none'
-                });
-            },
-            fail: err => {
-                if (err.errCode === 10003) {
-                    swan.showToast({
-                        title: '返回页面',
-                        icon: 'none'
-                    });
-                }
-            }
-        });
-    },
-    login(){
+    login() {
         //检测用户是否
+        this.getLoginInfo();
     },
     getLoginInfo() {
         swan.login({
@@ -44,23 +24,6 @@ Page({
                 console.log('login fail', err);
             }
         });
-
-
-        // swan.checkSession({
-        //     success: res => {
-        //         console.log('checkSession success', res);
-        //         this.setData({ desc: res });
-        //         swan.showToast({
-        //             title: '您已登录',
-        //             icon: 'none'
-        //         });
-        //     },
-        //     fail: err => {
-        //         console.log('checkSession fail', err);
-        //         this.setData({ desc1: err.toString });
-
-        //     }
-        // });
     },
     getUserInfo(code) {
         swan.getUserInfo({
@@ -78,6 +41,9 @@ Page({
                             title: "登录成功:" + res
                         });
                         console.log('request ', res);
+                        swan.navigateTo({
+                            url: '/list/index'
+                        });
                     },
                     fail: err => {
                         swan.showToast({
@@ -95,6 +61,18 @@ Page({
                     title: '请先授权',
                     icon: 'none'
                 });
+            }
+        });
+    },
+    checkLoginSession() {
+        swan.checkSession({
+            success: res => {
+                console.log('checkSession success', res);
+                return true;
+            },
+            fail: err => {
+                console.log('checkSession fail', err);
+                return false;
             }
         });
     }

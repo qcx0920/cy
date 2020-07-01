@@ -2,8 +2,9 @@
 	<view id="BreadcrumbNavigation">
 		<view class="headtip">
 			<view class="search">
-				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindinput="searchInput" />
-				<icon type="search" bindtap="search" class="icon" />
+				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindfocus="searchFocus"
+					bindinput="searchInput" bindconfirm="searchConfirm" confirm-type="search" bindblur="searchBlur" />
+				<icon type="search" bindtap="searchConfirm" class="icon" style="z-index:100;" />
 			</view>
 			<view class="more" bindtap.catchtap="getmore">更多</view>
 			<block s-if="ismore">
@@ -26,7 +27,7 @@
 						<view class="txt">{{appInfo.company}}</view>
 					</view>
 					<view class="btn right">
-						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="down">点击复制</text>
+						<text class="btn az_btn" data-url='{{appInfo.downurl}}' bindtap="openShare">点击分享</text>
 					</view>
 				</view>
 			</view>
@@ -57,6 +58,15 @@
 			</view>
 			<view class="boxwrap">
 				<view class="box_title">
+					<text>评论</text>
+					<text class="more" bindtap="addComment">写评论</text>
+				</view>
+				<view class="component">
+					
+				</view>
+			</view>
+			<view class="boxwrap">
+				<view class="box_title">
 					<text>最新资讯</text>
 					<text class="more" bindtap="gozxList">更多 +</text>
 				</view>
@@ -78,7 +88,8 @@
 		<view s-if="{{issearch}}" class="BN-a">
 			<view class="lists">
 				<view class="item">
-					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}" data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
+					<view class="list" s-for="list,index in searchLists" bindtap="todetail" data-pid="{{list.pid}}"
+						data-trendsflag="{{list.trendsflag}}" data-type="{{list.type}}">
 						<view class="img">
 							<image src="{{list.logo}}" alt="{{list.name}}">
 							</image>
@@ -95,7 +106,7 @@
 		</view>
 		<view class="bottom">
 			<view class="cont">手赚盒子是一个专业的手机赚钱软件分享平台，包含苹果和Android两大平台上热门的手机赚钱APP以及APP的排行榜，并提供手机赚钱相关资讯及赚钱软件教程</view>
-            <view class="cont">手赚盒子@2020</view>
+			<view class="cont">手赚盒子@2020</view>
 			<view class="bottom_list">
 				<view data-pid="487" data-trendsflag="0" bindtap="todetail">武林外赚</view>
 				<view data-pid="488" data-trendsflag="0" bindtap="todetail">小桔试玩</view>
@@ -103,6 +114,6 @@
 				<view data-pid="490" data-trendsflag="0" bindtap="todetail">秒赚试玩</view>
 			</view>
 		</view>
-	</view> 
+	</view>
 </view>
 </view>
