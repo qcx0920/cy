@@ -70,14 +70,60 @@
 						<view class="comment_text">
 							<view class="comment_name">{{list.nickname}}</view>
 							<view class="comment_cont">{{list.comment}}</view>
-							<view class="comment_time" style="margin-left:69%;margin-top:-6%;">
+						</view>
+                        <view class="comment_reply">
+                            <view class="comment_photo">
+                                <view class="star">
+                                    <text class="high"></text>
+                                    <text class="nohigh"></text>
+                                </view>
+                                <view class="star">
+                                    <text class="high"></text>
+                                    <text class="nohigh"></text>
+                                </view>
+                                <view class="star">
+                                    <text class="high"></text>
+                                    <text class="nohigh"></text>
+                                </view>
+                                <view class="star">
+                                    <text class="high"></text>
+                                    <text class="nohigh"></text>
+                                </view>
+                                <view class="star">
+                                    <text class="high"></text>
+                                    <text class="nohigh"></text>
+                                </view>
+                            </view>
+                            <view class="comment_time">
 								{{list.createtime}}
 							</view>
-						</view>
+                        </view>
 					</view>
                     <view s-if="{{comments.length>=5}}" style="font-size:12px;text-align:center;padding-bottom:18px;padding-top:18px" bindtap="getComments">下一页</view>
 				</view>
                 <view s-if="{{comments.length==0}}" style="font-size:12px;text-align:center;padding-bottom:18px">还没有人评论!快来抢沙发</view>
+                <view class="photo">
+                    <view class="star">
+                        <text class="high"></text>
+                        <text class="nohigh"></text>
+                    </view>
+                    <view class="star">
+                        <text class="high"></text>
+                        <text class="nohigh"></text>
+                    </view>
+                    <view class="star">
+                        <text class="high"></text>
+                        <text class="nohigh"></text>
+                    </view>
+                    <view class="star">
+                        <text class="high"></text>
+                        <text class="nohigh"></text>
+                    </view>
+                    <view class="star">
+                        <text class="high"></text>
+                        <text class="nohigh"></text>
+                    </view>
+                </view>
 				<view class="component">
 					<view class="comment">
 						<input name="input" confirm-type="done" bindinput="commentInput" bindconfirm="commentConfirm"  value="{= commentText =}"

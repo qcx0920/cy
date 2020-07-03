@@ -521,10 +521,73 @@ image {
     white-space: nowrap;
     margin: 10rpx 0;
 }
+.comment_li .comment_reply {
+    text-align: right;
+}
+.comment_li .comment_reply .comment_photo .star {
+    position: relative;
+    display: inline-block;
+    width: 30rpx;
+    height: 28rpx;
+    overflow: hidden;
+    margin-right: 8rpx;
+    cursor: pointer;
+}
+.comment_li .comment_reply .comment_photo .high {
+    position: absolute;
+    width: 30rpx;
+    height: 28rpx;
+    top: 0;
+    left: 0;
+    background: url('../img/starm.png');
+    background-size: 100% 100%;
+    z-index:1;
+    /* z-index: 0; */
+}
+.comment_li .comment_reply .comment_photo .nohigh {
+    position: absolute;
+    width: 30rpx;
+    height: 28rpx;
+    top: 0;
+    left: 0;
+    background: url('../img/starl.png');
+    background-size: 100% 100%;
+}
+
 .comment_li .comment_time {
     color: #999;
     font-size: 23rpx;
     width: 100%;
 }
-
+.photo {
+    padding: 0 15rpx;
+}
+.photo .star {
+    position: relative;
+    display: inline-block;
+    width: 44rpx;
+    height: 42rpx;
+    overflow: hidden;
+    margin-right: 23rpx;
+    cursor: pointer;
+}
+.photo .star .high {
+    position: absolute;
+    width: 44rpx;
+    height: 42rpx;
+    top: 0;
+    left: 0;
+    background: url('../img/starm.png');
+    background-size: 100% 100%;
+    z-index:0;
+}
+.photo .star .nohigh {
+    position: absolute;
+    width: 44rpx;
+    height: 42rpx;
+    top: 0;
+    left: 0;
+    background: url('../img/starl.png');
+    background-size: 100% 100%;
+}
 
