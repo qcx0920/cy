@@ -30,20 +30,26 @@ Page({
             success: res => {
                 //swan.openSetting({});
                 let userInfo = res.data;
-                console.log('getUserInfo ', userInfo);
                 swan.request({
                     url: contstantParam.apiurl + '/szw/getDecrypt',
                     method: "post",
                     data: { code: code, userStr: userInfo },
                     header: { 'content-type': 'application/x-www-form-urlencoded' },
                     success: res => {
-                        swan.showToast({
-                            title: "登录成功:" + res
-                        });
                         console.log('request ', res);
-                        swan.navigateTo({
-                            url: '/list/index'
-                        });
+                        if (res.data.code == "200") {
+                            swan.showToast({
+                                title: "登录成功,返回上一页"
+                            });
+                            this.setStorage(contstantParam.xcxUserInfo, res.data.data);
+                            swan.navigateBack({
+                                delta: 1
+                            });
+                        } else {
+                            swan.showToast({
+                                title: "登录失败,请重试"
+                            });
+                        }
                     },
                     fail: err => {
                         swan.showToast({
@@ -75,5 +81,19 @@ Page({
                 return false;
             }
         });
+    },
+    setStorage(key, userInfo) {
+        swan.setStorage({
+            key,
+            data: userInfo,
+            success: res => {
+                console.log("用户信息存储成功:" + JSON.stringify(res));
+            },
+            fail: err => {
+                console.log("用户信息存储失败:" + JSON.stringify(err));
+            }
+        });
+
+
     }
 });

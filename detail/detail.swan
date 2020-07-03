@@ -2,8 +2,8 @@
 	<view id="BreadcrumbNavigation">
 		<view class="headtip">
 			<view class="search">
-				<input name="input" confirm-type="search" class="ipt" placeholder="请输入" bindfocus="searchFocus"
-					bindinput="searchInput" bindconfirm="searchConfirm" confirm-type="search" bindblur="searchBlur" />
+				<input name="input" class="ipt" placeholder="请输入" bindfocus="searchFocus" bindinput="searchInput"  value="{= value =}"
+					bindconfirm="searchConfirm" confirm-type="search" bindblur="searchBlur" />
 				<icon type="search" bindtap="searchConfirm" class="icon" style="z-index:100;" />
 			</view>
 			<view class="more" bindtap.catchtap="getmore">更多</view>
@@ -59,35 +59,31 @@
 			<view class="boxwrap">
 				<view class="box_title">
 					<text>评论</text>
-					<text class="more" bindtap="addComment">写评论</text>
+					<text class="more"></text>
 				</view>
-                <view class="comment_list">
-                    <view class="comment_li">
-                        <view class="img">
-                            <image src="http://wz-bd.oss-cn-zhangjiakou.aliyuncs.com/images/SZW4869e0d0f3534979a57018498c48f9fd.png"></image>
-                        </view>
-                        <view class="comment_text">
-                            <view class="comment_name">百家号</view>
-                            <view class="comment_cont">及时答复</view>
-                            <view class="comment_time">1小时前</view>
-                        </view>
-                    </view>
-                    <view class="comment_li">
-                        <view class="img">
-                            <image src="http://wz-bd.oss-cn-zhangjiakou.aliyuncs.com/images/SZW4869e0d0f3534979a57018498c48f9fd.png"></image>
-                        </view>
-                        <view class="comment_text">
-                            <view class="comment_name">百家号</view>
-                            <view class="comment_cont">及时答复</view>
-                            <view class="comment_time">1小时前</view>
-                        </view>
-                    </view>
-                </view>
+				<view class="comment_list">
+					<view class="comment_li" s-for="list,index in comments">
+						<view class="img">
+							<image src="{{list.headimgurl}}">
+							</image>
+						</view>
+						<view class="comment_text">
+							<view class="comment_name">{{list.nickname}}</view>
+							<view class="comment_cont">{{list.comment}}</view>
+							<view class="comment_time" style="margin-left:69%;margin-top:-6%;">
+								{{list.createtime}}
+							</view>
+						</view>
+					</view>
+                    <view s-if="{{comments.length>=5}}" style="font-size:12px;text-align:center;padding-bottom:18px;padding-top:18px" bindtap="getComments">下一页</view>
+				</view>
+                <view s-if="{{comments.length==0}}" style="font-size:12px;text-align:center;padding-bottom:18px">还没有人评论!快来抢沙发</view>
 				<view class="component">
 					<view class="comment">
-                        <input name="input" confirm-type="search" class="ipt" placeholder="请输入评论" />
-                    </view>
-                    <view class="publish">发表</view>
+						<input name="input" confirm-type="done" bindinput="commentInput" bindconfirm="commentConfirm"  value="{= commentText =}"
+							class="ipt" placeholder="请输入评论" />
+					</view>
+					<view class="publish" bindtap="commentConfirm">发表</view>
 				</view>
 			</view>
 			<view class="boxwrap">

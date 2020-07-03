@@ -2,7 +2,7 @@
 	<view class="search">
 		<view class="search-box">
 			<view class="search-icon"></view>
-			<input class="search-input" style="max-width:70%;" type="text" focus="{{focus}}" placeholder="搜索内容"
+			<input class="search-input" style="max-width:70%;" type="text" focus="{{focus}}" placeholder="搜索内容" value="{= value =}"
 				 placeholder-class="searchholder" bindfocus="searchFocus" bindinput="searchInput"
 				bindconfirm="searchConfirm" confirm-type="search" bindblur="searchBlur" />
 			<block s-if="focus">

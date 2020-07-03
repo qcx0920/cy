@@ -51,10 +51,13 @@ Page({
         hasResult: false,
         showEmptyResult: false,
         blur: true,
-
+        commentText: "",
+        comments: null,
+        userInfo:null,
+        commentPage:0
     },
     changemore(e) {
-        this.setData({ismore: false})
+        this.setData({ ismore: false })
     },
     onShow() {
         let pages = getCurrentPages();
@@ -65,6 +68,7 @@ Page({
         this.getSystem();
         this.getAllData(options.pid);
         this.getList(true, 1);
+        this.getComments(options.pid);
     },
     showAll() {
         this.setData({ isAll: !this.data.isAll });
@@ -279,8 +283,6 @@ Page({
         const value = e.detail.value;
         this.setData({
             value,
-            component: [],
-            api: [],
             hasResult: false,
             showEmptyResult: false
         });
@@ -318,7 +320,7 @@ Page({
         swan.openShare({
             title: this.data.appInfo.name,
             content: this.data.appInfo.description,
-            path: "/"+this.data.appInfo.type+"/"+ this.data.appInfo.pid+"/"+this.data.appInfo.pid,
+            path: "/" + this.data.appInfo.type + "/" + this.data.appInfo.pid + "/" + this.data.appInfo.pid,
             imageUrl: this.data.appInfo.logo,
             success: res => {
                 swan.showToast({
@@ -331,5 +333,124 @@ Page({
                 console.log('openShare fail', err);
             }
         });
+    },
+    addComment(commentText) {
+        swan.request({
+            url: contstantParam.apiurl + '/szw/addComment',
+            data: { "uid": this.data.userInfo.pid, "taskid": this.data.appInfo.pid, "type": 0, "comment": commentText },
+            header: { 'content-type': 'application/x-www-form-urlencoded' },
+            method: "post",
+            success: res => {
+                if (res.data.code == "200") {
+                    swan.showToast({
+                        title: "发表成功"
+                    });
+                    this.setData({commentText:""});
+                    this.getComments(this.data.appInfo.pid);
+                } else {
+                    console.log("addComment res:" + JSON.stringify(res.data))
+                    swan.showToast({
+                        title: "发表失败"
+                    });
+                }
+            },
+            fail: err => {
+                console.log("addComment err:" + JSON.stringify(err))
+
+            }
+        });
+    },
+    commentInput(e) {
+        const value = e.detail.value;
+        if (value != null && value != "") {
+            this.setData({ commentText: value })
+        } else {
+            this.setData({ commentText: "" });
+        }
+    },
+    commentConfirm(e) {
+        //判断用户是否登录
+        var islogin = this.isLogin()
+        if (islogin) {
+            var commentText = this.data.commentText;
+            if (commentText != null && commentText != "") {
+                this.addComment(commentText);
+            }
+        } else {
+            swan.showToast({
+                title: "登录后评论"
+            });
+            swan.navigateTo({
+                url: "/login/login"
+            });
+        }
+    },
+    getComments(pid) {
+        let pageNo=this.data.commentPage;
+        swan.request({
+            url: contstantParam.apiurl + '/szw/commentList',
+            data: { "taskid": pid, "type": 0, "page": pageNo, "pagesize": 5 },
+            header: { 'content-type': 'application/x-www-form-urlencoded' },
+            method: "post",
+            success: res => {
+                if (res.data.code == "200") {
+                    var comments = res.data.data;
+                    for (var i = 0; i < comments.length; i++) {
+                        var time = comments[i].createtime;
+                        comments[i].createtime = this.getDateymdhms(time * 1000)
+                    }
+                    pageNo++;
+                    this.setData({ comments: res.data.data,commentPage:pageNo })
+                } else {
+                    console.log("getComments res:" + JSON.stringify(res.data))
+                    swan.showToast({
+                        title: "获取评论失败"
+                    });
+                }
+            },
+            fail: err => {
+                console.log("addComment err:" + JSON.stringify(err))
+
+            }
+        });
+    },
+    getDateymdhms(e) {
+        //将字符串转换成时间格式
+        var date = new Date(e);
+        var year = date.getFullYear();
+        var month = date.getMonth();
+        var day = date.getDay();
+        var hour = date.getHours();
+        var min = date.getMinutes();
+        var sen = date.getSeconds();
+        return year + "-" + month + "-" + day + " " + hour + ":" + min + ":" + sen;
+    },
+    isLogin() {
+        if(this.data.userInfo){
+           return true;
+        }
+        let loginInfo = this.getStorage(contstantParam.xcxUserInfo);
+        if (loginInfo) {
+            this.setData({userInfo:loginInfo});
+            return true;
+        }
+        return false;
+    },
+    getStorage(key) {
+        let result = "";
+        swan.getStorage({
+            key,
+            success: res => {
+                const data = res.data;
+                if (data) {
+                    result = data;
+                }
+
+            },
+            fail: err => {
+                console.log("获取存储信息错误:" + JSON.stringify(err));
+            }
+        });
+        return result;
     }
 });
